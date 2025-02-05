@@ -1,5 +1,3 @@
-manifestations 
-consequences 
 sub-continental
 anthropogenic
 Distilling
@@ -22,7 +20,6 @@ centennial
 stratospheric 
 inhomogeneous
 aerosol 
-dealt
 shortwave 
 superimposed 
 multi-decadal 
