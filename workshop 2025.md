@@ -7,8 +7,11 @@
 **Date:** January 23, 2025  
 **Topic:** Text Summarization Using Transformers  
 **Model Used:** `sshleifer/distilbart-cnn-12-6`  
-**Presentation PPT:** [https://drive.google.com/file/d/1NqmJDkPfYpvSFP57Sz09UCjkfOVVSTHi/view?usp=drive_link](#)  
-**##Colab Link:**[https://colab.research.google.com/drive/1v-cuk4gpKMDlBDgbNFyxuElFpwKTE1ok?usp=sharing](#)
+**Presentation PPT:** [Click Here](https://drive.google.com/file/d/1NqmJDkPfYpvSFP57Sz09UCjkfOVVSTHi/view?usp=drive_link)  
+**##Colab Link:**[Click Here](https://colab.research.google.com/drive/1v-cuk4gpKMDlBDgbNFyxuElFpwKTE1ok?usp=sharing)
+
+---
+
 
 ---
 
