@@ -27,7 +27,6 @@ substantial
 teleconnections
 non-stationarity
 gridcell
-fraught
 mechanistic 
 thermodynamic 
 biogoechemical 
