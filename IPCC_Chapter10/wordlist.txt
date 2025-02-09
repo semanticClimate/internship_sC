@@ -1,11 +1,14 @@
 sub-continental
 anthropogenic
-Distilling
+dynamical Distilling
+climate dynamics
+wavelength
+global warming
 multivariate
 orography
 homogenization
 assimilation
-downscaling
+statisticaldownscaling
 robust 
 implausible
 amplitude
@@ -15,7 +18,7 @@ cryosphere
 temporal scales
 subseasonal
 quantifying
-skewed
+mediterranean
 centennial
 stratospheric 
 inhomogeneous
@@ -26,11 +29,13 @@ multi-decadal
 substantial 
 teleconnections
 non-stationarity
-gridcell
+climatology
+geophysical
 mechanistic 
 thermodynamic 
 biogoechemical 
 fluxes
+precipitation
 anomalies
 evapotranspiration
 permafrost
@@ -44,11 +49,10 @@ spatiotemporal
 geostationary
 constellations
 parametrizations
-interpolation
+interpolation techniques
 scarcity
 Climatology
 reluctance
-interpolation
 stochastic
 glacier 
 calibration 
@@ -57,3 +61,36 @@ centennia
 parametrization
 prognosis
 arbitrary
+system dynamics
+arctic warming
+variability change
+environmental research
+planetary waves 
+polar vortex
+troposphere
+equatorward
+disentangle 
+sea ice
+wavelength
+carbon-stock 
+GEO satellites.
+CALIPSO
+radiosonde
+mountainous terrain
+Orographic
+tree rings
+ice cores
+bivalves
+Hydrological
+synoptic-scale
+Non-hydrostatic
+adiabatic warming
+heat fluxes
+continental-scale
+hydrological cycle
+hydroclimatic
+zonal asymmetry
+anticyclonic
+evapotranspiration
+Physical-climate
+
