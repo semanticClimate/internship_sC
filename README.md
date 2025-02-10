@@ -6,6 +6,6 @@ I am currently working on **IPCC Working Group-2, Chapter:7 Health, Wellbeing an
 
 # Objectives
 ---
-**Summarization**: This chapter discusses the increasing health impacts of climate change, including rising diseases, malnutrition, and mental health issues, particularly affecting vulnerable populations. It emphasizes the need for more research on the long-term, cumulative effects of climate change on health and resilience, particularly for vulnerable populations.
+**Summarization**:This chapter discusses the increasing health impacts of climate change, including rising diseases, malnutrition, and mental health issues, particularly affecting vulnerable populations.It emphasizes the need for more research on the long-term, cumulative effects of climate change on health and resilience, particularly for vulnerable populations.
 --
 **Wordlist**:
