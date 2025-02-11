@@ -90,10 +90,10 @@ def create_word_list(pdf_path, num_words, phrase_length=1, output_path="wordlist
     return word_list
 
 # Example Usage
-pdf_file = r"your_file.pdf"
+pdf_file = r"your_file_path.pdf"
 num_words = 100   # Number of words/phrases to extract
 phrase_length = 3  # Adjust phrase length: 1 (single words), 2 (bi-grams), 3 (tri-grams), etc.
-output_path = r"your_file.txt"  # Full path to output file
+output_path = r"output_path.txt"  # Full path to output file
 
 word_list = create_word_list(pdf_file, num_words, phrase_length, output_path)
 
