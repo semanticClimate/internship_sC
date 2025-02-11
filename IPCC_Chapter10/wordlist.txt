@@ -1,15 +1,18 @@
 sub-continental
 anthropogenic
-dynamical Distilling
+dynamical 
+basin
+Distilling
 climate dynamics
 wavelength
+turbulence
 global warming
 multivariate
 orography
 homogenization
 assimilation
 statisticaldownscaling
-robust 
+simulations
 implausible
 amplitude
 urbanization
@@ -23,6 +26,7 @@ centennial
 stratospheric 
 inhomogeneous
 aerosol 
+monsoon
 shortwave 
 superimposed 
 multi-decadal 
@@ -93,4 +97,11 @@ zonal asymmetry
 anticyclonic
 evapotranspiration
 Physical-climate
-
+greenhouse
+oscillation
+drought
+diagnostics
+frequency
+plausible
+hemispheric
+continental
