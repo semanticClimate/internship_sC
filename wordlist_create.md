@@ -91,4 +91,8 @@ python keyword_extractions.py --text_file "<path_to_your_txt_file>" --saving_pat
 
 Replace `<path_to_your_txt_file>` with the actual path to your text file and `<path_to_save_output>` with your desired output directory.
 
+---
+### Reference for Keyword Extraction Code
+The keyword extraction script is based on the implementation available at:  
+[GitHub: semanticClimate keyword extraction](https://github.com/petermr/semanticClimate/blob/main/keyword_extraction/code_v2/keyword_extraction_v2_test.py)
 
