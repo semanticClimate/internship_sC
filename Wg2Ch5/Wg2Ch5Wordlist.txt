@@ -1,0 +1,130 @@
+Abiotic Stress  
+Afforestation  
+Agroclimatic Indices  
+Agroecology  
+Aridity  
+Alpine Meadows
+Anthropogenic  
+Aridity
+Biodiversity Loss  
+Bioaccumulation  
+Bioamplification  
+Biochar  
+Biomes
+Boreal Region
+Breadbaskets
+Buffer Tree Regeneration  
+Carbon Sequestration  
+Climate Stressors 
+Cryosphere 
+Desert Locusts 
+Desertification  
+Desiccation  
+Die Back 
+Dioxins 
+Drought  
+Ecosystem Buffering  
+El Niño  
+ENSO Weather Patterns  
+Evapotranspiration  
+Extirpations  
+Eutrophication  
+Feedback Loop  
+Floodplains  
+Forest Microclimate  
+Global Bivalve Vulnerability Assessments  
+Heat Stress  
+Hypoxia  
+Incentivise  
+Inland Lake Browning  
+Inter Alia  
+Maladaptation  
+Marine Heatwaves  
+Mitigation  
+Montane  
+Nature-Based Solutions  
+Organic Amendments  
+Out-migration  
+Palmer Drought Severity Index  
+Peat Renaturation  
+Permafrost  
+Permafrost Ice Cellars  
+Phenology  
+Riparian  
+Riverine  
+Salinisation  
+Savannas  
+Silviculture  
+Snowmobiles
+Temperate Region  
+Toxigenic 
+Aflatoxin
+Algal Blooms
+Ameliorate
+Aquaponics
+Artisanal Fishing
+Bivalve Aquaculture
+Child Cognitive Development
+Concessionary Finance
+Corollary Effect
+Coupled Model Intercomparison 
+Counterfactual
+Discernible
+Disincentivise
+Disparity
+Ecosystem Buffering
+Fanning
+Frankincense Resin
+Genome Sequencing
+Germplasm
+Hermetic Storage Container
+Incentivise
+Index-Based Insurance
+Inequities
+Inundations
+In utero
+Intensification
+Inter Alia
+LC-PUFA
+Marginalisation
+Memory Dimensions
+Meso-Scale Grassland Models
+Microclimate
+Molecular Markers
+Monocultures
+Monogastric
+Mutualism
+Mycotoxins
+Myrrh Resin
+Nephrotoxic
+Organic Amendments
+Pastoralism
+Participatory Plant Breeding (PPB)
+Per-urban Agriculture (UPA)
+Perverse Incentives
+Pest Pressure
+Pheromone
+Phenology
+Physicochemical
+Phytoplankton
+Polyhouses
+PPM
+Precedence
+Procurement
+Pyro-diversity
+Remote Sensing
+Salinity Intrusion
+Sedentarisation
+Silvo-pasture
+Spatiotemporal
+Stochiometry
+Stagnation
+Stochiometry
+Swidden Agriculture
+Synergies
+Temperate Region
+Trophic Level
+Virulence
+Yield Constraint Score
+Zoonoses
+Zoonotic Pathogens
