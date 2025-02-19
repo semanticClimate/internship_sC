@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        div[role] {border: solid 1px; margin: 1px; padding: 5px;}
+    </style>
+    <base href="https://en.wikipedia.org/wiki/">
+</head>
+<body>
+    <div role="ami_dictionary" title="climate_dictionary">
+        
+        <div name="Climate Change & Atmospheric Processes" term="Climate Change & Atmospheric Processes" role="ami_entry">
+            <p>search term: Climate Change & Atmospheric Processes <a href="https://en.wikipedia.org/w/index.php?search=Climate+Change">Wikipedia Page</a></p>
+            <p class="wpage_first_para"><b>Climate Change</b> is the long-term alteration of temperature and typical weather patterns in a place.</p>
+            <p><b>Radiative Forcing:</b> The difference between incoming and outgoing radiation in Earth's atmosphere.</p>
+            <p><b>Anthropogenic Emissions:</b> Human-made emissions of greenhouse gases that contribute to climate change.</p>
+            <p><b>Albedo Effect:</b> The reflectivity of Earth's surface, influencing global temperatures.</p>
+            <p><b>Geoengineering:</b> Large-scale intervention techniques to mitigate climate change.</p>
+        </div>
+        
+        <div name="Water Cycle & Hydrology" term="Water Cycle & Hydrology" role="ami_entry">
+            <p>search term: Water Cycle & Hydrology <a href="https://en.wikipedia.org/w/index.php?search=Water+Cycle">Wikipedia Page</a></p>
+            <p class="wpage_first_para"><b>Water Cycle</b> is the continuous movement of water within the Earth and atmosphere.</p>
+            <p><b>Groundwater Recharge:</b> The process of water percolating down into aquifers.</p>
+            <p><b>Hydrological Connectivity:</b> The exchange of water between different components of the hydrological system.</p>
+            <p><b>Watershed Degradation:</b> The deterioration of drainage basins due to pollution and deforestation.</p>
+        </div>
+        
+        <div name="Ocean & Cryosphere" term="Ocean & Cryosphere" role="ami_entry">
+            <p>search term: Ocean & Cryosphere <a href="https://en.wikipedia.org/w/index.php?search=Ocean">Wikipedia Page</a></p>
+            <p class="wpage_first_para"><b>Ocean & Cryosphere</b> includes the interaction between ocean currents and frozen water bodies like glaciers and ice sheets.</p>
+            <p><b>Thermohaline Circulation:</b> The deep-ocean currents driven by temperature and salinity differences.</p>
+            <p><b>Ice Sheet Destabilization:</b> The breakdown of large ice sheets due to warming temperatures.</p>
+            <p><b>Saltwater Intrusion:</b> The movement of saline water into freshwater systems.</p>
+        </div>
+        
+        <div name="Water-Related Disasters & Risks" term="Water-Related Disasters & Risks" role="ami_entry">
+            <p>search term: Water-Related Disasters & Risks <a href="https://en.wikipedia.org/w/index.php?search=Flooding">Wikipedia Page</a></p>
+            <p class="wpage_first_para"><b>Water-Related Disasters</b> include floods, droughts, and storm surges that impact human and natural systems.</p>
+            <p><b>Pluvial Flooding:</b> Intense rainfall leading to flooding in urban areas.</p>
+            <p><b>Flash Droughts:</b> Rapid-onset droughts with significant ecological and agricultural impacts.</p>
+            <p><b>Storm Surge Intensification:</b> The rise in sea level during storms due to climate change.</p>
+        </div>
+        
+        <div name="Ecosystem & Biodiversity Impact" term="Ecosystem & Biodiversity Impact" role="ami_entry">
+            <p>search term: Ecosystem & Biodiversity Impact <a href="https://en.wikipedia.org/w/index.php?search=Ecosystem">Wikipedia Page</a></p>
+            <p class="wpage_first_para"><b>Ecosystem & Biodiversity</b> refer to the impact of climate change on freshwater and marine ecosystems.</p>
+            <p><b>Riparian Ecosystem Degradation:</b> The decline of riverbank habitats due to human activities.</p>
+            <p><b>Freshwater Acidification:</b> The decrease in pH of freshwater bodies due to atmospheric CO2 absorption.</p>
+            <p><b>Microplastic Contamination:</b> The presence of microscopic plastic particles in water bodies.</p>
+        </div>
+        
+        <div name="Climate Adaptation & Mitigation Strategies" term="Climate Adaptation & Mitigation Strategies" role="ami_entry">
+            <p>search term: Climate Adaptation & Mitigation Strategies <a href="https://en.wikipedia.org/w/index.php?search=Climate+Adaptation">Wikipedia Page</a></p>
+            <p class="wpage_first_para"><b>Climate Adaptation</b> refers to adjustments in ecological, social, and economic systems in response to climate change.</p>
+            <p><b>Nature-Based Solutions (NbS):</b> Strategies that use natural systems for climate resilience.</p>
+            <p><b>Carbon-Neutral Hydropower:</b> Hydropower systems designed to minimize carbon emissions.</p>
+        </div>
+        
+        <div name="Socioeconomic & Policy Aspects" term="Socioeconomic & Policy Aspects" role="ami_entry">
+            <p>search term: Socioeconomic & Policy Aspects <a href="https://en.wikipedia.org/w/index.php?search=Water+Governance">Wikipedia Page</a></p>
+            <p class="wpage_first_para"><b>Water Governance</b> involves legal, institutional, and administrative processes in managing water resources.</p>
+            <p><b>Hydropolitics:</b> The political and social conflicts arising from transboundary water resources.</p>
+            <p><b>Climate Finance Mechanisms:</b> Economic policies aimed at funding climate resilience projects.</p>
+        </div>
+        
+        <div name="Modeling & Data Science in Climate Research" term="Modeling & Data Science in Climate Research" role="ami_entry">
+            <p>search term: Modeling & Data Science in Climate Research <a href="https://en.wikipedia.org/w/index.php?search=Climate+Modeling">Wikipedia Page</a></p>
+            <p class="wpage_first_para"><b>Climate Modeling</b> refers to the simulation of climate systems to project future climate changes.</p>
+            <p><b>Hydroinformatics:</b> The application of data science to water resource management.</p>
+            <p><b>Agent-Based Climate Modeling:</b> A simulation approach that models climate impacts at an individual or localized level.</p>
+        </div>
+        
+    </div>
+</body>
+</html>
