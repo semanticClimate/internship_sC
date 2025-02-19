@@ -1,6 +1,6 @@
-## Internship_sC
+## Working Group 2
 
-# Chapter 5 Overview
+# Chapter 5: "Food, Fibre, and Other Ecosystem Products" Overview
 ---
 I am currently working on **IPCC Working Group-2, Chapter:5 Food, Fibre and Other Ecosystem Products**. This chapter discusses how climate change impacts food production, agriculture, forestry, and fisheries, highlighting risks like droughts, heat stress, and biodiversity loss. It explores future threats to food security and livelihoods while emphasizing adaptation strategies such as climate-smart agriculture, ecosystem-based solutions, and sustainable resource management. The chapter stresses the need for urgent global action to build resilience and ensure long-term sustainability.
 
