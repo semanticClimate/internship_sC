@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPCC AR6 WGII Chapter 4 - Water Dictionary</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; padding: 20px; background-color: #f4f4f4; }
+        .dictionary-container { max-width: 800px; margin: auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0px 0px 10px rgba(0,0,0,0.1); }
+        h1 { text-align: center; color: #333; }
+        .term { margin-bottom: 20px; padding: 15px; border-bottom: 1px solid #ccc; }
+        .term h2 { color: #0056b3; font-size: 20px; }
+        .term p { color: #555; font-size: 16px; line-height: 1.5; }
+        .wiki-link { color: #008CBA; text-decoration: none; font-weight: bold; font-size: 14px; }
+        img { width: 100%; max-height: 250px; object-fit: contain; border-radius: 5px; margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <div class="dictionary-container">
+        <h1>IPCC AR6 WGII Chapter 4 - Water Dictionary</h1>
+        <div id="dictionary"></div>
+    </div>
+
+    <script>
+        const terms = [
+            { name: "Aquifer", link: "https://en.wikipedia.org/wiki/Aquifer", img: "https://upload.wikimedia.org/wikipedia/commons/8/86/Groundwater_depletion.png", desc: "An underground layer that holds water and supplies wells and springs." },
+            { name: "Drought", link: "https://en.wikipedia.org/wiki/Drought", img: "https://upload.wikimedia.org/wikipedia/commons/6/6b/Drought.jpg", desc: "A long period without rain, leading to water shortages." },
+            { name: "Flood", link: "https://en.wikipedia.org/wiki/Flooding", img: "https://upload.wikimedia.org/wikipedia/commons/a/a0/Flooding.jpg", desc: "Overflow of water onto dry land due to heavy rain or river overflow." },
+            { name: "Glacier", link: "https://en.wikipedia.org/wiki/Glacier", img: "https://upload.wikimedia.org/wikipedia/commons/3/38/Water_cycle.png", desc: "A large mass of ice that moves slowly over land, storing fresh water." },
+            { name: "Groundwater", link: "https://en.wikipedia.org/wiki/Groundwater", img: "https://upload.wikimedia.org/wikipedia/commons/8/86/Groundwater_depletion.png", desc: "Water that is stored beneath the Earth's surface in soil and rocks." },
+            { name: "Hydrological Cycle", link: "https://en.wikipedia.org/wiki/Water_cycle", img: "https://upload.wikimedia.org/wikipedia/commons/3/38/Water_cycle.png", desc: "The process of water moving through evaporation, condensation, and precipitation." },
+            { name: "Water Scarcity", link: "https://en.wikipedia.org/wiki/Water_scarcity", img: "https://upload.wikimedia.org/wikipedia/commons/5/5b/Water_scarcity.png", desc: "When there is not enough clean water available for people and nature." },
+            { name: "Wetland", link: "https://en.wikipedia.org/wiki/Wetland", img: "https://upload.wikimedia.org/wikipedia/commons/6/6b/Drought.jpg", desc: "An area where water covers the soil, home to many plants and animals." },
+            { name: "Desalination", link: "https://en.wikipedia.org/wiki/Desalination", img: "https://upload.wikimedia.org/wikipedia/commons/5/5b/Water_scarcity.png", desc: "The process of removing salt from seawater to make it drinkable." },
+            { name: "Reservoir", link: "https://en.wikipedia.org/wiki/Reservoir", img: "https://upload.wikimedia.org/wikipedia/commons/a/a0/Flooding.jpg", desc: "A man-made or natural lake used to store water for use." },
+            { name: "Permafrost", link: "https://en.wikipedia.org/wiki/Permafrost", img: "https://upload.wikimedia.org/wikipedia/commons/6/6b/Drought.jpg", desc: "Soil that stays frozen year-round, found in very cold regions." },
+            { name: "Water Pollution", link: "https://en.wikipedia.org/wiki/Water_pollution", img: "https://upload.wikimedia.org/wikipedia/commons/3/38/Water_pollution.jpg", desc: "The contamination of water bodies by harmful substances, making it unsafe for use." },
+            { name: "Erosion", link: "https://en.wikipedia.org/wiki/Erosion", img: "https://upload.wikimedia.org/wikipedia/commons/7/7e/Erosion.jpg", desc: "The process by which soil and rock are removed by water, wind, or ice." },
+            { name: "Watershed", link: "https://en.wikipedia.org/wiki/Watershed", img: "https://upload.wikimedia.org/wikipedia/commons/4/4f/Watershed.jpg", desc: "An area of land that drains all the streams and rainfall into a common outlet." },
+            { name: "Rainwater Harvesting", link: "https://en.wikipedia.org/wiki/Rainwater_harvesting", img: "https://upload.wikimedia.org/wikipedia/commons/8/84/Rainwater_harvesting.jpg", desc: "The collection and storage of rainwater for reuse, reducing dependency on freshwater sources." },
+            { name: "Estuary", link: "https://en.wikipedia.org/wiki/Estuary", img: "https://upload.wikimedia.org/wikipedia/commons/3/3a/Estuary.jpg", desc: "A coastal area where freshwater from rivers meets and mixes with saltwater from the ocean." },
+            { name: "Dam", link: "https://en.wikipedia.org/wiki/Dam", img: "https://upload.wikimedia.org/wikipedia/commons/2/28/Dam.jpg", desc: "A barrier built across a river or stream to control water flow and generate electricity." },
+            { name: "Irrigation", link: "https://en.wikipedia.org/wiki/Irrigation", img: "https://upload.wikimedia.org/wikipedia/commons/9/98/Irrigation.jpg", desc: "The artificial application of water to land for growing crops." }
+        ];
+
+        const dictionaryContainer = document.getElementById("dictionary");
+        terms.forEach(term => {
+            const termDiv = document.createElement("div");
+            termDiv.classList.add("term");
+            termDiv.innerHTML = `
+                <h2>${term.name}</h2>
+                <img src="${term.img}" alt="${term.name}">
+                <p>${term.desc}</p>
+                <a class="wiki-link" href="${term.link}" target="_blank">Read more</a>
+            `;
+            dictionaryContainer.appendChild(termDiv);
+        });
+    </script>
+</body>
+</html>
