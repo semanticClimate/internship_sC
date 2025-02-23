@@ -1,0 +1,77 @@
+Table of Contents
+
+Introduction
+1.1 Background and Motivation
+1.2 Objectives of the Study
+1.3 Scope of the Project
+1.4 Methodology
+Overview
+
+Climate Change & Atmospheric Processes
+2.1 Radiative Forcing
+2.2 Anthropogenic Emission
+s2.3 Albedo Effect
+2.4 Climate Sensitivity
+2.5 Weather Extreme
+s2.6 Tropospheric Warming
+
+Water Cycle & Hydrology
+3.1 Hydrological Extremes
+3.2 Watershed Degradation
+3.3 Aquifer Depletion
+3.4 Hydro-Meteorological Hazards
+3.5 Groundwater Recharge
+3.6 Freshwater Fluxes
+
+Ocean & Cryosphere
+4.1 Thermohaline Circulation
+4.2 Marine Heatwaves
+4.3 Cryosphere Degradation
+4.4 Coastal Inundation
+4.5 Ice Sheet Destabilization
+4.6 Permafrost Feedback
+
+Water-Related Disasters & Risks
+5.1 Pluvial Flooding
+5.2 Flash Droughts
+5.3 Aridification
+5.4 Monsoon Variability
+5.5 Floodplain Dynamics
+5.6 Storm Surge Intensification
+
+Ecosystem & Biodiversity Impact
+6.1 Riparian Ecosystem Degradation
+6.2 Hydro-Biogeochemistry
+6.3 Wetland Desiccation
+6.4 Fluvial Biodiversity Shifts
+6.5 Mangrove Retreat
+6.6 Microplastic Contamination
+
+Climate Adaptation & Mitigation Strategies
+7.1 Nature-Based Solutions
+7.2 Ecosystem-Based Adaptation
+7.3 Sustainable Drainage Systems
+7.4 Water Footprint Assessment
+7.5 Climate-Smart Irrigation
+7.6 Carbon-Neutral Hydropower
+
+Socioeconomic & Policy Aspects
+8.1 Water Governance Frameworks
+8.2 Blue Economy Transition
+8.3 Climate-Induced Migration
+8.4 Equitable Water Distribution
+8.5 Climate Finance Mechanisms
+8.6 Environmental Justice in Water Policy
+
+Modeling & Data Science in Climate Research
+9.1 Coupled Climate Models
+9.2 Earth System Modeling
+9.3 Remote Sensing in Hydrology
+9.4 Machine Learning in Climate Projections
+9.5 Geospatial Water Resource Analytics
+9.6 Hydrodynamic Simulations
+
+Conclusion & Future Work
+10.1 Summary of Findings
+10.2 Limitations and Challenges
+10.3 Future Research Directions
