@@ -1,114 +1,309 @@
-Climate Words :
-1. Climate Change & Atmospheric Processes
+
 Radiative forcing
 Anthropogenic emissions
 Albedo effect
 Climate sensitivity
 Weather extremes
-Tropospheric warming
-Feedback loops
 Paleoclimatology
 Carbon budget
 Climatic tipping points
 Geoengineering
-Hydroclimatic extremes
-2. Water Cycle & Hydrology
-Hydrological extremes
-Watershed degradation
-Aquifer depletion
-Hydro-meteorological hazards
+Watershed degradation1
 Groundwater recharge
-Freshwater fluxes
-Streamflow variability
-Transboundary water management
 Desiccation
-Hydrological connectivity
-Water table decline
-3. Ocean & Cryosphere
 Thermohaline circulation
 Marine heatwaves
 Glacial isostatic adjustment
 Polar amplification
-Cryosphere degradation
-Ocean stratification
-Coastal inundation
 Brine rejection
-Subglacial hydrology
-Ice sheet destabilization
 Saltwater intrusion
-Permafrost feedback
-4. Water-Related Disasters & Risks
-Pluvial flooding
-Flash droughts
-Aridification
-Monsoon variability
-Floodplain dynamics
-Storm surge intensification
-Drought indices
-Water-borne epidemics
-Landslide susceptibility
-5. Ecosystem & Biodiversity Impact
-Riparian ecosystem degradation
-Hydro-biogeochemistry
 Eutrophication
-Wetland desiccation
-Benthic habitat loss
-Fluvial biodiversity shifts
 Freshwater acidification
-Mangrove retreat
-Aquatic food web alterations
-Estuarine dynamics
-Microplastic contamination
-Climate refugia
-6. Climate Adaptation & Mitigation Strategies
-Nature-based solutions (NbS)
-Ecosystem-based adaptation (EbA)
-Sustainable drainage systems (SuDS)
-Water footprint assessment
-Integrated watershed management
-Climate-smart irrigation
-Desalination technologies
-Carbon-neutral hydropower
-Hydro-energy nexus
-Multi-hazard adaptation planning
-7. Socioeconomic & Policy Aspects
-Water governance frameworks
-Blue economy transition
-Climate-induced migration
 Hydropolitics
-Equitable water distribution
-Adaptive capacity assessment
-Climate finance mechanisms
-Indigenous water knowledge systems
-Social tipping elements
-Environmental justice in water policy
-Water sovereignty
-Ethnographic hydrology
-8. Modeling & Data Science in Climate Research
-Coupled climate models (CMIP6)
-Earth system modeling
-Hydro-climatic modeling
-Remote sensing in hydrology
-Machine learning in climate projections
-Downscaling climate data
-Geospatial water resource analytics
-Hydrodynamic simulations
-Agent-based climate modeling
-Network analysis for climate adaptation
-Big data in water security
 Hydroinformatics
-Technical English Words :
-Feedback loops
-Geoengineering
-Hydrological connectivity
-Brine rejection
-Subglacial hydrology
 Fluvial geomorphology
-Floodplain dynamics
-Disaster resilience
-Hydro-biogeochemistry
-Estuarine dynamics
-Hydroinformatics
-Hydrodynamic simulations
 Agent-based modeling
-Network analysis
+
+Radiative forcing
+
+Anthropogenic emissions
+
+Albedo effect
+
+Climate sensitivity
+
+Weather extremes
+
+Tropospheric warming
+
+Feedback loops
+
+Paleoclimatology
+
+Carbon budget
+
+Climatic tipping points
+
+Geoengineering
+
+Hydroclimatic extremes
+
+Atmospheric circulation
+
+Carbon cycle
+
+Greenhouse effect
+
+Climate feedback
+
+Global temperature anomaly
+
+Stratospheric cooling
+
+Heatwaves
+
+Ozone depletion
+
+Hydrological extremes
+
+Watershed degradation
+
+Aquifer depletion
+
+Hydro-meteorological hazards
+
+Groundwater recharge
+
+Freshwater fluxes
+
+Streamflow variability
+
+Transboundary water management
+
+Desiccation
+
+Hydrological connectivity
+
+Water table decline
+
+Surface runoff
+
+River discharge
+
+Groundwater depletion
+
+Water vapor transport
+
+Soil moisture retention
+
+Precipitation patterns
+
+Evapotranspiration
+
+Ocean & Cryosphere
+
+Thermohaline circulation
+
+Marine heatwaves
+
+Glacial isostatic adjustment
+
+Polar amplification
+
+Cryosphere degradation
+
+Ocean stratification
+
+Coastal inundation
+
+Brine rejection
+
+Subglacial hydrology
+
+Ice sheet destabilization
+
+Saltwater intrusion
+
+Permafrost feedback
+
+Iceberg calving
+
+Arctic amplification
+
+Sea level rise
+
+Ocean acidification
+
+Ice core analysis
+
+Snowpack reduction
+
+Pluvial flooding
+
+Flash droughts
+
+Aridification
+
+Monsoon variability
+
+Floodplain dynamics
+
+Storm surge intensification
+
+Drought indices
+
+Water-borne epidemics
+
+Landslide susceptibility
+
+Riverine flooding
+
+Extreme precipitation events
+
+Water scarcity
+
+Glacier melt contribution
+
+Cyclonic storms
+
+Drought severity index
+
+Wildfire risk assessment
+
+Ecosystem & Biodiversity Impact
+
+Riparian ecosystem degradation
+
+Hydro-biogeochemistry
+
+Eutrophication
+
+Wetland desiccation
+
+Benthic habitat loss
+
+Fluvial biodiversity shifts
+
+Freshwater acidification
+
+Mangrove retreat
+
+Aquatic food web alterations
+
+Estuarine dynamics
+
+Microplastic contamination
+
+Climate refugia
+
+Coral bleaching
+
+Biodiversity loss
+
+Habitat fragmentation
+
+Ecosystem resilience
+
+Wetland restoration
+
+Fishery collapse
+
+Climate Adaptation & Mitigation Strategies
+
+Nature-based solutions (NbS)
+
+Ecosystem-based adaptation (EbA)
+
+Sustainable drainage systems (SuDS)
+
+Water footprint assessment
+
+Integrated watershed management
+
+Climate-smart irrigation
+
+Desalination technologies
+
+Carbon-neutral hydropower
+
+Hydro-energy nexus
+
+Multi-hazard adaptation planning
+
+Reforestation
+
+Carbon sequestration
+
+Drought-resistant crops
+
+Urban heat island mitigation
+
+Green infrastructure development
+
+Socioeconomic & Policy Aspects
+
+Water governance frameworks
+
+Blue economy transition
+
+Climate-induced migration
+
+Hydropolitics
+
+Equitable water distribution
+
+Adaptive capacity assessment
+
+Climate finance mechanisms
+
+Indigenous water knowledge systems
+
+Social tipping elements
+
+Environmental justice in water policy
+
+Water sovereignty
+
+Ethnographic hydrology
+
+Disaster risk reduction
+
+Climate justice
+
+Sustainable development goals (SDGs)
+
+Public health adaptation
+
+Modeling & Data Science in Climate Research
+
+Coupled climate models (CMIP6)
+
+Earth system modeling
+
+Hydro-climatic modeling
+
+Remote sensing in hydrology
+
+Machine learning in climate projections
+
+Downscaling climate data
+
+Geospatial water resource analytics
+
+Hydrodynamic simulations
+
+Agent-based climate modeling
+
+Network analysis for climate adaptation
+
+Big data in water security
+
+Hydroinformatics
+
+Climate data assimilation
+
+GIS mapping in climate science
+
+Satellite climatology
+
+Climate variability prediction
