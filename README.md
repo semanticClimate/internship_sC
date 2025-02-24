@@ -1,18 +1,5 @@
 # internship_sC
-## Current Focus
-I am currently working on **IPCC Chapter 10: Linking Global to Regional Climate Change(WG-1)**, this chapter emphasizes that while climate change is a global issue, its impacts vary significantly across regions.
 
-
-## Workflow  
-To process this chapter efficiently, I will follow these steps:  
-
-1. **Summarization** – Extract key insights and condense the chapter into a concise summary.  
-2. **Wordlist Extraction** – Identify important terms and concepts relevant to climate change.  
-3. **Dictionary Creation** – Organize the extracted words into a structured dictionary with definitions.  
-4. **Knowledge Graph Development** – Build a knowledge graph to visualize relationships between key concepts.  
-
-<<<<<<<<< Temporary merge branch 1
-=========
 This contains the work progress by the interns and discussion for different tasks.
 
 ### IPCC reports selected by the interns for their work
@@ -27,6 +14,3 @@ This contains the work progress by the interns and discussion for different task
 | Madhan     | wg2/Chapter04_Water, [wordlist](https://github.com/semanticClimate/internship_sC/blob/Madhan/IPCC_AR6_WG2_Chap04_Specific)    |
 | Suman     | wg2/Chapter07_Health, wellbeing and the changing structure of communities, [wordlist](https://github.com/semanticClimate/internship_sC/blob/suman/Word_lists.txt)    |
 
-
-
->>>>>>>>> Temporary merge branch 2
