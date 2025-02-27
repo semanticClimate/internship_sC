@@ -12,5 +12,5 @@ This contains the work progress by the interns and discussion for different task
 | Sharon     | wg2/Cross-ChapterPaper07_Tropical Forests, [wordlist](https://github.com/semanticClimate/internship_sC/blob/main/ipcc/wordlist/forest_wordlist.txt), [dictionary](https://github.com/semanticClimate/internship_sC/blob/main/ipcc/dictionary/ccpforest_dict.html)    |
 | Mebin     | wg2/Chapter05_Food, Fibre and Other Ecosystem Product, [wordlist](https://github.com/semanticClimate/internship_sC/blob/main/ipcc/wordlist/foodfibre_wordlist.txt), [dictionary](https://github.com/semanticClimate/internship_sC/blob/main/ipcc/dictionary/foodfibre_dict.html)    |
 | Madhan     | wg2/Chapter04_Water, [wordlist](https://github.com/semanticClimate/internship_sC/blob/Madhan/IPCC_AR6_WG2_Chap04_Specific)    |
-| Suman     | wg2/Chapter07_Health, wellbeing and the changing structure of communities, [wordlist](https://github.com/semanticClimate/internship_sC/blob/suman/Word_lists.txt)    |
+| Suman     | wg2/Chapter07_Health, wellbeing and the changing structure of communities, [wordlist](https://github.com/semanticClimate/internship_sC/blob/main/ipcc/wordlist/wg02chapt07_wordlist.txt), [dictionary](https://github.com/semanticClimate/internship_sC/blob/main/ipcc/dictionary/wg02chapt07_dict.html)    |
 
