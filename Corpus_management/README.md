@@ -1,9 +1,9 @@
 
 
-# Corpus Management for Semantic Climate
+# Corpus Management
 
 ## Overview  
-This document outlines the responsibilities and tasks for managing the corpus in **Semantic Climate**, ensuring structured wordlists, dictionaries, and tables of contents (TOC) for **IPCC chapters**. The corpus is maintained using **amilib**, with tasks documented on **GitHub** for accessibility and long-term reference.
+This document outlines the responsibilities and tasks for managing the corpus and ensuring structured wordlists, dictionaries, and tables of contents (TOC) for **IPCC chapters**. The corpus is maintained using **amilib**, with tasks documented on **GitHub** for accessibility and long-term reference.
 
 ---
 
