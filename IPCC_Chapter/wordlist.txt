@@ -93,4 +93,4 @@ thermocline
 tritium
 tropopause
 troposphere
-whalingN
+whaling
