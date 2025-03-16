@@ -1,100 +1,108 @@
-climate
-change
-arctic
-sea
-confidence
-polar
-changes
-ice
-high
-regions
-impacts
-adaptation
-antarctic
-risks
-indigenous
-ocean
-warming
-risk
-impact
-marine
-species
-food
-health
-global
-increased
-medium
-increase
-fisheries
-region
-future
-changing
-table
-ecosystems
-systems
-mustonen
+climate governance
+agroforestry
+continental shelf
+diatom 
+ecosystem 
+heatwaves
+krill
+phytoplankton
+anthrax
+anthropocene
+anthropogenic 
+aptenodytes
+aquaculture
+aragonite
+archaeological
+archaeometry
+zooplankton
+arrowtooth flounder
+biogeosciences
+bryophytes
+calcification
+carbon flux
+mitigation
+carbon sequestration
+casebook 
+chionoecetes opilio
+circumpolar
+climate resilient
+colobanthus quitensis
+baselines
+cryosphere
+cryptogrammic 
+cryptosporidium hominis
+decentralisation
+deltas
+desiccation 
+subsistence 
+dissent
+downscaling 
+ecodynamics
+ecography
+eddy 
+fjord 
+foodborne disease 
+forage
+giardia
+groundfish 
+haddock
+halibut
+humic substance degradation
+iceassociated ecosystems
+culverts
 permafrost
-development
-communities
-shipping
-infrastructure
-resources
-management
-paper
-assessment
-knowledge
-peoples
-loss
-ecosystem
-canada
-increases
-southern
-mar
-water
-res
-fish
-projected
-areas
-local
-bering
-https
-seas
-alaska
-clim
-northern
-resilience
-coastal
+inherent sovereignty
+insolation
 inuit
-ford
-production
-including
-subsistence
-waters
-box
-level
-nat
-accessed
-low
-expected
-response
-environmental
-responses
-mental
-productivity
-conditions
-economic
-due
-cultural
-environ
-potential
-increasing
-terrestrial
-extent
-temperature
-decision
-front
-north
-declines
-tourism
-policy
-planning
+circumpolar 
+inuvialuit
+krill
+lancaster 
+lancet 
+dispossession
+holocene 
+low confidence
+macrofaunal 
+maladaptation
+calcifiers
+megabenthic 
+meridional 
+mesopelagic 
+mitigation
+morbidity
+stressors
+multiproxy 
+murres
+myers
+nematode
+nenets
+neoglacial 
+neoliberalism
+nonendemic species
+nonmonotonic response
+nowcasts
+paralithodes 
+paulat
+peatbank
+pelagic 
+phenology
+phenotypic plasticity
+phocid seals
+pluvial 
+pteropods
+rfmos
+rightsholders
+sequestered hazardous waste
+emaciation
+shoreline erosion
+shrubification
+skolt
+socionatural 
+spawning 
+statistical correlations
+stewardship
+stockholm convention
+stranding
+transboundary
+trawling
+turbidity

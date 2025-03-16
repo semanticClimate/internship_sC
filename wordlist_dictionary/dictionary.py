@@ -2,7 +2,7 @@ import os
 import subprocess
 
 # input and output file path
-wordlist_path = r"C:\Users\ANUDEV\OneDrive\Desktop\wordlist_2.txt" 
+wordlist_path = r"C:\Users\ANUDEV\OneDrive\Desktop\filtered_keyphrases.txt" 
 ditct_path = r"C:\Users\ANUDEV\OneDrive\Desktop\polar_dict.html"
 
 
@@ -10,7 +10,7 @@ ditct_path = r"C:\Users\ANUDEV\OneDrive\Desktop\polar_dict.html"
 command = [
     "amilib", "DICT",
     "--words", wordlist_path,
-    "--description", "wikipedia", "wiktionary", # Fetch definitions from Wikipedia & Wiktionary
+    "--description", "wikipedia", # Fetch definitions from Wikipedia & Wiktionary
     "--figures",
     "--dict", ditct_path,
     "--operation", "create"
