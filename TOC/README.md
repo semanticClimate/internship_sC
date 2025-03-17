@@ -3,8 +3,7 @@
 # Table of Content (TOC) Visualization
 
 ## Overview  
-This document details the responsibilities and tasks related to **Table of Contents (TOC) management** for **IPCC chapters**. The TOC structure is designed to provide a clear and hierarchical representation of report sections, including chapters, glossaries, supplemental materials, and cross-chapter references. The TOC is visualized using **Graphviz**, ensuring structured and accessible formatting.  
-Tasks are documented on **GitHub** for version control and long-term reference, while integration with **amilib** allows for efficient processing and automation where applicable.
+This document details the responsibilities and tasks related to **Table of Contents (TOC) management** for **IPCC chapters**. The TOC structure is designed to provide a clear and hierarchical representation of report sections, including chapters, glossaries, supplemental materials, and cross-chapter references. The TOC is visualized using **Graphviz**, ensuring structured and accessible formatting. Tasks are documented on **GitHub** for version control and long-term reference.
 
 ---
 
