@@ -1,10 +1,10 @@
-#Wordlist Manager
+# Wordlist Manager
 
-##Overview
+## Overview
 
 This document outlines the responsibilities for managing wordlists and terminology for IPCC chapters. Tasks are tracked on GitHub for transparency and long-term reference.
 
-###Responsibilities
+### Responsibilities
 
 1. Word & Acronym Collection
 
