@@ -11,7 +11,7 @@ Tasks are documented on **GitHub** for version control and long-term reference, 
 ## Responsibilities  
 
 ### 1. **TOC Management for IPCC Reports**  
-- Develop and maintain a **structured Table of Contents (TOC)** for all **six IPCC reports**.  
+- Develop and maintain a **structured Table of Contents (TOC)** for **IPCC reports**.  
 - Ensure completeness and correctness of the **chapter-level TOC hierarchy**.  
 - Track progress of **processed TOCs** and identify pending ones.  
 
@@ -33,7 +33,7 @@ Tasks are documented on **GitHub** for version control and long-term reference, 
 ### 5. **Team Collaboration & Presentations**  
 - Present **TOC updates and visualization improvements** to the team.  
 - Engage in discussions related to **TOC design and implementation**.  
-- Keep key discussions and decisions recorded in **team notebooks** for long-term reference.  
+  
 
 
 ---
