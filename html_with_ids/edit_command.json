@@ -1,0 +1,33 @@
+{
+    "remove_tags": [
+        "footer",
+        "noscript",
+        "a",
+        "textarea",
+        "span",
+        "button",
+        "nav"
+    ],
+    "remove_empty_tags": [
+        {
+            "tag": "div"
+        }
+    ],
+    "remove_wrappers": [
+        "h1",
+        "p",
+        "h2",
+        "h3"
+    ],
+    "target_elements": ["header", "section"],
+    "wrap_text": [
+        {
+            "text": "Executive Summary",
+            "parent_class": "exec-summary"
+        },
+        {
+            "text": "CCP7.1 Introduction",
+            "parent_class": "ccp-intro"
+        }
+    ]
+}
