@@ -1,0 +1,19 @@
+digraph department{ 
+    rankdir=TB; //Left-to-right layout
+    node [shape=box, style=filled,fillcolor=lightblue]; //Node style
+
+    Department [label="Department", shape=ellipse, fillcolor=green];
+    Bioinformatics [label="Bioinformatics", shape=box, fillcolor=grey];
+    Professor [label="Professor",shape=box];
+    Student [label="Student",shape=box];
+    Classroom [label="Classroom",shape=diamond, fillcolor=lightyellow];
+
+// Edges
+ Department -> Bioinformatics;
+ Bioinformatics -> Classroom;
+ Bioinformatics -> Professor;
+ Bioinformatics -> Student;
+ Classroom -> Professor;
+ Classroom -> Student;
+ Professor -> Student;
+}

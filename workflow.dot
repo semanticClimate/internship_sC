@@ -1,0 +1,15 @@
+digraph Workflow {
+    rankdir=LR;  // Left-to-right layout
+    node [shape=box, style=filled, fillcolor=lightblue];  // Node style
+
+    Start [label="Start", shape=ellipse, fillcolor=lightgreen];
+    Task1 [label="Task 1", shape=box];
+    Task2 [label="Task 2", shape=box];
+    Decision [label="Decision?", shape=diamond, fillcolor=lightyellow];
+    End [label="End", shape=ellipse, fillcolor=lightcoral];
+
+    // Edges
+    Start -> Task1 -> Task2 -> Decision;
+    Decision -> End [label="Yes"];
+    Decision -> Task1 [label="No", style=dashed];
+}
