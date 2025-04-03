@@ -2,7 +2,8 @@
 
 Graphviz is an open-source tool used for graph visualization. It helps create diagrams, flowcharts, network graphs, and hierarchical structures.
 
-## What is Graphviz?
+### What is Graphviz?
+
 Graphviz is a software that converts text-based descriptions written in the DOT language into visually attractive graphs.
 
 ### How to Install Graphviz
@@ -10,3 +11,5 @@ Graphviz is a software that converts text-based descriptions written in the DOT 
 1. Go to Graphviz Download.
 2. Download and install the setup file.
 3. Add Graphviz to the system’s environment variables.
+
+
