@@ -1,0 +1,89 @@
+digraph Hyperbook { //Creates a rected graph called Hyperbook
+    subgraph cluster_source{ //Creates a subgraph called source
+        label="Source";
+        //Define the nodes in the source subgraph
+        "IPCC Reports" [shape="box", style="filled", fillcolor="#ADD8E6"];
+        "IPCC Glossary" [shape="box", style="filled", fillcolor="#ADD8E6"];
+        
+        // Define the edges between nodes in the source subgraph
+        "IPCC Reports"->"IPCC Glossary" [arrowhead="fused"] 
+        "Gatsby" [shape="box", style="filled", fillcolor="#ADD8E6"];
+        "Wordpress" [shape="box", style="filled", fillcolor="#ADD8E6"];
+        "IPCC Reports"-> "Gatsby" [arrowhead="fused"];
+        "IPCC Reports"-> "Wordpress" [arrowhead="fused"];
+    }
+    
+        subgraph cluster_Transformation_and_Normalization{ //Creates a subgraph called Transformationa and Normalization
+        label="Transformation and Normalization";
+        //Defining the nodes and attributes in the Transformation and Normalization
+        "HTML with IDs" [shape="box", style="filled", fillcolor="#ADD8E6"];
+        "Marked HTML" [shape="box", style="filled", fillcolor="#ADD8E6"];
+        "Document/Publication organisation" [shape="box", style="filled", fillcolor="#ADD8E6"];
+        "Source of Truth:HTML with IDs" [shape="box", style="filled", fillcolor="#ADD8E6"];
+        "RDFa?" [shape="box", style="filled", fillcolor="#ADD8E6",];
+        "Word lists" [shape="box", style="filled", fillcolor="#ADD8E6"];
+        "Wikimedia" [shape="box", style="filled", fillcolor="#ADD8E6"];
+        "Encyclopedia" [shape="box", style="filled", fillcolor="#ADD8E6"];
+        "Markup other documents" [shape="box", style="filled", fillcolor="#ADD8E6"];
+        
+        // Define the edges between nodes in Transformation and Normalization
+        "HTML with IDs"->"Marked HTML" [style=invis];
+        "Word lists"->"Wikimedia" [arrowhead="fused"]
+        "Marked HTML"->"Document/Publication organisation" [style=invis];
+        "Marked HTML"->"Source of Truth:HTML with IDs" [style=invis];
+        "Marked HTML"->"RDFa?" [style=invis];
+        "Document/Publication organisation"->"Word lists" [style=invis];
+        "Wikimedia"->"Encyclopedia" [style=invis];
+        "Encyclopedia"->"Markup other documents" [style=invis];
+    }
+    
+    // Creates a subgraph called Hyperbook/Presentation
+    subgraph cluster_Hyperbook_Presentation {
+        label="Hyperbook/Presentation";
+
+        // Node definitions of Hyperbook/Presentation
+        "1. Collation content and resources" [shape="none"];
+        "Publication Manifest W3C" [shape="box", style="filled", fillcolor="#ADD8E6"];
+        "Resources" [shape="box", style="filled", fillcolor="#ADD8E6"];
+        "Content" [shape="box", style="filled", fillcolor="#ADD8E6"];
+        "Styles" [shape="box", style="filled", fillcolor="#ADD8E6"];
+
+        // Edges for sections of Hyperbook/Presentation
+        "Publication Manifest W3C" -> "Resources" [arrowhead="fused"];
+        "Resources" -> "Content" [arrowhead="fused"];
+        "Resources" -> "Styles" [arrowhead="fused"];
+
+        // Additional nodes in Hyperbook/Presentation
+        "2. Typesetting" [shape="none"];
+        "Paged Media CSS W3C" [shape="box", style="filled", fillcolor="#ADD8E6"];
+        "Renders the CSS" [shape="box", style="filled", fillcolor="#ADD8E6"];
+        "Software module to render CSS" [shape="box", style="filled", fillcolor="#ADD8E6"];
+        "Vivliostyle" [shape="box", style="filled", fillcolor="#ADD8E6"];
+        "Output any type" [shape="box", style="filled", fillcolor="#ADD8E6"];
+        "Make CSS style and configurations" [shape="box", style="filled", fillcolor="#ADD8E6"];
+        
+         "2. Typesetting"-> "Paged Media CSS W3C" [style=invis];
+         "Paged Media CSS W3C"->"Renders the CSS" [style=invis];
+         "Renders the CSS"-> "Software module to render CSS" [style=invis];
+         "Software module to render CSS"->"Vivliostyle" [style=invis];
+         "Vivliostyle"->"Output any type" [style=invis];
+         "Output any type"->"Make CSS style and configurations" [style=invis];
+        
+        "3. Derived publication - Metadata" [shape="none"];
+        "4. Packaging: LOD or Self-contained" [shape="none"];
+
+        // Invisible edges to enforce vertical ordering
+        "1. Collation content and resources" -> "2. Typesetting" [style=invis];
+        "2. Typesetting" -> "3. Derived publication - Metadata" [style=invis];
+        
+        "Make CSS style and configurations"->"3. Derived publication - Metadata" [style=invis];
+        "3. Derived publication - Metadata" -> "4. Packaging: LOD or Self-contained" [style=invis];
+
+        // Rank constraint to ensure proper alignment
+        { rank=same; "1. Collation content and resources"; }
+        { rank=same; "2. Typesetting"; }
+        { rank=same; "3. Derived publication - Metadata"; }
+        { rank=same; "4. Packaging: LOD or Self-contained"; }
+    }
+
+}
