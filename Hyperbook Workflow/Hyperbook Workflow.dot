@@ -1,0 +1,128 @@
+digraph Hyperbook { //Creates a rected graph called Hyperbook
+    subgraph cluster_source{ //Creates a subgraph called source
+        label="Source";
+        color= "#DCD0C0";
+        style=filled;
+        //Label Source: Gather raw content from IPCC Reports, glossaries, and other platforms.
+
+        //Define the nodes IPCC Reports and IPCC Glossary in the source subgraph
+        "IPCC Reports" [shape="box", style="filled", fillcolor="#FFE4E1"];
+        "IPCC Glossary" [shape="box", style="filled", fillcolor="#E4A8A8"];
+        //IPCC Reports: Source documents, likely containing scientific data, analysis, and conclusions.
+        //IPCC Glossary: A specialized glossary providing definitions of terms used in IPCC Reports.
+
+        // Define the edges between nodes in the source subgraph
+        "IPCC Reports"->"IPCC Glossary" [arrowhead="fused"] 
+        "Gatsby" [shape="box", style="filled", fillcolor="#F9C5C5"];
+        "Wordpress" [shape="box", style="filled", fillcolor="#F08080"];
+        "IPCC Reports"-> "Gatsby" [arrowhead="fused"];
+        "IPCC Reports"-> "Wordpress" [arrowhead="fused"];
+        //Gatsby: Tools for building web-based presentations.
+        //Wordpress: Platform for managing and publishing content.
+
+    }
+    
+        subgraph cluster_Transformation_and_Normalization{ //Creates a subgraph called Transformation and Normalization
+        label="Transformation and Normalization";
+        color="#B0E0E6";
+        style=filled;
+        //Label Transformation and Normalization: The process of converting raw content into a structured format suitable for publication.
+
+        //Defining the nodes and attributes in the Transformation and Normalization
+        "HTML with IDs" [shape="box", style="filled", fillcolor="#D2B48C"];
+        "Marked HTML" [shape="box", style="filled", fillcolor="#F5F5DC"];
+        "Document/Publication organisation" [shape="box", style="filled", fillcolor="#FFE4B5"];
+        "Source of Truth:HTML with IDs" [shape="box", style="filled", fillcolor="#EFDECD"];
+        "RDFa?" [shape="box", style="filled", fillcolor="#E4CDA1",];
+        "Word lists" [shape="box", style="filled", fillcolor="#FAF0E6"];
+        "Wikimedia" [shape="box", style="filled", fillcolor="#F0DC82"];
+        "Encyclopedia" [shape="box", style="filled", fillcolor="#A67B5B"];
+        "Markup other documents" [shape="box", style="filled", fillcolor="#F0E68C"];
+        //Document/Publishing Organization: Structuring the content logically.
+        //Source of Truth: HTML with IDs: Creating a standardized HTML format with unique identifiers.
+        //RDFa?: Adding semantic markup for machine readability.
+        //HTML with IDs: Refining the HTML structure.
+        //Marked HTML: Applying additional markup for styling or linking.
+        //Word lists: Extracting key terms for indexing or cross-referencing.
+        //Wikimedia: Integrating external resources for enrichment.
+        //Encyclopedia: Referencing additional contextual information.
+        //Markup other documents: Ensuring consistency across related documents.
+        
+        // Define the edges between nodes in Transformation and Normalization
+        "HTML with IDs"->"Marked HTML" [style=invis];
+        "Word lists"->"Wikimedia" [arrowhead="fused"]
+        "Marked HTML"->"Document/Publication organisation" [style=invis];
+        "Marked HTML"->"Source of Truth:HTML with IDs" [style=invis];
+        "Marked HTML"->"RDFa?" [style=invis];
+        "Document/Publication organisation"->"Word lists" [style=invis];
+        "Wikimedia"->"Encyclopedia" [style=invis];
+        "Encyclopedia"->"Markup other documents" [style=invis];
+    }
+    
+    // Creates a subgraph called Hyperbook/Presentation
+    subgraph cluster_Hyperbook_Presentation {
+        label="Hyperbook/Presentation";
+        style=filled;
+        color="#D3D3D3";
+        //Label Hyperbook/Presentation: The final output format for the content, likely a web-based or digital publication.
+        
+        // Node definitions of Hyperbook/Presentation
+        "1. Collation content and resources" [shape="none"];
+        "Publication Manifest W3C" [shape="box", style="filled", fillcolor="#E6E6FA"];
+        "Resources" [shape="box", style="filled", fillcolor="#D8BFD8"];
+        "Content" [shape="box", style="filled", fillcolor="#E0B0FF"];
+        "Styles" [shape="box", style="filled", fillcolor="#CCCCFF"];
+        //Collation content and resources: Gathers all necessary content and assets.
+        //Publication Manifest W3C: Configures the overall presentation.
+        //Typesetting: Formats the content visually.
+        //Resources: Includes content and styles.
+        //Content: Text and media.
+        //Styles: CSS for styling.
+
+        // Edges for sections of Hyperbook/Presentation
+        "Publication Manifest W3C" -> "Resources" [arrowhead="fused"];
+        "Resources" -> "Content" [arrowhead="fused"];
+        "Resources" -> "Styles" [arrowhead="fused"];
+
+        // Additional nodes in Hyperbook/Presentation
+        "2. Typesetting" [shape="none"];
+        "Paged Media CSS W3C" [shape="box", style="filled", fillcolor="#98FF98"];
+        "Renders the CSS" [shape="box", style="filled", fillcolor="#D0F0C0"];
+        "Software module to render CSS" [shape="box", style="filled", fillcolor="#F0FFF0"];
+        "Vivliostyle" [shape="box", style="filled", fillcolor="#ACE1AF"];
+        "Output any type" [shape="box", style="filled", fillcolor="#ECEBBD"];
+        "Make CSS style and configurations" [shape="box", style="filled", fillcolor="#77DD77"];
+        //Paged Media CSS W3C: Styles paginated content.
+        //Renders the CSS: Applies CSS styles.
+        //Software module to render CSS: Tool for rendering styled content.
+        //Vivliostyle: Typesetting engine.
+        //Output any type: Generates outputs in various formats.
+        //Make CSS style and configurations: Customizes styles and configurations.
+        
+         "2. Typesetting"-> "Paged Media CSS W3C" [style=invis];
+         "Paged Media CSS W3C"->"Renders the CSS" [style=invis];
+         "Renders the CSS"-> "Software module to render CSS" [style=invis];
+         "Software module to render CSS"->"Vivliostyle" [style=invis];
+         "Vivliostyle"->"Output any type" [style=invis];
+         "Output any type"->"Make CSS style and configurations" [style=invis];
+        
+        "3. Derived publication - Metadata" [shape="none"];
+        "4. Packaging: LOD or Self-contained" [shape="none"];
+        //Derived publication - Metadata: Creates metadata for the publication.
+        //Packaging: LOD or Self-contained: Packages the publication in a standardized or self-contained format.
+
+        // Invisible edges to enforce vertical ordering
+        "1. Collation content and resources" -> "2. Typesetting" [style=invis];
+        "2. Typesetting" -> "3. Derived publication - Metadata" [style=invis];
+        
+        "Make CSS style and configurations"->"3. Derived publication - Metadata" [style=invis];
+        "3. Derived publication - Metadata" -> "4. Packaging: LOD or Self-contained" [style=invis];
+
+        // Rank constraint to ensure proper alignment
+        { rank=same; "1. Collation content and resources"; }
+        { rank=same; "2. Typesetting"; }
+        { rank=same; "3. Derived publication - Metadata"; }
+        { rank=same; "4. Packaging: LOD or Self-contained"; }
+    }
+
+}
