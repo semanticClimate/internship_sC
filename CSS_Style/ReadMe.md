@@ -18,24 +18,19 @@ This code changes all **h1** headings to have blue text and a font size of 24 pi
 ## Types of CSS
 
 1.**Inline CSS:** Styles applied directly inside HTML tags using the style attribute. It’s quick but not recommended for large websites.
-***<p style="color: red;">**This is a red paragraph.</p>
+**<p style="color: red;">** This is a red paragraph.</p>
 
 2.**Internal CSS:** Styles written within the <style> tag in the HTML file. Good for single-page websites.
+
 **<style>
   body {
     background-color: lightgray;
   }
 </style>**
 
-  body {
-    background-color: lightgray;
-  }
-</style>
 
-
-
-3.**External CSS:*** The most efficient way to use CSS. You write styles in a separate file (with a .css extension) and link it to the HTML document. This allows you to use the same style across multiple pages.
-**<link rel="stylesheet" href="styles.css">**
+3.**External CSS:** The most efficient way to use CSS. You write styles in a separate file (with a .css extension) and link it to the HTML document. This allows you to use the same style across multiple pages.
+<link rel="stylesheet" href="styles.css">
 
 ## Why Use CSS?
 
