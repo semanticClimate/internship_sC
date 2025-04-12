@@ -12,7 +12,7 @@ I am currently working on **IPCC  Working Group 02, chapter07: Health, wellbeing
 
 **Dictionary:** This dictionary provides concise definitions of key terms in climate science, focusing on concepts related to atmospheric, environmental, and ecological processes. It serves as a valuable reference for researchers, students, and professionals seeking a clearer understanding of climate-related terminology. **https://github.com/semanticClimate/internship_sC/blob/suman/wg02chapt07_dict.html**
 
-**TOC Graph:** A TOC graph visually represents the organization and structure of a document, outlining the main topics and sub-topics in a hierarchical manner. It allows readers to easily grasp the flow of content and navigate through the document, helping them locate specific sections, chapters, or points of interest quickly.
+**TOC Graph:** A TOC graph visually represents the organization and structure of a document, outlining the main topics and sub-topics in a hierarchical manner. It allows readers to easily grasp the flow of content and navigate through the document, helping them locate specific sections, chapters, or points of interest quickly. **https://github.com/semanticClimate/internship_sC/blob/suman/toc.gv.pdf**
 
 
 
