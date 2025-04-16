@@ -1,4 +1,5 @@
-### CSS Added MY Dictionary WG2 Chapter07
+**Wednesday 16-04-2025**
+### Current task: Working on CSS added my dictionary IPCC WG02 CHapter07
 
 I recently learning **CSS** through tutorials and understood the basic well.
 
@@ -41,7 +42,7 @@ The dictionary appears like this.
         }
     </style>
 
-
+    
 **Effect on Dictionary:** After applying the above CSS, The dictionary entries now appear as clean, modern cards with better spacing and visual appeal. The green borders and shadows make each entry stand out, while the hover effect adds interactivity. The improved font and layout enhance readability, making the content easier and more pleasant to read.
 
 **Updated View:** This is how the dictionary looks after the first CSS update:
