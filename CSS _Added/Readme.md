@@ -8,7 +8,7 @@ This is my own Dictionary IPCC chapter07 **https://github.com/semanticClimate/in
 
 The dictionary appears like this.
 
-![IPCC Dictionary Screenshot] ("C:\Users\priya\OneDrive\Desktop\internship_sC\CSS _Added\Screenshot 2025-04-16 141537.png", "C:\Users\priya\OneDrive\Desktop\internship_sC\CSS _Added\Screenshot 2025-04-16 141557.png")
+![IPCC Dictionary Screenshot] **(https://github.com/semanticClimate/internship_sC/blob/suman/CSS%20_Added/Screenshot%202025-04-16%20141537.png, https://github.com/semanticClimate/internship_sC/blob/suman/CSS%20_Added/Screenshot%202025-04-16%20141557.png)**
 
 ## CSS styling - First Update
 
@@ -43,7 +43,8 @@ The dictionary appears like this.
 
 **Effect on Dictionary:** After applying the above CSS, The dictionary entries now appear as clean, modern cards with better spacing and visual appeal. The green borders and shadows make each entry stand out, while the hover effect adds interactivity. The improved font and layout enhance readability, making the content easier and more pleasant to read.
 
-**Updated View:** This is how the dictionary looks after the first CSS update:["C:\Users\priya\OneDrive\Desktop\internship_sC\CSS _Added\Screenshot 2025-04-16 150101.png","C:\Users\priya\OneDrive\Desktop\internship_sC\CSS _Added\Screenshot 2025-04-16 150123.png","C:\Users\priya\OneDrive\Desktop\internship_sC\CSS _Added\Screenshot 2025-04-16 150151.png"]
+**Updated View:** This is how the dictionary looks after the first CSS update:
+**[https://github.com/semanticClimate/internship_sC/blob/suman/CSS%20_Added/Screenshot%202025-04-16%20150101.png, https://github.com/semanticClimate/internship_sC/blob/suman/CSS%20_Added/Screenshot%202025-04-16%20150123.png, https://github.com/semanticClimate/internship_sC/blob/suman/CSS%20_Added/Screenshot%202025-04-16%20150151.png]**
 
 This is the link **https://github.com/semanticClimate/internship_sC/blob/suman/wg02chapt07_dict_N.html** to my dictionary with the applied CSS Style.
 
@@ -113,12 +114,15 @@ I applied the following CSS,
             margin-bottom: 8px;
         }
     </style> 
-    and it resulted in the following changes. The ddictionary now looks like this.
-    ![IPCC Dictionary] ("C:\Users\priya\OneDrive\Desktop\internship_sC\CSS _Added\Screenshot 2025-04-16 142803.png","C:\Users\priya\OneDrive\Desktop\internship_sC\CSS _Added\Screenshot 2025-04-16 142823.png")
+
+    And it resulted in the following changes. The ddictionary now looks like this.
+     
+ ![IPCC Dictionary] **(https://github.com/semanticClimate/internship_sC/blob/suman/CSS%20_Added/Screenshot%202025-04-16%20142803.png,https://github.com/semanticClimate/internship_sC/blob/suman/CSS%20_Added/Screenshot%202025-04-16%20142823.png)**
 
     The updated CSS significantly improves the UI and UX of the dictionary entries. It transforms the plain, bordered layout into a modern card-based design with better visuals, interactivity, and readability. Enhancements include image support, font improvements, color theming (green for consistency), and smooth hover animations that make the interface more engaging and accessible.
-    
-    This is the link **https://github.com/semanticClimate/internship_sC/blob/suman/wg02chapt07_dict%20%20new.html** to my dictionary with the applied CSS styles.
+
+    This is the link:  
+**https://github.com/semanticClimate/internship_sC/blob/suman/wg02chapt07_dict%20%20new.html** to my dictionary with the applied CSS styles.
 
 
 
