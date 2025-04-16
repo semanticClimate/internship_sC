@@ -1,4 +1,7 @@
 
+**WEDNESDAY (16-04-2025)**
+**Current Task**: Working on resolving the error in docanalysis
+**Current State**: Docanalysis is working on local system(windows 11), but not being able to use it in colab environment
 
 # Corpus Management
 
