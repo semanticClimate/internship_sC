@@ -21,7 +21,7 @@ This document outlines the responsibilities and tasks for managing the corpus an
 - Track which chapters have been processed and which remain pending.  
 
 ### 2. **Code Management & Maintenance**  
-- Organize and document existing **amilib** code.  
+- Organize and document existing **amilib** and **docanalysis** code.  
 - Ensure readability and maintainability of the codebase.  
 - Identify and **fix bugs** in the scripts used for corpus processing.  
 
