@@ -41,6 +41,7 @@ The dictionary appears like this.
         }
     </style>
 
+
 **Effect on Dictionary:** After applying the above CSS, The dictionary entries now appear as clean, modern cards with better spacing and visual appeal. The green borders and shadows make each entry stand out, while the hover effect adds interactivity. The improved font and layout enhance readability, making the content easier and more pleasant to read.
 
 **Updated View:** This is how the dictionary looks after the first CSS update:
@@ -51,6 +52,7 @@ This is the link **https://github.com/semanticClimate/internship_sC/blob/suman/w
 ## CSS Styling  - second Update
 
 I applied the following CSS,
+
  <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdada, sans-serif;
@@ -115,14 +117,13 @@ I applied the following CSS,
         }
     </style> 
 
-    And it resulted in the following changes. The ddictionary now looks like this.
-     
- ![IPCC Dictionary] **(https://github.com/semanticClimate/internship_sC/blob/suman/CSS%20_Added/Screenshot%202025-04-16%20142803.png,https://github.com/semanticClimate/internship_sC/blob/suman/CSS%20_Added/Screenshot%202025-04-16%20142823.png)**
+And it resulted in the following changes. The ddictionary now looks like this.
+**(https://github.com/semanticClimate/internship_sC/blob/suman/CSS%20_Added/Screenshot%202025-04-16%20142803.png,https://github.com/semanticClimate/internship_sC/blob/suman/CSS%20_Added/Screenshot%202025-04-16%20142823.png)**
 
-    The updated CSS significantly improves the UI and UX of the dictionary entries. It transforms the plain, bordered layout into a modern card-based design with better visuals, interactivity, and readability. Enhancements include image support, font improvements, color theming (green for consistency), and smooth hover animations that make the interface more engaging and accessible.
 
-    This is the link:  
-**https://github.com/semanticClimate/internship_sC/blob/suman/wg02chapt07_dict%20%20new.html** to my dictionary with the applied CSS styles.
+ The updated CSS significantly improves the UI and UX of the dictionary entries. It transforms the plain, bordered layout into a modern card-based design with better visuals, interactivity, and readability. Enhancements include image support, font improvements, color theming (green for consistency), and smooth hover animations that make the interface more engaging and accessible.
+
+  This is the link:**https://github.com/semanticClimate/internship_sC/blob/suman/wg02chapt07_dict%20%20new.html** to my dictionary with the applied CSS styles.
 
 
 
