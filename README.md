@@ -1,4 +1,3 @@
-```markdown
 # INTERNSHIP_sC
 
 This repository contains the work progress by the interns and discussion for different tasks related to the IPCC AR6 reports.
@@ -20,7 +19,7 @@ This repository contains the work progress by the interns and discussion for dif
 ## DAILY REPORT
 
 **May 9, 2025**  
-- Understood the working of Test-Driven Development in Python.
+- Understood the working of Test-Driven Development (TDD) in Python and how tests drive code implementation in modular libraries.
 
 **May 15, 2025**  
 - Learned the overall structure of IPCC reports and reviewed the HTML file organization in our repo.  
@@ -38,5 +37,3 @@ This repository contains the work progress by the interns and discussion for dif
 **May 19, 2025**  
 - Executed the full pytest suite across the `amilib` directory to verify test coverage.  
 - Identified failing tests, discussed root causes in the team meeting, and outlined next steps for debugging.
-
-```
