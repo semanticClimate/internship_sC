@@ -114,5 +114,6 @@ Replace `<path_to_your_txt_file>` with the actual path to your text file and `<p
 ---
 ### WEDNESDAY(20-05-2025)
 tried to fix the problem, used [GitHub: semanticClimate keyword extraction](https://github.com/petermr/semanticClimate/blob/main/keyword_extraction/code_v2/keyword_extraction_v2_test.py)
-but got the output as empty file
+but got the output as empty file. I replaced the model in the above **keyword_extraction_v2_test.py** as it said it is outdated/made private.
+
 
