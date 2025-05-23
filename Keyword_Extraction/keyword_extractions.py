@@ -1,246 +1,100 @@
-
-from tqdm import tqdm
 from bs4 import BeautifulSoup
-# from keybert import KeyBERT
-# from multi_rake import Rake
-# from summa import keywords
-import re
-import json
-# import yake
-# from gensim.summarization import keywords
-from IPython.display import HTML
-import pandas as pd
-import requests
+import nltk
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+import yake
 import os
-import argparse
-# import spacy
 
-from transformers import (
-    TokenClassificationPipeline,
-    AutoModelForTokenClassification,
-    AutoTokenizer,
-)
-from transformers.pipelines import AggregationStrategy
-import numpy as np
-#import os
-#os.environ['TRANSFORMERS_CACHE'] = 'E:\git\transformer_cache'
+# Ensure necessary downloads
+nltk.download('stopwords')
+nltk.download('punkt')
 
-#nlp = spacy.load("en_core_web_lg")
+def extract_text_from_html(html_path):
+    with open(html_path, 'r', encoding='utf-8') as file:
+        soup = BeautifulSoup(file, 'html.parser')
 
+    for script in soup(["script", "style"]):
+        script.extract()
 
-class keyword_extraction():
-    def __init__(self, html_path, saving_path, method):
-        self.html_path = html_path
-        self.saving_path = saving_path
-        self.method = method
-        self.text = ''
-        self.span_list = []
+    return soup.get_text(separator=' ')
 
-    def read_text_from_html(self):
-        """uses beautifulsoup to read text from html files"""
-        with open(self.html_path, encoding="utf-8") as f:
-            content = f.read()
-            print(f"Length of HTML content read: {len(content)}")   # Debug print
-            soup = BeautifulSoup(content, 'html.parser')
-            print(type(soup))
-        self.soup = soup    
-        return self.soup
+def preprocess_text(text):
+    words = word_tokenize(text.lower())
+    words = [word for word in words if word.isalnum()]
+    words = [word for word in words if not word.isnumeric()]
+    stop_words = set(stopwords.words("english"))
+    words = [word for word in words if word not in stop_words]
+    return " ".join(words)
 
-    def clean_up_html_to_text(self):
-        self.extract_text_fom_html()
-        print(f"Text before splitlines: {repr(self.text[:100])}")  # show first 100 chars for debug
-        print(type(self.text.splitlines()))#Shows the type of the split result 
+def clean_phrase(phrase):
+    """Remove repeating words in a phrase like 'figure figure'."""
+    words = phrase.lower().split()
+    seen = set()
+    cleaned = []
+    for word in words:
+        if word not in seen:
+            cleaned.append(word)
+            seen.add(word)
+    return " ".join(cleaned)
 
-    def extract_text_fom_html(self):
-        with open(self.html_path, 'r', encoding='utf-8', errors='ignore') as f:
-            html = f.read()
-            soup = BeautifulSoup(html, features="html.parser")
+def is_valid_phrase(phrase, stop_words, min_len=3):
+    words = phrase.lower().split()
+    if len(words) < 2: return False
+    if all(word in stop_words for word in words): return False
+    if len(phrase) < min_len: return False
+    return True
 
-            for script in soup(["script", "style"]):
-                script.extract()  # rip it out
-
-            # get text
-            text = soup.get_text()
-            print(f"Raw extracted text length: {len(text)}")  # Debug print
-
-            # break into lines and remove leading and trailing space on each
-            lines = (line.strip() for line in text.splitlines())
-            # break multi-headlines into a line each
-            chunks = (phrase.strip() for line in lines for phrase in line.split("      ") if len(phrase.strip()) > 9)
-            # drop blank lines
-            text = '\n '.join(chunk for chunk in chunks if chunk)
-            print(f"Cleaned text length: {len(text)}")  # Debug print
-
-            self.text = text
-
-            os.makedirs(self.saving_path, exist_ok=True)
-            with open(os.path.join(self.saving_path, 'text.txt'), 'w', encoding="utf-8") as file:
-                text_to_write = self.text.replace("Final Government Distribution  Chapter 5 IPCC AR6 WGIII", "")\
-                                         .replace("Final Government Distribution Chapter 5 IPCC AR6 WGIII", "")
-                for l in text_to_write.splitlines():
-                    file.write(l + "\n \n \n")
-                print("Done Writing File")
-            return self.text
-
-    def extract_keywords_hf(self):
-        from transformers import pipeline
-        from textwrap import wrap
-
-        self.keyphrases = []
-        self.clean_up_html_to_text()
-
-        from transformers import pipeline
-        model_name = "ml6team/keyphrase-generation-t5-small-inspec"
-        extractor = pipeline("text2text-generation", model=model_name, tokenizer=model_name)
-
-
-
-        # Break text into 500-character chunks
-        chunks = wrap(self.text, width=500)
-
-        for chunk in tqdm(chunks, desc="Extracting keyphrases"):
-            try:
-                result = extractor(chunk, max_length=64, truncation=True)[0]['generated_text']
-                print(f"Chunk result: {result}")  # Debug output
-                phrases = [phrase.strip() for phrase in result.split(",")]
-                self.keyphrases.extend(phrases)
-            except Exception as e:
-                print(f"Error processing chunk: {e}")
-                continue
-
-        # Remove duplicates
-        self.keyphrases = list(set(self.keyphrases))
-        print(f"Total unique keyphrases extracted: {len(self.keyphrases)}")
-
-        # Save to CSV
-        df = pd.DataFrame({'keyphrases': self.keyphrases})
-        os.makedirs(self.saving_path, exist_ok=True)
-        output_file = os.path.join(self.saving_path, 'keyphrases.csv')
-        df.to_csv(output_file, index=False)
-        print(df.head())
-
-        return self.keyphrases
-
-    def extraction_unigrams(self):
-
-        csv_path = os.path.join(self.saving_path, 'keyphrases.csv')
-        df = pd.read_csv(csv_path)
-        key = df['keyphrases'].tolist()
-        unigram =[]
-        ngram = []
-
-        pattern = "\s"
-        print(type(key))
-        for i in key:
-            if re.findall(pattern, i):
-                ngram.append(i)
-                #print('N-gram')
-            else:
-                unigram.append(i)
-                #print('Unigram')
-        #print(ngram)
-        #print(unigram)
-        #self.unigram = unigram
-        print(len(unigram))
-        return unigram
-        #print(len(ngram))
-
-    def wikidata_out(self):
-        #list = self.extraction_unigrams()
-        list = ['data']#, 'climate', 'mitigation']
-        #list = self.unigram
-        
-        for i in list:
-            self.wiki_lookup(i)
-            json_object = json.dumps(self.result, indent=4)
-            with open(self.saving_path + 'wikidata.txt', 'w', encoding="utf-8") as file:
-                with open("sample.json", "w") as outfile:
-
-                    outfile.write(json_object)
-
-
-            
-
-    
-
-    def wiki_lookup(self, query):
-        """Queries Wikidata API for Wikidata Item IDs for terms in ami-dict
-
-        :param query: term to query wikdiata for ID
-        :type query: string
-        :returns: potential Wikidata Item URLs
-        :rtype: list
-
-        """
-        params = {
-            "action": "wbsearchentities",
-            "search": query,
-            "language": "en",
-            "format": "json",
-            "wbsprofile": "language"
-        }
-        result = data.json()
-        hit_list = []
-        self.result = result
-        for hit in result['search']:
-            try:
-                if "scientific article" not in hit["description"]:
-                    hit_list.append(hit["id"])
-            except:
-                hit_list2.append(hit["id"])
-        return hit_list
-
-
-
-    def main(self):
-        # if method == 'rake':
-        #     self.extract_keywords_rake()
-        # elif method == 'yake':
-        #     self.extract_keywords_yake()
-        # elif method == 'gensim':
-        #     self.extract_keywords_gensim()
-        # elif method == 'textrank':
-        #     self.extract_keywords_textrank()
-        # elif method == 'keyBERT':
-        #     self.extract_keywords_keyBERT()
-        #
-        if method == 'rawtext':
-            self.wikidata_out()
-        else :
-            self.extract_keywords_hf()
-        
-#class KeyphraseExtractionPipeline(TokenClassificationPipeline):
-   # def __init__(self, model, *args, **kwargs):
-      #  super().__init__(
-          #  model=AutoModelForTokenClassification.from_pretrained(model),
-         #   tokenizer=AutoTokenizer.from_pretrained(model),
-            #*args,
-          #  **kwargs
-        #)
-
-    def postprocess(self, model_outputs):
-        results = super().postprocess(
-            model_outputs=model_outputs,
-            aggregation_strategy=AggregationStrategy.SIMPLE,
-        )
-        return np.unique([result.get("word").strip() for result in results])
-    
-if __name__ == "__main__":
-    import argparse
-
-    parser = argparse.ArgumentParser()
-    parser.add_argument('--html_path', required=True, help="Path to the input HTML file")
-    parser.add_argument('--saving_path', required=True, help="Path to save output CSV")
-    parser.add_argument('--method', default='hf', help="Extraction method to use (hf, yake, etc.)")
-    args = parser.parse_args()
-
-    extractor = keyword_extraction(
-        html_path=args.html_path,
-        saving_path=args.saving_path,
-        method=args.method
+def extract_keywords(text, num_words, phrase_length):
+    extractor = yake.KeywordExtractor(
+        lan="en", n=phrase_length, top=num_words*2, dedupLim=0.9
     )
+    raw_keywords = extractor.extract_keywords(text)
+    
+    stop_words = set(stopwords.words("english"))
+    cleaned_keywords = []
+    seen = set()
+    
+    for phrase, score in sorted(raw_keywords, key=lambda x: x[1]):
+        cleaned = clean_phrase(phrase)
+        if cleaned not in seen and is_valid_phrase(cleaned, stop_words):
+            seen.add(cleaned)
+            cleaned_keywords.append(cleaned)
+        if len(cleaned_keywords) >= num_words:
+            break
 
-    if args.method == "hf":
-        extractor.extract_keywords_hf()
+    return cleaned_keywords
+
+def save_word_list(word_list, output_path):
+    output_dir = os.path.dirname(output_path)
+    if output_dir and not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+    with open(output_path, "w", encoding="utf-8") as f:
+        for word in word_list:
+            f.write(word + "\n")
+    print(f"\nWord list saved to {output_path}")
+
+def create_word_list_from_html(html_path, num_words, phrase_length=2, output_path="wordlist.txt"):
+    text = extract_text_from_html(html_path)
+    print("\nExtracted Text Preview:\n", text[:500])
+
+    cleaned_text = preprocess_text(text)
+    print("\nCleaned Text Preview:\n", cleaned_text[:500])
+
+    word_list = extract_keywords(cleaned_text, num_words, phrase_length)
+
+    if not word_list:
+        print("[ERROR] No keywords extracted.")
     else:
-        print(f"Method '{args.method}' not supported yet.")
+        save_word_list(word_list, output_path)
+
+    return word_list
+
+# Example usage
+html_file = r"html_with_ids.html"
+num_words = 100
+phrase_length = 2
+output_path = r"output_wordlist.txt"
+
+keywords = create_word_list_from_html(html_file, num_words, phrase_length, output_path)
+print("\nHighly Relevant Cleaned Keywords:")
+print(keywords)
