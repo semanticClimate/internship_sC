@@ -112,8 +112,11 @@ python keyword_extractions.py --text_file "<path_to_your_txt_file>" --saving_pat
 Replace `<path_to_your_txt_file>` with the actual path to your text file and `<path_to_save_output>` with your desired output directory.But the output mainly contains names of countries and people, not the important terms from the chapter. I’m trying to improve this using model-based methods, but it’s taking a lot of time to load and process.I have uploaded the folder with all this data in this repository named**IPCC_Keyword_Project**.
 
 ---
-### WEDNESDAY(20-05-2025)
+### WEDNESDAY(21-05-2025)
 tried to fix the problem, used [GitHub: semanticClimate keyword extraction](https://github.com/petermr/semanticClimate/blob/main/keyword_extraction/code_v2/keyword_extraction_v2_test.py)
-but got the output as empty file. I replaced the model in the above **keyword_extraction_v2_test.py** as it said it is outdated/made private.
-
+but got the output as empty file. I replaced the model in this to another but it has its own drawbacks
+### THURSDAY(22-05-2025)
+explored various models that might help in extracting the keywords (kryBERT, YAKE),tried using them
+### FRIDAY(23-05-2025)
+used YAKE and got some of the keywords, attached the code and wordlist obtained **Keyword_Extractor**. But those are also not the main keywords that are needed.
 
