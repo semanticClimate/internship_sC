@@ -1,100 +1,121 @@
-from bs4 import BeautifulSoup
-import nltk
-from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize
-import yake
+from typing import Counter
+import pandas as pd
 import os
+from tqdm import tqdm
+from argparse import ArgumentParser
+from transformers import (
+    TokenClassificationPipeline,
+    AutoModelForTokenClassification,
+    AutoTokenizer,
+)
+from transformers.pipelines import AggregationStrategy
+import numpy as np
 
-# Ensure necessary downloads
-nltk.download('stopwords')
-nltk.download('punkt')
 
-def extract_text_from_html(html_path):
-    with open(html_path, 'r', encoding='utf-8') as file:
-        soup = BeautifulSoup(file, 'html.parser')
+# Constructor class for the Hugging Face model
+class KeyphraseExtractionPipeline(TokenClassificationPipeline):
+    def __init__(self, model, *args, **kwargs):
+        super().__init__(
+            model=AutoModelForTokenClassification.from_pretrained(model),
+            tokenizer=AutoTokenizer.from_pretrained(model),
+            *args,
+            **kwargs
+        )
 
-    for script in soup(["script", "style"]):
-        script.extract()
+    def postprocess(self, model_outputs):
+        results = super().postprocess(
+            model_outputs=model_outputs,
+            aggregation_strategy=AggregationStrategy.SIMPLE,
+        )
+        return np.unique([result.get("word").strip() for result in results])
 
-    return soup.get_text(separator=' ')
 
-def preprocess_text(text):
-    words = word_tokenize(text.lower())
-    words = [word for word in words if word.isalnum()]
-    words = [word for word in words if not word.isnumeric()]
-    stop_words = set(stopwords.words("english"))
-    words = [word for word in words if word not in stop_words]
-    return " ".join(words)
+#
+class KeywordExtraction():
+    def __init__(self, textfile="", html_path="", saving_path=""):
+        self.text = []
+        self.keyphrases = []
 
-def clean_phrase(phrase):
-    """Remove repeating words in a phrase like 'figure figure'."""
-    words = phrase.lower().split()
-    seen = set()
-    cleaned = []
-    for word in words:
-        if word not in seen:
-            cleaned.append(word)
-            seen.add(word)
-    return " ".join(cleaned)
+        #Check for text file
+        if textfile.endswith(".txt"):
+            self.textfile = textfile
+        else:
+            raise ValueError('Not a text file')
+        
+        # Check for HTML file
+        # if html_path.endswith(".html"):
+        self.html_path = html_path
+        # else:
+            # raise ValueError('Not a HTML file')
+        
+        # Check for Saving path
+        if os.path.isdir(saving_path):
+            self.saving_path = saving_path
+        else:
+            raise ValueError('Not a Valid save path')
 
-def is_valid_phrase(phrase, stop_words, min_len=3):
-    words = phrase.lower().split()
-    if len(words) < 2: return False
-    if all(word in stop_words for word in words): return False
-    if len(phrase) < min_len: return False
-    return True
+        """
+        :@params text: List of string variables
+        :@params keyphrases: List of keyphrases
+        :@params textfile: Path to text file
+        :@params
+        """
 
-def extract_keywords(text, num_words, phrase_length):
-    extractor = yake.KeywordExtractor(
-        lan="en", n=phrase_length, top=num_words*2, dedupLim=0.9
-    )
-    raw_keywords = extractor.extract_keywords(text)
-    
-    stop_words = set(stopwords.words("english"))
-    cleaned_keywords = []
-    seen = set()
-    
-    for phrase, score in sorted(raw_keywords, key=lambda x: x[1]):
-        cleaned = clean_phrase(phrase)
-        if cleaned not in seen and is_valid_phrase(cleaned, stop_words):
-            seen.add(cleaned)
-            cleaned_keywords.append(cleaned)
-        if len(cleaned_keywords) >= num_words:
-            break
+    def extract_from_html(self):
+        with open("./resources/html_with_ids.html") as file:
+            pass
+        
 
-    return cleaned_keywords
+    def read_from_text_file(self):
+        with open(self.textfile, encoding="utf-8") as file:
+            text = file.readlines()
+            # print(text[0])
+            self.text = text
 
-def save_word_list(word_list, output_path):
-    output_dir = os.path.dirname(output_path)
-    if output_dir and not os.path.exists(output_dir):
-        os.makedirs(output_dir)
-    with open(output_path, "w", encoding="utf-8") as f:
-        for word in word_list:
-            f.write(word + "\n")
-    print(f"\nWord list saved to {output_path}")
+    def extract_keywords(self):
+        self.read_from_text_file()
 
-def create_word_list_from_html(html_path, num_words, phrase_length=2, output_path="wordlist.txt"):
-    text = extract_text_from_html(html_path)
-    print("\nExtracted Text Preview:\n", text[:500])
+        model_name = "ml6team/keyphrase-extraction-kbir-inspec"
+        extractor = KeyphraseExtractionPipeline(model=model_name)
 
-    cleaned_text = preprocess_text(text)
-    print("\nCleaned Text Preview:\n", cleaned_text[:500])
+        for line in tqdm(self.text):
+            # print(line)
 
-    word_list = extract_keywords(cleaned_text, num_words, phrase_length)
+            keyphrases = extractor(line)
+            for i in keyphrases:
+                self.keyphrases.append(i)
+            # print(self.keyphrases)
+        self.keyphrase_counts = Counter(self.keyphrases)
+        self.keyphrases = [*set(self.keyphrases)]
 
-    if not word_list:
-        print("[ERROR] No keywords extracted.")
-    else:
-        save_word_list(word_list, output_path)
+        print(self.keyphrase_counts)
+        df = pd.DataFrame(self.keyphrases)
+        df.to_csv(self.saving_path + 'keyphrases.csv' ,index=False)
+        return self.keyphrases
 
-    return word_list
+    def main(self):
+        self.extract_keywords()
 
-# Example usage
-html_file = r"html_with_ids.html"
-num_words = 100
-phrase_length = 2
-output_path = r"output_wordlist.txt"
 
-keywords = create_word_list_from_html(html_file, num_words, phrase_length, output_path)
-print("\nHighly Relevant Cleaned Keywords:")
-print(keywords)
+if __name__ == "__main__":
+    parser = ArgumentParser()
+    parser.add_argument('-i', '--html_path',
+                        required=False,
+                        help=' path of the HTML file: /...')
+
+    parser.add_argument('-t', '--text_file',
+                        required=False,
+                        help='path to textfile: /...')
+
+    parser.add_argument('-s', '--saving_path',
+                        required=False,
+                        help='path of the folder where you want to save the files : /...'
+                        )
+    args = parser.parse_args()
+
+    html_path = args.html_path  # '/content/semanticClimate/ipcc/ar6/wg3/Chapter06/fulltext.flow.html'
+    saving_path = args.saving_path  # '/content/'
+    text_file = args.text_file
+
+    keyword_extractions = KeywordExtraction(text_file, html_path, saving_path)
+    keyword_extractions.main()
