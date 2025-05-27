@@ -1,18 +1,3 @@
-### MONDAY(19-05-2025)
-- **Task:**  
-  Run unit test scripts to identify any issues.
-
-- **Steps Performed:**
-  - Installed **PyCharm** as the development environment.
-  - Cloned the repository: `amilib`.
-  - Ran some test scripts( `test_html.py`,`test_headless.py`)
-  - executed tests successfully with no issues found.
-- **Next Steps:**
-   - Execute remaining test scripts.
-   - Monitor for errors, warnings, or failures.
-   - Update documentation as required based on test results.               
----
-### TUESDAY(20-05-2025)
   ## Task
 Generate a wordlist and encyclopedia for WG2/Chapter04, and create a Graphviz visualization for the chapter.
 
@@ -102,16 +87,31 @@ tzdata==2024.2
 urllib3==2.2.3
 ```
 ---
-
 ## Step 3: Extract Keywords
 Use the following command to extract keywords from your text file:
-
 ```sh
-python keyword_extractions.py --text_file "<path_to_your_txt_file>" --saving_path "<path_to_save_output>"
+python keyword_extraction.py -t text_file_path.txt -s ./
 ```
-Replace `<path_to_your_txt_file>` with the actual path to your text file and `<path_to_save_output>` with your desired output directory.But the output mainly contains names of countries and people, not the important terms from the chapter. I’m trying to improve this using model-based methods, but it’s taking a lot of time to load and process.I have uploaded the folder with all this data in this repository named**IPCC_Keyword_Project**.
+### Reference for Keyword Extraction Code
+The keyword extraction script is based on the implementation available at:  
+[GitHub: semanticClimate keyword extraction](https://github.com/semanticClimate/internship_sC/blob/Haarthi/Keyword_Extraction/keyword_extractions.py)
 
 ---
+
+### MONDAY(19-05-2025)
+- **Task:**  
+  Run unit test scripts to identify any issues.
+
+- **Steps Performed:**
+  - Installed **PyCharm** as the development environment.
+  - Cloned the repository: `amilib`.
+  - Ran some test scripts, executed tests successfully with no issues found.
+- **Next Steps:**
+   - Execute remaining test scripts.
+   - Monitor for errors, warnings, or failures.
+   - Update documentation as required based on test results.               
+### TUESDAY(20-05-2025)
+Worked on extracting the keywords in the IPCC WG2 AR6 Chapter 4-water.But the output obtained  mainly contains names of countries and people, not the important terms from the chapter. I’m trying to improve this using model-based methods, but it’s taking a lot of time to load and process.I have uploaded the folder with all this data in this repository named**IPCC_Keyword_Project**.
 ### WEDNESDAY(21-05-2025)
 tried to fix the problem, used [GitHub: semanticClimate keyword extraction](https://github.com/petermr/semanticClimate/blob/main/keyword_extraction/code_v2/keyword_extraction_v2_test.py)
 but got the output as empty file. I replaced the model in this to another but it has its own drawbacks
@@ -119,4 +119,8 @@ but got the output as empty file. I replaced the model in this to another but it
 explored various models that might help in extracting the keywords (kryBERT, YAKE),tried using them
 ### FRIDAY(23-05-2025)
 used YAKE and got some of the keywords, attached the code and wordlist obtained **Keyword_Extractor**. But those are also not the main keywords that are needed.
+### MONDAY(26-05-2025)
+Successfully extracted the keywords from the IPCC WG2 AR6 Chapter 4-water. checked if there are any  irrelevant and simple words,started to work on the dictionary.
+### TUESDAY(27-05-2025)
+Documented the process for extracting the keywords.
 
