@@ -1,51 +1,23 @@
-# IPCC Cross-Chapter Paper (CCP) Top-Level Graph
+# 🌍 IPCC AR6 Cross-Chapter Paper Visualizer
 
-A small Python/Graphviz pipeline that scans your local copies of the IPCC AR6 Cross-Chapter Paper HTML files, extracts each top-level section anchor (e.g. `CCP1.1`), grabs its real heading (e.g. “Point of Departure”) as a hover-tooltip, and then renders an interactive SVG showing:
+This project visualizes the structure of the IPCC AR6 reports with a focus on Cross-Chapter Papers (CCPs). It uses Graphviz to generate an interactive SVG diagram that:
 
-- The IPCC root node  
-- Assessment Reports AR1–AR6  
-- Working Groups (WG1, WG2, WG3, Synthesis Report)  
-- All WG1 & WG3 chapter nodes  
-- WG2 chapters + a “Cross_Chapters” parent  
-- Under “Cross_Chapters,” each CCP parent (CCP1…CCP7)  
-- Under each CCP, every CCPx.y sub-node with its heading as the tooltip  
+- Shows the hierarchy of IPCC reports: IPCC → Assessment Reports → Working Groups → Chapters
+- Includes links to official IPCC pages
+- Parses and visualizes top-level subsection anchors (e.g., CCP1.1, CCP2.3) from the provided HTML files
+- Displays the official heading of each subsection as a tooltip when hovering over the corresponding node
 
----
-
-## 📁 Repository Contents
-
+This helps researchers, students, and policy analysts quickly explore and navigate the IPCC's extensive AR6 structure — especially the otherwise hard-to-read Cross-Chapter Papers.
 
 ---
 
-## ⚙️ Prerequisites
+## 🔧 Setup Instructions
 
-- **Python 3.7+**  
-- **Graphviz** system package (for the `dot` renderer)  
-- **Google Colab** (optional, for zero-install)  
-- **BeautifulSoup4** and **graphviz** Python packages  
-- Local copies of the AR6 CCP HTML files in your Google Drive (or local FS)
+### 1. Install Required Tools
 
----
+Make sure you have Python 3 installed. Then, run:
 
-## 🚀 Getting Started
-
-### Option A: Run in Google Colab
-
-1. **Open** `ccp_graph.ipynb` in Google Colab  
-2. **Mount** your Drive when prompted  
-3. **Run all cells**  
-4. At the bottom you’ll see the rendered SVG inline  
-5. Click any node or hover over a CCPx.y to see its heading
-
-### Option B: Run locally
-
-1. **Clone** this repo  
-   ```bash
-   git clone https://github.com/your-username/ipcc-ccp-graph.git
-   cd ipcc-ccp-graph
-sudo apt-get install graphviz
+```bash
+sudo apt-get update
+sudo apt-get install -y graphviz
 pip install graphviz beautifulsoup4
-python scripts/build_graph.py \
-    --input-dir "/path/to/your/drive/MyDrive" \
-    --output svg \
-    --out-name ipcc_ccp_top_sections
