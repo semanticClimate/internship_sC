@@ -25,4 +25,10 @@ Successfully extracted the keywords from the IPCC WG2 AR6 Chapter 4-water. check
 Documented the process for extracting the keywords.[GitHub: semanticClimate process for extracting keywords](https://github.com/semanticClimate/internship_sC/blob/Haarthi/Keyword_Extraction_Process.md)
 Here is the Wordlist that I got
 [GitHub: semanticClimate IPCC WG2 CHAPTER4 WORDLIST](https://github.com/semanticClimate/internship_sC/blob/Haarthi/Keyword_Extraction/keyphrases.csv)
-and while creating the dictionary I got an issue in amilib that the code is not extracting information from Wikipedia when we are using the google colab 
+### WEDNESDAY (28-05-2025)
+started to work on dictionary, while creating the dictionary I got an issue in amilib that the code is not extracting information from Wikipedia when we are using the google colab especially figures.
+### Thursday(29-05-2025)
+creared a dictionary to the wordlist using commandline.
+added the html file to the repository [GitHub: html file for dictionary](https://github.com/semanticClimate/internship_sC/blob/Haarthi/wg2chap04_dict.html)
+explored how to run pytests on amilib and got some import errors.
+
