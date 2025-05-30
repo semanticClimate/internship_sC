@@ -88,6 +88,13 @@ class KeywordExtraction():
         self.keyphrase_counts = Counter(self.keyphrases)
         self.keyphrases = [*set(self.keyphrases)]
 
+
+return top_keywords
+# Sort keyphrases by frequency and get top 1000 keywords 
+#top_keywords = [kw for kw, _ in self.keyphrase_counts.most_common(1000)]
+# Save to CSV (just keywords)
+#df = pd.DataFrame(top_keywords, columns=["keyword"])
+#df.to_csv(os.path.join(self.saving_path, 'top_1000_keyphrases.csv'), index=False)
         print(self.keyphrase_counts)
         df = pd.DataFrame(self.keyphrases)
         df.to_csv(self.saving_path + 'keyphrases.csv' ,index=False)
