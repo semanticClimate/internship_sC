@@ -1,5 +1,5 @@
 ### MONDAY(02-06-2025)
-## task:
+## Task:
 
 ### Steps Performed:
 - Installed **PyCharm** and cloned the **amilib** repository.
