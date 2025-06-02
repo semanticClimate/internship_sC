@@ -1,7 +1,6 @@
 ### MONDAY(19-05-2025)
 - *Task:*  
   Run unit test scripts to identify any issues.
-
 - *Steps Performed:*
   - Installed *PyCharm* as the development environment.
   - Cloned the repository: amilib.
@@ -31,4 +30,8 @@ started to work on dictionary, while creating the dictionary I got an issue in a
 creared a dictionary to the wordlist using commandline.
 added the html file to the repository [GitHub: html file for dictionary](https://github.com/semanticClimate/internship_sC/blob/Haarthi/wg2chap04_dict.html)
 explored how to run pytests on amilib and got some import errors.
-
+### Friday(30-05-2025)
+when extracting the keywords from the chapter i got list of 6000 words nearly so i tried to automate clean it so that the easy/irrelevant words can be removed.
+fixed the import errors and run the pytests again. Got to know about different types of errors and ways to fix them
+### MONDAY(2-06-2025)
+Succefully created a wordlist and dictionary for IPCC  wg2 chapter4
