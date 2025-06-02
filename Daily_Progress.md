@@ -34,4 +34,4 @@ explored how to run pytests on amilib and got some import errors.
 when extracting the keywords from the chapter i got list of 6000 words nearly so i tried to automate clean it so that the easy/irrelevant words can be removed.
 fixed the import errors and run the pytests again. Got to know about different types of errors and ways to fix them
 ### MONDAY(2-06-2025)
-Succefully created a wordlist and dictionary for IPCC  wg2 chapter4
+created a wordlist and dictionary for IPCC  wg2 chapter4
