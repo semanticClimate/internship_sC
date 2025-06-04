@@ -95,10 +95,29 @@
       ```
 
 ## May 29–30, 2025
-- **Path‐separator mismatches:** Tests expected POSIX‐style paths (e.g., `wg1/Chapter…with_ids.html`), but code returned Windows‐style backslashes. Normalized file paths with `os.path.normpath` to produce consistent POSIX-compatible strings.
-- **UnicodeEncodeError failures:** Characters like “≥”, “−”, and “ė” failed under `cp1252`. Enforced UTF-8 (opening files with `encoding='utf-8'` and setting `errors='ignore'`/`'replace'`) so special characters no longer cause encoding errors.
-- **“makespace” assertion issue:** One test returned `False` incorrectly. Adjusted parsing logic to correctly detect missing `<strong>` tags, ensuring that test now passes.
-- **Graphviz import errors:** Tests referring to `graphviz.Digraph` and `graphviz.Graph` failed due to an incorrect or shadowed package. Reinstalled the official Python Graphviz bindings (`pip install python-graphviz`) and updated imports to restore expected attributes.
-- **CLI argument mismatch:** The test for capturing errors expected an operation named `search`, but `argparse` only allowed other commands. Added `search` to the `choices` list for `--operation`, so `--operation search` now passes.
+I took a look at the failing tests and here’s what might be going on—and how we could address each issue:
 
-With those fixes—path normalization, UTF-8 enforcement, parsing adjustments, correct Graphviz installation, and updated CLI choices—all previously failing tests now pass successfully.
+- **Path separators:**  
+  The tests expect forward slashes (e.g., `wg1/Chapter…`) but on Windows they end up as backslashes. A quick fix is to normalize or convert all paths so they consistently use `/`.
+
+- **Unicode errors:**  
+  Characters like “≥” or “−” weren’t supported by the default Windows encoding, so they blew up. If we make sure to read and write everything as UTF-8 (and fall back to ignoring or replacing any bad chars), those errors should disappear.
+
+- **“makespace” test:**  
+  One of the HTML snippets wasn’t being recognized because our parser didn’t spot a missing `<strong>` tag. Tweaking that part of the code to handle empty or absent `<strong>` elements should make the test pass.
+
+- **Graphviz imports:**  
+  Some tests couldn’t find `Digraph` or `Graph` because the wrong package was installed (or a conflicting file was in the way). Installing the official `python-graphviz` package and double-checking our imports should clear that up.
+
+- **CLI argument mismatch:**  
+  The test expected a `search` command, but our script only knew about a few other options. Adding `search` (and any other missing commands) to the `argparse` choices will let that test succeed.
+
+> **Conclusion:**  
+> If we apply these adjustments—standardizing paths, using UTF-8 everywhere, tightening the HTML parser, installing the correct Graphviz bindings, and updating our CLI options—we should see those failing tests start to pass.
+
+
+
+
+
+
+
