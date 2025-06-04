@@ -1,4 +1,38 @@
 
+**WEDNESDAY (04-06-2025)**
+
+### Objective
+
+Test the functionality of `pygetpapers` for downloading research articles based on a specific query.
+
+### Initial Command
+
+```bash
+python -m pygetpapers.pygetpapers --query '"wildlife" AND "biodiversity"' --pdf --limit 5 --output downloaded_file --api openalex --output Wildlife
+```
+
+### Issue Encountered
+
+* **Error Message:**
+
+  ```
+  pygetpapers.py: error: unrecognized arguments: AND biodiversity'
+  ```
+* **Cause:**
+  The query string was not properly escaped. The logical operator `AND` and surrounding quotes were interpreted as separate arguments instead of a single query string.
+
+### ✅ Solution
+
+* Correctly escape the query string to ensure it is interpreted as one argument.
+* Use backslashes to escape the internal double quotes within the query.
+
+### ✅ Corrected Command
+
+```bash
+python -m pygetpapers.pygetpapers --query "\"wildlife\" AND \"biodiversity\"" --pdf --limit 5 --output Wildlife --api openalex
+```
+
+
 **WEDNESDAY (16-04-2025)**
 
 -**Current Task**: Working on resolving the error in docanalysis
