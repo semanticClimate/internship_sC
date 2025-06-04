@@ -6,7 +6,7 @@ Resolving the issues with `docanalysis` in **Google colab environment**
 ### **current status** : Not able to install `docanalysis` in colab
 
 
-## Date : 04/04/2025 Wednesday
+## Date : 04/06/2025 Wednesday
 
 - **Task**: Tested `pygetpapers` for downloading research articles using a query.
 - **Initial Command**:
