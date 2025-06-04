@@ -16,24 +16,4 @@ This repository contains the work progress by the interns and discussion for dif
 
 ---
 
-## DAILY REPORT
 
-**May 9, 2025**  
-- Understood the working of Test-Driven Development (TDD) in Python and how tests drive code implementation in modular libraries.
-
-**May 15, 2025**  
-- Learned the overall structure of IPCC reports and reviewed the HTML file organization in our repo.  
-- Cloned and navigated the `amilib` GitHub repository to get acquainted with its codebase.
-
-**May 16, 2025**  
-- Explored the HTML cleaning workflow for WG2 chapters.  
-- Applied initial cleanup scripts to WG2 Chapter 1, extracting headings and content nodes.  
-- Defined Graphviz nodes in `AR6_graph.py` to map chapter and subsection IDs for visual hierarchy.
-
-**May 17, 2025**  
-- Investigated HTML scraping and cleaning utilities within `amilib`.  
-- Ran parsing routines on WG2 Chapters 1 and 2, ensuring correct tag and metadata extraction.
-
-**May 19, 2025**  
-- Executed the full pytest suite across the `amilib` directory to verify test coverage.  
-- Identified failing tests, discussed root causes in the team meeting, and outlined next steps for debugging.
