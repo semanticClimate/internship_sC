@@ -20,4 +20,19 @@
 ```python -m pygetpapers.pygetpapers --query '"wildlife" AND "biodiversity"' --pdf --limit 5 --output downloaded_file --api openalex```
 ## Output:
 - Ran successfully for 5 papers and got pdfs
-- Ran for 50 papers successfully and got pdfs 
+- Ran for 50 papers successfully and got pdfs
+``` python -m pygetpapers.pygetpapers --query '"wildlife" AND "biodiversity"' --pdf --limit 50 --output downloaded_file --api openalex
+<frozen runpy>:128: RuntimeWarning: 'pygetpapers.pygetpapers' found in sys.modules after import of package 'pygetpapers', but prior to execution of 'pygetpapers.pygetpapers'; this may result in unpredictable behaviour
+INFO: Making Request to OpenAlex
+https://api.openalex.org/works?search=wildlife AND biodiversity&cursor=*&per-page=20
+https://api.openalex.org/works?search=wildlife AND biodiversity&cursor=IlsyNzMuMzMxNjcsIDEzMDQyOTQ0MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XMjE0MjIxMTQxMiddIg==&per-page=20
+https://api.openalex.org/works?search=wildlife AND biodiversity&cursor=IlsyMTQuOTA5MTIsIDEyNjE0NDAwMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XMjE2NzE5NTExNCddIg==&per-page=20
+WARNING: no paper_key for id=https://openalex.org/W1252137655
+WARNING: no paper_key for id=https://openalex.org/W641944307
+INFO: Downloading Pdfs for papers
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 48/48 [00:53<00:00,  1.11s/it]
+INFO: Wrote metadata file for the query
+INFO: Writing metadata file for the papers at C:\Users\manda\OneDrive\문서\Semantic Climate\pygetpapers\downloaded_file
+ 60%|█████████████████████████████████████████████████████████████████████████████████████▏                                                       | 29/48 [00:00<00:00, 289.71it/s]WARNING: Could not write metadata file for the paper 30
+WARNING: Could not write metadata file for the paper 40
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 48/48 [00:00<00:00, 304.49it/s]  what does this mean did i got the required pdfs 
