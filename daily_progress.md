@@ -15,7 +15,7 @@
 - Execute remaining **amilib** test scripts and monitor for issues.
 - Update documentation as required.
 
-### Tuesday(03-06-2025)
+### TUESDAY(03-06-2025)
 ## Task: Running pygetpapers after cloning the latest repository from GitHub, Checkout branch pmr_datatables and code input 
 ```python -m pygetpapers.pygetpapers --query '"wildlife" AND "biodiversity"' --pdf --limit 5 --output downloaded_file --api openalex```
 ## Output:
@@ -37,7 +37,7 @@ INFO: Writing metadata file for the papers at C:\Users\manda\OneDrive\문서\Sem
 WARNING: Could not write metadata file for the paper 40
 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 48/48 [00:00<00:00, 304.49it/s]  what does this mean did i got the required pdfs```
 ```
-### Wednesday(04-06-2025)
+### WEDNESDAY(04-06-2025)
 ## Task: Running amilib after cloning the latest repository from GitHub, Checkout branch pmr2025may and testing.
 ## Output:
 ```============================ short test summary info =============================
@@ -86,5 +86,24 @@ FAILED test/test_xml.py::Xml0Test::test_skeleton_html - TypeError: Argument '_pa
 = 38 failed, 396 passed, 88 skipped, 1 xfailed, 10575 warnings in 1176.60s (0:19:36) =
 
 ```
+### THURSDAY(02-06-2025)
+## Tasks performed: 
+- Gone through LLM-RAG colab notebook
+- Ran pygetpapers and get an overview
+  ## Output:
+  pygetpapers output and commands list after runing in commandline
+
+  C:\Users\manda>pygetpapers
+```
+usage: pygetpapers [-h] [--config CONFIG] [-v] [-q QUERY] [-o OUTPUT] [--save_query] [-x] [-p] [-s] [-z]
+                   [--references REFERENCES] [-n] [--citations CITATIONS] [-l LOGLEVEL] [-f LOGFILE] [-k LIMIT] [-r]
+                   [-u] [--onlyquery] [-c] [--makehtml] [--synonym] [--startdate STARTDATE] [--enddate ENDDATE]
+                   [--terms TERMS] [--notterms NOTTERMS] [--api API] [--filter FILTER]
+
+Welcome to Pygetpapers version 1.2.5. -h or --help for help
+
+..................
+```
+
 
 
