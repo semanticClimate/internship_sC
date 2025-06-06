@@ -1,3 +1,8 @@
+## FRIDAY(6-6-2025)
+* creating TOC for chapter4
+## THURSDAY(5-6-2025)
+* explored about pygetpapers, datatables
+* understood how to use the graphviz tool by going through the **Tutorial to learn graphviz tool**
 ## WEDNESDAY(4-6-2025)
 * started to work on the graphviz for chapter 4
 * Opened the Colab notebook shared by the team. Ran all cells to ensure the full workflow is good
@@ -8,7 +13,6 @@
 * Checked out the `pmr_datatables` branch and executed the following command:
   ```bash
   python -m pygetpapers.pygetpapers --query "\"wildlife\" AND \"biodiversity\"" --pdf --limit 5 --output downloaded_file --api openalex
-* The PDFs were downloaded successfully.
 ## MONDAY(2-06-2025)
 * Created a wordlist and dictionary for IPCC WG2 Chapter 4. 
 * The final wordlist for the chapter [GitHub: wordlist](https://github.com/semanticClimate/internship_sC/blob/Haarthi/Keyword_Extraction/IPCC-Ch04-Wordlist)
