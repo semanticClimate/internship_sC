@@ -86,7 +86,7 @@ FAILED test/test_xml.py::Xml0Test::test_skeleton_html - TypeError: Argument '_pa
 = 38 failed, 396 passed, 88 skipped, 1 xfailed, 10575 warnings in 1176.60s (0:19:36) =
 
 ```
-### THURSDAY(02-06-2025)
+### THURSDAY(05-06-2025)
 ## Tasks performed: 
 - Gone through LLM-RAG colab notebook
 - Ran pygetpapers and get an overview
@@ -104,6 +104,14 @@ Welcome to Pygetpapers version 1.2.5. -h or --help for help
 
 ..................
 ```
+### FRIDAY(06-06-2025)
+## Tasks Performed :
+- Gone through Anna rahr LLM-RAG model and tried it out
+- Manually gone through WG1 Chspter4 to get an idea about further process
+- Gone through read me file of pygetpapers
+## Next Steps:
+- Will start working on creating a wordlist for the report.
+
 
 
 
