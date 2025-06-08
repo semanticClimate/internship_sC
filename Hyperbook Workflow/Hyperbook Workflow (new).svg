@@ -1,0 +1,313 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="557pt" height="1556pt" viewBox="0.00 0.00 556.57 1556.00">
+<g id="graph0" class="graph" transform="translate(4,1552) scale(1)" data-name="Workflow">
+
+<polygon fill="white" stroke="none" points="-4,4 -4,-1552 552.57,-1552 552.57,4 -4,4" style=""/>
+<!-- IPCC Reports -->
+<g id="node1" class="node" pointer-events="visible" data-name="IPCC Reports">
+
+<ellipse fill="lightblue" stroke="black" cx="64.96" cy="-1530" rx="64.92" ry="18" style=""/>
+<text text-anchor="middle" x="64.96" y="-1525.8" font-family="Times,serif" font-size="14.00" style="">IPCC Reports</text>
+</g>
+<!-- Document/Publishing Organization -->
+<g id="node5" class="node" pointer-events="visible" data-name="Document/Publishing Organization">
+
+<polygon fill="lightgreen" stroke="black" points="387.15,-1476 172.77,-1476 172.77,-1440 387.15,-1440 387.15,-1476" style=""/>
+<text text-anchor="middle" x="279.96" y="-1453.8" font-family="Times,serif" font-size="14.00" style="">Document/Publishing Organization</text>
+</g>
+<!-- IPCC Reports&#45;&gt;Document/Publishing Organization -->
+<g id="edge1" class="edge" data-name="IPCC Reports-&gt;Document/Publishing Organization">
+
+<path fill="none" stroke="black" d="M105.91,-1515.67C136.93,-1505.57 180.15,-1491.5 215.76,-1479.9" style=""/>
+<polygon fill="black" stroke="black" points="216.68,-1483.28 225.11,-1476.86 214.52,-1476.63 216.68,-1483.28" style=""/>
+</g>
+<!-- IPCC Glossary -->
+<g id="node2" class="node" pointer-events="visible" data-name="IPCC Glossary">
+
+<ellipse fill="lightblue" stroke="black" cx="216.96" cy="-1530" rx="69" ry="18" style=""/>
+<text text-anchor="middle" x="216.96" y="-1525.8" font-family="Times,serif" font-size="14.00" style="">IPCC Glossary</text>
+</g>
+<!-- IPCC Glossary&#45;&gt;Document/Publishing Organization -->
+<g id="edge2" class="edge" data-name="IPCC Glossary-&gt;Document/Publishing Organization">
+
+<path fill="none" stroke="black" d="M232.21,-1512.05C239.61,-1503.84 248.65,-1493.79 256.87,-1484.66" style=""/>
+<polygon fill="black" stroke="black" points="259.31,-1487.17 263.4,-1477.4 254.11,-1482.49 259.31,-1487.17" style=""/>
+</g>
+<!-- Gatsby -->
+<g id="node3" class="node" pointer-events="visible" data-name="Gatsby">
+
+<ellipse fill="lightblue" stroke="black" cx="342.96" cy="-1530" rx="38.29" ry="18" style=""/>
+<text text-anchor="middle" x="342.96" y="-1525.8" font-family="Times,serif" font-size="14.00" style="">Gatsby</text>
+</g>
+<!-- Gatsby&#45;&gt;Document/Publishing Organization -->
+<g id="edge3" class="edge" data-name="Gatsby-&gt;Document/Publishing Organization">
+
+<path fill="none" stroke="black" d="M328.67,-1513.12C321.1,-1504.72 311.64,-1494.2 303.06,-1484.67" style=""/>
+<polygon fill="black" stroke="black" points="305.83,-1482.51 296.54,-1477.42 300.62,-1487.19 305.83,-1482.51" style=""/>
+</g>
+<!-- Wordpress -->
+<g id="node4" class="node" pointer-events="visible" data-name="Wordpress">
+
+<ellipse fill="lightblue" stroke="black" cx="451.96" cy="-1530" rx="52.74" ry="18" style=""/>
+<text text-anchor="middle" x="451.96" y="-1525.8" font-family="Times,serif" font-size="14.00" style="">Wordpress</text>
+</g>
+<!-- Wordpress&#45;&gt;Document/Publishing Organization -->
+<g id="edge4" class="edge" data-name="Wordpress-&gt;Document/Publishing Organization">
+
+<path fill="none" stroke="black" d="M419.2,-1515.67C394.92,-1505.78 361.29,-1492.1 333.17,-1480.65" style=""/>
+<polygon fill="black" stroke="black" points="334.67,-1477.49 324.09,-1476.96 332.04,-1483.97 334.67,-1477.49" style=""/>
+</g>
+<!-- Source of Truth: HTML with IDs -->
+<g id="node6" class="node" pointer-events="visible" data-name="Source of Truth: HTML with IDs">
+
+<polygon fill="lightgreen" stroke="black" points="381.76,-1404 178.16,-1404 178.16,-1368 381.76,-1368 381.76,-1404" style=""/>
+<text text-anchor="middle" x="279.96" y="-1381.8" font-family="Times,serif" font-size="14.00" style="">Source of Truth: HTML with IDs</text>
+</g>
+<!-- Document/Publishing Organization&#45;&gt;Source of Truth: HTML with IDs -->
+<g id="edge5" class="edge" data-name="Document/Publishing Organization-&gt;Source of Truth: HTML with IDs">
+
+<path fill="none" stroke="black" d="M279.96,-1439.7C279.96,-1432.41 279.96,-1423.73 279.96,-1415.54" style=""/>
+<polygon fill="black" stroke="black" points="283.46,-1415.62 279.96,-1405.62 276.46,-1415.62 283.46,-1415.62" style=""/>
+</g>
+<!-- RDFa -->
+<g id="node7" class="node" pointer-events="visible" data-name="RDFa">
+
+<polygon fill="lightgreen" stroke="black" points="306.96,-1332 252.96,-1332 252.96,-1296 306.96,-1296 306.96,-1332" style=""/>
+<text text-anchor="middle" x="279.96" y="-1309.8" font-family="Times,serif" font-size="14.00" style="">RDFa</text>
+</g>
+<!-- Source of Truth: HTML with IDs&#45;&gt;RDFa -->
+<g id="edge6" class="edge" data-name="Source of Truth: HTML with IDs-&gt;RDFa">
+
+<path fill="none" stroke="black" d="M279.96,-1367.7C279.96,-1360.41 279.96,-1351.73 279.96,-1343.54" style=""/>
+<polygon fill="black" stroke="black" points="283.46,-1343.62 279.96,-1333.62 276.46,-1343.62 283.46,-1343.62" style=""/>
+</g>
+<!-- HTML with IDs -->
+<g id="node8" class="node" pointer-events="visible" data-name="HTML with IDs">
+
+<polygon fill="lightgreen" stroke="black" points="333.73,-1260 226.19,-1260 226.19,-1224 333.73,-1224 333.73,-1260" style=""/>
+<text text-anchor="middle" x="279.96" y="-1237.8" font-family="Times,serif" font-size="14.00" style="">HTML with IDs</text>
+</g>
+<!-- RDFa&#45;&gt;HTML with IDs -->
+<g id="edge7" class="edge" data-name="RDFa-&gt;HTML with IDs">
+
+<path fill="none" stroke="black" d="M279.96,-1295.7C279.96,-1288.41 279.96,-1279.73 279.96,-1271.54" style=""/>
+<polygon fill="black" stroke="black" points="283.46,-1271.62 279.96,-1261.62 276.46,-1271.62 283.46,-1271.62" style=""/>
+</g>
+<!-- Marked HTML -->
+<g id="node9" class="node" pointer-events="visible" data-name="Marked HTML">
+
+<polygon fill="lightgreen" stroke="black" points="331.16,-1188 228.76,-1188 228.76,-1152 331.16,-1152 331.16,-1188" style=""/>
+<text text-anchor="middle" x="279.96" y="-1165.8" font-family="Times,serif" font-size="14.00" style="">Marked HTML</text>
+</g>
+<!-- HTML with IDs&#45;&gt;Marked HTML -->
+<g id="edge8" class="edge" data-name="HTML with IDs-&gt;Marked HTML">
+
+<path fill="none" stroke="black" d="M279.96,-1223.7C279.96,-1216.41 279.96,-1207.73 279.96,-1199.54" style=""/>
+<polygon fill="black" stroke="black" points="283.46,-1199.62 279.96,-1189.62 276.46,-1199.62 283.46,-1199.62" style=""/>
+</g>
+<!-- Word lists -->
+<g id="node10" class="node" pointer-events="visible" data-name="Word lists">
+
+<polygon fill="lightgreen" stroke="black" points="316.9,-1116 243.02,-1116 243.02,-1080 316.9,-1080 316.9,-1116" style=""/>
+<text text-anchor="middle" x="279.96" y="-1093.8" font-family="Times,serif" font-size="14.00" style="">Word lists</text>
+</g>
+<!-- Marked HTML&#45;&gt;Word lists -->
+<g id="edge9" class="edge" data-name="Marked HTML-&gt;Word lists">
+
+<path fill="none" stroke="black" d="M279.96,-1151.7C279.96,-1144.41 279.96,-1135.73 279.96,-1127.54" style=""/>
+<polygon fill="black" stroke="black" points="283.46,-1127.62 279.96,-1117.62 276.46,-1127.62 283.46,-1127.62" style=""/>
+</g>
+<!-- Wikimedia -->
+<g id="node11" class="node" pointer-events="visible" data-name="Wikimedia">
+
+<polygon fill="lightgreen" stroke="black" points="319.16,-1044 240.76,-1044 240.76,-1008 319.16,-1008 319.16,-1044" style=""/>
+<text text-anchor="middle" x="279.96" y="-1021.8" font-family="Times,serif" font-size="14.00" style="">Wikimedia</text>
+</g>
+<!-- Word lists&#45;&gt;Wikimedia -->
+<g id="edge10" class="edge" data-name="Word lists-&gt;Wikimedia">
+
+<path fill="none" stroke="black" d="M279.96,-1079.7C279.96,-1072.41 279.96,-1063.73 279.96,-1055.54" style=""/>
+<polygon fill="black" stroke="black" points="283.46,-1055.62 279.96,-1045.62 276.46,-1055.62 283.46,-1055.62" style=""/>
+</g>
+<!-- Encyclopedia -->
+<g id="node12" class="node" pointer-events="visible" data-name="Encyclopedia">
+
+<polygon fill="lightgreen" stroke="black" points="326.15,-972 233.77,-972 233.77,-936 326.15,-936 326.15,-972" style=""/>
+<text text-anchor="middle" x="279.96" y="-949.8" font-family="Times,serif" font-size="14.00" style="">Encyclopedia</text>
+</g>
+<!-- Wikimedia&#45;&gt;Encyclopedia -->
+<g id="edge11" class="edge" data-name="Wikimedia-&gt;Encyclopedia">
+
+<path fill="none" stroke="black" d="M279.96,-1007.7C279.96,-1000.41 279.96,-991.73 279.96,-983.54" style=""/>
+<polygon fill="black" stroke="black" points="283.46,-983.62 279.96,-973.62 276.46,-983.62 283.46,-983.62" style=""/>
+</g>
+<!-- Markup other documents -->
+<g id="node13" class="node" pointer-events="visible" data-name="Markup other documents">
+
+<polygon fill="lightgreen" stroke="black" points="358.21,-900 201.72,-900 201.72,-864 358.21,-864 358.21,-900" style=""/>
+<text text-anchor="middle" x="279.96" y="-877.8" font-family="Times,serif" font-size="14.00" style="">Markup other documents</text>
+</g>
+<!-- Encyclopedia&#45;&gt;Markup other documents -->
+<g id="edge12" class="edge" data-name="Encyclopedia-&gt;Markup other documents">
+
+<path fill="none" stroke="black" d="M279.96,-935.7C279.96,-928.41 279.96,-919.73 279.96,-911.54" style=""/>
+<polygon fill="black" stroke="black" points="283.46,-911.62 279.96,-901.62 276.46,-911.62 283.46,-911.62" style=""/>
+</g>
+<!-- Publication Manifest W3C -->
+<g id="node14" class="node" pointer-events="visible" data-name="Publication Manifest W3C">
+
+<polygon fill="lightyellow" stroke="black" points="279.96,-828 117.92,-810 279.96,-792 442,-810 279.96,-828" style=""/>
+<text text-anchor="middle" x="279.96" y="-805.8" font-family="Times,serif" font-size="14.00" style="">Publication Manifest W3C</text>
+</g>
+<!-- Markup other documents&#45;&gt;Publication Manifest W3C -->
+<g id="edge13" class="edge" data-name="Markup other documents-&gt;Publication Manifest W3C">
+
+<path fill="none" stroke="black" d="M279.96,-863.7C279.96,-856.41 279.96,-847.73 279.96,-839.54" style=""/>
+<polygon fill="black" stroke="black" points="283.46,-839.62 279.96,-829.62 276.46,-839.62 283.46,-839.62" style=""/>
+</g>
+<!-- Collation content and resources -->
+<g id="node15" class="node" pointer-events="visible" data-name="Collation content and resources">
+
+<polygon fill="lightyellow" stroke="black" points="279.96,-756 91.63,-738 279.96,-720 468.3,-738 279.96,-756" style=""/>
+<text text-anchor="middle" x="279.96" y="-733.8" font-family="Times,serif" font-size="14.00" style="">Collation content and resources</text>
+</g>
+<!-- Publication Manifest W3C&#45;&gt;Collation content and resources -->
+<g id="edge14" class="edge" data-name="Publication Manifest W3C-&gt;Collation content and resources">
+
+<path fill="none" stroke="black" d="M279.96,-791.7C279.96,-784.41 279.96,-775.73 279.96,-767.54" style=""/>
+<polygon fill="black" stroke="black" points="283.46,-767.62 279.96,-757.62 276.46,-767.62 283.46,-767.62" style=""/>
+</g>
+<!-- Typesetting -->
+<g id="node16" class="node" pointer-events="visible" data-name="Typesetting">
+
+<polygon fill="lightyellow" stroke="black" points="279.96,-684 199.79,-666 279.96,-648 360.13,-666 279.96,-684" style=""/>
+<text text-anchor="middle" x="279.96" y="-661.8" font-family="Times,serif" font-size="14.00" style="">Typesetting</text>
+</g>
+<!-- Collation content and resources&#45;&gt;Typesetting -->
+<g id="edge15" class="edge" data-name="Collation content and resources-&gt;Typesetting">
+
+<path fill="none" stroke="black" d="M279.96,-719.7C279.96,-712.41 279.96,-703.73 279.96,-695.54" style=""/>
+<polygon fill="black" stroke="black" points="283.46,-695.62 279.96,-685.62 276.46,-695.62 283.46,-695.62" style=""/>
+</g>
+<!-- Resources -->
+<g id="node17" class="node" pointer-events="visible" data-name="Resources">
+
+<polygon fill="lightyellow" stroke="black" points="279.96,-612 207.99,-594 279.96,-576 351.93,-594 279.96,-612" style=""/>
+<text text-anchor="middle" x="279.96" y="-589.8" font-family="Times,serif" font-size="14.00" style="">Resources</text>
+</g>
+<!-- Typesetting&#45;&gt;Resources -->
+<g id="edge16" class="edge" data-name="Typesetting-&gt;Resources">
+
+<path fill="none" stroke="black" d="M279.96,-647.7C279.96,-640.41 279.96,-631.73 279.96,-623.54" style=""/>
+<polygon fill="black" stroke="black" points="283.46,-623.62 279.96,-613.62 276.46,-623.62 283.46,-623.62" style=""/>
+</g>
+<!-- Content -->
+<g id="node18" class="node" pointer-events="visible" data-name="Content">
+
+<polygon fill="lightyellow" stroke="black" points="216.96,-540 158.25,-522 216.96,-504 275.67,-522 216.96,-540" style=""/>
+<text text-anchor="middle" x="216.96" y="-517.8" font-family="Times,serif" font-size="14.00" style="">Content</text>
+</g>
+<!-- Resources&#45;&gt;Content -->
+<g id="edge17" class="edge" data-name="Resources-&gt;Content">
+
+<path fill="none" stroke="black" d="M267.21,-578.83C258.47,-569.13 246.71,-556.05 236.76,-545" style=""/>
+<polygon fill="black" stroke="black" points="239.57,-542.88 230.27,-537.79 234.36,-547.57 239.57,-542.88" style=""/>
+</g>
+<!-- Styles -->
+<g id="node19" class="node" pointer-events="visible" data-name="Styles">
+
+<polygon fill="lightyellow" stroke="black" points="342.96,-540 293.97,-522 342.96,-504 391.95,-522 342.96,-540" style=""/>
+<text text-anchor="middle" x="342.96" y="-517.8" font-family="Times,serif" font-size="14.00" style="">Styles</text>
+</g>
+<!-- Resources&#45;&gt;Styles -->
+<g id="edge18" class="edge" data-name="Resources-&gt;Styles">
+
+<path fill="none" stroke="black" d="M292.71,-578.83C301.67,-568.87 313.83,-555.37 323.93,-544.14" style=""/>
+<polygon fill="black" stroke="black" points="326.4,-546.63 330.49,-536.86 321.2,-541.95 326.4,-546.63" style=""/>
+</g>
+<!-- Paged Media CSS W3C -->
+<g id="node20" class="node" pointer-events="visible" data-name="Paged Media CSS W3C">
+
+<polygon fill="lightyellow" stroke="black" points="342.96,-468 195.47,-450 342.96,-432 490.45,-450 342.96,-468" style=""/>
+<text text-anchor="middle" x="342.96" y="-445.8" font-family="Times,serif" font-size="14.00" style="">Paged Media CSS W3C</text>
+</g>
+<!-- Styles&#45;&gt;Paged Media CSS W3C -->
+<g id="edge19" class="edge" data-name="Styles-&gt;Paged Media CSS W3C">
+
+<path fill="none" stroke="black" d="M342.96,-503.7C342.96,-496.41 342.96,-487.73 342.96,-479.54" style=""/>
+<polygon fill="black" stroke="black" points="346.46,-479.62 342.96,-469.62 339.46,-479.62 346.46,-479.62" style=""/>
+</g>
+<!-- Renders the CSS -->
+<g id="node21" class="node" pointer-events="visible" data-name="Renders the CSS">
+
+<polygon fill="lightyellow" stroke="black" points="342.96,-396 234.62,-378 342.96,-360 451.31,-378 342.96,-396" style=""/>
+<text text-anchor="middle" x="342.96" y="-373.8" font-family="Times,serif" font-size="14.00" style="">Renders the CSS</text>
+</g>
+<!-- Paged Media CSS W3C&#45;&gt;Renders the CSS -->
+<g id="edge20" class="edge" data-name="Paged Media CSS W3C-&gt;Renders the CSS">
+
+<path fill="none" stroke="black" d="M342.96,-431.7C342.96,-424.41 342.96,-415.73 342.96,-407.54" style=""/>
+<polygon fill="black" stroke="black" points="346.46,-407.62 342.96,-397.62 339.46,-407.62 346.46,-407.62" style=""/>
+</g>
+<!-- Software module to render CSS -->
+<g id="node22" class="node" pointer-events="visible" data-name="Software module to render CSS">
+
+<polygon fill="lightyellow" stroke="black" points="342.96,-324 153.81,-306 342.96,-288 532.12,-306 342.96,-324" style=""/>
+<text text-anchor="middle" x="342.96" y="-301.8" font-family="Times,serif" font-size="14.00" style="">Software module to render CSS</text>
+</g>
+<!-- Renders the CSS&#45;&gt;Software module to render CSS -->
+<g id="edge21" class="edge" data-name="Renders the CSS-&gt;Software module to render CSS">
+
+<path fill="none" stroke="black" d="M342.96,-359.7C342.96,-352.41 342.96,-343.73 342.96,-335.54" style=""/>
+<polygon fill="black" stroke="black" points="346.46,-335.62 342.96,-325.62 339.46,-335.62 346.46,-335.62" style=""/>
+</g>
+<!-- Vivliostyle -->
+<g id="node23" class="node" pointer-events="visible" data-name="Vivliostyle">
+
+<polygon fill="lightyellow" stroke="black" points="342.96,-252 266.85,-234 342.96,-216 419.07,-234 342.96,-252" style=""/>
+<text text-anchor="middle" x="342.96" y="-229.8" font-family="Times,serif" font-size="14.00" style="">Vivliostyle</text>
+</g>
+<!-- Software module to render CSS&#45;&gt;Vivliostyle -->
+<g id="edge22" class="edge" data-name="Software module to render CSS-&gt;Vivliostyle">
+
+<path fill="none" stroke="black" d="M342.96,-287.7C342.96,-280.41 342.96,-271.73 342.96,-263.54" style=""/>
+<polygon fill="black" stroke="black" points="346.46,-263.62 342.96,-253.62 339.46,-263.62 346.46,-263.62" style=""/>
+</g>
+<!-- Output any type -->
+<g id="node24" class="node" pointer-events="visible" data-name="Output any type">
+
+<polygon fill="lightyellow" stroke="black" points="342.96,-180 239.25,-162 342.96,-144 446.67,-162 342.96,-180" style=""/>
+<text text-anchor="middle" x="342.96" y="-157.8" font-family="Times,serif" font-size="14.00" style="">Output any type</text>
+</g>
+<!-- Vivliostyle&#45;&gt;Output any type -->
+<g id="edge23" class="edge" data-name="Vivliostyle-&gt;Output any type">
+
+<path fill="none" stroke="black" d="M342.96,-215.7C342.96,-208.41 342.96,-199.73 342.96,-191.54" style=""/>
+<polygon fill="black" stroke="black" points="346.46,-191.62 342.96,-181.62 339.46,-191.62 346.46,-191.62" style=""/>
+</g>
+<!-- Derived publication &#45; Metadata -->
+<g id="node25" class="node" pointer-events="visible" data-name="Derived publication - Metadata">
+
+<polygon fill="lightyellow" stroke="black" points="342.96,-108 156.19,-90 342.96,-72 529.73,-90 342.96,-108" style=""/>
+<text text-anchor="middle" x="342.96" y="-85.8" font-family="Times,serif" font-size="14.00" style="">Derived publication - Metadata</text>
+</g>
+<!-- Output any type&#45;&gt;Derived publication &#45; Metadata -->
+<g id="edge24" class="edge" data-name="Output any type-&gt;Derived publication - Metadata">
+
+<path fill="none" stroke="black" d="M342.96,-143.7C342.96,-136.41 342.96,-127.73 342.96,-119.54" style=""/>
+<polygon fill="black" stroke="black" points="346.46,-119.62 342.96,-109.62 339.46,-119.62 346.46,-119.62" style=""/>
+</g>
+<!-- Packaging: LOD or Self&#45;contained -->
+<g id="node26" class="node" pointer-events="visible" data-name="Packaging: LOD or Self-contained">
+
+<polygon fill="lightyellow" stroke="black" points="342.96,-36 137.24,-18 342.96,0 548.68,-18 342.96,-36" style=""/>
+<text text-anchor="middle" x="342.96" y="-13.8" font-family="Times,serif" font-size="14.00" style="">Packaging: LOD or Self-contained</text>
+</g>
+<!-- Derived publication &#45; Metadata&#45;&gt;Packaging: LOD or Self&#45;contained -->
+<g id="edge25" class="edge" data-name="Derived publication - Metadata-&gt;Packaging: LOD or Self-contained">
+
+<path fill="none" stroke="black" d="M342.96,-71.7C342.96,-64.41 342.96,-55.73 342.96,-47.54" style=""/>
+<polygon fill="black" stroke="black" points="346.46,-47.62 342.96,-37.62 339.46,-47.62 346.46,-47.62" style=""/>
+</g>
+</g>
+</svg>
