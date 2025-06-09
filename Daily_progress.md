@@ -21,7 +21,7 @@
 * Installed amilib and  pdfminer.six and imported text file of ipcc in google collab.
 * Extracted top 300 keywords and saved them in text file.
   
-## ** June 05, 2025 - Thurday**
+## ** June 05, 2025 - Thursday**
 ### Tasks Completed Today:
 * I installed Langchainchromadb huggingface_hub and restarted the session.
 * Successfully Ran Rag-LLM.
