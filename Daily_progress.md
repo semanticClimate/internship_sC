@@ -13,23 +13,31 @@
 
 ## ** June 07, 2025 - Saturday**
 ### Tasks Completed Today:
-* Joined the online webinar and successfully extracted the keywords.
+* Cloned the Google Collab ntebook and saved in google drive.
+* Refined the extracted keywords by remving the numbers and uncommon words in google collab.
   
 ## ** June 06, 2025 - Friday**
 ### Tasks Completed Today:
-* Installed amilib and  pdfminer.six and imported files in google collab.
+* Installed amilib and  pdfminer.six and imported text file of ipcc in google collab.
+* Extracted top 300 keywords and saved them in text file.
   
 ## ** June 05, 2025 - Thurday**
 ### Tasks Completed Today:
 * I installed Langchainchromadb huggingface_hub and restarted the session.
+* Successfully Ran Rag-LLM.
   
 ## ** June 04, 2025 - Wednesday**
 ### Tasks Completed Today:
 * Ran Rag-LLM and gor errors while running the vector database.
+
+## ** June 03, 2025 - Tuesday**
+* Ran Pygetpapers and resolved the errors that occurred.
   
 ## ** June 01, 2025 - Sunday**
 ### Tasks Completed Today:
-* Tried running Amilib and Beautifulsoup4 for extracting keywords.
+* Installed Amilib and Beautifulsoup4 for extracting keywords.
+* Converted pdf of IPCC chapter into Text form.
+* Unable to extract keywords due to errors.
   
 ## ** May 31, 2025 - Saturday**
 ### Tasks Completed Today:
@@ -40,6 +48,7 @@
 ### Tasks Completed Today:
 * Ran Pytest
 * Resolved errors and learnt how to determine the errors.
+* Got  module errors, file, path errors.
   
 ## ** May 29, 2025 - Thursday**
 ### Tasks Completed Today:
