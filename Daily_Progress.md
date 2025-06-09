@@ -1,5 +1,8 @@
+## MONDAY(9-6-2025)
+* gathering the table of contents for IPCC AR6 WG2 Chapter4
 ## FRIDAY(6-6-2025)
-* creating TOC for chapter4
+*  looked into the README file of pygetpapers
+*  ran some commands to get the overview of the pygetpapers
 ## THURSDAY(5-6-2025)
 * explored about pygetpapers, datatables
 * understood how to use the graphviz tool by going through the **Tutorial to learn graphviz tool**
