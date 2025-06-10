@@ -112,6 +112,15 @@ Welcome to Pygetpapers version 1.2.5. -h or --help for help
 ## Next Steps:
 - Will start working on creating a wordlist for the report.
 
+### MONDAY(09-06-2025)
+## Tasks Performed :
+- Attended The Research AI meeting by NIPGR.
+
+### TUESDAY(10-06-2025)
+## Tasks Performed :
+- Attended The Research AI meeting by NIPGR.
+
+
 
 
 
