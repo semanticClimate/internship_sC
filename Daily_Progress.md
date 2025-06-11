@@ -1,5 +1,10 @@
+
+## TUESDAY(10-6-2025)
+* Attended the reasearch AI summit
+* Gone through the colab notebooks
 ## MONDAY(9-6-2025)
-* gathering the table of contents for IPCC AR6 WG2 Chapter4
+* gathered the table of contents for IPCC AR6 WG2 Chapter4
+* Attended the Research AI Summit 
 ## FRIDAY(6-6-2025)
 *  looked into the README file of pygetpapers
 *  ran some commands to get the overview of the pygetpapers
