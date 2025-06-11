@@ -120,7 +120,23 @@ Welcome to Pygetpapers version 1.2.5. -h or --help for help
 ## Tasks Performed :
 - Attended The Research AI meeting by NIPGR.
 
+### WEDNESDAY(11-06-2025)
+## Tasks Performed :
+- Manually gone through "AR6/WG1/ Chapter 4 :Future Global Climate.
+- Saw tutorials of semantic tools for further process.
+- Proposed an IDEA:
+ ## Proposal:
+ **"AI-Powered Chatbot and Voice Assistant"** for Semantic Climate 
 
+ ```
+ [ I would like to propose the development of an AI-powered chatbot and voice assistant for Semantic Climate that serves as an interactive guide for new interns,    visitors, and collaborators. The goal is to streamline knowledge transfer and improve orientation by providing easy access to the following information:
+  - Ongoing and completed projects by Semantic Climate interns
+  - Founders' vision and core objectives
+  - Past publications and research contributions
+  - A startup guide for new interns
+  A compiled and searchable list of IPCC records and reports already worked on, to prevent duplication of effort
 
+   Additionally, by incorporating multilingual support—including both local and international languages—this assistant can help people from diverse linguistic        backgrounds understand the projects and resources in their preferred language. This fosters greater inclusivity and global collaboration within the Semantic       Climate community.
 
-
+   This system would offer a conversational interface—both text and voice-based—to make the onboarding experience more engaging and informative, while also           reducing redundant work and saving valuable time for both interns and mentors. ]
+```
