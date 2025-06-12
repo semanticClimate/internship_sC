@@ -140,3 +140,20 @@ Welcome to Pygetpapers version 1.2.5. -h or --help for help
 
    This system would offer a conversational interface—both text and voice-based—to make the onboarding experience more engaging and informative, while also           reducing redundant work and saving valuable time for both interns and mentors. ]
 ```
+### THURSDAY(12-06-2025)
+## Tasks Performed :
+- Have researched about "How to develop AI-powered chatbot"
+- Saw few tutorials and notebooks in semantic climate for working on ipcc report
+- Working on wg1/chapter 4 :Future Global Climate
+- Ran pygetpapers
+  # Output:
+```
+  ========================= short test summary info =========================
+FAILED tests/_test.py::test_eupmc_does_update_work - assert (5 + 10) == 5
+FAILED tests/_test.py::test_does_zip_work - assert False
+FAILED tests/_test.py::test_does_supplementary_work - assert False
+FAILED tests/_test.py::test_does_arxiv_work - assert False == True
+================= 4 failed, 7 passed in 72.67s (0:01:12) ==================
+```
+
+  
