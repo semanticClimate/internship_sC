@@ -1,3 +1,8 @@
+## THURSDAY(12-6-2025)
+* ran pytest on amilib
+* ran pytest on pygetpapers
+* got an overview about anna's RAG model
+* should start working with that model on my chapter
 ## WEDNESDAY (11-6-2025)
 * created the graphviz for chapter 4
 * uploaded code on github  [GitHub: graphviz](https://github.com/semanticClimate/internship_sC/tree/Haarthi/graphviz)
