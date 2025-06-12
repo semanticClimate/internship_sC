@@ -1,4 +1,6 @@
-
+## WEDNESDAY (11-6-2025)
+* created the graphviz for chapter 4
+* uploaded code on github
 ## TUESDAY(10-6-2025)
 * Attended the reasearch AI summit
 * Gone through the colab notebooks
