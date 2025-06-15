@@ -156,4 +156,9 @@ FAILED tests/_test.py::test_does_arxiv_work - assert False == True
 ================= 4 failed, 7 passed in 72.67s (0:01:12) ==================
 ```
 
-  
+### FRIDAY(13-06-2025)
+## Tasks Performed :
+- Ran amilib and some errors tried to solve them 
+- Ran pytest and tried to resolve them in my local system
+- Have researched about "How to develop AI-powered chatbot"
+
