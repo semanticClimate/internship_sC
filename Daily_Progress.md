@@ -1,5 +1,5 @@
 ## MONDAY(16-6-2025)
-* while installing the requirements when working on anna's RAG model, it showed an error saying system configuration isn't supported and much memory is required than available
+* while installing the requirements when working on anna's RAG model `ipcc_rag_local.py`, it showed an error saying system configuration isn't supported and much memory is required than available
 ```sh
 raise ConnectionError(CONNECTION FRROR MESSAGE) from None
 ConnectionError: Failed to connect to Ollana. Please check that Ollama is downloaded, running and accessible: https://ollama.com/download
