@@ -162,3 +162,11 @@ FAILED tests/_test.py::test_does_arxiv_work - assert False == True
 - Ran pytest and tried to resolve them in my local system
 - Have researched about "How to develop AI-powered chatbot"
 
+### MONDAY(16-06-2025)
+## Tasks Performed :
+- Created an issue on errors when tested amilib from main branch
+- Ran pytest and got 3 assertion errors
+- Have researched about "How to develop AI-powered chatbot"
+- Gone through ar6/wg1/chapter 4 to create a word list
+  
+
