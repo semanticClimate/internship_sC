@@ -1,3 +1,17 @@
+## MONDAY(16-6-2025)
+* while installing the requirements when working on anna's RAG model, it showed an error saying system configuration isn't supported and much memory is required than available
+```sh
+raise ConnectionError(CONNECTION FRROR MESSAGE) from None
+ConnectionError: Failed to connect to Ollana. Please check that Ollama is downloaded, running and accessible: https://ollama.com/download
+```
+```sh
+Error: model requires more system memory (5.9 GiB) than is available (4.1 GiB)
+```
+## FRIDAY(13-6-2025)
+* ran pytest on amilib and checked if there are any new errors
+* started to work on anna's RAG model
+* installed some requirements required
+* lookwd into the models used in the code and got an overview
 ## THURSDAY(12-6-2025)
 * ran pytest on amilib
 * ran pytest on pygetpapers
