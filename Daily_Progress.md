@@ -1,6 +1,6 @@
 ## TUESDAY(17-6-2025)
 * Had to uninstall Ollama because the system wasn’t responding properly and kept getting stuck due to insufficient memory while running the model setup.
-* figuring out how I can run the ipcc_rag_local.py file with available resources 
+* figuring out how I can run the ipcc_rag.py file with available resources 
 ## MONDAY(16-6-2025)
 * while installing the requirements when working on anna's RAG model `ipcc_rag_local.py`, it showed an error saying system configuration isn't supported and much memory is required than available
 ```sh
