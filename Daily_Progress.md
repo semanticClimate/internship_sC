@@ -1,3 +1,33 @@
+## WEDNESDAY(18-6-2025)
+* created a .env file placed my open api key, and can't use kisski_url because it is private, so i replaced it with `KISSKI_URL=https://api.openai.com/v1/`
+* and replaced models as
+```sh
+ LLAMA =  'gpt-3.5-turbo'
+ GEMMA = 'gemma-3-27b-it'
+```
+and ran the command 
+```sh
+python ipcc_rag.py --model LLAMA --rebuild
+```
+i got the error as 
+```sh
+PS C:\Users\Dell\Anna's RAG\KISSKI-RAG-4-IPCC> python ipcc_rag.py --model LLAMA --rebuild
+Loaded 1 document(s).
+Generating chunks...
+Generated 329 chunks.
+1 in 4.8s (0.21/s)
+Creating index...
+1 in 43.7s (0.02/s)
+Index stored in ./faiss_index
+Enter your question (or type 'q' to quit): name some islands near india?
+Traceback (most recent call last):
+File "C:\Users\Dell\Anna's RAG\KISSKI-RAG-4-IPCC\ipcc_rag.py", line 221, in <module>
+ask_question(index, ask_openai_llm)
+File "C:\Users\Dell Anna's RAG\KISSKI-RAG-4-IPCC\ipcc_rag.py", line 206, in ask_question
+answer = ask_openai_1lm(full_prompt)
+File "C:\Users\Dell\Anna's RAG KISSKI-RAG-4-IPCC\ipcc_rag.py", line 175, in ask_openai_1lm
+openai.RateLimitError: Error code: 429 {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param": None, 'code': 'insufficient_quota'}} PS C:\Users\Dell\Anna's RAG KISSKI-RAG-4-IPCC>
+```
 ## TUESDAY(17-6-2025)
 * Had to uninstall Ollama because the system wasn’t responding properly and kept getting stuck due to insufficient memory while running the model setup.
 * figuring out how I can run the ipcc_rag.py file with available resources 
