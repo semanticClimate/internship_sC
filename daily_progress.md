@@ -129,5 +129,13 @@ FAILED tests/_test.py::test_does_arxiv_work - assert False == True
 ## Tasks Performed :
 - Rerun the updated pygetpapers
 - Gone through ar6/wg1/chapter 4 to create a word list.
+### WEDNESDAY(18-06-2025)
+- Facing issue with keyword_extraction.py for creating wordlist for WG1 CHAPTER4 
+- Tried solving that
+### THURSDAY(19-06-2025)
+- Gone through LLM-RAG disscussion created by Peter sir
+- Tried to understand the functioning
+- Registered for FSCI Scholarship Program
+
 
 
