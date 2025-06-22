@@ -136,6 +136,11 @@ FAILED tests/_test.py::test_does_arxiv_work - assert False == True
 - Gone through LLM-RAG disscussion created by Peter sir
 - Tried to understand the functioning
 - Registered for FSCI Scholarship Program
+### FRIDAY(20-06-2025)
+- Learned about Transformers and LLM functionality
+- Gone through LLM-RAG disscussion created by Peter sir
+- Created a wordlist for ar6/wg1/ch4
+- Should make the folders in order to submit.
 
 
 
