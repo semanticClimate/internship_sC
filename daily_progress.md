@@ -140,7 +140,17 @@ FAILED tests/_test.py::test_does_arxiv_work - assert False == True
 - Learned about Transformers and LLM functionality
 - Gone through LLM-RAG disscussion created by Peter sir
 - Created a wordlist for ar6/wg1/ch4
+- ```
+  https://github.com/semanticClimate/internship_sC/tree/Deepika/Keyword_Extraction
+  ```
 - Should make the folders in order to submit.
+### MONDAY(23-06-2025)
+- Ran llmrag from
+   ```
+  git clone https://github.com/semanticClimate/llmrag/blob/main/README.md#test
+   ```
+- Conclusion: All tests ran successfully.
+- Reported the result in discussions.
 
 
 
