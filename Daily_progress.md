@@ -4,14 +4,6 @@
 ### Tasks Completed Today:
 *
 
-## **June 22, 2025 - Sunday**
-### Tasks Completed Today:
-*
-
-## **June 21, 2025 - Saturday**
-### Tasks Completed Today:
-*
-
 ## **June 20, 2025 - Friday**
 ### Tasks Completed Today:
 * 
@@ -32,13 +24,6 @@
 ### Tasks Completed Today:
 * 
 
-## **June 15, 2025 - Sunday**
-### Tasks Completed Today:
-*
-  
-## **June 14, 2025 - Saturday**
-### Tasks Completed Today:
-* 
   
 ## **June 13, 2025 - Friday**
 ### Tasks Completed Today:
