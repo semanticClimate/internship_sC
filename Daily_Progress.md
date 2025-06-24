@@ -1,3 +1,16 @@
+## TUESDAY(24-6-2025)
+* gone through the meeting recordings as i couldn't be able to attend the meeting on monday to keep updated
+* gone through readme file and ran the llmrag test and ran it successfully
+* updated the report on llmrag discussions and on slack
+* added my details in the spreadsheets(included my chapters, report of llmrag test) 
+## FRIDAY(20-6-2025)
+* Tried to know about the github actions and how it works
+* understood about the tests written in llmrag
+* Gone through llmrag
+* cloned the llmrag repository
+## THURSDAY(19-6-2025)
+* gone through the llmrag and tried to understand the files included in it
+* got to know what exactly each file consists of and about what it does.
 ## WEDNESDAY(18-6-2025)
 * created a .env file placed my open api key, and can't use kisski_url because it is private, so i replaced it with `KISSKI_URL=https://api.openai.com/v1/`
 * and replaced models as
