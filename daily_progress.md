@@ -145,12 +145,25 @@ FAILED tests/_test.py::test_does_arxiv_work - assert False == True
   ```
 - Should make the folders in order to submit.
 ### MONDAY(23-06-2025)
+## Tasks Performed:
 - Ran llmrag from
    ```
   git clone https://github.com/semanticClimate/llmrag/blob/main/README.md#test
    ```
 - Conclusion: All tests ran successfully.
 - Reported the result in discussions.
+
+  ### TUESDAY(24-06-2025)
+  ## Tasks Performed:
+  - Ran llmrag and worked by incorporating it with my WG1/CH04.
+  - Got some errors and reported in llmrag discussions.
+  - Resolved errors of llmrag test myself and successfully ran.
+
+  ### WEDNESDAY(25-05-2025)
+  ## Tasks Performed :
+  - Ran the updated version of llmrag and did pytest
+  - Got 6 errors mostly-syntax errors, import error.
+  - Reported in discussion page of llmrag.
 
 
 
