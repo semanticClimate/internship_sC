@@ -1,7 +1,7 @@
 ## THURSDAY(26-6-2025)
 * Assigned a task to create a md of the general instructions needed for the participants in FSCI
 * started to gather the topics that need to be included in the md
-* created a readmefile as `instructions.md`
+* created a readmefile as `FSCI_Instructions.md`
 ## WEDNESDAY(25-6-2025)
 * gone through the meeting recording of tuesday's second session
 * tested the latest version of llmrag
