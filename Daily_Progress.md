@@ -1,8 +1,19 @@
+## THURSDAY(26-6-2025)
+* Assigned a task to create a md of the general instructions needed for the participants in FSCI
+* started to gather the topics that need to be included in the md
+* created a readmefile as `instructions.md`
+## WEDNESDAY(25-6-2025)
+* gone through the meeting recording of tuesday's second session
+* tested the latest version of llmrag
+* tried to resolve some errors
+*  reported the issues on llmrag discussions
 ## TUESDAY(24-6-2025)
 * gone through the meeting recordings as i couldn't be able to attend the meeting on monday to keep updated
 * gone through readme file and ran the llmrag test and ran it successfully
 * updated the report on llmrag discussions and on slack
-* added my details in the spreadsheets(included my chapters, report of llmrag test) 
+* added my details in the spreadsheets(included my chapters, report of llmrag test)
+* tested the llmrag working on my chapter wg2 chapter 4
+* posted the results in the llmrag discussions
 ## FRIDAY(20-6-2025)
 * Tried to know about the github actions and how it works
 * understood about the tests written in llmrag
