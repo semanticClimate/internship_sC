@@ -22,16 +22,20 @@
   
 ## **June 16, 2025 - Monday**
 ### Tasks Completed Today:
-* 
+* Tried installing ollama but encountered certain errors.
+* Used chat gpt to fix the error still was not able to install olama.
+* Installed latest python version as python was not working efficiently on my system.
 
   
 ## **June 13, 2025 - Friday**
 ### Tasks Completed Today:
-* 
+* Ran Amilib on pytest and checked for any error.
+  
 
 ## **June 12, 2025 - Thursday**
 ### Tasks Completed Today:
-* 
+* Went through the recording of the meeting as i was not present in it.
+* Tried to understand about the Rag-LLM developed by Anna.
 
 ## **June 11, 2025 - Wednesday**
 ### Tasks Completed Today:
