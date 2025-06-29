@@ -99,7 +99,7 @@ ModuleNotFoundError: No module named 'pygetpapers'
 ### 2. Command Not Found
 **Example:**  
 when you run 
-``sh
+```sh
 pygetpapers --help
 ```
 You encounter an error like:
