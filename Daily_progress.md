@@ -18,7 +18,7 @@
   
 ## **June 17, 2025 - Tuesday**
 ### Tasks Completed Today:
-* 
+* Went through my list of extracted keywords and compared it with other intern's work, there were some numbers that were included, so started again by filtering out the keywords. 
   
 ## **June 16, 2025 - Monday**
 ### Tasks Completed Today:
