@@ -53,9 +53,6 @@
 * Went through the recording of the meeting as i was not present in it.
 * Tried to understand about the Rag-LLM developed by Anna.
 
-## **June 11, 2025 - Wednesday**
-### Tasks Completed Today:
-* 
 
 ## **June 10, 2025 - Tuesday**
 ### Tasks Completed Today:
