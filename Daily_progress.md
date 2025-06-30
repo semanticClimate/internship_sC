@@ -1,20 +1,36 @@
 # My Daily Progress Log
 
+## **June 30, 2025 - Monday**
+### Tasks Completed Today:
+* Updated my work till now in git hub under my branch and learnt how to create a folder in git hub.
+  
+## **June 29, 2025 - Sunday**
+### Tasks Completed Today:
+* Updated my Daily progress report and there was some problem with my extracted keywords so i had to re run the code.
+
+## **June 24, 2025 - Monday**
+### Tasks Completed Today:
+* Tried understanding the errors that occured in LLM-Rag and solved them.
+* Ran (coverage run --source=llmrag -m unittest discover -s tests) on my system but there were certain issues so therefore was unable to run it.
+   
+  
 ## **June 23, 2025 - Monday**
 ### Tasks Completed Today:
-*
+* Ran LLM-Rag successfully.
+* Understood about what are html ids and where they are.
 
 ## **June 20, 2025 - Friday**
 ### Tasks Completed Today:
-* 
+* Tried cloning LLM repository and went through it.
   
 ## **June 19, 2025 - Thursday**
 ### Tasks Completed Today:
-* 
+* Couldnt Attend the meeting therefore went through the recording of the meeting.
   
 ## **June 18, 2025 - Wednesday**
 ### Tasks Completed Today:
-* 
+* Went through the basics of Ollama and Hugging Face
+* Tried running the code on google collab for creating dictionary for the keywords that were extracted unable to do that as I had encountered multiple errors.
   
 ## **June 17, 2025 - Tuesday**
 ### Tasks Completed Today:
