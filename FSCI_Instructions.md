@@ -23,6 +23,32 @@ here you can
 * Change the Number of Papers- you can replace *--limit* **5** to **10** or any other you want 
 * Change the Output Folder Name- You can rename *--output* to any folder name you want
 * Reminder: Just make sure to keep the quotation format and spacing proper when editing queries.
+##  How to Upload a File in Google Colab and Copy Its Path (Using File Explorer)
+### Step-by-Step Instructions
+
+1. **Click the Folder Icon** 
+   On the left sidebar of your Colab notebook, click the **folder icon** to open the file explorer.
+
+2. **Upload the File**  
+   * In the file explorer, click on the **"Upload"** button (an upward arrow icon or "Upload file" option).
+   * Choose the file from your local system using the file picker.
+
+3. **Locate the Uploaded File**  
+   Once uploaded, the file will appear in the file explorer under the `/content/` directory.
+
+4. **Copy the File Path**  
+   * Click the **three dots (⋮)** next to the uploaded file name.
+   * Select **"Copy path"** from the dropdown.
+   * The path will look like:  
+     ```
+     /content/your_file_name.ext
+     ```
+
+5. **Use the Path in Your Code**  
+   You can now paste this path into your code, for example:
+   ```python
+   file_path = "/content/your_file_name.ext"
+
 ## Set Up Environment + Install SemanticClimate Tools
 ### Create a Virtual Environment
 * Prerequisites- Make sure Python is installed, If not installed, download from [Download python here](https://www.python.org/downloads/)
