@@ -1,56 +1,49 @@
-import nltk
-from nltk.tokenize import word_tokenize
+from pdfminer.high_level import extract_text
+
+input_pdf = 'IPCC_AR6_WGI_Chapter08.pdf'
+output_txt = 'converted_text.txt'
+
+# Extract plain text from PDF
+text = extract_text(input_pdf)
+
+# Save it to a file
+with open(output_txt, 'w', encoding='utf-8') as f:
+    f.write(text)
+
+print("✅ PDF converted to text")
+
+from bs4 import BeautifulSoup
+from collections import Counter
 import re
-import os
 
-# Define the directory where NLTK data was downloaded
-nltk_data_dir = '/usr/local/nltk_data'
+# Load the extracted text (treating it like HTML to simulate soup)
+with open(output_txt, 'r', encoding='utf-8') as f:
+    raw_text = f.read()
 
-# Construct the path to the English stopwords file
-stopwords_file_path = os.path.join(nltk_data_dir, 'corpora', 'stopwords', 'english')
+# You can use soup for extra cleaning (optional)
+soup = BeautifulSoup(raw_text, 'html.parser')
+text = soup.get_text()
 
-# Read the stopwords directly from the file
-try:
-    with open(stopwords_file_path, 'r') as f:
-        english_stopwords = set(f.read().splitlines())
-except FileNotFoundError:
-    print(f"Error: Stopwords file not found at {stopwords_file_path}")
-    english_stopwords = set() # Set to empty set if file not found
+# Clean text
+cleaned = re.sub(r'\W+', ' ', text.lower())
+words = cleaned.split()
 
+# Remove common stopwords
+stopwords = set([
+    'the', 'and', 'that', 'this', 'with', 'from', 'were', 'their', 'they', 'have', 'which',
+    'such', 'also', 'into', 'been', 'these', 'those', 'not', 'more', 'most', 'for', 'are',
+    'was', 'its', 'but', 'can', 'will', 'one', 'has', 'had', 'may', 'each', 'than', 'all',
+    'some', 'between', 'within', 'over', 'under', 'about', 'other', 'only', 'our', 'any',
+    'out', 'there', 'them', 'using', 'based', 'used', 'use', 'could', 'among', 'data', 'new'
+])
 
-def clean_text(text):
-    text = text.lower()
-    text = re.sub(r'\d+', '', text)
-    tokens = word_tokenize(text)
-    words = [word for word in tokens if word.isalpha()]
-    filtered_words = [word for word in words if word not in english_stopwords]
-    return filtered_words
+keywords = [word for word in words if word not in stopwords and len(word) > 3]
 
-cleaned_words = clean_text(pdf_text)
-import nltk
-import os
+# Count keyword frequency
+keyword_counts = Counter(keywords)
 
-# Define a directory for NLTK data
-nltk_data_dir = '/usr/local/nltk_data'
+# Show top 200
+print("🔑 Top 200 Keywords:")
+for word, count in keyword_counts.most_common(200):
+    print(f"{word}: {count}")
 
-# Remove the existing NLTK data directory if it exists
-!rm -rf {nltk_data_dir}
-
-# Create the directory if it doesn't exist
-os.makedirs(nltk_data_dir, exist_ok=True)
-
-# Add the directory to NLTK's data path
-nltk.data.path.append(nltk_data_dir)
-
-# Download the necessary NLTK data to the specified directory
-nltk.download('punkt', download_dir=nltk_data_dir)
-nltk.download('stopwords', download_dir=nltk_data_dir)
-
-from keybert import KeyBERT
-
-kw_model = KeyBERT()
-keywords = kw_model.extract_keywords(cleaned_text, keyphrase_ngram_range=(1, 2), stop_words='english', top_n=200)
-
-print("\nTop 200 Keywords/Phrases:\n")
-for kw, score in keywords:
-    print(kw)
