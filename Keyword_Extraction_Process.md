@@ -108,7 +108,7 @@ pip install amilib==0.3.9
 ```
 use this code to create dictionary
 ```sh
-amilib DICT --words your_wordlist_path.txt wordlist.txt --description wikipedia --dict output_dict_path.html --figures --operation create
+amilib DICT --words your_wordlist_path.txt  --description wikipedia --dict output_dict_path.html --figures --operation create
 ```
 edit the names of the paths accordingly
 
