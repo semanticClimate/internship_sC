@@ -3,6 +3,7 @@
 ## **June 30, 2025 - Monday**
 ### Tasks Completed Today:
 * Updated my work till now in git hub under my branch and learnt how to create a folder in git hub.
+* Manually filtered the keywords.
   
 ## **June 29, 2025 - Sunday**
 ### Tasks Completed Today:
