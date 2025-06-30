@@ -22,12 +22,12 @@
 
 ### semanticClimate Toolkits for ALR 
 
-![ALR tools](img\ALR_pic1.png)
+![ALR tools](https://github.com/semanticClimate/internship_sC/blob/main/img/ALR_pic1.png)
 
 
 ### Workflow for ALR 
 
-![ALR workflow](img\ALR_pic2.png)
+![ALR workflow](https://github.com/semanticClimate/internship_sC/blob/main/img/ALR_pic2.png)
 
 ### Steps in ALR
 
