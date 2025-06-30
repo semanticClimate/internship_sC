@@ -1,3 +1,10 @@
+## MONDAY(30-6-2025)
+* made some changes in the markdown about the general instructions
+* have to look into the llmrag and should resolve the errors
+## FRIDAY(27-6-2025)
+* added the general instructions in the readme created
+* it included - how to use the colab, how to upload file and copy the path, how to setup venv, how to install semantic tools, about the basic errors
+* tried to resolve llmrag error
 ## THURSDAY(26-6-2025)
 * Assigned a task to create a md of the general instructions needed for the participants in FSCI
 * started to gather the topics that need to be included in the md
