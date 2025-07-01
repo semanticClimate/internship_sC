@@ -68,11 +68,20 @@ The table contains the following information about the retrieved articles.
 - Journal
 - Abstract etc.
 
-![Datatable]()
+![Datatable](https://github.com/semanticClimate/internship_sC/blob/main/img/ALR_pic8.png)
 
 ## Step 3: Summarization of the PDF content
 
+![workflow](https://github.com/semanticClimate/internship_sC/blob/main/img/ALR_pic4.png)
 
+## Step 4: EXtracting useful informations from the PDF with the help of NER tool
 
+![Introduction to NER](https://github.com/semanticClimate/internship_sC/blob/main/img/ALR_pic6.png)
+
+![NER Result](https://github.com/semanticClimate/internship_sC/blob/main/img/ALR_pic7.png)
+
+## Step 5: Query search (LLMRAG)
+
+![Overview of LLMRAG](https://github.com/semanticClimate/internship_sC/blob/main/img/ALR_pic5.png)
 
 
