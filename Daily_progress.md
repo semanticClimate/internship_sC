@@ -1,4 +1,7 @@
 # My Daily Progress Log
+## **July 1, 2025 - Tuesday**
+### Tasks Completed Today:
+* Done with creating the dictionary for the extracted keywords and uplaoded my work on Git Hub. 
 
 ## **June 30, 2025 - Monday**
 ### Tasks Completed Today:
