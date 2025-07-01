@@ -53,5 +53,6 @@ It makes the request to the Open Access libraries, analyze the hit, and download
 
 #### [Read more about the usage of pygetpapers](https://github.com/petermr/pygetpapers)
 
+![literature search with pygetpapers](https://github.com/semanticClimate/internship_sC/blob/main/img/ALR_pic3.png)
 
 
