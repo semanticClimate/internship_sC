@@ -1,0 +1,193 @@
+agri voltaics
+appliances
+battery storage
+biomass energy
+boiler
+boilers
+carbon capture
+carbon neutrality
+climate change
+co2
+consumption
+electric vehicles
+electricity generation
+emissions
+energy
+energy fuels
+energy sources
+energy storage
+energy superstore
+energywind
+fuels
+geothermal
+green hydrogen
+heater
+hydroelectric
+hydroelectricity
+hydropower
+inverters
+kilowatts
+kyoto
+methane emissions
+photovoltaic
+photovoltaics
+powering
+powertech
+renewable
+renewable transition
+renewables
+solar panels
+sustainable energy
+tariffs
+watts
+wind farms
+green hydrogen
+blue hydrogen
+grey hydrogen
+pink hydrogen
+hydrogen economy
+electrolysis
+electrolyzer
+algae bioreactor
+photobioreactor
+anaerobic digestion
+biohydrogen
+biofuel
+renewable energy
+solar power
+wind energy
+hydroelectric power
+geothermal energy
+ocean energy
+energy storage
+battery storage
+lithium ion
+compressed hydrogen
+fuel cell
+hydrogen storage
+carbon capture
+co2 utilization
+carbon sequestration
+direct air capture
+methanation
+power to gas
+energy transition
+energy efficiency
+sustainable energy
+net zero
+climate neutral
+zero emissions
+low carbon
+carbon neutrality
+climate resilience
+emission reduction
+carbon budget
+greenhouse gas
+methane emissions
+ghg inventory
+ipcc
+paris agreement
+climate policy
+climate mitigation
+climate adaptation
+sustainable development
+sdgs
+unfccc
+environmental impact
+life cycle assessment
+environmental footprint
+renewable portfolio
+smart grid
+grid integration
+off grid
+microgrid
+clean technology
+clean fuels
+alternative energy
+green infrastructure
+energy demand
+energy consumption
+per capita emissions
+transition fuels
+green ammonia
+hydrogen blending
+syngas
+pyrolysis
+plastic to fuel
+thermal cracking
+biochar
+bio oil
+waste to energy
+municipal solid waste
+plastic waste
+chemical recycling
+circular economy
+sustainable materials
+thermal gasification
+industrial emissions
+transport emissions
+shipping emissions
+aviation emissions
+e mobility
+electric vehicles
+charging infrastructure
+fuel cell vehicle
+smart charging
+vehicle to grid
+clean transport
+sustainable transport
+public transport
+green finance
+climate investment
+carbon tax
+carbon trading
+cap and trade
+emissions trading
+green bonds
+climate risk
+environmental governance
+ecological transition
+just transition
+carbon intensity
+energy intensity
+energy balance
+renewable capacity
+installed capacity
+energy mix
+baseload power
+intermittent energy
+dispatchable energy
+energy forecasting
+energy modeling
+integrated assessment model
+energy policy
+climate model
+land use change
+deforestation
+reforestation
+afforestation
+ecosystem services
+climate feedback
+tipping points
+radiative forcing
+global warming potential
+carbon dioxide
+methane
+nitrous oxide
+ozone depletion
+thermal inertia
+aerosols
+stratospheric cooling
+surface temperature
+sea level rise
+extreme weather
+climate displacement
+climate migration
+loss and damage
+adaptation fund
+climate fund
+green climate fund
+intergovernmental panel
+resilience building
+early warning system
+environmental monitoring
