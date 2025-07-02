@@ -1,3 +1,18 @@
+## WEDNESDAY(2-7-2025)
+* discussed about the problem in the meeting
+* going through the instructions given by the cursor
+## TUESDAY(1-7-2025)
+* tried to resolve the error obtaining due to the command `pip install -e .`
+* couldn't actually solve it, took help of chatgpt and tried the suggested commands but didn't workout
+* the following are the commands i tried
+```sh
+#  Upgrade build tools
+pip install --upgrade pip setuptools wheel
+#  Try editable install again
+pip install -e .
+# Run in verbose mode to see where it's freezing:
+pip install -e . -v
+``` 
 ## MONDAY(30-6-2025)
 * made some changes in the markdown about the general instructions
 * have to look into the llmrag and should resolve the errors
