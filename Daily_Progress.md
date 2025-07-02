@@ -1,6 +1,30 @@
 ## WEDNESDAY(2-7-2025)
 * discussed about the problem in the meeting
 * going through the instructions given by the cursor
+* remove the cloned files and cloned again
+* solved the errors and all tests ran successfully( ran pytest on llmrag)
+```sh
+(venv) (base) C:\Users\Dell\llmrag>pip install -e .
+Obtaining file:///C:/Users/Dell/llmrag
+  Installing build dependencies ... done
+  Checking if build backend supports build_editable ... done
+  Getting requirements to build editable ... done
+  Preparing editable metadata (pyproject.toml) ... done
+Building wheels for collected packages: llmrag
+  Building editable for llmrag (pyproject.toml) ... done
+  Created wheel for llmrag: filename=llmrag-0.1.1-0.editable-py3-none-any.whl size=13657 sha256=124657e39924f2382e41ece7d8ffcc3019ea533cd7f706466d40f8ddf3be1a18
+  Stored in directory: C:\Users\Dell\AppData\Local\Temp\pip-ephem-wheel-cache-f1lyod4s\wheels\75\f6\40\893f94ea7ab9cfc4e2345322d1a63d92410ddc37716cd7d98c
+Successfully built llmrag
+Installing collected packages: llmrag
+Successfully installed llmrag-0.1.1
+
+[notice] A new release of pip is available: 24.2 -> 25.1.1
+[notice] To update, run: python.exe -m pip install --upgrade pip
+
+(venv) (base) C:\Users\Dell\llmrag>pytest
+...............................                                                                                                                      [100%]
+31 passed in 147.20s (0:02:27)
+```
 ## TUESDAY(1-7-2025)
 * tried to resolve the error obtaining due to the command `pip install -e .`
 * couldn't actually solve it, took help of chatgpt and tried the suggested commands but didn't workout
