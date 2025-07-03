@@ -1,5 +1,37 @@
 # My Daily Progress Log
 
+## **July 3, 2025 - Thursday**
+### Tasks Completed Today:
+* Cloned the latest LLM RAG repository on git hub and ran pytest on VS code but still the error came.
+* Ran pytest on Google Collab and got to run all the 31 tests.
+
+
+  ============================= test session starts ==============================
+platform linux -- Python 3.11.13, pytest-8.3.5, pluggy-1.6.0
+rootdir: /content/LLMRAG
+configfile: pytest.ini
+testpaths: tests
+plugins: langsmith-0.4.4, anyio-4.9.0, typeguard-4.4.4
+collected 31 items                                                             
+
+tests/test_basic.py ....                                                 [ 12%]
+tests/test_chunking.py ...                                               [ 22%]
+tests/test_components.py .......                                         [ 45%]
+tests/test_embedder.py .                                                 [ 48%]
+tests/test_ingestion.py .                                                [ 51%]
+tests/test_pipeline.py ...                                               [ 61%]
+tests/test_simple.py .....                                               [ 77%]
+tests/test_smoke.py .....                                                [ 93%]
+tests/test_vector_store.py ..                                            [100%]
+
+======================== 31 passed in 68.91s (0:01:08) =========================
+
+## **July 2, 2025 - Wednesday**
+### Tasks Completed Today:
+* Tried running pytest for LLM RAG on command prompt could run 25 test but got an error stating ( Windows fatal exception: access violation)
+* Tried resolving the error
+* Ran pytest on vs code but couldnt resolve the error.
+
 ## **July 1, 2025 - Tuesday**
 ### Tasks Completed Today:
 * Done with creating the dictionary for the extracted keywords and uplaoded my work on Git Hub. 
