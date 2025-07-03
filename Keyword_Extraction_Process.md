@@ -94,7 +94,7 @@ warming
 ```
 ### Reference for Keyword Extraction Code
 The keyword extraction script is based on the implementation available at:  
-[GitHub: semanticClimate keyword extraction](https://github.com/semanticClimate/internship_sC//Deepika/Keyword_Extraction/keyword_extraction.py)
+[GitHub: semanticClimate keyword extraction](Keyword_Extraction/scripts/keyword_extraction.py)
 ### Here is the Wordlist that I got
 [GitHub: semanticClimate IPCC WG1 CHAPTER4 WORDLIST](Keyword_Extraction/WG1_CH04_wordlist.txt)
 
