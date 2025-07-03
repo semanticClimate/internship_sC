@@ -164,13 +164,22 @@ FAILED tests/_test.py::test_does_arxiv_work - assert False == True
   - Ran the updated version of llmrag and did pytest
   - Got 6 errors mostly-syntax errors, import error.
   - Reported in discussion page of llmrag.
-### Thursday(26-06-2025)
+### THURSDAY (26-06-2025)
 ## Tasks Performed:
 - Assigned a task to create a FAQ part  for all the semantic climate tools for the participants in FSCI
 - started to gather the issues and queries.
-### Friday (27-06-2025)
+### FRIDAY (27-06-2025)
 ## Task Performed:
 - Working on the assigned task to create FAQ for FSCI event.
-
+### MONDAY(30-06-2025)
+## Task Performed:
+- Said to go through manually to create a wordlist of my chapter worked on it.
+- creating a readme for keyword extraction process.
+### TUESDAY(01-07-2025)
+## Tasks Performed:
+- Tested the new version of llmrag from pmr branch.
+- Recorded the errors & issues.
+### WEDNESDAY (02-07-2025)
+- Created an updated Wordlist for my chapter.
 
 
