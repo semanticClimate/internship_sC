@@ -180,6 +180,8 @@ FAILED tests/_test.py::test_does_arxiv_work - assert False == True
 - Tested the new version of llmrag from pmr branch.
 - Recorded the errors & issues.
 ### WEDNESDAY (02-07-2025)
+## Tasks Performed:
 - Created an updated Wordlist for my chapter.
+- Gathered few more questions for FSCI event to present FAQs.
 
 
