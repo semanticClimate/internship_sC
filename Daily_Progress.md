@@ -1,3 +1,8 @@
+## THURSDAY (3-7-2025)
+* pulled the latest llmrag and ran pytest
+* posted the output on llmrag discussion
+* have gone through sarth branch of llmrag and tested it to make sure that streamlit(drop down to select the chapter and WG) is working on my machine
+* should go through the md in the llmrag repository 
 ## WEDNESDAY(2-7-2025)
 * discussed about the problem in the meeting
 * going through the instructions given by the cursor
