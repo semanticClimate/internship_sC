@@ -3,7 +3,7 @@
 ## **July 4, 2025 - Friday**
 ### Tasks Completed Today:
 * Ran Streamlit (LLM RAG) got multiple module errors, reported them on discussions.
-* Tried running collab guide.md on google collab.
+* Tried running collabguide.md on google collab.
 
 ## **July 3, 2025 - Thursday**
 ### Tasks Completed Today:
