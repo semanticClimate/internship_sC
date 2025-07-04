@@ -1,5 +1,10 @@
 # My Daily Progress Log
 
+## **July 4, 2025 - Friday**
+### Tasks Completed Today:
+* Ran Streamlit (LLM RAG) got multiple module errors, reported them on discussions.
+* Tried running collab guide.md on google collab.
+
 ## **July 3, 2025 - Thursday**
 ### Tasks Completed Today:
 * Cloned the latest LLM RAG repository on git hub and ran pytest on VS code but still the error came.
