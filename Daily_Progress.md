@@ -1,6 +1,13 @@
+## FRIDAY(4-7-2025)
+* Tried running the Streamlit from the `sarth` branch of the `llmrag` repository.
+* Applied the `WG2 Chapter 4` and attempted to load the chapter into the application.
+* The chapter took approximately `1 hour` to load completely.
+* Asked the chatbot multiple questions, but it did not return relevant answers, discussed about the problem in the meeting.
+* Shared these observations in the Discussions of the llmrag repository.- [Github:discussions](https://github.com/semanticClimate/llmrag/discussions/12#discussion-8529753)
+* Updated the spreadsheet with chapter chunking and progress details
 ## THURSDAY (3-7-2025)
 * pulled the latest llmrag and ran pytest
-* posted the output on llmrag discussion
+* posted the output on llmrag discussion-[Github:discussions](https://github.com/semanticClimate/llmrag/discussions/10#discussion-8524698)
 * have gone through sarth branch of llmrag and tested it to make sure that streamlit(drop down to select the chapter and WG) is working on my machine
 * should go through the md in the llmrag repository 
 ## WEDNESDAY(2-7-2025)
