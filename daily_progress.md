@@ -183,5 +183,12 @@ FAILED tests/_test.py::test_does_arxiv_work - assert False == True
 ## Tasks Performed:
 - Created an updated Wordlist for my chapter.
 - Gathered few more questions for FSCI event to present FAQs.
+### THURSDAY (03-07-2025)
+## Task Performed:
+- Working on creating FAQ files for FSCI event.
+- Run and tested new version of llmrag from > sarth branch for windows
+### FRIDAY (04-07-2025)
+- Ran the streamlit UI for llmrag loaded my chapter took about 1 hour
+- Tested with 5 queries got irrelvant answers informed peter sir. 
 
 
