@@ -106,14 +106,18 @@ pygetpapers -q "..." --api_key YOUR_CROSSREF_KEY
   python --version
   ```
   If you see Python 3.8 or higher, you're good to go.
+
 23. : The tool says "command not found" after installation?
   <br> Try:
   ``` python -m pygetpapers --help  # Replace with your tool name ```
   (This bypasses PATH issues on Windows/Mac.)
+
 24. How to download 100 climate papers quickly?
   ``` pygetpapers -q "climate change" -o ./papers --limit 100```
+
 25.  Where do downloaded files go?
 <br>In the folder you specify after ``` -o``` (e.g.,``` ./papers``` in the example above).
+
 26. How to ask LLMRAG about a paper I downloaded?
   <br> Point it to the paper's folder:
   ```python llmrag.py --query "What methods did this study use?" --corpus ./papers/paper1.pdf```
@@ -121,21 +125,28 @@ pygetpapers -q "..." --api_key YOUR_CROSSREF_KEY
   <br> Yes! Point to a folder:
   ``` docanalysis --input ./papers/ --output ./results/```
  ### Common Errors & Fixes
- 28. "No module named 'nltk'" error?
+
+28. "No module named 'nltk'" error?
 <br> Install missing dependencies:``` pip install nltk```
+
 29. Tool crashes immediately on Windows?
 <br>Try:
 Open Command Prompt as Admin.
 
 Run:```
   python -m pip install --upgrade pip setuptools wheel```
+<br>
+
 30. "SyntaxError: invalid syntax" when running scripts?
   <br>You might be using Python 2. Check version with ```python --version``` and install Python 3+ if needed.
+
 31.  PyGetPapers gets stuck at "Downloading..."?
 <br>Press `Ctrl+C` to stop, then retry with fewer papers `--limit 10`.
+
 32. "File not found" error even though the file exists?
 <br>Use full paths (e.g., ```C:/Users/name/papers/```) or move files to your current folder.
 ### Tool-Specific Tips:
+
 33. How to stop DocAnalysis after 10 PDFs?
 <br> Use:
 ```docanalysis --input ./papers/ --limit 10```
