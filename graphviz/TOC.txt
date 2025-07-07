@@ -1,0 +1,35 @@
+IPCC AR6 WG1 Chapter 8: Water Cycle Changes 
+
+8.1 Introduction  
+8.1.1 Scope and Overview  
+  - Importance of Water for Human Societies and Ecosystems  
+  - Overview of the Global Water Cycle in the Climate System  
+8.1.2 Summary of Water Cycle Changes From AR5 and Special Reports  
+8.1.3 Chapter Motivations, Framing and Preview
+
+8.2 Why Should We Expect Water Cycle Changes?  
+8.2.1 Global Water Cycle Constraints  
+8.2.2 Constraints on the Regional Water Cycle  
+8.2.3 Local-scale Physical Processes Affecting the Water Cycle  
+Box 8.1 Role of Anthropogenic Aerosols in Water Cycle Changes
+
+8.3 How Is the Water Cycle Changing and Why?  
+8.3.1 Observed Water Cycle Changes Based on Multiple Datasets  
+8.3.2 Observed Variations in Large-scale Phenomena and Regional Variability
+
+8.4 What Are the Projected Water Cycle Changes?  
+8.4.1 Projected Water Cycle Changes  
+Box 8.2 Changes in Water Cycle Seasonality  
+8.4.2 Projected Changes in Large-scale Phenomena and Regional Variability
+
+8.5 What Are the Limits for Projecting Water Cycle Changes?  
+8.5.1 Model Uncertainties of Relevance for the Water Cycle  
+8.5.2 Role of Internal Variability and Volcanic Forcing  
+8.5.3 Non-linearities Across Global Warming Levels
+
+8.6 What Is the Potential for Abrupt Change?  
+8.6.1 Abrupt Water Cycle Responses to a Collapse of AMOC  
+8.6.2 Abrupt Responses to Changes in the Land Surface  
+8.6.3 Abrupt Responses to Solar Radiation Modification
+
+8.7 Final Remarks
