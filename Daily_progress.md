@@ -1,5 +1,10 @@
 # My Daily Progress Log
 
+## **July 8, 2025 - Tuesday**
+### Tasks Completed Today:
+* I went through the Cochrane Library and learned about the concept and structure of systematic reviews to better understand how they work.
+* I explored the new user interface of Pygetpapers, searched for my chapter Water Cycle Changes, checked the output in my directory, and also experimented with different repositories. I shared my feedback during the meeting as well.
+
 ## **July 7, 2025 - Monday**
 ### Tasks Completed Today:
 * Explored the new Streamlit-based GUI for Pygetpapers and understood its features.
