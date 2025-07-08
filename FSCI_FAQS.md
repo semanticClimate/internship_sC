@@ -10,10 +10,17 @@ e. LLMRAG
 1. What is the main purpose of Semantic Climate tools?
    > They help researchers download, analyze, and query climate science papers using AI.
 2.  What tools are included?
- - PyGetPapers: Download papers from arXiv/Crossref.
- - AMLIB: Manage metadata (titles, authors, etc.).
- - AMIClimate: Analyze climate-specific content.
-- DocAnalysis: Extract tables/figures from PDFs.
+ - PyGetPapers: Download papers from
+Europe PMC
+arXiv
+Crossref
+OpenAlex
+bioRxiv
+medRxiv
+Rxivist.
+ - AMLIB: has tools for finding, cleaning, converting, searching, republishing legacy documents (PDF, PNG, etc.).
+ - AMIClimate: is a NLP and semantic software and material for managing climate knowledge.
+- DocAnalysis: is a command-line tool that processes document collections (CProjects) and performs text analysis.
 - LLMRAG: AI-powered Q&A over climate papers.
 3. How do I install these tools?
 ```
@@ -82,7 +89,7 @@ amiclimate --input ./papers/ --filter --output ./climate_papers/
 pygetpapers -q "..." --api_key YOUR_CROSSREF_KEY
 ```
 17. LLMRAG is slow?
-<br> Use smaller models ``` --model tiny-bert ``` or reduce corpus size.
+<br> Depends on system software. 
 18. DocAnalysis crashes on large PDFs?
  <br>Split PDFs first ``` pdfseparate input.pdf output_%d.pdf ```.
 20.  "Out of memory" error?
