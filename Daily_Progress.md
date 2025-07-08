@@ -1,3 +1,10 @@
+## TUESDAY (8-7-2025)
+* gone through anna's repository and tried to understand the structure to convert it to the colab notebook
+* discussed about this with the other team members to proceed further and we started working on it
+## MONDAY (7-7-2025)
+* ran the latest pygetpapers and tested the streamlit on my machine
+* tried to understand how the interface works
+* discussed about the improvements need to be done in the streamlit
 ## FRIDAY(4-7-2025)
 * Tried running the Streamlit from the `sarth` branch of the `llmrag` repository.
 * Applied the `WG2 Chapter 4` and attempted to load the chapter into the application.
