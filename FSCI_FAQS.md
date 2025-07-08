@@ -11,12 +11,12 @@ e. LLMRAG
    > They help researchers download, analyze, and query climate science papers using AI.
 2.  What tools are included?
  - PyGetPapers: Download papers from
-Europe PMC
-arXiv
-Crossref
-OpenAlex
-bioRxiv
-medRxiv
+Europe PMC,
+arXiv,
+Crossref,
+OpenAlex,
+bioRxiv,
+medRxiv,
 Rxivist.
  - AMLIB: has tools for finding, cleaning, converting, searching, republishing legacy documents (PDF, PNG, etc.).
  - AMIClimate: is a NLP and semantic software and material for managing climate knowledge.
