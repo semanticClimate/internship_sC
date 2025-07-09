@@ -1,5 +1,10 @@
 # My Daily Progress Log
 
+## **July 9, 2025 - Wednesday**
+### Tasks Completed Today:
+* I reviewed the videos created by previous interns for FISCI 2023 and took inspiration from them to plan my own video content.
+* I also shared my inputs on the working of the new Pygetpapers UI during the meeting based on my recent exploration.
+
 ## **July 8, 2025 - Tuesday**
 ### Tasks Completed Today:
 * I went through the Cochrane Library and learned about the concept and structure of systematic reviews to better understand how they work.
