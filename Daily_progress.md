@@ -1,5 +1,10 @@
 # My Daily Progress Log
 
+## **July 10, 2025 - Thursday**
+### Tasks Completed Today:
+* Started with creating video for displaying it on FISCI event.
+* Shared my video idea in the meeting.
+  
 ## **July 9, 2025 - Wednesday**
 ### Tasks Completed Today:
 * I reviewed the videos created by previous interns for FISCI 2023 and took inspiration from them to plan my own video content.
