@@ -1,3 +1,10 @@
+## THURSDAY (10-7-2025)
+* gathered some content and pictures for the presentation
+* started making the presentation.
+* discussed in the meeting about how the presentation should be 
+## WEDNESDAY (9-7-2025)
+* Ran the latest streamlit GUI and downloaded some papers with query water and gone through entire GUI to get to know how everything works
+* asked to make the video about the chapter for FSCI event so working on how to present it.
 ## TUESDAY (8-7-2025)
 * gone through anna's repository and tried to understand the structure to convert it to the colab notebook
 * discussed about this with the other team members to proceed further and we started working on it
