@@ -1,5 +1,10 @@
 # My Daily Progress Log
 
+## **July 11, 2025 - Friday**
+### Tasks Completed Today:
+* Ran latest pygetpapers on my system, got an error and reported the error on git hub.
+* Showed my chapter's video in the meeting and got suggestions to make it better.
+
 ## **July 10, 2025 - Thursday**
 ### Tasks Completed Today:
 * Started with creating video for displaying it on FISCI event.
