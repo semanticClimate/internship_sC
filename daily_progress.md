@@ -189,6 +189,21 @@ FAILED tests/_test.py::test_does_arxiv_work - assert False == True
 - Run and tested new version of llmrag from > sarth branch for windows
 ### FRIDAY (04-07-2025)
 - Ran the streamlit UI for llmrag loaded my chapter took about 1 hour
-- Tested with 5 queries got irrelvant answers informed peter sir. 
+- Tested with 5 queries got irrelvant answers informed peter sir.
+### MONDAY (07-07-2025)
+- Finished creating a Q&A for FSCI event 2025
+- Ran Latest version pygetpapers
+### TUESDAY (08-07-2025)
+- Made some changes in Q&A file of FSCI
+### WEDNESDAY (09-07-2025)
+- Got assigned to work on my chapter4 from wg1 for FSCI to demonstarte
+- Gone through the wg1/chapter4 for understanding the highlights
+### THURSDAY (10-07-2025)
+- Ran updated pygetpapers in CLI
+- Ran pygetpapers in streamlit
+### FRIDAY (11-07-2025)
+- Asked to create a presentation for my chosen chapter for FSCI
+- Working on creating the presentation
+### MONDAY (14-07-2025)
 
 
