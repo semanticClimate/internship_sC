@@ -1,5 +1,10 @@
 # My Daily Progress Log
 
+## **July 14, 2025 - Monday**
+### Tasks Completed Today:
+* I presented my video withthe changes that were suggested to me earlier.
+* Will work on linking IPCC (WG-1, CH-08) report to my video to make it more relatable.
+
 ## **July 11, 2025 - Friday**
 ### Tasks Completed Today:
 * Ran latest pygetpapers on my system, got an error and reported the error on git hub.
