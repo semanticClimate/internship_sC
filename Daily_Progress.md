@@ -1,3 +1,12 @@
+## MONDAY(14-7-2025)
+* Ran the streamlit GUI and downloaded some papers to check functionality
+* ran the latest pygetpapers commands on CLI on sunday and posted in discussions
+* [github:discussions](https://github.com/petermr/pygetpapers/discussions/57#discussion-8573549)
+* Made a video presentation for FSCI
+## FRIDAY(11-7-2025)
+* Ran the latest version of pygetpapers and got some issues on running the command in the CLI and posted the issue on github
+* [Github:issue](https://github.com/petermr/pygetpapers/issues/56#issuecomment-3060784663)
+* presented the gathered content for the video in the meeting and took the feedback 
 ## THURSDAY (10-7-2025)
 * gathered some content and pictures for the presentation
 * started making the presentation.
