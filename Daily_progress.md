@@ -1,5 +1,32 @@
 # My Daily Progress Log
 
+## **July 15, 2025 - Tuesday**
+### Tasks Completed Today:
+* Queried 10 papers using Pygetpapers for topic "water cycle changes AND Delhi" via Europe PMC.
+* Used --datatables to generate HTML tables (metadata, summary, combined).
+* Verified outputs saved in water_cycle_delhi folder.
+* Viewed metadata tables in browser for quick inspection.
+  
+(venv) C:\Users\HP\pygetpapers>pygetpapers --api europe_pmc --query "water cycle changes AND Delhi" --limit 10 --output water_cycle_delhi
+INFO: Total Hits are 10420
+10it [00:00, ?it/s]
+100%|███████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [00:12<00:00,  1.23s/it]
+
+(venv) C:\Users\HP\pygetpapers>pygetpapers --api europe_pmc --query "water cycle changes AND Delhi" --limit 10 --output water_cycle_delhi --datatables
+INFO: Total Hits are 10420
+10it [00:00, ?it/s]
+100%|███████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [00:11<00:00,  1.16s/it]
+WARNING: datatables_module not available. Using fallback HTML table implementation.
+WARNING: datatables_module not available. Tables will be displayed using basic HTML. For enhanced functionality, install the datatables_module from the amilib project.
+INFO: Reading pygetpapers output from: . (current directory)
+INFO: Creating datatables in: water_cycle_delhi
+INFO: Created datatables files in: water_cycle_delhi
+INFO: Files created:
+INFO:   - datatables.html (combined view)
+INFO:   - datatables_papers.html
+INFO:   - datatables_metadata.html
+INFO:   - datatables_summary.html
+
 ## **July 14, 2025 - Monday**
 ### Tasks Completed Today:
 * I presented my video withthe changes that were suggested to me earlier.
