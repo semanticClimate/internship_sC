@@ -1,3 +1,8 @@
+## TUESDAY (15-7-2025)
+* ran the pygetpaers version1.2.5a20 with the query `water and andhrapradesh` and added `--datatables` to command to download datatables
+* posted the output that I got and my comments on it at GitHub discussions [Github:discussion](https://github.com/petermr/pygetpapers/discussions/57#discussioncomment-13760309)
+* assigned a task to summarise the cochraine AI RAISE guidance and asked to edit the video including the topics about dictionary and pygetpapers
+* started working on them
 ## MONDAY(14-7-2025)
 * Ran the streamlit GUI and downloaded some papers to check functionality
 * ran the latest pygetpapers commands on CLI on sunday and posted in discussions
