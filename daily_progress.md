@@ -205,5 +205,13 @@ FAILED tests/_test.py::test_does_arxiv_work - assert False == True
 - Asked to create a presentation for my chosen chapter for FSCI
 - Working on creating the presentation
 ### MONDAY (14-07-2025)
+- Made my Four week report
+- Ran pygetpapers query on my chapter
+### TUESDAY (15-07-2025)
+- Ran pygetpapers latest version from v20(version>=a20)
+- Ran pygetpapers for my chapter query ("Visakhapatnam climate change")
+- Made a presentation of WG1/CH04 Future Global Climate for FSCI event
+- Assigned another task for "Benchmarking AI Lit Review" by Simon
+ 
 
 
