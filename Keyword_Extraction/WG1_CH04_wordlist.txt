@@ -1,44 +1,25 @@
 Ablation  
 Abrupt  
-Abrupt Climate Change  
-Absolute Humidity  
-ACCESS  
 Accumulated Precipitation  
 Acidification  
 Adiabatic Process  
 Advection  
 Aerosol  
 Aerosol-Cloud Interaction  
-Aerosol Optical Depth  
-AGU  
-Air Mass Transformation  
-Air-Sea Flux  
-Air-Sea Interface  
-AIV  
-Albedo  
-All-forcing Run  
-AMM  
-AMO  
-AMOC  
-AMV  
+Aerosol Optical Depth    
+Albedo 
 Anomalous Warming  
 Anomaly  
 Anoxic Event  
-Antarctic  
 Anthropocene  
 Anthropogenic  
-Anthropogenic Forcing  
 Anticyclone  
 Arctic Amplification  
 Arctic Oscillation  
 Areal Extent  
 Aridity Index  
-ART  
 Assimilation  
-Asymmetry Index  
-Atmospheric Blocking  
-Atmospheric Circulation  
-Atmospheric Forcing  
+Asymmetry Index    
 Attribution  
 Austral  
 Autocorrelation  
@@ -47,65 +28,20 @@ Baroclinic Zone
 Barotropic Flow  
 Basal Melting  
 Baseline  
-Bayesian Inference  
-BECCS  
+Bayesian Inference
 Bias Correction  
 Biogeochemical Cycle  
-Boreal  
-Boundary Condition  
+Boreal    
 Boundary Condition Perturbation  
 Boundary Condition Sensitivity  
-Boundary Flux  
-Boundary Layer  
-Boundary-Layer Height  
-Boxplot  
-Buoyancy Frequency  
-CALIPSO  
+Buoyancy Frequency 
 Calibration  
-Carbon  
-Carbon Budget  
-Carbon-Climate Feedback  
-Carbon Cycle  
-Carbon Flux  
-Carbon Leakage  
-Carbon Sink  
+Carbon Budget   
 Carbon Saturation  
 Catastrophic Threshold  
 Cation Exchange Capacity  
-CCN  
-CCT  
-CDR  
-CDRMIP  
 Centennial Scale  
 Centroid Shift  
-CESM  
-CGCM  
-CLIMBER-  
-Climate  
-Climate Commitment  
-Climate Drift  
-Climate Feedback  
-Climate Forcing  
-Climate Metric  
-Climate Noise  
-Climate Projection  
-Climate Sensitivity Index  
-Climate Variability  
-Cloud Condensation Nuclei  
-Cloud Feedback  
-Cloud Fraction  
-Cloud Microphysics  
-Cloud Optical Thickness  
-Cloud Radiative Effect  
-Cloud Top Height  
-Cold Bias  
-Cold Pool Formation  
-Cold Tongue Bias  
-Column Energy Budget  
-Column-integrated Forcing  
-Column-Integrated Water Vapour  
-Committed Warming  
-Confidence Interval  
 Convection  
 Convective Inhibition  
 Convective Parameter Scheme  
@@ -117,8 +53,6 @@ Coupled Feedback Loop
 Coupled Model  
 Coupling Strength  
 Covariance  
-COVID  
-CPIRO  
 Critical Ice Threshold  
 Critical Threshold  
 Cross-Chapter  
@@ -127,8 +61,6 @@ Cryosphere
 Cryosphere-Atmosphere Coupling  
 Cryospheric Process  
 Data Assimilation  
-DCPP  
-DECK  
 Decadal Variability  
 Decoupled Layer  
 Deep Convection  
@@ -137,65 +69,32 @@ Density Stratification
 Detection  
 Diabatic Heating  
 Diurnal Temperature Range  
-DJF  
-Downscaling  
-DPLE  
-DRP  
 Dry Bias  
 Dry Static Energy  
 Dynamical Adjustment  
 Dynamical Core  
 Dynamical Downscaling  
-EBM  
-EC-EARTH  
-ECMWF  
-ECS  
 Effective Climate Sensitivity  
 Effective Cloud Feedback  
 Effective Radiative Forcing  
-EMRIC  
-EMIC  
 Emergent Constraint  
 Emulator  
-Energy Balance  
-Energy Budget Closure  
 Energy Flux Divergence  
-ENSO  
 Entrainment  
 Epoch  
 Equilibrium  
-Equilibrium Line Altitude  
 Equilibrium Response Pattern  
-Equilibrium Warming  
-ERA  
-ERF  
-Error Bar  
-ESCM  
-ESD  
-ESM  
-ESR  
-ETC  
-EUROCORDEX  
-EURO  
-Evaporation Rate  
+Equilibrium Warming   
+Error Bar   
 Evaporation Suppression  
 Evaporative Cooling  
 Evaporative Fraction  
 Evapotranspiration  
 External Forcing  
 Extremes  
-Extreme Value Analysis  
-FAQ  
-FCCC  
-Feedback  
-Feedback Loop  
-Feedback Strength  
-FGOALS  
+Extreme Value Analysis 
 Flux Adjustment  
 Flux Convergence  
-Forcing  
-Forcing Agent  
-Forcing-Feedback Framework  
 Fraction of Attributable Risk  
 Fractional Attribution  
 Fractional Cloud Cover  
@@ -203,23 +102,11 @@ Fractional Coverage
 Fractional Uncertainty  
 Free Troposphere  
 Frontal System  
-GCM  
-GECCO  
-GENIE  
 Geophysical Forcing  
 Geopotential Height  
-Geostrophic Wind  
-GFDL  
-GHG  
-GISS  
-GLENS  
-Global  
-Global Averaging  
+Geostrophic Wind   
 Global Coupled Model  
 Global Energy Imbalance  
-GMSL  
-GMST  
-GPCC  
 Gravitational Settling  
 Green Climate Fund  
 Greenhouse Forcing  
@@ -227,9 +114,7 @@ Greenhouse Gas
 Greenhouse Warming Potential  
 Grid Cell Averaging  
 Grid Resolution  
-GSAT  
-GWL  
-HAPPI  
+GSAT 
 Hadley Cell  
 Heat Content Anomaly  
 Heat Redistribution  
@@ -240,53 +125,33 @@ Horizontal Advection
 Hydroclimate  
 Hydrological Cycle  
 Hydrological Feedback  
-Hydrostatic Balance  
-Hyperparameter  
-IAPRAS  
-IASS  
+Hydrostatic Balance
 Ice-Albedo Feedback  
-Ice Core Record  
-Ice Sheet Collapse  
+Ice Core Record   
 Ice Sheet Dynamics  
-ICON  
-IGBP  
-III  
 Induced Warming  
 Infrared Radiation  
 Initialization  
 Insolation  
 Integrated Radiative Forcing  
-Internal Variability  
-Internal Variability Mode  
 Interpolation  
 Interhemispheric Contrast  
 Inverse Modeling  
 Inverse Modeling Technique  
-Inverse Radiative Forcing  
-Invariant  
+Inverse Radiative Forcing 
 Invariant Pattern  
-IOB  
-IOD  
-IPCC  
-IPO  
-IPSL  
-ITCZ  
 Isentropic Ascent  
 Isentropic Surface  
 Isopycnal Mixing  
-Isothermal Layer  
-Jet Stream  
+Isothermal Layer   
 Jet Stream Shift  
 Jet Variability  
-JJA  
-JRA  
 Kelvin Wave  
 Köppen Classification  
 Land-Atmosphere Coupling  
 Land Cover Change  
 Land-Sea Contrast  
-Land Surface Albedo  
-Land Use Change  
+Land Surface Albedo 
 Lapse Rate  
 Large-ensemble Simulation  
 Latent Heat  
@@ -297,12 +162,7 @@ Linear Decomposition
 Linear Trend  
 Long-term Forcing  
 Longwave Cloud Effect  
-Longwave Radiation  
-LOVECLIM  
-Low-Confidence Zone  
-LPX  
-LMDZ  
-MAGICC  
+Longwave Radiation    
 Macroturbulence  
 Marine Boundary Layer  
 Mass Balance Gradient  
@@ -310,48 +170,19 @@ Mean State
 Meridional Circulation  
 Mesoscale Convective System  
 Mesoscale Process  
-MESM  
-MIP  
-MIROC  
 Mixed-phase Clouds  
 Micrometeorology  
 Mid-Holocene  
-Mid-latitude Cyclone  
-MOC  
-Model  
+Mid-latitude Cyclone   
 Moist Convection  
 Moist Static Energy  
 Moist Static Instability  
 Moisture Transport  
-Monsoon  
-Monsoonal Circulation  
-MPI  
-MRI  
 Multidecadal Oscillation  
 Multidecadal Warming Trend  
 Multimodel Mean  
 Multimodal Response  
 Multivariate Regression  
-NAM  
-NAO  
-NBP  
-NCAR  
-NCEP  
-Near-Term  
-Net Radiation  
-NEWS  
-NHSM  
-NRC  
-Non-CMIP  
-Nonlinearity  
-Normalized Anomaly  
-OHC  
-Ocean-Atmosphere Coupling  
-Ocean-Atmosphere Interaction  
-Ocean Bottom Water  
-Ocean Circulation Cell  
-Ocean Heat Flux Divergence  
-Ocean Heat Uptake  
 Oceanic Gyre  
 Ocean Mixed Layer  
 Ocean Stratification  
@@ -366,32 +197,19 @@ Paleoproxy
 Paleo-reconstruction  
 Parameterization  
 Partial Pressure of CO₂  
-Pattern  
-Pattern Scaling  
-PDO  
-PDRMIP  
-PDV  
 Perturbation  
 Perturbed Physics  
-Phase Alignment  
-Phase Lag  
-Phase Space  
-PLASM  
 Planetary Boundary Layer  
 Planetary-scale Forcing  
 Polar Amplification  
 Polar Jet  
 Potential Temperature  
-Precipitation  
-Precipitation Bias  
+Precipitation   
 Precipitation Climatology  
 Precipitation Efficiency  
 Precipitation Partitioning  
 Probabilistic  
 Process Representation  
-Projection  
-Proxy Data  
-QBO  
 Radiative  
 Radiative Balance  
 Radiative Damping  
@@ -401,12 +219,6 @@ Radiative Imbalance
 Radiative Kernel  
 Radiative Perturbation  
 Radiative Transfer  
-RCP  
-RCP2.6  
-RCP4.5  
-RCP6.0  
-RCP8.5  
-RCPs  
 Reanalysis  
 Regional Amplification  
 Relative Cooling  
@@ -416,38 +228,16 @@ Representative Concentration Pathways
 Representative Year  
 Residual Spread  
 Residual Variability  
-Resolution Dependence  
-Response  
+Resolution Dependence   
 Runoff Ratio  
-SAI  
 Salinity Flux  
 Salinity Gradient  
-SAM  
-SAOD  
-SAT  
-Scale Interaction  
-Scenario  
 ScenarioMIP  
 Scalar Field  
-Sea Ice Loss  
-Sea Level Pressure Gradient  
-Sea Level Rise Commitment  
-Sea Spray Aerosol  
-Sea Surface Salinity  
-Seasonal Cycle Amplitude  
-Sensitivity  
-Shortwave Forcing Efficiency  
-Shortwave Radiation  
-SIA  
 Signal Emergence  
-Signal-to-Noise Ratio  
-SIMIP  
-SLCF  
-SLP  
-SMILE  
+Signal-to-Noise Ratio    
 Snow-Albedo Feedback  
 Snowpack Dynamics  
-SOLA  
 Solar Variability  
 Soot Deposition  
 Spatial Averaging Error  
@@ -455,49 +245,17 @@ Spatial Pattern
 Spatial Resolution  
 Spectral Decomposition  
 Spectral Model  
-SPHINX  
-SPPT  
-SRCCL  
-SRM  
-SROCC  
-SSP  
-SSP1-1.9  
-SSP1-2.6  
-SSP2-4.5  
-SSP3-7.0  
-SSP5-3.4  
-SSP5-7.0  
-SSP5-8.5  
-SSPs  
-SST  
 Stable Stratification  
 Statistical Downscaling  
 Stochastic Forcing  
 Storm Track  
 Stratocumulus  
-Stratosphere  
-Stratosphere-Troposphere Exchange  
-Stratospheric  
-Stratospheric Ozone Loss  
+Stratosphere
 Subgrid Scale  
 Subsidence  
-Subtropical Jet  
-Subtropical Subsidence  
+Subtropical Jet 
 Substantial  
-Sublimation  
-Surface  
-Surface Energy Balance  
-Surface Flux Parameterization  
-Synthesis  
-TAR  
-TAV  
-TCR  
-TCRE  
-Teleconnection  
-Temperature  
-Thermal Expansion  
-Thermal Expansion Coefficient  
-Thermal Feedback  
+Sublimation 
 Thermal Gradient  
 Thermal Inertia  
 Thermodynamic Disequilibrium  
@@ -517,42 +275,17 @@ Tropopause
 Tropopause Folding  
 Tropopause Height  
 Troposphere  
-Tropospheric  
 Turbulence Closure Model  
 Turbulent Flux  
 Turbulent Mixing  
-UKMO  
-Uncertainty  
-UNFCCC  
-Unforced Response  
-Upper Ocean Layer  
-Upper Troposphere  
-Uptake  
-USA  
-Variability  
-VEI  
-VII  
 Vertical Mixing  
 Vertical Shear  
 Volcanic Aerosol  
 Volcanic Forcing  
 Volcanically Induced Cooling  
-WACCM  
-WAIS  
-Warming  
-Water Vapor Feedback  
-Water Vapor Path  
-Wave Propagation  
-WCRP  
-WGI  
-WGII  
-WGIII  
-Westerly Wind Shift  
-WMO  
+Westerly Wind Shift 
 Wind Stress Curl  
 Wind-driven Circulation  
-ZEC  
-ZECMIP  
 Zonal Flow Pattern  
 Zonal Mean  
 Zonal Wind  
