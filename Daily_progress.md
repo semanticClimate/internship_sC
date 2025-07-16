@@ -3,8 +3,8 @@
 ## **July 16, 2025 - Wednesday**
 ### Tasks Completed Today:
 * Debugged pygetpapers in the meeting.
-* Tried tu run Global Warming and Delhi as query for pygetpapers in the commandline.
-* Went through the results that were generated.
+* Ran Global Warming and Delhi as query for pygetpapers in the commandline.
+* Went through the results that were generated in the directory.
 
 ## **July 15, 2025 - Tuesday**
 ### Tasks Completed Today:
