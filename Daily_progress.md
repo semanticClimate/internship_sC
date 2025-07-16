@@ -1,5 +1,11 @@
 # My Daily Progress Log
 
+## **July 16, 2025 - Wednesday**
+### Tasks Completed Today:
+* Debugged pygetpapers in the meeting.
+* Tried tu run Global Warming and Delhi as query for pygetpapers in the commandline.
+* Went through the results that were generated.
+
 ## **July 15, 2025 - Tuesday**
 ### Tasks Completed Today:
 * Queried 10 papers using Pygetpapers for topic "water cycle changes AND Delhi" via Europe PMC.
