@@ -1,3 +1,7 @@
+## WEDNESDAY(16-7-2025)
+* I made a pdf summarizing cochrane ai raise
+* ran latest pygetpapers and downloaded some papers relating to query of my chapter
+* made some changes in the video
 ## TUESDAY (15-7-2025)
 * ran the pygetpaers version1.2.5a20 with the query `water and andhrapradesh` and added `--datatables` to command to download datatables
 * posted the output that I got and my comments on it at GitHub discussions [Github:discussion](https://github.com/petermr/pygetpapers/discussions/57#discussioncomment-13760309)
