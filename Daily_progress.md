@@ -1,5 +1,10 @@
 # My Daily Progress Log
 
+## **July 17, 2025 - Thursday**
+### Tasks Completed Today:
+* Presented my video in meeting and got feedback for improvements.
+* Submitted ALR Workflow 
+
 ## **July 16, 2025 - Wednesday**
 ### Tasks Completed Today:
 * Debugged pygetpapers in the meeting.
