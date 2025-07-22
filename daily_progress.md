@@ -210,8 +210,22 @@ FAILED tests/_test.py::test_does_arxiv_work - assert False == True
 ### TUESDAY (15-07-2025)
 - Ran pygetpapers latest version from v20(version>=a20)
 - Ran pygetpapers for my chapter query ("Visakhapatnam climate change")
-- Made a presentation of WG1/CH04 Future Global Climate for FSCI event
+- Made a Slide presentation of WG1/CH04 Future Global Climate for FSCI event
 - Assigned another task for "Benchmarking AI Lit Review" by Simon
- 
+### WEDNESDAY (16-07-2025)
+- Recorded the presentation of my chapter in git repo
+- Worked on creating a documentation of  "Benchmarking AI Lit Review"
+### THURSDAY (17-07-2025)
+- Submitted the video presentation for FSCI   of my chapter
+- Submitted the documentation of "Benchmarking AI Lit Review"
+### FRIDAY (18-07-2025)
+- Ran pygetpapers latest version from v20
+- Ran pygetpapers for my chapter with more queries
+### MONDAY (21-07-2025)
+- Submitted and shared the FAQ created for FSCI 2025
+- Assigned to review Notebooks used for FSCI event
+- Faced 2 issues in 2 notebooks (LLM RAG for PDF & Entity Recognition) reported.
+### TUESDAY (22-07-2025)
+- Issues resolved in notebooks reran the notebooks(no issues faced)
 
 
