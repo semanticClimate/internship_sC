@@ -1,5 +1,22 @@
 # My Daily Progress Log
 
+## **July 23, 2025 - Wednesday**
+### Tasks Completed Today:
+* Went through FISCI event updates.
+* Started writing my final report.
+
+## **July 22, 2025 - Tuesday**
+### Tasks Completed Today:
+* Went through FISCI event updates.
+
+## **July 21, 2025 - Monday**
+### Tasks Completed Today:
+* Could not attend the meeting, went through the recording. 
+
+## **July 18, 2025 - Friday**
+### Tasks Completed Today:
+* Added my video on git hub for FISCI event.
+
 ## **July 17, 2025 - Thursday**
 ### Tasks Completed Today:
 * Presented my video in meeting and got feedback for improvements.
