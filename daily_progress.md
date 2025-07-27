@@ -227,5 +227,11 @@ FAILED tests/_test.py::test_does_arxiv_work - assert False == True
 - Faced 2 issues in 2 notebooks (LLM RAG for PDF & Entity Recognition) reported.
 ### TUESDAY (22-07-2025)
 - Issues resolved in notebooks reran the notebooks(no issues faced)
+### WEDNESDAY (23-07-2025)
+- Attended FSCI event
+### THURSDAY (24-07-2025)
+- Attended FSCI event
+### FRIDAY (25-07-2025)
+- Attended FSCI event
 
 
