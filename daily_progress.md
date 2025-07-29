@@ -233,5 +233,8 @@ FAILED tests/_test.py::test_does_arxiv_work - assert False == True
 - Attended FSCI event
 ### FRIDAY (25-07-2025)
 - Attended FSCI event
-
+### MONDAY (28-07-2025)
+- Checked out for creating dictionary for my chapter
+### TUESDAY (29-07-2025)
+- Created a dictionary on posted in my branch repo for WG1/CH04
 
