@@ -1,40 +1,48 @@
 from bs4 import BeautifulSoup
 import re
 
-# Load your IPCC HTML file
+# Load HTML file
 with open("IPCC_AR6_WGI_Chapter04.html", "r", encoding="utf-8") as file:
     soup = BeautifulSoup(file, "html.parser")
 
-# Extract all visible text
+# Extract and clean text
 text = soup.get_text(separator=" ")
+text = re.sub(r"\[\d+\]", "", text)  # remove citations
+text = re.sub(r"[^\w\s\-]", " ", text)  # remove punctuation
+text = text.lower()
 
-# Optional: Clean common tags like references, figure captions
-text = re.sub(r"\[\d+\]", "", text)
+# Exclude very common English/basic science words
+stopwords = set([
+    'climate', 'global', 'change', 'report', 'chapter', 'earth', 'model', 'data', 'study',
+    'result', 'level', 'high', 'low', 'figure', 'table', 'time', 'value', 'based',
+    'system', 'surface', 'ocean', 'years', 'effect', 'area', 'work', 'space', 'mean',
+    'number', 'case', 'point', 'same', 'used', 'shown', 'shown', 'first', 'new',
+    'increase', 'decrease', 'include', 'e.g.', 'etc', 'however', 'although'
+])
 
-# Define regex patterns for key climate terms
-acronym_pattern = r'\b[A-Z]{3,6}\b'  # e.g., GSAT, GMST, ENSO
-ssp_pattern = r'SSP\d-\d\.\d'        # e.g., SSP1-1.9
-rcp_pattern = r'RCP\d\.\d'           # e.g., RCP8.5
-cmip_pattern = r'CMIP\d'             # e.g., CMIP6
-word_pattern = r'\b[A-Za-z-]{4,}\b'  # Longer meaningful words
+# Step 1: Extract all words ≥ 7 letters
+words = re.findall(r'\b[a-z\-]{7,}\b', text)
+words = [w for w in words if w not in stopwords]
 
-# Combine all matches
-matches = re.findall(f'{acronym_pattern}|{ssp_pattern}|{rcp_pattern}|{cmip_pattern}|{word_pattern}', text)
+# Step 2: Remove substrings (if one word is part of another, keep longest)
+unique_words = sorted(set(words), key=len, reverse=True)
+filtered_words = []
 
-# Optional: Add custom filters for common climate keywords
-keywords = set()
-for word in matches:
-    if word.lower() in [
-        "precipitation", "warming", "feedback", "variability", "sea", "carbon", "acidification",
-        "uptake", "temperature", "monsoon", "threshold", "heatwaves", "uncertainty", "projection",
-        "circulation", "radiative", "forcing", "sensitivity", "climate", "pattern", "model", "scenario",
-        "probabilistic", "global", "surface", "air", "response", "extremes", "pH"
-    ] or word.isupper() or "SSP" in word or "RCP" in word or "CMIP" in word:
-        keywords.add(word)
+for word in unique_words:
+    if not any(word in longer for longer in filtered_words):
+        filtered_words.append(word)
 
-# Sort and write to file
-with open("WG1_CH04_wordlist.txt", "w", encoding="utf-8") as f:
-    for word in sorted(keywords):
-        f.write(word + "\n")
+# Step 3: Save outputs
+with open("WG1_CH04_cleaned_keywords.txt", "w", encoding="utf-8") as f_txt:
+    for word in sorted(filtered_words):
+        f_txt.write(word + "\n")
 
-print(f"Extracted {len(keywords)} keywords to climate_wordlist.txt")
+with open("WG1_CH04_cleaned_keywords.csv", "w", encoding="utf-8") as f_csv:
+    f_csv.write("Word\n")
+    for word in sorted(filtered_words):
+        f_csv.write(f"{word}\n")
+
+print(f"✅ Extracted {len(filtered_words)} unique scientific words.")
+print("📄 Saved to:")
+print(" - WG1_CH04_cleaned_keywords.txt")
+print(" - WG1_CH04_cleaned_keywords.csv")
