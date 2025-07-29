@@ -98,6 +98,15 @@ The keyword extraction script is based on the implementation available at:
 ### Here is the Wordlist that I got
 [GitHub: semanticClimate IPCC WG1 CHAPTER4 WORDLIST](Keyword_Extraction/WG1_CH04_wordlist.txt)
 
+### Step 4: Use amilib to create a dictionary
+```
+pip install amilib==0.3.9
+```
+Use this code to create dictionary
+```
+amilib DICT --words your_wordlist_path.txt  --description wikipedia --dict output_dict_path.html --figures --operation create
+```
+edits path names accordingly.
 
 
 
