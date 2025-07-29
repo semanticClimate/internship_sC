@@ -14,6 +14,6 @@ command = [
 
 try:
     subprocess.run(command, check=True)
-    print(f"✅ Dictionary generated at: {output_dir}/dictionary.html")
+    print(f"Dictionary generated at: {output_dir}/dictionary.html")
 except subprocess.CalledProcessError as e:
-    print("❌ Error occurred while generating dictionary:", e)
+    print(" Error occurred while generating dictionary:", e)
