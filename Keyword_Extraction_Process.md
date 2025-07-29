@@ -107,6 +107,8 @@ Use this code to create dictionary
 amilib DICT --words your_wordlist_path.txt  --description wikipedia --dict output_dict_path.html --figures --operation create
 ```
 edits path names accordingly.
+### Here is the Wordlist that i got
+[https://github.com/semanticClimate/internship_sC/blob/280886ae2fd18118fe55c4247f6cc6f4c3931bd9/Keyword_Extraction/WG1_CH04_dict.html](WG1/CH04_Dictionary)
 
 
 
