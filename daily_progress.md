@@ -237,4 +237,7 @@ FAILED tests/_test.py::test_does_arxiv_work - assert False == True
 - Checked out for creating dictionary for my chapter
 ### TUESDAY (29-07-2025)
 - Created a dictionary on posted in my branch repo for WG1/CH04
+### WEDNESDAY (30-07-2025)
+- Worked on Implementing Anna Rahr RAG model for my chapter
+- Worked on shabnams LLM-RAG for PDF and trying to experiment with "Executive Summary"
 
