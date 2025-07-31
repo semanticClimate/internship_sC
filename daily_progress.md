@@ -240,4 +240,6 @@ FAILED tests/_test.py::test_does_arxiv_work - assert False == True
 ### WEDNESDAY (30-07-2025)
 - Worked on Implementing Anna Rahr RAG model for my chapter
 - Worked on shabnams LLM-RAG for PDF and trying to experiment with "Executive Summary"
+### THURSDAY (31-07-2025)
+- Tried Anna Rahr model for my chapter got some errors tried resolving
 
