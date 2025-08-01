@@ -1,35 +1,50 @@
 IPCC AR6 WG1 Chapter 8: Water Cycle Changes 
 
-8.1 Introduction  
-8.1.1 Scope and Overview  
-  - Importance of Water for Human Societies and Ecosystems  
-  - Overview of the Global Water Cycle in the Climate System  
-8.1.2 Summary of Water Cycle Changes From AR5 and Special Reports  
-8.1.3 Chapter Motivations, Framing and Preview
+8.1 Chapter Overview & Motivation
+8.1.1 Importance of water for societies & ecosystems
+8.1.2 Overview of the global water cycle in the climate system
+8.1.3 Summary of water cycle changes from AR5 and recent special reports
+8.1.4 Chapter framing, motivations & structure
 
-8.2 Why Should We Expect Water Cycle Changes?  
-8.2.1 Global Water Cycle Constraints  
-8.2.2 Constraints on the Regional Water Cycle  
-8.2.3 Local-scale Physical Processes Affecting the Water Cycle  
-Box 8.1 Role of Anthropogenic Aerosols in Water Cycle Changes
+8.2 Why Should We Expect Water Cycle Changes?
+8.2.1 Global water cycle constraints (energy‑climate linkages)
+8.2.2 Regional atmospheric circulation and moisture constraints
+ 8.2.2.1 Thermodynamic limits on atmospheric moisture fluxes
+ 8.2.2.2 Large‑scale circulation response patterns
+8.2.3 Local physical drivers impacting water cycle changes
+ 8.2.3.1 Hydrological processes related to ice and snow
+ 8.2.3.2 Heavy precipitation mechanisms and flooding drivers
+ 8.2.3.3 Drought drivers and aridity influences
+ 8.2.3.4 Direct anthropogenic intervention (land‑use, irrigation, aerosols, etc.)
+Box 8.1 Role of anthropogenic aerosols in water cycle changes
 
-8.3 How Is the Water Cycle Changing and Why?  
-8.3.1 Observed Water Cycle Changes Based on Multiple Datasets  
-8.3.2 Observed Variations in Large-scale Phenomena and Regional Variability
+8.3 How Is the Water Cycle Changing? (Observed Trends)
+8.3.1 Observed changes based on multiple datasets
+ 8.3.1.1 Global water cycle intensity and P–E variations over land and ocean
+ 8.3.1.2 Atmospheric water vapor trends and moisture transport
+ 8.3.1.3 Regional contrasts: aridity and seasonal hydrology
+8.3.2 Detection and attribution: human vs natural influences
+ 8.3.2.1 Fingerprints of greenhouse gases & aerosols on precipitation & aridity
+ 8.3.2.2 Circulation‑driven regional shifts
+ 8.3.2.3 Impacts on monsoon systems and mid‑latitude storm tracks
 
-8.4 What Are the Projected Water Cycle Changes?  
-8.4.1 Projected Water Cycle Changes  
-Box 8.2 Changes in Water Cycle Seasonality  
-8.4.2 Projected Changes in Large-scale Phenomena and Regional Variability
+8.4 What Are the Projected Changes? (Model‑based Projections)
+8.4.1 Precipitation projections: global & regional changes
+8.4.2 Seasonality, streamflow and water availability shifts
+8.4.3 Monsoon projections: onset, intensity & duration changes
+8.4.4 Aridity and dryness trends under different future scenarios
+8.4.5 Variability and extremes: intensification of wet and dry events
 
-8.5 What Are the Limits for Projecting Water Cycle Changes?  
-8.5.1 Model Uncertainties of Relevance for the Water Cycle  
-8.5.2 Role of Internal Variability and Volcanic Forcing  
-8.5.3 Non-linearities Across Global Warming Levels
+8.5 Limits to Projection & Uncertainty
+8.5.1 Internal variability vs model‑driven uncertainty
+8.5.2 Process‑level limitations: model representation of hydrological feedbacks
+8.5.3 Scenario uncertainty across SSP emissions pathways
 
-8.6 What Is the Potential for Abrupt Change?  
-8.6.1 Abrupt Water Cycle Responses to a Collapse of AMOC  
-8.6.2 Abrupt Responses to Changes in the Land Surface  
-8.6.3 Abrupt Responses to Solar Radiation Modification
+8.6 Potential for Abrupt & High‑Impact Change
+8.6.1 Non‑linear water cycle shifts (e.g. AMOC collapse, snowpack tipping)
+8.6.2 Interactions with solar radiation modification and rapid external forcing
+8.6.3 Paleoclimate analogues & paleo‑driven insights
 
-8.7 Final Remarks
+8.7 Conclusions & Future Research Needs
+8.7.1 Key chapter takeaways
+8.7.2 Gaps and recommendations for future observations and modeling studies
