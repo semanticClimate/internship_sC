@@ -30,7 +30,7 @@ During this internship, work was carried out on:
 
 ## Work on IPCC Chapter 2
 
-My primary focus was on Working Group I (WG1), Chapter 2: The Changing State of the Climate System.
+The primary focus was on Working Group I (WG1), Chapter 2: The Changing State of the Climate System.
 
 ### Contributions:
 
