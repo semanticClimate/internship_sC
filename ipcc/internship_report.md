@@ -10,7 +10,7 @@
 
 ## Introduction
 
-This report documents a six-month internship with the Semantic Climate Project, an open science initiative dedicated to unlocking knowledge from climate literature.
+This report documents a six-month internship with the Semantic Climate, an open science initiative dedicated to unlocking knowledge from climate literature.
 
 Semantic Climate focuses on making the reports of the Intergovernmental Panel on Climate Change (IPCC) more:
 
@@ -30,7 +30,7 @@ During this internship, work was carried out on:
 
 ## Work on IPCC Chapter 2
 
-The primary focus was on Working Group I (WG1), Chapter 2: The Changing State of the Climate System.
+My primary focus was on Working Group I (WG1), Chapter 2: The Changing State of the Climate System.
 
 ### Contributions:
 
