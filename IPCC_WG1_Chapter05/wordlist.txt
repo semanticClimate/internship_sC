@@ -161,3 +161,77 @@ Fossil emissions
 Net emissions
 LULUCF 
 FOLU
+Tropospheric chemistry
+troposphere
+Hydroxyl radical (OH)
+excited state oxygen 
+Enteric fermentation
+FAO
+US EPA
+Empirical upscaling
+In situ
+AR5
+SRCCL
+Ruminant animals
+Gas flaring
+Aerosols
+Thermogenic emissions
+Pyrogenic emissions
+Biogenic emissions
+d13C trend
+Green revolution
+Oil price increases (1980s)
+Mt Pinatubo eruption (1991)
+Temporary pause (1999–2006)
+Renewed increase (2007–2016)
+Hemispheric gradient
+Chemistry-climate models
+Inventory-based estimates
+Spatially aggregated atmospheric data
+d13C data
+Enteric fermentation
+Anoxic conditions
+Flux towers
+El Niño–Southern Oscillation
+El Niño
+La Niña
+Abiotic production
+Methanogenesis
+Soil microbial methane
+anthropods
+Precipitation
+Termites
+Geological emissions
+Fjords
+Biogenic
+Estuaries
+Arctic shelf seepage
+East Siberian Arctic shelf
+Ebullition
+Decadal emissions
+Upscaling approaches
+Nitrification
+Denitrification
+Ammonium
+Photochemical destruction
+perturbation
+fertilizers
+Photolysis
+Aquaculture
+Abatement technologies
+Power plants
+biogeochemistry models
+climatological
+Microbial nitrification
+Microbial denitrification
+Deforestation
+Land-use change
+Emission pulses
+Deforestation-pulse effect
+Freeze–thaw cycles
+thaw
+Estuary emissions
+bottom-estimate
+Radiative forcing
+Halogenated species
+flux
