@@ -1,0 +1,163 @@
+unequivocal
+methane
+nitrous oxide
+GHGs
+anthropogenic
+physical-biogeochemical
+nitrogen cycles
+carbon cycles
+ocean acidification
+carbon dioxide removal (CDR)
+solar radiation modification (SRM)
+unprecedented
+atmospheric gradients
+atmospheric isotopes
+petagrams
+teragrams
+El Niño–Southern Oscillation
+biomass
+wetland
+tropospheric hydroxyl radical 
+nitrogen fertilizer
+manure
+wastewater
+subpolar
+polar zones
+Coupled Model Intercomparison Project Phase 6 (CMIP6)
+Shared Socio-economic Pathways (SSPs) 
+Representative Concentration Pathway (RCP) analogues
+Representative Concentration Pathway (RCP) analogues
+Special Report on the Ocean and Cryosphere (SROCC)
+stratification
+ESMs
+SSP
+2100
+SSP4-6.0
+SSP5-8.5
+SSP1-2.6
+transient
+permafrost
+clathrates
+centennial
+W m–2°C–1
+TCRE
+carbon budgets
+Paris Agreement
+carbon–climate system
+Biogeochemical feedbacks
+radiative forcing 
+negative feedbacks
+positive feedbacks
+Carbon–climate feedbacks
+quasi-linear trend
+airborne fraction of CO2
+partial pressure of CO2 
+Ocean Stratification
+soil respiration
+air–sea fluxes
+ocean buffering capacity
+peat formation
+peat decomposition 
+ocean ventilation
+quasi-linear
+quasi-emission-path independent
+Paleoclimatic proxy records
+unprecedented
+deglacial transition (LDT, 18–11 ka)
+mid-Pliocene
+Early Eocene
+Cenozoic Proxy
+marine sediment proxies
+sedimentary processes 
+confound rate estimates
+bioturbation
+attenuate
+Paleocene–Eocene thermal maximum (PETM)
+Methane emissions
+marine organic carbon
+hydrate/permafrost thawing
+RCP8.5
+volcanic outgassing
+organic carbon burial
+silicate weathering
+Eocene-Oligocene transition
+hydrography
+mid-Pliocene Warm Period
+MPWP
+marine biological carbon pump
+ice core 
+perturbations
+orbital time scales
+orbital forcing
+glacial–interglacial climate oscillations 
+ocean biogeochemistry
+lithosphere
+chemical weathering
+volcanic activity
+isotopic
+biomass
+microbial
+photochemical
+stratosphere 
+exogenic
+terrestrial
+reservoirs
+Last Glacial Maximum (LGM)
+hydrological cycle
+de)nitrification
+biosphere
+boreal peatlands
+perturbed
+biological carbon pump 
+disequilibrium
+iron fertilization
+remineralized
+synergistic
+precipitation
+reservoirs
+LDT 
+isotope analysis
+Intertropical Convergence Zone (ITCZ)
+Atlantic meridional overturning circulation (AMOC
+global ocean circulation reorganization
+coeval
+transient
+deglacial
+oscillations
+Southern Ocean overturning circulation
+concomitant reduction 
+marine BCP
+AMOC
+ITCZ 
+labile organic carbon
+pH reconstructions
+Gt
+magmatism 
+hydrothermal
+radiocarbon budget 
+Earth models of intermediate complexity (EMIC)
+oceanic circulation
+marine carbonate chemistry
+marine carbon cycle
+Holocene 
+Boreal sources
+Mid-Holocene
+Stable isotope compositions
+Southern tropics
+Global CH₄ budget
+ppb (parts per billion)
+Nitrogen stable isotope composition
+Terrestrial emissions
+Marine emissions
+Early Holocene
+Late Holocene
+ppm
+Carbon sequestration
+PgC
+Carbon outgassing
+carbonate compensation
+ka
+Fossil emissions
+Net emissions
+LULUCF 
+FOLU
