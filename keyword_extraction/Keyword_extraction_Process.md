@@ -58,15 +58,17 @@ torch>=2.0.0
 pandas>=2.0.0
 tqdm>=4.65.0
 ```
-### Clone the Repository
+### Download the  Keyword_extraction.py file in your virtual environment
 ```
-git clone https://github.com/semanticClimate/internship_sC/blob/udita/keyword_extraction
+https://github.com/semanticClimate/internship_sC/blob/udita/keyword_extraction/keyword_extraction.py
 ```
 ## Extract Keywords
 Use the following command to extract keywords from your text file:
 ```sh
 python keyword_extraction.py -t text_file_path.txt -s ./
 ```
+Keep in mind that output file name is hardcoded so you only need to give the path of the directory where you want to store the output file 
+
 ### Here is the Wordlist that I got
 [GitHub: semanticClimate IPCC WG1 CHAPTER5 WORDLIST](https://github.com/semanticClimate/internship_sC/blob/udita/Keyword_Extraction/top_1000_keypharses.csv)
 
