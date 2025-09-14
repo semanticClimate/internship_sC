@@ -18,12 +18,6 @@
 ## 23–24 August 2025  
 - Worked on the **keyword extraction code**.  
 - Enhanced the script to ensure it also provides the **count of each keyword**.
-
-Always show details
-# Let's create a markdown file that the user can directly copy to their Git repo.
-
-content = """# Daily Progress
-
 ## 18 August 2025  
 - Explored the semanticClimate Getting Started intern page.  
 - Cloned the repositories **amilib** and **amiclimate** into my local system.  
@@ -52,5 +46,25 @@ content = """# Daily Progress
 
 ## 27–31 August 2025  
 - Automated the **keyword_extraction.py** workflow.  
-- Added **classification.py**, which classifies extracted keywords into **general** (common across chapters) and **specific** (chapter-wise) categories and generates CSV outputs.  
+- Added **classification.py**, which classifies extracted keywords into **general** (common across chapters) and **specific** (chapter-wise) categories and generates CSV outputs.
+ ## 1–3 September 2025
+- Worked on **classification.py**.
+- Enhanced classification using **TF-IDF values** for better accuracy in distinguishing general and specific keywords.
+
+## 4–7 September 2025
+- Further enhanced **classification.py** to incorporate both **frequency of words** and **TF-IDF values** for keyword classification.
+- Generated **keyword lists** for the entire **IPCC WG1** document.
+
+## 8–9 September 2025
+- Created a **wrapper class** to automate the process of **keyword extraction** and classification.
+
+## 10 September 2025
+- Resolved an issue raised on GitHub in the **encyclopedia** repository.
+
+## 11 September 2025
+- Fixed an error in **classification.py**.
+- Created a **flowchart** for the keyword extraction and classification workflow using **Graphviz**.
+
+## 12–14 September 2025
+- Worked on methods to **classify keywords based on country** and **climate-related terms**.
 
