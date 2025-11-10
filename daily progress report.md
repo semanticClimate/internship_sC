@@ -22,4 +22,18 @@
 * Cloned amilib repository from github for unit testing
 * Encountred error in running the unit testing for amilib
 * Downloaded the html file for WGII Chapter 2 to begin with keyword extraction process.
-* 
+
+##   Week 5 ( 3rd Nov - 9th Nov)
+* Installed the correct version of python (python version 3.12)
+* Created a virtual enviroment and Installed amilib from PyPI
+* Encountered module error "sk learn" installed scikit- learn
+* Successfully installed amilib
+* Similarly installed txt2phrases from PyPI successfully.
+* Encountered error while trying to run the html2txt command because of missing Pytorch library
+* Installed Pytorch by pip install torch command
+* Successfully convereted html file to txt file
+* Extracted keywords from the txt file - saved as .csv file.
+* Visited NIPGR lab on 7th Nov.
+
+  ## Week 6 ( 10th Nov- 16th Nov)
+  * Removed duplicates from the extratced keyword files.
