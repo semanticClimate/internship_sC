@@ -1,0 +1,56 @@
+*DAILY PROGRESS*
+
+3TH NOVEMBER-
+Explored the SemanticClimate Getting Started page
+Understood project overview and workflow basics
+
+4TH NOVEMBER-
+Revised the basic steps from the internship guide
+Tried to understand how amilib and other tools work
+
+6th NOVEMBER-
+Reading my IPCC Chapter-6 WG1
+Explored semanticclimate github repository
+
+7TH NOVEMBER –
+Set up Git and created local repository for SemanticClimate
+Cloned the semanticClimate project and verified installation
+
+8TH NOVEMBER –
+Created virtual environment and installed project dependencies
+AMILib setup and verified Python environment works properly
+
+
+  10TH NOVEMBER – 
+Installed AMILib and resolved setup errors during installation.
+
+11TH NOVEMBER-
+Executed extraction script for Chapter-6 HTML.
+Generated initial summary file and verified heading extraction.
+
+12TH NOVEMBER-
+Downloaded html_with_ids.html for Chapter-6.
+Verified file and prepared for supervised keyword search step.
+
+13TH NOVEMBER-
+Successfully generated full_chapter_summary.txt containing all headings, subheadings, figures, FAQs, and sections from Chapter-6.
+Understood the flow for using html_with_ids.html and confirmed chapter headings are extracted correctly.
+
+14TH NOVEMBER-
+Ran the supervised keyword search script using AMILib and generated supervised_search_results.txt with accurate keyword counts.
+17TH NOVEMBER –
+Cleaned and reviewed the extracted keywords.
+Explored how other interns created dictionaries.
+
+18TH NOVEMBER-
+Tested AMILib DICT commands and understood the correct dictionary workflow.
+Prepared keywords_clean.txt and removed duplicates/noise words.
+
+19TH NOVEMBER-
+Worked on dictionary.
+Attend EPMC Meeting Session-1.
+
+20TH NOVEMBER-
+Understanding and learning about RAG-LLM Workflow.
+
+
