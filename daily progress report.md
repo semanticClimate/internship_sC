@@ -35,5 +35,14 @@
 * Extracted keywords from the txt file - saved as .csv file.
 * Visited NIPGR lab on 7th Nov.
 
-  ## Week 6 ( 10th Nov- 16th Nov)
-  * Removed duplicates from the extratced keyword files.
+## Week 6 ( 10th Nov- 16th Nov)
+* Removed duplicates from the extratced keyword files.
+* Saved the keyword file as a .txt file 
+* Prepared Presentation exploring EPMC tools and features.
+* Filtered out the easy and noise words from the keywords file
+
+## Week 7 ( 17th Nov - 23rd Nov)
+* Continued working on EPMC presentation and recorded the presentation for meeting 
+* Continued to work the list of extracted keywords to filter out the easy and duplicate ones.
+
+## Week 8 ( 24th Nov - 30th Nov )
