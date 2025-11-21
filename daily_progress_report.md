@@ -40,6 +40,7 @@
 * Saved the keyword file as a .txt file 
 * Prepared Presentation exploring EPMC tools and features.
 * Filtered out the easy and noise words from the keywords file
+* Documented the process for keyword extraction (along with the errors i faced and how i fixed those error)
 
 ## Week 7 ( 17th Nov - 23rd Nov)
 * Continued working on EPMC presentation and recorded the presentation for meeting 
