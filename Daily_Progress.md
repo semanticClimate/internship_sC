@@ -54,4 +54,8 @@
 ### 20 November  
 - Studied and understood the RAG-LLM workflow and how it connects with semantic search and paper extraction.
 
+### 21 November
+- Extracted keyphrases using txt2phrases workflow.
+- Downloaded the csv format file for keyphrases html_with_ids_keywords.
+
 
