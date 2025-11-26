@@ -32,15 +32,15 @@
 * Encountered error while trying to run the html2txt command because of missing Pytorch library
 * Installed Pytorch by pip install torch command
 * Successfully convereted html file to txt file
-* Extracted keywords from the txt file - saved as .csv file.
+* Extracted keywords from the txt file - saved as .csv file.[html_ipccwg2ch2_keywords.csv](https://github.com/semanticClimate/internship_sC/blob/nidhi/html_ipccwg2ch2_keywords.csv)
 * Visited NIPGR lab on 7th Nov.
 
 ## Week 6 ( 10th Nov- 16th Nov)
 * Removed duplicates from the extratced keyword files.
-* Saved the keyword file as a .txt file 
+* Saved the keyword file as a .txt file [ipcckeywords.txt](https://github.com/semanticClimate/internship_sC/blob/nidhi/ipcckeywords.txt)
 * Prepared Presentation exploring EPMC tools and features.
 * Filtered out the easy and noise words from the keywords file
-* Documented the process for keyword extraction (along with the errors i faced and how i fixed those error)
+* Documented the process for keyword extraction (along with the errors i faced and how i fixed those error) [Keyowrd extraction.md](https://github.com/semanticClimate/internship_sC/blob/nidhi/Keyword%20Documentation.md)
 
 ## Week 7 ( 17th Nov - 23rd Nov)
 * Continued working on EPMC presentation and recorded the presentation for meeting 
