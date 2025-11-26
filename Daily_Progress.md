@@ -45,7 +45,7 @@
 
 ### 18 November  
 - Understood proper dictionary creation workflow.  
-- Prepared `keywords_clean.txt` and removed duplicate/noise words.
+- Prepared `keywords_wg1_ch6.csv` and removed duplicate/noise words.
 
 ### 19 November  
 - Continued working on the dictionary structure.  
