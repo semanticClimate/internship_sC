@@ -47,3 +47,7 @@
 * Continued to work the list of extracted keywords to filter out the easy and duplicate ones.
 
 ## Week 8 ( 24th Nov - 30th Nov )
+* selected the words for encyclopedia
+* prepared the encyclopedia using amilib for wworking group 2 chapter 2
+
+## Week 9 (1st Dec- 7th Dec)
