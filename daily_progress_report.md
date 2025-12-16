@@ -51,3 +51,11 @@
 * prepared the encyclopedia using amilib for wworking group 2 chapter 2
 
 ## Week 9 (1st Dec- 7th Dec)
+* Tried unit testing amilib but encountred failure in test and got stuck
+
+## Week 10 (8th Dec-14th Dec)
+* Tried running encyclopedia.py script on my encyclopedia which generated a sorted and cleaned html file  and a knowledge graph for the encyclopedia
+
+## Week 11 (15th Dec-16th Dec)
+* Conducted pytest for semantic_corpus successfully
+* 
