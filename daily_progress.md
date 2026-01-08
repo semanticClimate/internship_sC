@@ -4,3 +4,8 @@ use pygetpapers in google colab to find files containing the term "epipelagic zo
 read the semantic climate toolkit and installed amilib.
 
 tomorrow i plan to further understand amilib.
+
+## 7 january 2026(wednesday)
+installed txt2phrases, find the keywords from my chapter i.e. oceans and coastal ecosystem and their services.
+
+
