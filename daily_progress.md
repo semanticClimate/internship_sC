@@ -1,5 +1,12 @@
 # Daily Progress Report - Arhaan Azmi
 
+
+## Jan 12th, 2026 (Monday)
+- Learning basics of Python, including OOPs. 
+
+## Jan 9th, 2026 (Friday)
+- Studying some research papers on RAG over the weekend to get a deeper understanding of how it works.
+
 ## Jan 8th, 2026 (Thursday)
 - Started manually removing duplicate and noise keywords from the extracted list obtained using text2phrases yesterday.
 - Looked up basic information on RAG (Retrieval Augmented Generation) after being assigned the task of learning about it in the lab at NIPGR today.
