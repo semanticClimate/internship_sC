@@ -13,5 +13,9 @@
 - Created the second draft of the presentation for Climate Academy
   # January 11th (Monday)
 - Extracted about 450 keywords using text to phrases from Chapter 2 of the *IPCC Sixth Assessment Report*.
+  # January 12th (Tuesday)
+- Removed any common, plural and synomynous words from the extracted keyword CSV list.
+- Created a sample wordlist of about 10 words (including Cut X from Climate Academy)
+- Created a sample dictionary to build an encyclopedia with pictures using the 10 words selected. 
 
   
