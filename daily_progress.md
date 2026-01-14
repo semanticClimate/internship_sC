@@ -1,6 +1,15 @@
 # Daily Progress Report - Arhaan Azmi
 
 
+## Jan 14th, 2026 (Wednesday)
+- 
+
+## Jan 13th, 2026 (Tuesday)
+- Tested out the RAG pipeline co lab notebook sent to me by Kamran.
+- Cloned the encyclopedia repository locally.
+- Prepared an encyclopedia from 10 extracted words of WG3 CH3 using create_encyclopedia_from_wordlist.py.
+- Tested the encyclopedia browser.
+
 ## Jan 12th, 2026 (Monday)
 - Learning basics of Python, including OOPs. 
 
