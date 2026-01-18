@@ -54,8 +54,10 @@
 * Tried unit testing amilib but encountred failure in test and got stuck
 
 ## Week 10 (8th Dec-14th Dec)
-* Tried running encyclopedia.py script on my encyclopedia which generated a sorted and cleaned html file  and a knowledge graph for the encyclopedia
+* Tried running encyclopedia.py script on my encyclopedia which generated a sorted and cleaned html file[wg2_cleaned_sorted.html](https://github.com/semanticClimate/internship_sC/blob/nidhi/wg2_cleaned_sorted.html) and a knowledge graph for the encyclopedia [encyclopedia_kg_visual.html](https://github.com/semanticClimate/internship_sC/blob/nidhi/encyclopedia_kg_visual.html)
 
-## Week 11 (15th Dec-16th Dec)
-* Conducted pytest for semantic_corpus successfully
-* 
+## Week 11 (15th Dec-21st Dec)
+* Conducted pytest for semantic_corpus successfully.
+
+## Week 12(5th Jan- 9th Jan)
+* Condcuted pytest for encyclopedia repo successfully.
