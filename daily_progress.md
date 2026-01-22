@@ -53,7 +53,7 @@
 
 ### January 13, 2026 (Tuesday)
 
-- Installed `txt2phrases` and the PyTorch CUDA version on my PC (which has a GPU).  
+- Installed `txt2phrases` and the `PyTorch` CUDA version on my PC (which has a GPU).  
 - Ran the keyword extraction process again and obtained a list of 1,000 words in CSV format.
 
 
@@ -69,7 +69,7 @@
 
 - Installed additional Python version  - Python 3.12, for better compatibility with `amilib`.  
 - Cloned the `amilib` repository locally and installed the same.
-- `pytest` was installed and all tests were executed successfully.
+- Installed `pytest` and ran it.
 - Added GitHub account in VS Code and configured it.
 - Created a branch in `semanticClimate/internship_sc` using my GitHub account: [internship_sc branch](https://github.com/semanticClimate/internship_sC/tree/gulamajdhani).
 
