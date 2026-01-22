@@ -1,0 +1,261 @@
+keyword
+acidification
+active restoration
+Adaptation
+Alaska
+algal blooms
+AMOC
+animal biomass
+Antarctic
+Anthropocene
+anthropogenic forcing
+Aquaculture
+aragonite saturation horizon
+Arctic marine ecosystems
+Arctic Ocean
+Assessment Report
+assisted evolution
+Australia
+Baltic Sea
+Bangladesh
+bioaccumulation
+biodiversity loss
+biogeography
+Biogeosciences
+biomass
+Black Sea
+Bleaching
+Blue Carbon
+blue economy
+Brazil
+breeding
+calcification
+Canada
+carbon sequestration
+CIDs
+climate change adaptation
+climate warming
+CMIP6 models
+coastal erosion
+coastal organisms
+coastal protection
+Coastal Sequestration
+community composition
+community shifts
+conservation
+continental shelf
+coral
+coral bleaching
+coralline algae
+cosystems
+cultural ecosystem services
+cultural heritage
+cyanobacteria
+dead zones
+deep ocean
+Deep Sea Res
+deltas
+diatoms
+distribution
+drivers
+Dungeness crab
+Earth system models
+East China Sea
+EBUS
+economic benefits
+ecosystem collapse
+ecosystem resilience
+ecosystem responses
+ecosystem shifts
+Ecotourism
+environmental change
+environmental drivers
+epipelagic zone
+erosion
+Error bars
+Estuaries Coasts
+eutrophication
+evolution
+extreme events
+extreme sea levels
+fish communities
+fish stocks
+Fisheries
+fitness
+Florida
+food availability
+food security
+food webs
+forage fish
+functional groups
+genetic diversity
+genetic resources
+geological past
+global distribution
+global oceans
+global sea surface warming
+GMSL
+governance
+Great Barrier Reef
+greenhouse gases
+growth
+habitat loss
+Habitat restoration
+heat stress
+heatwaves
+High confidence
+Human adaptation
+human communities
+human health
+human vulnerability
+hypoxia
+ification
+IKLK
+Indigenous Peoples
+Indonesia
+industries
+infrastructure
+interannual variability
+internal variability
+invasive species
+invertebrates
+kelp
+kelp detritus
+Kenya
+krill
+lagoons
+landward migration
+local communities
+macroalgae
+mammals
+mangrove forests
+manipulation experiments
+mariculture
+marine adaptation
+marine aquaculture
+Marine birds
+marine ecosystem
+marine ectotherms
+marine food webs
+Marine heatwaves
+marine phytoplankton
+marine pollution
+marine resources
+marine species
+mass coral bleaching
+mass mortality
+Mediterranean Sea
+Medium confidence
+mesopelagic
+metabolic rates
+Mexico
+MHWs
+migration
+mitigation
+modelling
+monitoring
+mortality
+MPAs
+Multiple Drivers
+multiple stressors
+mussels
+natural variability
+nitrate concentration
+non-indigenous species
+North America
+North Atlantic
+North Pacific
+nutrient availability
+nutrient depletion
+ocean acidification
+ocean basins
+ocean circulation
+Ocean currents
+Ocean deoxygenation
+ocean governance
+Ocean warming
+Oceanography
+OMZs
+overfishing
+oxygen minimum zones
+paleorecords
+pathogens
+Persian Gulf
+persistent organic pollutants
+phenology
+phenotypic plasticity
+Physical Science Basis
+Physiological process rate
+physiology
+plasticity
+PLoS
+polar bears
+polar regions
+primary producers
+range expansions
+range shifts
+recreation
+recruitment
+Red Sea
+Reef Restoration
+reef shading
+regime shifts
+Regional Aspects
+regional variations
+Resilience
+restoration
+rocky shores
+salinity
+salt marshes
+sand dunes
+SDGs
+Sea Level Rise
+sea surface temperature
+seafloor
+seafood consumption
+seagrass beds
+seasonality
+seaweeds
+sediment dynamics
+Shared Socioeconomic Pathways
+shelf seas
+shellfish
+shipping
+SIDS
+South Africa
+Southeast Asia
+Southern Ocean
+spatial distribution
+species
+species composition
+species distribution
+species richness
+Springer International Publishing
+SROCC
+stocks
+storm surges
+storms
+stratification
+structural complexity
+sustainable fisheries
+temperature
+thermal stress
+thermal tolerance
+time series
+tipping points
+total animal biomass
+tourism
+trophic amplification
+trophic mismatches
+Tropicalization
+turtles
+United Nations
+United States
+upwelling
+water quality
+wave attenuation
+wave energy
+wetlands
+WGI AR6
+whales
+zooplankton
