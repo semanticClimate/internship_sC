@@ -10,6 +10,7 @@
 ### January 23, 2026 (Friday)
 
 - Day off due to the Basant Panchami celebration at NIPGR.
+- Added a **[beginner guide for the encyclopedia browser](https://github.com/semanticClimate/encyclopedia/blob/gulamajdhani/docs/getting_started/encyclopedia_browser_guide.md)** and committed it to my branch in the encyclopedia repository.
 
 
 ### January 22, 2026 (Thursday)
