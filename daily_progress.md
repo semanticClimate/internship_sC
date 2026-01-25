@@ -1,3 +1,22 @@
+## 25 january 2026 
+-tried new version of encyclopedia code which is python -m encyclopedia.cli.versioned_editor create --wordlist test/wordlist_a.txt   --output temp/test/wordlist_a/encyclopedia.html  --title "Encyclopedia".
+- got my 10 keyword encyclopedia using the above code.
+- commited it to my branch sakshig.
+
+## 21-22 january 2026
+- worked on getting the images for the dictionary encyclopedia.
+- tried chatgpt in vs code to write code but not getting the satisfactory result.
+
+
+## 20 january 2026
+- created the encyclopedia using amilib for my chapter WG-2 ch-3 (oceans and coastal ecosystem)
+
+## 12 january-19 january 2026
+- tried the create_encyclopedia_from_wordlist python script using 10 keywords.
+- got description and wikidata id of the content.
+- tried it on streamlit browser.
+- working on getting the images.
+
 ## 6 january 2026 (tuesday)
 - use pygetpapers in google colab to find files containing the term "epipelagic zone".
 
@@ -13,8 +32,6 @@
 ## 8 january 2026(thursday)
 - removed the duplicate and ambiguous data from my keyword file.
 
-## 8 january 2026(thursday)
-refined the keyword file by removing duplicate and ambiguous term.
 
 
 
