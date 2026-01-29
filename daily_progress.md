@@ -1,10 +1,10 @@
 # Daily Progress - Gulam Ajdhani
 
-### January 26, 2026 (Monday)
+### January 28, 2026 (Wednesday)
+- Attended the international conference.
 
-
-
-
+### January 27, 2026 (Tuesday)
+- Tested `encyclopedia.cli.versioned_editor.py` v0.0.5 with test words; the generated encyclopedia contained no images
 
 
 ### January 23, 2026 (Friday)
