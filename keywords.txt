@@ -1,0 +1,497 @@
+keyword
+global warming
+Geophysical Research Letters
+Europe
+American Meteorological Society
+Climate Dynamics
+extreme precipitation
+China
+medium confidence
+Hydrology
+precipitation
+temperature extremes
+climate change
+CMIP5
+South America
+CMIP6
+precipitation extremes
+Earth System Sciences
+Australia
+North America
+heavy precipitation
+Africa
+Climatology
+hot extremes
+drought
+tropical cyclones
+USA
+severe convective storms
+AR5
+India
+climate extremes
+hydrological droughts
+ecological droughts
+National Academy of Sciences
+cold extremes
+CMIP5 models
+heatwaves
+soil moisture
+meteorological droughts
+droughts
+compound events
+East Asia
+uncertainty
+human influence
+extremes
+global warming levels
+climate models
+Japan
+Asia
+International Journal
+temperature
+extreme events
+Climate Change
+tornadoes
+observations
+floods
+AED
+AR6 regions
+United Kingdom
+Northern Hemisphere
+atology
+United States
+Earth System Dynamics
+Canada
+SREX
+anthropogenic forcing
+Water Resources Research
+high confidence
+Nature
+Coupled Model Intercomparison Project
+anthropogenic climate change
+uncertainties
+Rx1day
+precipitation deficits
+Natural Hazards
+GWL
+Meteorological Society
+Brazil
+extreme temperatures
+Tropical Cyclones
+hail
+storm surge
+extreme precipitation events
+southern Europe
+hydrological models
+North Pacific
+Observed trends
+Nature Climate Change
+Extreme Precipitation
+data sources
+Mediterranean
+meteorological drought
+heat waves
+river floods
+IPCC
+hydrological drought
+Medium confidence
+rainfall
+Central Europe
+MCSs
+land regions
+heavy precipitation events
+magnitude
+ESMs
+extreme rainfall
+soil moisture deficits
+ETCs
+Journal
+evapotranspiration
+probability
+anthropogenic influence
+CMIP6 models
+RCMs
+Rx5day
+Central America
+Climate change
+South Africa
+concurrent extremes
+greenhouse gas forcing
+extreme winds
+Australasia
+Mediterranean region
+wildfires
+Cambridge University Press
+climate system
+Global Warming
+atmospheric circulation
+atmospheric evaporative demand
+extratropical cyclones
+TC translation speed
+sea level rise
+global surface temperature
+land use
+event attribution
+Common Era
+warm days
+Southern Australia
+Northern Europe
+GCMs
+northern Africa
+southern Africa
+TC frequency
+Precipitation Extremes
+United States of America
+Intergovernmental Panel on Climate Change
+land areas
+human contribution
+greenhouse gases
+observed trends
+internal variability
+irrigation
+uncertainty range
+global climate models
+heat extremes
+South Asia
+New Zealand
+anthropogenic warming
+CORDEX simulations
+Amazon
+West Africa
+North Atlantic
+WIREs Climate Change
+Pakistan
+pluvial floods
+flash floods
+ecological drought
+emissions scenarios
+extreme weather events
+UK
+modelling
+cold days
+regional climate models
+CORDEX
+surface soil moisture
+interannual variability
+poleward migration
+TCs
+medicanes
+Climate Extremes
+hot temperature extremes
+heatwave days
+observational data
+tropics
+Hurricane Harvey
+indices
+tropical cyclone activity
+Paris Agreement
+CMIP5 projections
+GWLs
+extreme temperature
+global studies
+regional studies
+Central Africa
+climatology
+Southern Africa
+runoff
+climate variability
+El NiÃ±o
+extreme El NiÃ±o
+Monthly Weather Review
+Drought
+Precipitation
+Indonesia
+Working Group I
+Urbanization
+land area
+low confidence
+attribution
+anthropogenic influences
+dynamic processes
+warming
+lightning
+flooding
+Middle East
+flood frequency
+human activities
+aerosols
+simulations
+cold nights
+South East Asia
+Mexico
+CMIP6 simulations
+Ethiopia
+East Africa
+Human influence
+drought severity
+Chile
+SPI
+western North Pacific
+TC activity
+Spain
+Meteorology
+Current Climate Change Reports
+Royal Meteorological Society
+fire weather
+aerosol concentrations
+natural variability
+continents
+atmospheric rivers
+event attribution studies
+intense TCs
+dynamical intensity
+global mean temperature
+warm extremes
+feedbacks
+overlay
+poleward shift
+Extreme precipitation
+wind speed
+circulation patterns
+ENSO
+concurrent heatwaves
+Central North America
+extreme storms
+aerosol forcing
+hydrological cycle
+central Europe
+Event Attribution
+warm nights
+Northern Australia
+Eastern Australia
+river basins
+groundwater
+drought frequency
+climate model
+western
+Southern Hemisphere
+Geophysical
+Total Environment
+Fifth Assessment Report
+CMIP5 Models
+Climate
+Central Asia
+Nature Geoscience
+compound flooding
+dynamic changes
+subtropics
+Uncertainty
+Western Europe
+Severe convective storms
+LLHI events
+extreme
+climate events
+ts
+CMIP5 ensemble
+spatial patterns
+Arabian Peninsula
+urbanization
+spatial pattern
+rainfall extremes
+Tibetan Plateau
+streamflow
+flood events
+tree mortality
+drought indices
+Precipitation Deficits
+soil moisture limitation
+VPD
+Soil moisture
+low flows
+Bay of Bengal
+regional climate model
+cyclones
+CAPE
+satellite observations
+France
+Saudi Arabia
+Western North Pacific
+Heavy Rain Event
+Atmospheric Sciences
+Atmospheric Science Letters
+Geoscientific Model Development
+Nature Communications
+Extreme Rainfall
+Eastern China
+Southeast Asia
+Anthropogenic Climate Change
+Temperature
+Regional Environmental Change
+Heat Waves
+Iran
+Extreme Events
+Irrigation
+seasonality
+human water management
+soil moisture limitations
+poleward shifts
+precipitation intensity
+Tornadoes
+land cover
+Interactive Atlas
+extreme rainfall events
+high latitudes
+water vapour
+diagonal lines
+air temperature
+relative humidity
+aridity
+high temperatures
+regional climate
+coastal regions
+storm tracks
+radiative forcing
+mean temperature
+extreme temperature events
+box plot
+projected changes
+TC rain rates
+ERA5
+California
+robustness
+Switzerland
+temperature variability
+TNn
+TX90p
+maximum temperatures
+biases
+Supplementary Material
+Western North America
+extreme precipitation indices
+Romania
+Netherlands
+Western Africa
+Attribution
+projections
+water management
+flood hazard
+Soil Moisture Deficits
+vegetation stress
+PDSI
+SPEI
+drought events
+Singapore
+CDD
+stomatal conductance
+hail storms
+SSTs
+Philippines
+CMIP5 GCMs
+Turkey
+surface temperature
+earscir
+CMIP5 simulations
+Nature Climate
+Anthropogenic Influence
+Tropical Cyclone Activity
+Republic of Korea
+McVicar
+high
+Climate models
+Temperature Extremes
+summer
+South American Monsoon region
+observational coverage
+North
+global warming level
+4Â°C
+land cover change
+limited soil moisture
+maximum rain rates
+North Pacific Ocean
+Compound events
+Climate Change Adaptation
+model evaluation
+IPCC Special Report
+concurrent extreme events
+Extremes
+GSAT
+external drivers
+spatial distribution
+high model agreement
+low model agreement
+atmospheric dynamics
+frequency
+winds
+North Atlantic Oscillation
+Pacific Decadal Variability
+sea surface temperatures
+regional extremes
+cropland intensification
+deforestation
+regional assessments
+annual
+High confidence
+TC
+translation speed
+mean climate
+occurrence probability
+spatial extent
+storm surges
+observational datasets
+ecosystems
+reanalyses
+spatial scales
+model simulations
+reanalysis
+infrastructure
+attributable signal
+climate variables
+annual maximum daily precipitation
+Creative Commons Attribution licence
+Seneviratne
+2Â°C
+Eurasia
+summer warming
+North Africa
+continent
+data coverage
+frost days
+HadEX3
+RCM
+resolution
+land surface models
+Korea
+continental scales
+daily
+Russian Far East
+Italy
+scaling
+extreme daily precipitation
+CMIP3
+Anthropogenic influence
+Arabian Sea
+Event attribution studies
+moderate extreme precipitation
+Mediterranean Basin
+Caribbean
+urban floods
+global hydrological models
+trends
+America
+water availability
+hydrological deficits
+ET
+temporal variations
+precipitation variability
+water stress
+Standardized Precipitation Evapotranspiration Index
+Standardized Precipitation Index
+pan evaporation
+Eastern North America
+dry season
+Hydrological Deficits
+CMIP5 ESMs
+streamflow droughts
+drought projections
+enhanced AED
+western USA
+satellite era
+vertical shear
+dynamical downscaling
+Vietnam
+Arctic amplification
+surface roughness
+global TC frequency
+precipitation changes
+severe thunderstorms
