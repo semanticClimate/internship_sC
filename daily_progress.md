@@ -1,5 +1,17 @@
 # Daily Progress - Gulam Ajdhani
 
+
+### February 2, 2026
+- Read about semantic_corpus creation.
+- Cloned semantic_corpus githuib repo.
+- installed pygetpapers.
+
+### January 30, 2026 (Friday)
+- Test the encylopedia script (0.5 Version)
+
+### January 29, 2026 (Thursday)
+- Cleaned the extract keywords (remove duplicates)
+
 ### January 28, 2026 (Wednesday)
 - Attended the international conference.
 
