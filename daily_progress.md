@@ -3,7 +3,7 @@
 
 ### February 2, 2026
 - Read about semantic_corpus creation.
-- Cloned semantic_corpus githuib repo.
+- Cloned semantic_corpus github repo.
 - installed pygetpapers.
 
 ### January 30, 2026 (Friday)
