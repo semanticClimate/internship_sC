@@ -1,0 +1,256 @@
+<html>
+  <head>
+    <style>
+        /* Entry box styling */
+        div[role="ami_entry"] {
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #f9f9f9;
+        }
+        
+        /* Disambiguation entry styling - different background color */
+        div[role="ami_entry"][data-category="disambiguation"] {
+            background-color: #fff3cd;
+            border-color: #ffc107;
+        }
+        
+        /* Wikidata category styling */
+        .wikidata-category {
+            font-weight: bold;
+            color: #666;
+            margin: 5px 0;
+            font-size: 0.9em;
+        }
+        
+        /* Link spacing */
+        .link-spacer {
+            margin: 0 10px;
+        }
+        
+        /* Wikipedia and Wikidata links */
+        .wikipedia-link, .wikidata-link {
+            margin-right: 10px;
+            text-decoration: none;
+            color: #0066cc;
+        }
+        
+        .wikipedia-link:hover, .wikidata-link:hover {
+            text-decoration: underline;
+        }
+        
+        /* No Wikipedia/Wikidata indicators */
+        .no-wikipedia, .no-wikidata {
+            color: #999;
+            font-style: italic;
+            margin-right: 10px;
+        }
+        
+        /* First sentence (definition) highlighting - ONLY the first sentence */
+        .first_sentence_definition {
+            font-weight: bold;
+            font-size: 1.1em;
+            color: #2c3e50;
+            background-color: #e8f4f8;
+            border-left: 4px solid #0066cc;
+            padding: 4px 8px;
+            border-radius: 3px;
+            display: inline;
+        }
+        
+        /* Description paragraph styling - regular text, NOT highlighted */
+        .wpage_first_para {
+            margin: 10px 0;
+            padding: 8px;
+            color: #333;
+            font-weight: normal;
+        }
+        
+        /* First sentence within paragraphs - ensure paragraph itself is NOT highlighted */
+        p.wpage_first_para {
+            margin: 12px 0;
+            padding: 10px;
+            color: #333;
+            font-weight: normal;
+            background-color: transparent;
+            border: none;
+        }
+        
+        /* Only highlight the span inside the paragraph */
+        p.wpage_first_para .first_sentence_definition {
+            font-weight: bold;
+            background-color: #e8f4f8;
+            border-left: 4px solid #0066cc;
+            padding: 4px 8px;
+        }
+        
+        /* Wikipedia image link */
+        .wikipedia-image-link {
+            display: inline-block;
+            margin: 10px 0;
+            padding: 8px 12px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            text-decoration: none;
+            color: #0066cc;
+        }
+        
+        .wikipedia-image-link:hover {
+            background-color: #e0e0e0;
+            text-decoration: underline;
+        }
+        
+        /* Entry checkboxes container */
+        .entry-checkboxes {
+            margin-bottom: 10px;
+            padding: 5px;
+            background-color: #f0f0f0;
+            border-radius: 3px;
+        }
+        
+        /* Checkbox wrapper */
+        .entry-checkbox-wrapper {
+            margin: 5px 0;
+        }
+        
+        /* Disambiguation wrapper */
+        .disambiguation-wrapper {
+            margin: 5px 0;
+            padding: 10px;
+            background-color: #fff3cd;
+            border: 1px solid #ffc107;
+            border-radius: 3px;
+        }
+        
+        /* Disambiguation label */
+        .disambiguation-label {
+            font-weight: bold;
+            margin-bottom: 8px;
+            color: #856404;
+        }
+        
+        /* Disambiguation checkbox wrapper */
+        .disambiguation-checkbox-wrapper {
+            margin: 5px 0;
+            padding: 3px 0;
+        }
+        
+        /* Disambiguation checkbox */
+        .disambiguation-checkbox {
+            margin-right: 5px;
+        }
+        
+        /* Disambiguation checkbox label */
+        .disambiguation-checkbox-wrapper label {
+            cursor: pointer;
+            display: inline-block;
+        }
+        
+        /* Disambiguation checkbox label link */
+        .disambiguation-checkbox-wrapper label a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        
+        .disambiguation-checkbox-wrapper label a:hover {
+            text-decoration: underline;
+        }
+        </style>
+  </head>
+  <body>
+    <div role="ami_encyclopedia" title="Encyclopedia" data-metadata="{&#10;  &quot;created&quot;: &quot;2026-02-03T04:46:51Z&quot;,&#10;  &quot;last_edited&quot;: &quot;2026-02-03T04:48:52Z&quot;,&#10;  &quot;title&quot;: &quot;Encyclopedia&quot;,&#10;  &quot;version&quot;: &quot;1.0.0&quot;,&#10;  &quot;actions&quot;: [],&#10;  &quot;hidden_entries&quot;: [],&#10;  &quot;disambiguation_selections&quot;: [],&#10;  &quot;merge_operations&quot;: [],&#10;  &quot;sort_history&quot;: [],&#10;  &quot;statistics&quot;: {}&#10;}">
+      <div role="ami_entry" class="encyclopedia-entry" data-entry-id="Q1289923" term="keyword" wikidataID="Q1289923" data-category="true_wikipedia"><a href="https://en.wikipedia.org/wiki/Keyword" class="wikipedia-link">Keyword</a><span class="link-spacer"> </span><a href="https://www.wikidata.org/wiki/Q1289923" class="wikidata-link">Q1289923</a><p class="wpage_first_para"><b>Keyword</b> may refer to:
+</p>
+
+<div class="entry-figure"><a href="https://en.wikipedia.org/wiki/File:Wiktionary-logo-en-v2.svg" class="wikipedia-image-link"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Wiktionary-logo-en-v2.svg/40px-Wiktionary-logo-en-v2.svg.png" width="40" height="40" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Wiktionary-logo-en-v2.svg/60px-Wiktionary-logo-en-v2.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/99/Wiktionary-logo-en-v2.svg/120px-Wiktionary-logo-en-v2.svg.png 2x"/></a></div></div>
+      <div role="ami_entry" class="encyclopedia-entry" data-entry-id="Q125928" term="climate change" wikidataID="Q125928" data-category="true_wikipedia"><div class="entry-checkboxes" data-category="true_wikipedia"><div class="entry-checkbox-wrapper"><input type="checkbox" class="merge-synonyms-checkbox" data-entry-id="Q125928" data-wikidata-id="Q125928" id="merge_Q125928" checked="checked"/><label for="merge_Q125928">Merge synonyms</label></div></div><a href="https://en.wikipedia.org/wiki/Global_warming" class="wikipedia-link">Global warming</a><span class="link-spacer"> </span><a href="https://www.wikidata.org/wiki/Q125928" class="wikidata-link">Q125928</a><ul class="synonym_list"><li>climate change</li><li>global warming</li></ul><p class="wpage_first_para">Present-day <b>climate change</b> includes both <b>global warming</b>&#8212;the ongoing increase in <a href="/wiki/Global_surface_temperature" title="Global surface temperature">global average temperature</a>&#8212;and its wider effects on Earth's <a href="/wiki/Climate_system" title="Climate system">climate system</a>. <a href="/wiki/Climate_variability_and_change" title="Climate variability and change">Climate change in a broader sense</a> also includes previous long-term changes to Earth's <a href="/wiki/Climate" title="Climate">climate</a>. The modern-day rise in global temperatures is <a href="/wiki/Scientific_consensus_on_climate_change" title="Scientific consensus on climate change">driven by human activities</a>, especially <a href="/wiki/Fossil_fuel" title="Fossil fuel">fossil fuel</a> (<a href="/wiki/Coal" title="Coal">coal</a>, <a href="/wiki/Petroleum" title="Petroleum">oil</a> and <a href="/wiki/Natural_gas" title="Natural gas">natural gas</a>) burning since the <a href="/wiki/Industrial_Revolution" title="Industrial Revolution">Industrial Revolution</a>.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span class="cite-bracket">[</span>3<span class="cite-bracket">]</span></a></sup><sup id="cite_ref-Lynas_2021_4-0" class="reference"><a href="#cite_note-Lynas_2021-4"><span class="cite-bracket">[</span>4<span class="cite-bracket">]</span></a></sup> Fossil fuel use, <a href="/wiki/Deforestation_and_climate_change" title="Deforestation and climate change">deforestation</a>, and some <a href="/wiki/Greenhouse_gas_emissions_from_agriculture" title="Greenhouse gas emissions from agriculture">agricultural</a> and industrial practices release <a href="/wiki/Greenhouse_gas" title="Greenhouse gas">greenhouse gases</a>.<sup id="cite_ref-Our_World_in_Data-2020_5-0" class="reference"><a href="#cite_note-Our_World_in_Data-2020-5"><span class="cite-bracket">[</span>5<span class="cite-bracket">]</span></a></sup> These gases <a href="/wiki/Greenhouse_effect" title="Greenhouse effect">absorb some of the heat</a> that the Earth <a href="/wiki/Thermal_radiation" title="Thermal radiation">radiates</a> after it warms from sunlight, warming the lower atmosphere. Earth's atmosphere now has <a href="/wiki/Carbon_dioxide_in_the_atmosphere_of_Earth" title="Carbon dioxide in the atmosphere of Earth">roughly 50% more carbon dioxide</a>, the main gas driving global warming, than it did at the end of the <a href="/wiki/Pre-industrial_society" title="Pre-industrial society">pre-industrial era</a>, reaching levels not seen for millions of years.<sup id="cite_ref-6" class="reference"><a href="#cite_note-6"><span class="cite-bracket">[</span>6<span class="cite-bracket">]</span></a></sup>
+</p>
+<div class="entry-figure"><a href="https://en.wikipedia.org/wiki/File:Change_in_Average_Temperature_With_Fahrenheit.svg" class="wikipedia-image-link"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Change_in_Average_Temperature_With_Fahrenheit.svg/330px-Change_in_Average_Temperature_With_Fahrenheit.svg.png" width="300" height="270" alt="The global map shows sea temperature rises of 0.5 to 1 degree Celsius; land temperature rises of 1 to 2 degrees Celsius; and Arctic temperature rises of up to 4 degrees Celsius." srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Change_in_Average_Temperature_With_Fahrenheit.svg/500px-Change_in_Average_Temperature_With_Fahrenheit.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Change_in_Average_Temperature_With_Fahrenheit.svg/960px-Change_in_Average_Temperature_With_Fahrenheit.svg.png 2x"/></a></div></div>
+      <div role="ami_entry" class="encyclopedia-entry" data-entry-id="Q5535576" term="Geophysical Research Letters" wikidataID="Q5535576" data-category="true_wikipedia"><a href="https://en.wikipedia.org/wiki/Geophysical_Research_Letters" class="wikipedia-link">Geophysical Research Letters</a><span class="link-spacer"> </span><a href="https://www.wikidata.org/wiki/Q5535576" class="wikidata-link">Q5535576</a><p class="wpage_first_para"><i><b>Geophysical Research Letters</b></i> is a biweekly <a href="/wiki/Peer-reviewed" class="mw-redirect" title="Peer-reviewed">peer-reviewed</a> <a href="/wiki/Scientific_journal" class="mw-redirect" title="Scientific journal">scientific journal</a> of <a href="/wiki/Geoscience" class="mw-redirect" title="Geoscience">geoscience</a> published by the <a href="/wiki/American_Geophysical_Union" title="American Geophysical Union">American Geophysical Union</a> that was established in 1974. The <a href="/wiki/Editor-in-chief" title="Editor-in-chief">editor-in-chief</a> is <a rel="nofollow" class="external text" href="https://www.colorado.edu/oclab/kris-karnauskas">Kristopher Karnauskas</a>.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span class="cite-bracket">[</span>1<span class="cite-bracket">]</span></a></sup>
+</p>
+
+<div class="entry-figure"><a href="https://en.wikipedia.org/wiki/File:Geophysical_Research_Letters.jpeg" class="wikipedia-image-link"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/36/Geophysical_Research_Letters.jpeg/250px-Geophysical_Research_Letters.jpeg" width="200" height="262" srcset="https://upload.wikimedia.org/wikipedia/en/3/36/Geophysical_Research_Letters.jpeg 1.5x"/></a></div></div>
+      <div role="ami_entry" class="encyclopedia-entry" data-entry-id="Q46" term="Europe" wikidataID="Q46" data-category="true_wikipedia"><a href="https://en.wikipedia.org/wiki/Europe" class="wikipedia-link">Europe</a><span class="link-spacer"> </span><a href="https://www.wikidata.org/wiki/Q46" class="wikidata-link">Q46</a><p class="wpage_first_para"><b>Europe</b> is a <a href="/wiki/Continent" title="Continent">continent</a><sup id="ref_t_1" class="reference"><a href="#cnote_t">[t]</a></sup> located entirely in the <a href="/wiki/Northern_Hemisphere" title="Northern Hemisphere">Northern Hemisphere</a> and mostly in the <a href="/wiki/Eastern_Hemisphere" title="Eastern Hemisphere">Eastern Hemisphere</a>. It is bordered by the <a href="/wiki/Arctic_Ocean" title="Arctic Ocean">Arctic Ocean</a> to the north, the <a href="/wiki/Atlantic_Ocean" title="Atlantic Ocean">Atlantic Ocean</a> to the west, the <a href="/wiki/Mediterranean_Sea" title="Mediterranean Sea">Mediterranean Sea</a> to the south, and <a href="/wiki/Asia" title="Asia">Asia</a> to the east. Europe shares the <a href="/wiki/Landmass" title="Landmass">landmass</a> of <a href="/wiki/Eurasia" title="Eurasia">Eurasia</a> with Asia, and of <a href="/wiki/Afro-Eurasia" title="Afro-Eurasia">Afro-Eurasia</a> with both <a href="/wiki/Africa" title="Africa">Africa</a> and Asia.<sup id="cite_ref-9" class="reference"><a href="#cite_note-9"><span class="cite-bracket">[</span>9<span class="cite-bracket">]</span></a></sup><sup id="cite_ref-:1_10-0" class="reference"><a href="#cite_note-:1-10"><span class="cite-bracket">[</span>10<span class="cite-bracket">]</span></a></sup> Europe is commonly considered to be <a href="/wiki/Boundaries_between_the_continents#Asia_and_Europe" title="Boundaries between the continents">separated from Asia</a> by the <a href="/wiki/Drainage_divide" title="Drainage divide">watershed</a> of the <a href="/wiki/Ural_Mountains" title="Ural Mountains">Ural Mountains</a>, the <a href="/wiki/Ural_(river)" title="Ural (river)">Ural River</a>, the <a href="/wiki/Caspian_Sea" title="Caspian Sea">Caspian Sea</a>, the <a href="/wiki/Greater_Caucasus" title="Greater Caucasus">Greater Caucasus</a>, the <a href="/wiki/Black_Sea" title="Black Sea">Black Sea</a>, and the <a href="/wiki/Turkish_straits" title="Turkish straits">Turkish straits</a>.<sup id="cite_ref-NatlGeoAtlas_11-0" class="reference"><a href="#cite_note-NatlGeoAtlas-11"><span class="cite-bracket">[</span>11<span class="cite-bracket">]</span></a></sup>
+</p>
+<div class="entry-figure"><a href="https://en.wikipedia.org/wiki/File:Europe_orthographic_Caucasus_Urals_boundary_(with_borders).svg" class="wikipedia-image-link"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Europe_orthographic_Caucasus_Urals_boundary_%28with_borders%29.svg/250px-Europe_orthographic_Caucasus_Urals_boundary_%28with_borders%29.svg.png" width="250" height="250" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Europe_orthographic_Caucasus_Urals_boundary_%28with_borders%29.svg/500px-Europe_orthographic_Caucasus_Urals_boundary_%28with_borders%29.svg.png 1.5x"/></a></div></div>
+      <div role="ami_entry" class="encyclopedia-entry" data-entry-id="Q465726" term="American Meteorological Society" wikidataID="Q465726" data-category="true_wikipedia"><a href="https://en.wikipedia.org/wiki/American_Meteorological_Society" class="wikipedia-link">American Meteorological Society</a><span class="link-spacer"> </span><a href="https://www.wikidata.org/wiki/Q465726" class="wikidata-link">Q465726</a><p class="wpage_first_para">The <b>American Meteorological Society</b> (<b>AMS</b>) is a scientific and professional organization in the United States promoting and disseminating information about the <a href="/wiki/Atmospheric_sciences" class="mw-redirect" title="Atmospheric sciences">atmospheric</a>, <a href="/wiki/Oceanography" title="Oceanography">oceanic</a>, and <a href="/wiki/Hydrology" title="Hydrology">hydrologic sciences</a>. Its mission is to advance the atmospheric and related sciences, technologies, specifications, applications and services for the benefit of society.<sup id="cite_ref-about_1-0" class="reference"><a href="#cite_note-about-1"><span class="cite-bracket">[</span>1<span class="cite-bracket">]</span></a></sup>
+</p>
+
+<div class="entry-figure"><a href="https://en.wikipedia.org/wiki/File:American_Meteorological_Society_logo.png" class="wikipedia-image-link"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/91/American_Meteorological_Society_logo.png/250px-American_Meteorological_Society_logo.png" width="250" height="94" srcset="https://upload.wikimedia.org/wikipedia/en/thumb/9/91/American_Meteorological_Society_logo.png/500px-American_Meteorological_Society_logo.png 1.5x"/></a></div></div>
+      <div role="ami_entry" class="encyclopedia-entry" data-entry-id="Q5133433" term="Climate Dynamics" wikidataID="Q5133433" data-category="true_wikipedia"><a href="https://en.wikipedia.org/wiki/Climate_Dynamics" class="wikipedia-link">Climate Dynamics</a><span class="link-spacer"> </span><a href="https://www.wikidata.org/wiki/Q5133433" class="wikidata-link">Q5133433</a><p class="wpage_first_para"><i><b>Climate Dynamics</b></i> is a <a href="/wiki/Peer_review" title="Peer review">peer-reviewed</a> <a href="/wiki/Scientific_journal" class="mw-redirect" title="Scientific journal">scientific journal</a> published by <a href="/wiki/Springer_Science%2BBusiness_Media" title="Springer Science+Business Media">Springer Science+Business Media</a>. It covers all aspects of the dynamics of global climate systems, including analytical and numerical modeling research on the structure and behavior of the <a href="/wiki/Atmosphere" title="Atmosphere">atmosphere</a>, <a href="/wiki/Oceans" class="mw-redirect" title="Oceans">oceans</a>, <a href="/wiki/Cryosphere" title="Cryosphere">cryosphere</a>, <a href="/wiki/Biomass_(ecology)" title="Biomass (ecology)">biomass</a>, and <a href="/wiki/Land_surface" class="mw-redirect" title="Land surface">land surface</a> as interacting components of the dynamics of <a href="/wiki/Global_climate" class="mw-redirect" title="Global climate">global climate</a>. The journal also publishes reviews and papers emphasizing an integrated view of the physical and <a href="/wiki/Biogeochemical" class="mw-redirect" title="Biogeochemical">biogeochemical</a> processes governing climate and <a href="/wiki/Climate_change" title="Climate change">climate change</a>.
+</p>
+
+<div class="entry-figure"><a href="https://en.wikipedia.org/wiki/File:Climate_Dynamics.jpg" class="wikipedia-image-link"><img src="https://upload.wikimedia.org/wikipedia/en/f/f3/Climate_Dynamics.jpg" width="200" height="260"/></a></div></div>
+      <div role="ami_entry" class="encyclopedia-entry" data-entry-id="Q1277161" term="extreme precipitation" wikidataID="Q1277161" data-category="true_wikipedia"><a href="https://en.wikipedia.org/wiki/Extreme_precipitation" class="wikipedia-link">Extreme precipitation</a><span class="link-spacer"> </span><a href="https://www.wikidata.org/wiki/Q1277161" class="wikidata-link">Q1277161</a><p class="wpage_first_para"><b>Extreme weather</b> includes unexpected, unusual, <a href="/wiki/Severe_weather" title="Severe weather">severe</a>, or unseasonal <a href="/wiki/Weather" title="Weather">weather</a>; weather at the extremes of the historical distribution&#8212;the range that has been seen in the past. Extreme events are based on a location's recorded weather history. The main types of extreme weather include <a href="/wiki/Heat_wave" title="Heat wave">heat waves</a>, <a href="/wiki/Cold_wave" title="Cold wave">cold waves</a>, <a href="/wiki/Drought" title="Drought">droughts</a>, and heavy precipitation or storm events, such as <a href="/wiki/Tropical_cyclone" title="Tropical cyclone">tropical cyclones</a>. Extreme weather can have various effects, from natural hazards such as <a href="/wiki/Flood" title="Flood">floods</a> and <a href="/wiki/Landslide" title="Landslide">landslides</a> to social costs on human health and the economy. <a href="/wiki/Severe_weather" title="Severe weather">Severe weather</a> is a particular type of extreme weather which poses risks to life and property.
+</p>
+<div class="entry-figure"><a href="https://en.wikipedia.org/wiki/File:A_tornado_near_Anadarko,_Oklahoma,_on_May_3,_1999.jpg" class="wikipedia-image-link"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/A_tornado_near_Anadarko%2C_Oklahoma%2C_on_May_3%2C_1999.jpg/250px-A_tornado_near_Anadarko%2C_Oklahoma%2C_on_May_3%2C_1999.jpg" width="250" height="166" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/A_tornado_near_Anadarko%2C_Oklahoma%2C_on_May_3%2C_1999.jpg/500px-A_tornado_near_Anadarko%2C_Oklahoma%2C_on_May_3%2C_1999.jpg 1.5x"/></a></div></div>
+      <div role="ami_entry" class="encyclopedia-entry" data-entry-id="Q148" term="China" wikidataID="Q148" data-category="true_wikipedia"><a href="https://en.wikipedia.org/wiki/China" class="wikipedia-link">China</a><span class="link-spacer"> </span><a href="https://www.wikidata.org/wiki/Q148" class="wikidata-link">Q148</a><p class="wpage_first_para"><b>China</b>,<sup id="cite_ref-19" class="reference"><a href="#cite_note-19"><span class="cite-bracket">[</span>h<span class="cite-bracket">]</span></a></sup> officially the <b>People's Republic of China</b> (<b>PRC</b>),<sup id="cite_ref-20" class="reference"><a href="#cite_note-20"><span class="cite-bracket">[</span>i<span class="cite-bracket">]</span></a></sup> is a country in <a href="/wiki/East_Asia" title="East Asia">East Asia</a>. It is the <a href="/wiki/List_of_countries_by_population_(United_Nations)" class="mw-redirect" title="List of countries by population (United Nations)">second-most populous country</a> after <a href="/wiki/India" title="India">India</a>, with <a href="/wiki/Population_of_China" class="mw-redirect" title="Population of China">a population</a> exceeding 1.4 billion, representing 17% of the world's population. China <a href="/wiki/Borders_of_China" title="Borders of China">borders fourteen countries by land</a><sup id="cite_ref-21" class="reference"><a href="#cite_note-21"><span class="cite-bracket">[</span>j<span class="cite-bracket">]</span></a></sup> across an area of 9.6&#160;million square kilometers (3,700,000&#160;sq&#160;mi), making it the <a href="/wiki/List_of_countries_and_dependencies_by_area" title="List of countries and dependencies by area">third-largest country by area</a>.<sup id="cite_ref-24" class="reference"><a href="#cite_note-24"><span class="cite-bracket">[</span>k<span class="cite-bracket">]</span></a></sup> The country is divided into 33 <a href="/wiki/Province-level_divisions_of_China" title="Province-level divisions of China">province-level divisions</a>: 22 <a href="/wiki/Provinces_of_China" title="Provinces of China">provinces</a>,<sup id="cite_ref-25" class="reference"><a href="#cite_note-25"><span class="cite-bracket">[</span>l<span class="cite-bracket">]</span></a></sup> 5 <a href="/wiki/Autonomous_regions_of_China" title="Autonomous regions of China">autonomous regions</a>, 4 <a href="/wiki/Direct-administered_municipalities_of_China" class="mw-redirect" title="Direct-administered municipalities of China">municipalities</a>, and 2 semi-autonomous <a href="/wiki/Special_administrative_regions" class="mw-redirect" title="Special administrative regions">special administrative regions</a>. <a href="/wiki/Beijing" title="Beijing">Beijing</a> is the capital, while <a href="/wiki/Shanghai" title="Shanghai">Shanghai</a> is the <a href="/wiki/List_of_cities_in_China_by_population" title="List of cities in China by population">most populous city by urban area</a> and largest <a href="/wiki/Financial_center" class="mw-redirect" title="Financial center">financial center</a>.
+</p>
+<div class="entry-figure"><a href="https://en.wikipedia.org/wiki/File:CHN_orthographic.svg" class="wikipedia-image-link"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/CHN_orthographic.svg/250px-CHN_orthographic.svg.png" width="250" height="250" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/CHN_orthographic.svg/500px-CHN_orthographic.svg.png 1.5x"/></a></div></div>
+      <div role="ami_entry" class="encyclopedia-entry" data-entry-id="Q112930709" term="medium confidence" wikidataID="Q112930709" data-category="true_wikipedia">
+        <a href="https://en.wikipedia.org/wiki/Medium_confidence" class="wikipedia-link">Medium confidence</a>
+        <span class="link-spacer"> </span>
+        <a href="https://www.wikidata.org/wiki/Q112930709" class="wikidata-link">Q112930709</a>
+        <div class="entry-figure">
+          <a href="https://en.wikipedia.org//upload.wikimedia.org/wikipedia/en/thumb/0/06/Wiktionary-logo-v2.svg/40px-Wiktionary-logo-v2.svg.png" class="wikipedia-image-link">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/06/Wiktionary-logo-v2.svg/40px-Wiktionary-logo-v2.svg.png" width="30" height="30" srcset="https://upload.wikimedia.org/wikipedia/en/thumb/0/06/Wiktionary-logo-v2.svg/60px-Wiktionary-logo-v2.svg.png 1.5x"/>
+          </a>
+        </div>
+      </div>
+      <div role="ami_entry" class="encyclopedia-entry" data-entry-id="Q42250" term="Hydrology" wikidataID="Q42250" data-category="true_wikipedia"><a href="https://en.wikipedia.org/wiki/Hydrology" class="wikipedia-link">Hydrology</a><span class="link-spacer"> </span><a href="https://www.wikidata.org/wiki/Q42250" class="wikidata-link">Q42250</a><p class="wpage_first_para"><b>Hydrology</b> (from <a href="/wiki/Ancient_Greek_language" class="mw-redirect" title="Ancient Greek language">Ancient Greek</a> <i> </i><span lang="grc"><a href="https://en.wiktionary.org/wiki/%E1%BD%95%CE%B4%CF%89%CF%81#Ancient_Greek" class="extiw" title="wikt:&#8021;&#948;&#969;&#961;">&#8021;&#948;&#969;&#961;</a></span><i> (<span title="Ancient Greek transliteration" lang="grc-Latn"><i>h&#250;d&#333;r</i></span>)</i>&#160;<span class="gloss-quot">'</span><span class="gloss-text">water</span><span class="gloss-quot">'</span> and <i> </i><span lang="grc"><a href="https://en.wiktionary.org/wiki/-%CE%BB%CE%BF%CE%B3%CE%AF%CE%B1#Ancient_Greek" class="extiw" title="wikt:-&#955;&#959;&#947;&#943;&#945;">-&#955;&#959;&#947;&#943;&#945;</a></span><i> (<span title="Ancient Greek transliteration" lang="grc-Latn"><i><a href="/wiki/-logy" title="-logy">-log&#237;a</a></i></span>)</i>&#160;<span class="gloss-quot">'</span><span class="gloss-text">study of</span><span class="gloss-quot">'</span>) is the scientific study of the movement, distribution, and management of water on Earth and other planets, including the <a href="/wiki/Water_cycle" title="Water cycle">water cycle</a>, <a href="/wiki/Water_resources" title="Water resources">water resources</a>, and <a href="/wiki/Drainage_basin" title="Drainage basin">drainage basin</a> sustainability. A practitioner of hydrology is called a <b>hydrologist</b>. Hydrologists are scientists studying <a href="/wiki/Earth_science" title="Earth science">earth</a> or <a href="/wiki/Environmental_science" title="Environmental science">environmental science</a>, <a href="/wiki/Civil_engineering" title="Civil engineering">civil</a> or <a href="/wiki/Environmental_engineering" title="Environmental engineering">environmental engineering</a>, and <a href="/wiki/Physical_geography" title="Physical geography">physical geography</a>.<sup id="cite_ref-USGS_1-0" class="reference"><a href="#cite_note-USGS-1"><span class="cite-bracket">[</span>1<span class="cite-bracket">]</span></a></sup> Using various analytical methods and scientific techniques, they collect and analyze data to help solve water related problems such as <a href="/wiki/Environmentalism" title="Environmentalism">environmental preservation</a>, <a href="/wiki/Natural_disaster" title="Natural disaster">natural disasters</a>, and <a href="/wiki/Water_resource_management" class="mw-redirect" title="Water resource management">water management</a>.<sup id="cite_ref-USGS_1-1" class="reference"><a href="#cite_note-USGS-1"><span class="cite-bracket">[</span>1<span class="cite-bracket">]</span></a></sup>
+</p>
+<div class="entry-figure"><a href="https://en.wikipedia.org/wiki/File:Rain_over_Beinn_Eich,_Luss_Hills,_Scotland.jpg" class="wikipedia-image-link"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Rain_over_Beinn_Eich%2C_Luss_Hills%2C_Scotland.jpg/330px-Rain_over_Beinn_Eich%2C_Luss_Hills%2C_Scotland.jpg" width="330" height="183" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Rain_over_Beinn_Eich%2C_Luss_Hills%2C_Scotland.jpg/500px-Rain_over_Beinn_Eich%2C_Luss_Hills%2C_Scotland.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/da/Rain_over_Beinn_Eich%2C_Luss_Hills%2C_Scotland.jpg/960px-Rain_over_Beinn_Eich%2C_Luss_Hills%2C_Scotland.jpg 2x"/></a></div></div>
+      <div role="ami_entry" class="encyclopedia-entry" data-entry-id="Q25257" term="precipitation" wikidataID="Q25257" data-category="true_wikipedia"><a href="https://en.wikipedia.org/wiki/Precipitation" class="wikipedia-link">Precipitation</a><span class="link-spacer"> </span><a href="https://www.wikidata.org/wiki/Q25257" class="wikidata-link">Q25257</a><p class="wpage_first_para">In <a href="/wiki/Meteorology" title="Meteorology">meteorology</a>, <b>precipitation</b> is any product of the <a href="/wiki/Condensation" title="Condensation">condensation</a> of atmospheric <a href="/wiki/Water_vapor" title="Water vapor">water vapor</a> that falls from clouds due to gravitational pull.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span class="cite-bracket">[</span>1<span class="cite-bracket">]</span></a></sup>  The main forms of precipitation include <a href="/wiki/Drizzle" title="Drizzle">drizzle</a>, <a href="/wiki/Rain" title="Rain">rain</a>, <a href="/wiki/Rain_and_snow_mixed" title="Rain and snow mixed">rain and snow mixed</a> ("sleet" in Commonwealth usage), <a href="/wiki/Snow" title="Snow">snow</a>, <a href="/wiki/Ice_pellets" title="Ice pellets">ice pellets</a>, <a href="/wiki/Graupel" title="Graupel">graupel</a> and <a href="/wiki/Hail" title="Hail">hail</a>. Precipitation occurs when a portion of the atmosphere becomes saturated with water vapor (reaching 100% <a href="/wiki/Relative_humidity" class="mw-redirect" title="Relative humidity">relative humidity</a>), so that the water condenses and "precipitates" or falls. Thus, <a href="/wiki/Fog" title="Fog">fog</a> and <a href="/wiki/Mist" title="Mist">mist</a> are not precipitation; their water vapor does not condense sufficiently to precipitate, so fog and mist do not fall. (Such a non-precipitating combination is a <a href="/wiki/Colloid" title="Colloid">colloid</a>.) Two processes, possibly acting together, can lead to air becoming saturated with water vapor: cooling the air or adding water vapor to the air. Precipitation forms as smaller droplets coalesce via collision with other rain drops or ice crystals within a cloud. Short, intense periods of rain in scattered locations are called <a href="/wiki/Shower_(precipitation)" title="Shower (precipitation)">showers</a>.<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span class="cite-bracket">[</span>2<span class="cite-bracket">]</span></a></sup>
+</p>
+<div class="entry-figure"><a href="https://en.wikipedia.org/wiki/File:Cumulus_clouds_in_fair_weather.jpeg" class="wikipedia-image-link"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Cumulus_clouds_in_fair_weather.jpeg/20px-Cumulus_clouds_in_fair_weather.jpeg" width="17" height="13" alt="icon" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Cumulus_clouds_in_fair_weather.jpeg/40px-Cumulus_clouds_in_fair_weather.jpeg 1.5x"/></a></div></div>
+      <div role="ami_entry" class="encyclopedia-entry" data-entry-id="Q492018" term="temperature extremes" wikidataID="Q492018" data-category="true_wikipedia"><a href="https://en.wikipedia.org/wiki/Temperature_extremes" class="wikipedia-link">Temperature extremes</a><span class="link-spacer"> </span><a href="https://www.wikidata.org/wiki/Q492018" class="wikidata-link">Q492018</a><p class="wpage_first_para">The <b>list of weather records</b> includes the most extreme occurrences of <a href="/wiki/List_of_severe_weather_phenomena" title="List of severe weather phenomena">weather phenomena</a> for various categories. Many weather records are measured under specific conditions&#8212;such as surface temperature and wind speed&#8212;to keep consistency among measurements around the Earth. Each of these records is understood to be the record value officially observed, as these records may have been exceeded before modern <a href="/wiki/List_of_weather_instruments" title="List of weather instruments">weather instrumentation</a> was invented, or in remote areas without an official <a href="/wiki/Weather_station" title="Weather station">weather station</a>. This list does not include <a href="/wiki/Remote_sensing" title="Remote sensing">remotely sensed observations</a> such as satellite measurements, since those values are not considered official records.<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span class="cite-bracket">[</span>2<span class="cite-bracket">]</span></a></sup>
+</p>
+
+<div class="entry-figure"><a href="https://en.wikipedia.org//upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/40px-Edit-clear.svg.png" class="wikipedia-image-link"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/40px-Edit-clear.svg.png" width="40" height="40" srcset="https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/60px-Edit-clear.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/120px-Edit-clear.svg.png 2x"/></a></div></div>
+      <div role="ami_entry" class="encyclopedia-entry" data-entry-id="Q5178021" term="CMIP6" wikidataID="Q5178021" data-category="true_wikipedia"><div class="entry-checkboxes" data-category="true_wikipedia"><div class="entry-checkbox-wrapper"><input type="checkbox" class="merge-synonyms-checkbox" data-entry-id="Q5178021" data-wikidata-id="Q5178021" id="merge_Q5178021" checked="checked"/><label for="merge_Q5178021">Merge synonyms</label></div></div><a href="https://en.wikipedia.org/wiki/CMIP5" class="wikipedia-link">CMIP5</a><span class="link-spacer"> </span><a href="https://www.wikidata.org/wiki/Q5178021" class="wikidata-link">Q5178021</a><ul class="synonym_list"><li>CMIP6</li><li>CMIP5</li></ul><p class="wpage_first_para">In <a href="/wiki/Climatology" title="Climatology">climatology</a>, the <b>Coupled Model Intercomparison Project</b> (CMIP) is a collaborative framework designed to improve knowledge of <a href="/wiki/Climate_change" title="Climate change">climate change</a>. It was organized in 1995 by the Working Group on Coupled Modelling (WGCM) of the <a href="/wiki/World_Climate_Research_Programme" title="World Climate Research Programme">World Climate Research Programme</a> (WCRP). It is developed in phases to foster the climate model improvements but also to support national and international assessments of climate change. A related project is the <a href="/wiki/Atmospheric_Model_Intercomparison_Project" title="Atmospheric Model Intercomparison Project">Atmospheric Model Intercomparison Project</a> (AMIP) for global coupled ocean-atmosphere <a href="/wiki/General_circulation_model" title="General circulation model">general circulation models</a> (GCMs).
+</p>
+<div class="entry-figure"><a href="https://en.wikipedia.org//upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/40px-Edit-clear.svg.png" class="wikipedia-image-link"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/40px-Edit-clear.svg.png" width="40" height="40" srcset="https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/60px-Edit-clear.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/120px-Edit-clear.svg.png 2x"/></a></div></div>
+      <div role="ami_entry" class="encyclopedia-entry" data-entry-id="Q18" term="South America" wikidataID="Q18" data-category="true_wikipedia"><a href="https://en.wikipedia.org/wiki/South_America" class="wikipedia-link">South America</a><span class="link-spacer"> </span><a href="https://www.wikidata.org/wiki/Q18" class="wikidata-link">Q18</a><p class="wpage_first_para"><b>South America</b> is a <a href="/wiki/Continent" title="Continent">continent</a><sup id="cite_ref-14" class="reference"><a href="#cite_note-14"><span class="cite-bracket">[</span>g<span class="cite-bracket">]</span></a></sup> entirely in the <a href="/wiki/Western_Hemisphere" title="Western Hemisphere">Western Hemisphere</a><sup id="cite_ref-15" class="reference"><a href="#cite_note-15"><span class="cite-bracket">[</span>h<span class="cite-bracket">]</span></a></sup> and mostly in the <a href="/wiki/Southern_Hemisphere" title="Southern Hemisphere">Southern Hemisphere</a>, with a considerably smaller portion in the <a href="/wiki/Northern_Hemisphere" title="Northern Hemisphere">Northern Hemisphere</a>. It can also be described as the southern <a href="/wiki/Subregion#Americas" title="Subregion">subregion</a> of the <a href="/wiki/Americas" title="Americas">Americas</a>. 
+</p>
+<div class="entry-figure"><a href="https://en.wikipedia.org/wiki/File:South_America_(orthographic_projection).svg" class="wikipedia-image-link"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/South_America_%28orthographic_projection%29.svg/250px-South_America_%28orthographic_projection%29.svg.png" width="250" height="250" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/South_America_%28orthographic_projection%29.svg/500px-South_America_%28orthographic_projection%29.svg.png 1.5x"/></a></div></div>
+      <div role="ami_entry" class="encyclopedia-entry" data-entry-id="Q26796617" term="precipitation extremes" wikidataID="Q26796617" data-category="true_wikipedia">
+        <a href="https://en.wikipedia.org/wiki/Precipitation_extremes" class="wikipedia-link">Precipitation extremes</a>
+        <span class="link-spacer"> </span>
+        <a href="https://www.wikidata.org/wiki/Q26796617" class="wikidata-link">Q26796617</a>
+        <div class="entry-figure">
+          <a href="https://en.wikipedia.org//upload.wikimedia.org/wikipedia/en/thumb/0/06/Wiktionary-logo-v2.svg/40px-Wiktionary-logo-v2.svg.png" class="wikipedia-image-link">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/06/Wiktionary-logo-v2.svg/40px-Wiktionary-logo-v2.svg.png" width="30" height="30" srcset="https://upload.wikimedia.org/wikipedia/en/thumb/0/06/Wiktionary-logo-v2.svg/60px-Wiktionary-logo-v2.svg.png 1.5x"/>
+          </a>
+        </div>
+      </div>
+      <div role="ami_entry" class="encyclopedia-entry" data-entry-id="Q2" term="Earth System Sciences" wikidataID="Q2" data-category="true_wikipedia">
+        <a href="https://en.wikipedia.org/wiki/Earth_System_Sciences" class="wikipedia-link">Earth System Sciences</a>
+        <span class="link-spacer"> </span>
+        <a href="https://www.wikidata.org/wiki/Q2" class="wikidata-link">Q2</a>
+        <div class="entry-figure">
+          <a href="https://en.wikipedia.org//upload.wikimedia.org/wikipedia/en/thumb/0/06/Wiktionary-logo-v2.svg/40px-Wiktionary-logo-v2.svg.png" class="wikipedia-image-link">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/06/Wiktionary-logo-v2.svg/40px-Wiktionary-logo-v2.svg.png" width="30" height="30" srcset="https://upload.wikimedia.org/wikipedia/en/thumb/0/06/Wiktionary-logo-v2.svg/60px-Wiktionary-logo-v2.svg.png 1.5x"/>
+          </a>
+        </div>
+      </div>
+      <div role="ami_entry" class="encyclopedia-entry" data-entry-id="Q408" term="Australia" wikidataID="Q408" data-category="true_wikipedia"><a href="https://en.wikipedia.org/wiki/Australia" class="wikipedia-link">Australia</a><span class="link-spacer"> </span><a href="https://www.wikidata.org/wiki/Q408" class="wikidata-link">Q408</a><p class="wpage_first_para"><b>Australia</b>, officially the <b>Commonwealth of Australia</b>, is a country comprising <a href="/wiki/Mainland_Australia" title="Mainland Australia">the mainland</a> of the <a href="/wiki/Australia_(continent)" title="Australia (continent)">Australian continent</a>, the island of <a href="/wiki/Tasmania" title="Tasmania">Tasmania</a> and <a href="/wiki/List_of_islands_of_Australia" title="List of islands of Australia">numerous smaller islands</a>.<sup id="cite_ref-22" class="reference"><a href="#cite_note-22"><span class="cite-bracket">[</span>N 6<span class="cite-bracket">]</span></a></sup> It has a total area of 7,688,287&#160;km<sup>2</sup> (2,968,464&#160;sq&#160;mi), making it the <a href="/wiki/List_of_countries_and_dependencies_by_area" title="List of countries and dependencies by area">sixth-largest country in the world</a> and the largest in <a href="/wiki/Oceania" title="Oceania">Oceania</a>. Australia is the world's flattest and driest inhabited continent. It is a <a href="/wiki/Megadiverse_countries" title="Megadiverse countries">megadiverse country</a>, and its size gives it a wide variety of landscapes and <a href="/wiki/Climate_of_Australia" title="Climate of Australia">climates</a> including <a href="/wiki/Deserts_of_Australia" title="Deserts of Australia">deserts</a> in the <a href="/wiki/Outback" title="Outback">interior</a> and <a href="/wiki/Forests_of_Australia" title="Forests of Australia">tropical rainforests</a> along the <a href="/wiki/Eastern_states_of_Australia" title="Eastern states of Australia">coast</a>.
+</p>
+<div class="entry-figure"><a href="https://en.wikipedia.org/wiki/File:Australia_with_AAT_(orthographic_projection).svg" class="wikipedia-image-link"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Australia_with_AAT_%28orthographic_projection%29.svg/250px-Australia_with_AAT_%28orthographic_projection%29.svg.png" width="250" height="250" alt="A map of the eastern hemisphere centred on Australia, using an orthographic projection" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Australia_with_AAT_%28orthographic_projection%29.svg/500px-Australia_with_AAT_%28orthographic_projection%29.svg.png 1.5x"/></a></div></div>
+      <div role="ami_entry" class="encyclopedia-entry" data-entry-id="Q49" term="North America" wikidataID="Q49" data-category="true_wikipedia"><a href="https://en.wikipedia.org/wiki/North_America" class="wikipedia-link">North America</a><span class="link-spacer"> </span><a href="https://www.wikidata.org/wiki/Q49" class="wikidata-link">Q49</a><p class="wpage_first_para"><b>North America</b> is a <a href="/wiki/Continent" title="Continent">continent</a><sup id="cite_ref-8" class="reference"><a href="#cite_note-8"><span class="cite-bracket">[</span>b<span class="cite-bracket">]</span></a></sup> in the <a href="/wiki/Northern_Hemisphere" title="Northern Hemisphere">Northern</a> and <a href="/wiki/Western_Hemisphere" title="Western Hemisphere">Western</a> hemispheres.<sup id="cite_ref-9" class="reference"><a href="#cite_note-9"><span class="cite-bracket">[</span>c<span class="cite-bracket">]</span></a></sup> North America is bordered to the north by the <a href="/wiki/Arctic_Ocean" title="Arctic Ocean">Arctic Ocean</a>, to the east by the <a href="/wiki/Atlantic_Ocean" title="Atlantic Ocean">Atlantic Ocean</a>, to the southeast by <a href="/wiki/South_America" title="South America">South America</a> and the <a href="/wiki/Caribbean_Sea" title="Caribbean Sea">Caribbean Sea</a>, and to the south and west by the <a href="/wiki/Pacific_Ocean" title="Pacific Ocean">Pacific Ocean</a>. The region includes <a href="/wiki/Middle_America_(Americas)" title="Middle America (Americas)">Middle America</a> comprising the <a href="/wiki/Caribbean" title="Caribbean">Caribbean</a>, <a href="/wiki/Central_America" title="Central America">Central America</a>, and <a href="/wiki/Northern_America" title="Northern America">Northern America</a>.
+</p>
+<div class="entry-figure"><a href="https://en.wikipedia.org/wiki/File:Location_North_America.svg" class="wikipedia-image-link"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Location_North_America.svg/250px-Location_North_America.svg.png" width="250" height="250" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Location_North_America.svg/500px-Location_North_America.svg.png 1.5x"/></a></div></div>
+      <div role="ami_entry" class="encyclopedia-entry" data-entry-id="Q57175871" term="heavy precipitation" wikidataID="Q57175871" data-category="true_wikipedia">
+        <a href="https://en.wikipedia.org/wiki/Heavy_precipitation" class="wikipedia-link">Heavy precipitation</a>
+        <span class="link-spacer"> </span>
+        <a href="https://www.wikidata.org/wiki/Q57175871" class="wikidata-link">Q57175871</a>
+        <div class="entry-figure">
+          <a href="https://en.wikipedia.org//upload.wikimedia.org/wikipedia/en/thumb/0/06/Wiktionary-logo-v2.svg/40px-Wiktionary-logo-v2.svg.png" class="wikipedia-image-link">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/06/Wiktionary-logo-v2.svg/40px-Wiktionary-logo-v2.svg.png" width="30" height="30" srcset="https://upload.wikimedia.org/wikipedia/en/thumb/0/06/Wiktionary-logo-v2.svg/60px-Wiktionary-logo-v2.svg.png 1.5x"/>
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
