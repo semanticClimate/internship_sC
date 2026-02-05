@@ -1,5 +1,6 @@
 ## 5 feb 2026
 encyclopedia for lantana camara
+https://github.com/semanticClimate/internship_sC/blob/sakshi-gupta/wordslist_dict%20(1).html
 
 
 ## 25 january 2026 
