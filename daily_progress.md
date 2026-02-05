@@ -1,3 +1,7 @@
+## 5 feb 2026
+encyclopedia for lantana camara
+
+
 ## 25 january 2026 
 -tried new version of encyclopedia code which is python -m encyclopedia.cli.versioned_editor create --wordlist test/wordlist_a.txt   --output temp/test/wordlist_a/encyclopedia.html  --title "Encyclopedia".
 - got my 10 keyword encyclopedia using the above code.
