@@ -34,4 +34,4 @@
 - Tried to run tests on semantic corpus.
 - 60 tests passed and 4 were deselected.
 - Verified overall test execution status.
-  
+- Analysed test logs and outputs for better understanding of failures and skips.
