@@ -35,7 +35,6 @@
 
 ## Week 4 (9–16 February 2026)
 - Tested CSV merging functionality in txt2phrases.
--Tested additional unit tests for new features.
 - Executed full pytest suite:
   - 89 passed
   - 1 failed
