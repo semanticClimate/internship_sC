@@ -1,0 +1,862 @@
+2050
+3D Printing
+3D printing
+3D printing technique
+60
+ABS
+AI
+AI systems
+AKJ
+AM
+AS
+ASCII format
+Additive Manufacturing
+Additive Manufacturing Techniques
+Ambedkar National Institute of Technology
+ArcMap
+Army Dental Corps
+Artificial Intelligence
+Artificial intelligence
+Atmospheric Particle Pollution
+Authority
+Average Loading Communalities
+Axis Bank
+Bangladesh
+Banking Infrastructure
+Banking infrastructure
+Bengaluru
+Biogeogr
+Biomedical waste management
+Brazil
+CAMS
+CAMSv5
+CAMSv5 datasets
+CDR
+CDR methods
+CDR technologies
+CEEW database
+CEEW report
+CERP
+CO2 emissions
+COPERT
+COPERT model
+COPERT17 model
+Canada
+Carbon Footprint
+Central Electricity
+Central Electricity Authority
+Chandigarh
+China
+Circular Economy
+Climate Change
+Climate action
+Climate change
+Climate trauma
+CoCoSo
+CoCoSo method
+CoCoSo technique
+Code availability
+College and Hospital
+Combined Compromise Solution
+Community Medicine
+Competitive Pressure
+Competitive pressure
+Compliance
+Composite Reliability
+Copernicus Atmosphere Monitoring Service
+Coupled Model Intercomparison Project
+Creative Commons Attribution License
+Creative Commons licence
+DKJ
+DP
+Dafnomilis
+Data accessibility
+Data collection
+Data curation
+Data preparation
+Dataset link
+Decarbonization Strategies
+Discov Public Health
+Dupont
+EDGAR
+EDGAR data
+EDGARv5
+EDGARv8
+EFA
+ESG
+EU27
+Eastern Coal Belt
+Elapidae
+Emissions Database
+Energy Consumption
+Environmental Systems Analysis Group
+Esri
+European Commission
+FCD
+Financial Investment
+Financial investment
+Fintech
+Floods
+Flowchart
+Fudan Tyndall Center
+Funding information
+G
+GAI
+GAI Accepted
+GBIF
+GDP
+GEM
+GEM database
+GHG
+GHG coverage
+GHG emissions
+GHG emissions pathways
+GPS
+GST
+Gauhati Medical
+Gauhati Medical College and Hospital
+Generative AI
+Geographical  distributions
+Global Atmospheric Research
+Global Energy Monitor
+Global Energy Monitor database
+Global Health
+Google Scholar
+Green AI
+Green AI Adoption
+Green AI adoption
+Green Credit Programme
+Grid search
+Gurobi Optimizer
+HDFC Bank
+HORIZON EUROPE
+Health benefit
+Healthcare Providers
+High Cost of Materials
+Himalayan foothills
+Hospitals
+Human Health
+Hyderabad
+ICICI Bank
+IEA
+IGI Global
+IIASA
+IMAGE
+IMAGE model
+IPCC
+ISO
+IV51
+IV5166
+IkIV 61
+IkV
+India
+Indian
+Indian Biodiversity Portal
+Indian SMEs
+Indian Snakes
+Indian banking
+Indian banks
+Indian cities
+Indian coal plant
+Indian coal plant units
+Indian coal plants
+Indian coal power plants
+Indian coal power units
+Indian health sector
+Indian hospitals
+Indian power sector
+Indonesia
+Institute
+Integration
+Intergovernmental Panel on Climate Change
+Internal Medicine
+International Institute for
+International Labour Organization
+Iwokz
+Iwty1
+Jaipur
+Japan
+Jutika
+LCA Assessment Gaps
+LED lighting
+LULUCF
+LULUCF emissions
+LV
+Lancet Planet Health
+License
+LightGBM
+Linear Regression
+MAC curves
+MAE MAPE
+MDPI
+MIT
+ML algorithms
+ML models
+ML predictions
+Machine  Learning
+Machine  learning
+Maharashtra
+Manipur
+Manpreet Singh
+Market Readiness
+Material Limitations
+Maulana Azad Medical College
+MaxEnt
+Mental Health
+Mental health
+Methodology
+Mexico
+Middle East
+Mobility
+Mumbai
+NABH
+NAPCC
+NPCCHH
+National Accreditation Board
+National Action Plan
+National Adaptation Plan
+National Determined Contributions
+National Health
+National Policies
+National Programme
+Nature Climate Change
+Nature Communications
+Netherlands Environmental Assessment
+New Delhi
+New York Academy of Sciences
+NewClimate Institute
+Nexqt18
+Operational Frameworks
+Oxford Net Zero
+Ozm1
+Ozntk
+Ozntk1
+Ozntkz
+PBSM
+PBSM adoption
+PEOU
+PLA
+PLoS One
+PPAC
+Paris Agreement
+Parul Institute of Technology
+Perceived Ease of Use
+Perceived Usefulness
+Plant loss
+Polymer Composites
+Polymer Materials
+Polymers
+Poverty
+Preventive Medicine
+Process Optimization
+Production Engineering
+Protected areas
+Psychiatry
+PubMed
+Public sector banks
+R
+RBI
+RMSEA
+RRMSE
+Random Forest Regressor
+Random intercepts
+Rate
+Regulatory Compliance
+Regulatory Influence
+Reptile Database
+Reserve Bank
+Resources
+Ridge Regression
+Road transport
+Russian Federation
+SBI
+SCC
+SEBI
+SEM
+SHR
+SHR curves
+SHR dataset
+SHR measurements
+SHR values
+SK
+SLR
+SMEs
+SSP
+SSPC
+Scalability Issues
+ScienceDirect
+Scientific Reports
+Scopus
+Shanghai Key Laboratory
+Shared Socioeconomic Pathway
+Sikkim
+Smart Material
+Smart Materials
+Social media
+South Africa
+Spatial shifts
+Standardization
+Station heat rate
+Stereolithography
+Strategic Framework
+Supervision
+Supply Chain Constraints
+Sustainability
+Sustainability Outcomes
+Sustainable Development
+Sustainable Practices
+TOE model
+Time series
+TomTom
+Triple Bottom Line
+Tripura
+Turkey
+U ttar Pradesh
+UNFCCC
+USA
+United States
+Universiteit Amsterdam
+University
+Uttar Pradesh
+Validation
+VertNet
+Viperidae
+Visualization
+WEPP database
+WRI water stress index
+Water Resources
+Water stress level
+Web of Science
+West Bengal
+Western Ghats
+Wiley Periodicals
+World Bank
+World Health Organization
+Zenodo
+abatement costs
+accelerated pathways
+accreditation
+accreditation standards
+adaptation
+additive manufacturing
+age
+age structure
+agricultural production
+agriculture
+air pollutants
+air pollution
+air quality
+algorithmic trading
+ambitious
+ammonia
+analysis
+anxiety
+arterials
+artificial intelligence
+associated
+average temperatures
+bank
+banking
+banking infrastructure
+banking institutions
+banking operations
+banking professionals
+banking sector
+banking services
+banks
+binary decision variable
+bioclimatic variables
+biodegradability
+biodiversity
+biodiversity hotspots
+biogeographic zones
+biological hotspots
+biomass energy
+biomedical devices
+black carbon
+boiler design
+boiler type
+boiler types
+business models
+capacity building
+capacity factor
+carbon capture
+carbon emissions
+carbon emitter
+carbon footprint
+carbon footprint reduction
+carbon monoxide
+carbon neutrality
+carbon price
+cash transfers
+city streets
+climate
+climate action
+climate adaptation
+climate awareness
+climate change
+climate change mitigation
+climate change scenarios
+climate goals
+climate hazards
+climate mitigation
+climate model
+climate policy
+climate resilience
+climate scenarios
+climate shocks
+climate stress
+climate target pathways
+climate targets
+climatic scenarios
+climatic suitability
+coal
+coal capacity
+coal mining industry
+coal phaseout
+coal plant units
+coal plants
+coal power
+coal power capacity
+coal power retirement strategies
+coal power transition
+coal power transitions
+coal power units
+coal price
+coal prices
+coal tax
+cognitive decline
+collective violence
+colonization
+commission
+community outreach
+compliance
+conceptual model
+confidence intervals
+congestion pricing
+congestion relief zones
+convergent validity
+correction factor
+correlation
+cumulative values
+customer engagement
+customer service
+data quality
+data scaling process
+data sources
+database
+databases
+datasets
+decarbonization
+decarbonization strategies
+default setting
+depression
+developing countries
+digital infrastructure
+digital transformation
+direct air
+discount rate
+discriminant validity
+disease prevalence
+dispersal
+distributions
+district hospitals
+drought
+early warning systems
+economic feasibility
+ecosystem services
+eigenvalues
+electricity generation
+emerging economies
+emerging markets
+emission estimates
+emission factors
+emission hotspots
+emissions
+emissions pathway
+emissions pathways
+emissions projections
+emissions reductions
+employment
+employment loss
+employment losses
+energy audits
+energy consumption
+energy efficiency
+energy reliability
+energy transition
+environmental emissions
+environmental impact
+environmental shifts
+environmental sustainability
+estimation method
+exploratory factor analysis
+extinction
+extinction risk
+extinction risks
+extreme weather events
+extrusion
+factor analysis
+factor loadings
+features
+finance
+financial incentives
+financial inclusion
+financial institutions
+financial investment
+financial sector
+financial services
+financing
+fintech
+floating car data
+floods
+forced migration
+forestry
+fuel consumption
+fuel consumption data
+functionality
+gas coverage
+geographic zone
+geographic zones
+geographical  distribution
+gigatons
+global emissions
+global emissions pathways
+global warming
+governance
+green AI
+green AI adoption
+green banking
+green hospitals
+green technologies
+greenhouse gas
+greenhouse gas emissions
+greenhouse gas emissions projections
+gridlocks
+habitat loss
+habitat selection
+habitat suitability
+health
+health burden
+health equity
+health facilities
+health facility
+health impacts
+health planning
+health policy
+health sector
+health system
+health system resilience
+health system sustainability
+healthcare
+healthcare activities
+healthcare decarbonization
+healthcare delivery
+healthcare facilities
+healthcare operations
+healthcare quality
+healthcare sector
+healthcare sustainability
+healthcare system
+healthcare workers
+heat rate
+heat rate approximation
+heat rate curves
+herpetofaunal diversity
+high material costs
+higher SHR
+highways
+history
+hospital administrators
+hospital energy use
+hospitals
+hotspot areas
+hotspot distribution
+hotspots
+human health
+hyperparameters
+i
+iNaturalist
+indeveloping economies
+indianjpsychiatry
+indirect taxes
+induced migration
+infeasible pathways
+infection control
+injection molding
+innovation
+installed capacity
+integrated assessment model
+integrated assessment models
+intersectional analyses
+intersectional studies
+intersectionality
+intimate partner violence
+investment
+kaouthia
+key uncertainties
+km1m
+kmtntm
+land use
+lead
+legacy infrastructure
+linear computations
+linear estimations
+livelihood diversification
+lkmv
+load
+load factor
+local roads
+lotz
+lower cost energy services
+machine
+machine  learning
+machine learning
+machine learning model
+machine learning models
+macrolepis
+major emitting countries
+major roads
+manufacturing
+manufacturing firms
+manufacturing organizations
+market readiness
+material efficiency
+measurement model
+median estimate
+mediating construct
+medical equipment
+medical health facilities
+melanurus
+mental health
+mental health challenges
+mental health management
+mental health outcomes
+mental health problems
+mental illness
+methane
+method bias
+microloans
+minor roads
+mitigation options
+mkz
+mobility data
+modeling
+monticola
+narrative review
+national climate planning
+national documents
+national healthcare emitter
+national policies
+natural disasters
+negative emissions
+negative mental health effects
+netCDF files
+nitrogen oxides
+nitrous oxide
+nomic assumptions
+non-CO 2emissions
+north Bengal region
+northeastern states
+ology
+one
+open access article
+operation units
+operational capacity
+operational frameworks
+optimal retirement schedule
+optimal retirement year
+optimization
+ozro
+ozskzmon
+ozskzmtzr
+paramedics
+parity plots
+particulate matter
+pathway profile
+pathway trajectories
+patient care
+patient education programs
+performance metrics
+phaseout roadmaps
+piece
+pilot projects
+pipeline unit
+pipeline units
+planetary health
+plant load factor
+policy
+pollutant emissions
+polymer materials
+polymer processing
+polymers
+poverty
+power capacity
+power plant
+power system regions
+power transition
+predicted temporal values
+prediction analysis
+prediction model
+predictive power analysis
+predictor variables
+premature death
+price
+prices
+primary roads
+printability
+private banks
+private sector banks
+projected emissions
+property losses
+proxies
+psychological effects
+public health
+public health challenge
+public mental health issue
+public sector banks
+publication growth rate
+qoonlkmv
+rainfall
+range contraction
+recyclability
+recycling
+recycling strategies
+reduced labor productivity
+regulation
+regulatory compliance
+regulatory environments
+regulatory frameworks
+reliability
+renewable energy
+reptiles
+residual emissions
+resilience
+retirement year
+revenue streams
+risk
+road segment
+road traffic
+road type
+road type 5
+robustness
+safe disposal
+sampling bias
+scalability
+scientificreports
+sector
+sector coverage
+selective laser sintering
+sensitivity analysis
+shaded areas
+shape memory
+shifting disease patterns
+smaller
+smart materials
+smart polymers
+snakebite
+snakebite cases
+snakebite envenoming
+snakebite incidence
+snakebite risk
+snakes
+social bene
+social cost
+socioeconomic baseline variation
+solar cycles
+solar energy
+spatial distribution
+spatial factors
+spatial information
+spatial shifts
+species
+species distribution
+species distribution modeling
+species distribution models
+species distributions
+species richness
+speed
+standardization
+standardized datasets
+state boundaries
+state level
+steam pressure
+steam pressures
+stereolithography
+storage
+stranded assets
+strategic framework
+structural model
+suicide
+suicide rates
+supercritical
+supercritical  units
+supply chain logistics
+sustainability
+sustainability performance
+sustainable AI
+sustainable development
+sustainable healthcare development
+sustainable manufacturing
+sustainable outcomes
+sustainable practices
+tax
+technical support
+technology adoption
+telemedicine
+temperature
+temporal
+temporal correlation
+temporal patterns
+terrestrial venomous snake species
+terrestrial venomous snakes
+thermoplastics
+time lag
+time series
+traffic flow
+transition process
+transparency
+traumatic climate events
+trucks
+ts
+ty
+unaccounted vehicles
+uncertainties
+uncertainty
+uncertainty analysis
+uncertainty factors
+uncertainty range
+union territories
+unit types
+units
+universal health coverage schemes
+urban air pollution
+urbanization
+vehicle count
+vehicle counts
+vehicle density
+vehicle fleets
+vehicle speed
+vehicles
+vehicular emissions
+venomous snake hotspots
+venomous snake species
+venomous snakes
+ventilation
+vertebrates
+visualization
+volatile organic compounds
+volcanic eruptions
+vulnerability
+vulnerable populations
+waste management
+waste reduction
+water stress
+water stress index
+water stress risk
+weather patterns
+weighted comparability sequence
+women
+z
+zen
+ﬁtting curve

@@ -1,0 +1,987 @@
+DOI: 10.1111/nyas.15285
+ORIGINAL ARTICLE
+Uncertainties around net-zero climate targets have major
+impact on greenhouse gas emissions projections
+Michel G. J. den Elzen1,2Ioannis Dafnomilis1Leonardo Nascimento3,4
+Arthur Beusen1,5Nicklas Forsell6Joost Gubbels1Mathijs Harmsen1,7
+Elena Hooijschuur1Zuelclady Araujo Gutiérrez6Takeshi Kuramochi3,7
+1PBL Netherlands Environmental Assessment
+Agency, The Hague, The Netherlands
+2Institute for Environmental Studies (IVM),
+Vrije Universiteit Amsterdam, Amsterdam, The
+Netherlands
+3NewClimate Institute, Cologne, Germany
+4Environmental Systems Analysis Group,
+Wageningen University, Wageningen, The
+Netherlands
+5Department of Earth Sciences-Geochemistry,
+Utrecht University, Utrecht, The Netherlands
+6International Institute for Applied Systems
+Analysis (IIASA), Laxenburg, Austria
+7Copernicus Institute of Sustainable
+Development, Utrecht University, Utrecht,
+The Netherlands
+Correspondence
+Michel G. J. den Elzen, Institute for
+Environmental Studies (IVM), Vrije
+Universiteit Amsterdam, De Boelelaan 1111,
+Amsterdam, Noord-Holland 1081 HV, The
+Netherlands. Email: Michel.denelzen@pbl.nl
+Funding information
+HORIZON EUROPE Climate, Energy and
+Mobility, Grant/Award Number: ELEVATE
+101056873Abstract
+Globally, more than 100 countries have adopted net-zero targets. Most studies agree
+on how this increases the chance of keeping end-of-century global warming below 2◦C.
+However, they typically make assumptions about net-zero targets that do not capture
+uncertainties related to gas coverage, sector coverage, sinks, and removals. This study
+aims to analyze the impact of many uncertainty factors on the projected greenhouse
+gas (GHG) emissions by 2050 for major emitting countries following their net-zero
+pathways, and their aggregate impact on global GHG emissions. Global emission pro-
+jections range from 23 to 40 gigatons of CO2equivalent (GtCO2eq), with a median
+of 31 GtCO2eq. Our full range corresponds to about 40–75% of 2015 emission lev-
+els, which is much wider than the range of 30–45% reported by various integrated
+assessment models. The main factors contributing to this divergence are the uncer-
+tainty in the gas coverage of net-zero targets and uncertainty in the socioeconomic
+baseline. Countries with net-zero GHG targets by 2050 have a small range of 2050
+emissions, while countries with net-zero targets beyond 2050 and unclear coverage,
+such as China, India, and Indonesia, have a large range of emissions by 2050.
+KEYWORDS
+climate change mitigation, climate policy, integrated assessment models, net-zero targets, Paris
+Agreement, uncertainty
+INTRODUCTION
+As of January 2024, more than 100 countries, covering approximately
+81% of global greenhouse gas (GHG) emissions, have announced
+and/or adopted net-zero targets.1In many cases, these targets con-
+tain many uncertainties and ambiguities, for example, regarding what
+GHGs and sectors they cover and their net-zero target year.2,3The
+pathway trajectories toward these net-zero targets and how socioeco-
+This is an open access article under the terms of the Creative Commons Attribution License, which permits use, distribution and reproduction in any medium, provided
+the original work is properly cited.
+© 2025 The Author(s). Annals of the New York Academy of Sciences published by Wiley Periodicals LLC on behalf of The New York Academy of Sciences.nomic assumptions and near-term climate policies influence them are
+additional sources of uncertainty.
+In addition, there are uncertainties about the negative emissions
+from nature-based carbon dioxide removal (CDR), such as carbon
+sequestration in forests and soils and CDR technologies, that is,
+biomass energy with carbon capture and storage and direct air carbon
+capture and storage.4,5The extent of deployment of both categories
+of CDR at the country level, as reported in the national long-term
+A n nN YA c a dS c i . 2025;1544:209–222. wileyonlinelibrary.com/journal/nyas 209
+210 ANNALS OF THE NEW YORK ACADEMY OF SCIENCES
+FIGURE 1 Overview of the uncertainty factors analyzed, including the different subcategories of each factor. The bold text represents the
+default setting. Abbreviations: GHG, greenhouse gas; LULUCF, land-use, land-use change and forestry; NDC, National Determined Contributions;
+SSP, Shared Socioeconomic Pathway.
+plans and documents, has been analyzed in several studies.4,6Based on
+the assessment of these documents,5,7many countries plan to expand
+land-based removals. However, none have yet committed to substan-
+tively scaling novel CDR methods, and many national documents lack
+transparency. CDR has also been extensively analyzed on a sectoral
+level in integrated assessment models.8–10
+Together, these variations allow for different interpretations and
+achievements of the net-zero targets, influencing the projected GHG
+emission pathways toward net-zero. The global emissions pathways of
+the most recent net-zero targets have already been analyzed in several
+studies,2,11–18which make specific assumptions about the countries’
+net-zero targets regarding gas coverage, sinks, and removals. A sys-
+tematic, peer-reviewed analysis of how these uncertainties affect the
+projected emission for the latest net-zero targets is still lacking. Earlier
+studies19,20have analyzed the impact of uncertainties on 2030 emis-
+sions projections implied by countries’ National Determined Contribu-
+tions (NDCs) based on several uncertainty factors related to NDCs.
+Against this backdrop, this study aims to analyze and quantify
+the impact of key uncertainty factors related to the net-zero targets
+(cut-off date of January 30, 2024) on global and national emission path-
+ways toward these targets, as well as on abatement costs and carbon
+prices, and global temperature increase. We present detailed results
+for both the global level and for the six largest emitting economies
+(Brazil, China, EU27, India, Indonesia, and the United States), which are
+collectively responsible for 65% of global GHG emissions. We also ana-
+lyze the individual contributions of specific uncertainty factors to this
+overall uncertainty.
+This study also goes beyond the uncertainty factors related to NDCs
+assessed in the previous studies19,20to comprehensively assess the
+following five uncertainty factors (Figure 1): (i) socioeconomic base-
+line variation; (ii) profile of the pathway to net-zero targets, such as
+accelerated, linear, or delayed; (iii) uncertainty in the emissions cover-
+age of net-zero targets, as it highly determines the time delay betweenachieving net-zero CO 2emissions and net-zero GHG emissions; (iv)
+uncertainty in the mitigation potential of non-CO 2GHG sources; and
+(v) uncertainty in land-use sinks (nature-based CDR). The impact of the
+uncertainty of the negative emissions from CDR technologies is not
+analyzed here, given the substantial uncertainty regarding their scala-
+bility and how countries intend to use these technologies to meet their
+net-zero target.5,7
+The analysis includes emission projections based on GHG emissions
+pathways toward countries’ net-zero targets for the world and regions
+(with a focus on six major emitting countries) using the integrated
+assessment model IMAGE.11,20The different uncertainty factors result
+in many independent scenarios per country and for the world, which
+are explored in a full-factor uncertainty analysis on annual projected
+emissions and abatement costs up to 2050. Subsequently, a single-
+factor uncertainty analysis based on different regression approaches is
+used to quantify the contribution of each factor to the total uncertainty.
+Finally, a technical feasibility assessment of the scenarios is performed,
+using dynamic time- and pathway-dependent marginal abatement cost
+(MAC) curves from the IMAGE model.21,22
+METHODS
+This study presents the methodology for calculating the corridors of
+technically feasible GHG emissions pathways toward countries’ net-
+zero targets in CO 2equivalent terms.aThe key results are presented
+as GHG emissions, excluding and including the land-use, land-use
+change, and forestry (LULUCF) sector, abatement costs, and carbon
+price projections. The calculations are performed in three steps (see
+Figure 2).
+aAll GHG emission figures are expressed using the 100-year global warming potential (GWPs)
+from the IPCC Fourth Assessment Report.
+ANNALS OF THE NEW YORK ACADEMY OF SCIENCES 211
+FIGURE 2 Calculation steps of the analysis of net-zero targets scenarios.
+First, we quantify emissions projections for all possible net-zero tar-
+get scenarios, following the combination of uncertainties affecting the
+net-zero targets. This analysis includes the full set of GHG emissions
+pathways implied by 648 net-zero target scenarios, based on all combi-
+nations of uncertainty factor subcategories for the 26 world regions of
+IMAGE.
+Second, we use the IMAGE model and its submodels to calculate
+the technically feasible GHG emissions pathways and the abatement
+costs and carbon price projections based on the information on the
+mitigation potential of all GHG emissions and sources, as well as the
+temperature increase.
+Third, we calculate the probabilistic distribution of emissions and
+abatement costs based on the calculated feasible pathways from step
+2. In addition, we calculate the relative contributions of the uncer-
+tainty factors to the total uncertainty ranges of the projections of GHG
+emissions and abatement costs of the technically feasible pathways.
+Uncertainty factors considered and the estimation of
+possible country-level emission trajectories
+The selection of net-zero targets and the information about their for-
+mulation for 32 major emitting countries with net-zero targets (about
+80% of global Kyoto GHG emissions in 2019) was determined by con-
+sulting three independent net-zero target trackers1,23,24(Table 1)—a
+methodology also employed to assess these countries in Rogelj et al.2
+Regarding the target formulation, we focus on the information around
+the coverage of gases and the net-zero target year.
+Overview of uncertainty factors
+Based on previous research,2,20we identified a set of factors driving
+uncertainty in the net-zero targetsb(Figure 2), as explained below.
+bWe have not analyzed the impact of the historical emissions uncertainties. Although differ-
+ences in historical emissions datasets lead to considerable uncertainty in the starting levelsGas coverage of net-zero targets
+This is modeled as the assumed time lag in years between achieving
+net-zero CO 2emissions and net-zero GHG emissions. For all countries
+with CO 2-only coverage, we assume that net-zero GHG emissions will
+be achieved 15 years later, with a range of 10 −20 years, except for India
+and Indonesia, where we consider a time lag of 30 years later with a
+range of 10 −50 years. These time lags are based on the pathways of the
+major emitting countries, derived from an assessment of cost-effective
+1.5◦Ca n d2◦C scenarios from integrated assessment models by van
+Soest et al.,25and the analysis of C1a and C3 category scenarios pre-
+sented in the Intergovernmental Panel on Climate Change (IPCC) Sixth
+Assessment Report.26For countries with unclear coverage of the net-
+zero targets, such as Brazil, China, and India, we assume two options: (i)
+the conservative estimate for CO 2only and (ii) the optimistic estimate
+for all GHGs (see Figure 1). The countries without net-zero targets
+follow the current policies trajectory.
+Profile of the emissions pathway
+The path taken from current levels to net-zero targets determines
+the total amount of CO 2and other GHGs emitted and thus the total
+carbon budget used. The climate outcome is affected by whether a lin-
+ear, accelerated, or delayed path is followed.27For this study, the four
+pathways toward achieving the long-term net-zero targets include: (i)
+an accelerated reduction trajectory, which is differentiated reductions
+between countries based on income by 2030; (ii) a linear path start-
+ing in 2023, and a delayed trajectory starting from the 2030 emission
+levels; (iii) implied by countries’ conditional NDC target; or (iv) cur-
+rent policies in 2030. After 2030, all four pathways follow a linear path
+toward countries’ net-zero targets. For the accelerated pathway, we
+of the emissions pathways, their impact on the long-term (2050) emissions is limited because
+countries are assumed to be on a net-zero path and differences in starting levels are assumed
+to converge to zero by 2100.
+212 ANNALS OF THE NEW YORK ACADEMY OF SCIENCES
+TABLE 1 Details of net-zero target year and GHG coverage for the IMAGE regions.
+IMAGE regionaOfficial net-zero
+target year Emission coverageMain emitting countries with net-zero target
+within the region
+Canada 2050 GHG Canada
+USA 2050 GHG USA
+Mexico N.A. No zero target Mexico (no net-zero target)
+Rest of Central America N.A. N.A. Costa Rica (2050, GHG)
+Brazil 2050 Unclear Brazil
+Rest of South America N.A. GHG ( ∼55% of regional 2019
+emissions with net-zero target 2050)Argentina (2050, GHG), Chile (2050, GHG),
+Colombia (2050, GHG)
+Northern Africa N.A. N.A.
+Western Africa N.A. N.A. Nigeria (2050, GHG)
+Eastern Africa N.A. N.A. ( ∼35% of regional emissions
+with net-zero target 2050)Ethiopia (2050, GHG)
+South Africa 2050 CO 2 South Africa
+Rest of South Africa N.A. N.A.
+Western Europeb2050 GHG EU27 (2050, GHG), UK (2050, GHG)
+Central Europeb2050 GHG EU27 (2050, GHG)
+Turkey 2053 CO 2 Turkey
+Ukraine 2060 GHG Ukraine
+Central Asia N.A. GHG ( ∼50% of regional emissions
+with net-zero target 2060)Kazakhstan (2060, GHG)
+Russian Federation 2060 GHG Russian Federation
+Middle East N.A. Unclear ( ∼35% of regional emissions
+with net-zero target 2060)Saudi Arabia (2060, unclear), Israel (2050, unclear),
+United Arab Emirates (2050, GHG)
+India 2070 Unclear India
+Korea region 2050 Unclear Republic of Korea (2050, unclear)
+China region 2060 Unclear China
+Southeastern Asia N.A. Unclear ( ∼70% of regional emissions
+with net-zero target 2050)Cambodia (2050, CO 2), Malaysia (2050, unclear),
+Nepal (2045, CO 2), Thailand (2050, CO 2),
+Singapore (2050, GHG), Vietnam (2050, GHG)
+Indonesia 2060 Unclear Indonesia
+Japan 2050 GHG Japan
+Oceania 2050 GHG Australia (2050, GHG) and New Zealand (2050,
+CO 2)
+Note : Source comes from adjusted Dafnomilis et al.11,13and literature sources.1,23,24
+Abbreviation: GHG, greenhouse gas, N.A., not available
+ahttps://models.pbl.nl/image/Region_classification_map .
+bAll Member States of the EU27 and the United Kingdom are included in the IMAGE calculations as part of the Western and Eastern European regions; in the
+results, we present the results for EU27.
+assume that emissions will be reduced by 50% in 2030 relative to 2022
+levels for high-income countries, 30% for middle-income countries, and
+20% for low-income countries by 2030.
+Socioeconomic baseline variation
+This factor mainly affects the delayed net-zero emissions trajectories
+starting from current policies by 2030. However, it also affects those
+departing from 2030 NDC targets that are indexed to socioeconomicdevelopments (such as for China and India).28Socioeconomic base-
+line uncertainties also influence the emissions projections for countries
+with no net-zero targets that follow the current policies’ trajectory,
+which are based on three socioeconomic futures in 2030.
+Non-CO 2GHG mitigation potential
+Non-CO 2GHG emissions reductions affect the feasibility of net-
+zero emission pathways. Achieving net-zero targets will require
+ANNALS OF THE NEW YORK ACADEMY OF SCIENCES 213
+unprecedented reductions in emissions of CO 2as well as non-CO 2
+gases such as methane, nitrous oxide, and fluorinated gases. CO 2has
+received most of the attention in climate policy research because
+of its large share of total emissions, but non-CO 2emissions are
+becoming increasingly important because non-CO 2emissions from
+the agricultural sector, such as methane from livestock or nitrous
+oxide from fertilizers, are especially hard to abate.8,10,29However,
+the exact level of the remaining non-CO 2emissions is highly uncer-
+tain. Harmsen et al.29provide a systematic bottom-up estimate of
+the total uncertainty in non-CO 2abatement by developing opti-
+mistic ,default ,a n d pessimistic long-term MAC curves (i.e., with high,
+medium, and low reduction potentials, respectively), based on a
+comprehensive literature review of mitigation options. These MAC
+curves are used in this study. A higher reduction potential leads to a
+higher non-CO 2/CO 2reduction ratio, but it does not affect the net
+reduction (in CO 2equivalents), provided that the net-zero target is
+met.
+Land-use contributions
+Historical (and projected) land-use emissions reported by countries to
+the UNFCCC generally differ from those used by integrated assess-
+ment models. There are conceptual differences in how integrated
+assessment models and national GHG inventory data define anthro-
+pogenic land-use CO 2fluxes due to simplified and/or incomplete rep-
+resentation of forest management in integrated assessment models.
+There are also differences in how land-use categories are accounted
+for, particularly concerning unmanaged land and unmanaged forests.
+Forsell et al.30have conducted a more detailed analysis of govern-
+ments’ long-term strategies submitted to the UNFCCC to examine
+projections of emissions and sinks from LULUCF in line with the
+national NDCs31and Long-term Low Emission Development Strategies
+commitmentsc,32(for further details, see Supporting Information S1 ).
+We consider three scenarios for the LULUCF emissions projections:
+(i) net LULUCF emissions declining over time according to countries’
+own estimates as documented in the LULUCF dataset30; (ii) LULUCF-
+related emissions and sinks projections associated with mitigation
+options in the LULUCF sector based on the IMAGE model calcula-
+tions for a 1.5◦Cs c e n a r i o8,13; and (iii) similar LULUCF emissions and
+sinks projections, but now based on the IIASA’s global land-use model
+GLOBIOM33calculations for a 1.5◦C scenario.34,35For all three sce-
+narios, the land-use emissions and sinks projection for the regions are
+harmonized with national inventory data using the offset method and
+the offset factor kept constant over time.30The inventory data used to
+harmonize the projections were collected by Forsell et al.,30using an
+approach similar to Forsell et al.36and Grassi et al.37(see Supporting
+Information S1 ).
+cTo facilitate the progress toward the global climate goal of the Paris Agreement, countries are
+invited to document and submit their pledged contributions in the form of NDCs (Article 4.2)
+and the Long-term Low Emission Development Strategies (Article 4.9).Development of global and regional net-zero
+emission trajectories using the IMAGE model
+IMAGE is an integrated assessment model framework that simulates
+global and regional environmental consequences of changes in human
+activities22,38,39(see also Supporting Information S2 ). IMAGE is a sim-
+ulation model (i.e., changes in model variables are calculated based on
+the information from the previous time step). The model includes a
+detailed description of the energy and land-use system and simulates
+most of the socioeconomic indicators (such as population and income)
+for 26 regions. The IMAGE model includes a slightly adapted version of
+the climate model MAGICC 6.3.40
+Table 1presents the net-zero target years and the gas coverage
+included in each country’s net-zero pledge across the 26 regions. As
+some IMAGE regions consist of several countries, the calculation of
+NDC/net-zero targets becomes more complex when there is no dom-
+inant emitter. In regions such as the Middle East, where only some
+countries have committed to net-zero targets, the final emissions tar-
+get for the net-zero year is estimated based on the share of GHG
+emissions from countries with net-zero pledges, while emissions from
+the remaining countries follow the current policies scenario for the
+region (see Table 1). The methodology is based on Dafnomilis et al.11,13
+We use the IMAGE model22,38,39to identify which of the emis-
+sions pathways are technically feasible, and to quantify the abatement
+costs and the carbon price, as well as the allocation of the abate-
+ment across the different gases. For this purpose, we included the
+calculated net-zero scenarios (in the form of emissions targets, exclud-
+ing the emissions and removals from LULUCF) in IMAGE, which act
+as constraints and lead to increased economy-wide, regional, and
+country-specific carbon prices and abatement costs depending on the
+pathway and the final net-zero target level.28In the final analysis, only
+the technically feasible pathways are included. To filter the techni-
+cally feasible projections, the carbon price is used as a condition. If the
+carbon price exceeds a certain threshold (1450 (2020)$/ton CO 2, i.e.,
+the maximum price level in IMAGE) for more than 5 years over the
+whole period from 2020 to the net-zero target year, this scenario is
+removed from the set of scenarios. For this analysis, we consider a sce-
+nario infeasible if this happens for at least four of the 26 world regions
+for at least 5 successive years. The temperature increase projections
+are calculated using the MAGICC 6.3 climate model based on global
+GHG emissions, with the global land-use emissions harmonized with
+the historical emissions of the IMAGE model.
+IMAGE’s FAIR model calculates the impact of climate mitigation
+policy using carbon prices and MAC curves, which represent the
+costs of mitigation actions to determine a cost-optimal emission
+pathway41,42(see also Supporting Information S2 ). It captures the
+time- and pathway-dependent dynamics of the underlying energy
+model of IMAGE by scaling the MAC curves based on the reduction
+effort of previous years. The MAC curves in FAIR are based on (i)
+the IMAGE energy model for energy-related CO 2emissions21and (ii)
+MACs for non-CO 2emissions as described in Harmsen et al.29,43;s e e
+Hof et al.38The MAC curves for energy-related CO 2emissions were
+214 ANNALS OF THE NEW YORK ACADEMY OF SCIENCES
+constructed to account for past efforts by imposing a wide range of
+carbon price pathways in the energy model of IMAGE and captur-
+ing the induced reduction in CO 2emissions44(see also Supporting
+Information S2 ).
+Current policies scenario of IMAGE
+The countries without net-zero targets follow the current policies sce-
+nario of IMAGE. More specifically, the effect of climate mitigation
+policies that have been adopted and implemented as of November
+2023 on GHG emissions in all sectors up to 2030 was projected
+using the integrated assessment model IMAGE,21which includes the
+energy system model. Current climate and energy policies from G20
+economies, as identified in the public database on climate policies,45 d
+the ENGAGE project,eand policy overview updates46,47were added on
+top of the updated IMAGE SSP2 reference scenario. More specifically,
+we used a modeling protocol,48updated from Roelfsema et al.,48,49
+including a detailed spreadsheet listing policies by country to imple-
+ment current policies in the IMAGE model. For this study, the current
+policies scenario projections for the IMAGE SSP1 and SSP3 scenar-
+ios were calculated using the same methodology.48More specifically,
+we develop our current policies scenario using three shared socioeco-
+nomic pathways (SSPs): SSP1, SSP2, and SSP3. These are developed
+using the methodology of Roelfsema et al.,48and project GHG emis-
+sions and energy use as affected by economic, demographic, and social
+drivers.50SSP1 represents a sustainable future path in which envi-
+ronmental boundaries are respected.50SSP2 is a middle-of-the-road
+scenario, which is used as default. In SSP3, environmental issues have
+low priority and the world is characterized by regional rivalry.50Simi-
+lar as in the earlier uncertainty studies,19,20we assume that all three
+socioeconomic scenarios have the same probability despite acknowl-
+edging that the SSPs were not originally designed to have assigned
+probabilities. Extrapolation for the emissions projections beyond 2030
+follows the method of van Soest et al.51of extrapolating the equivalent
+carbon price in 2030 using the GDP growth rate of the different regions
+and is mostly used for illustration.
+Statistical analysis on the distribution of emission
+projections
+For this analysis, we used the ANOVA variance decompositions to ana-
+lyze how much of the variability in the output variables depends on the
+independent variables. This approach also takes into account the inter-
+actions between the uncertainty factors. For this study, the ANOVA
+analysis was used to estimate the relative importance of each uncer-
+tainty factor in determining the output variable (i.e., projected GHG
+emissions and total abatement costs in 2050).
+dwww.climatepolicydatabase.org
+ehttps://engage-climate.org/project/RESULTS
+Emissions
+Figure 3shows the projected emissions ranges based on all feasible and
+infeasible pathways until 2050 for the world and the six major emit-
+ting countries based on various input factors. The projected emissions
+ranges of the other world regions are given in Figure S1.T h er e s u l t s
+are based on 648 net-zero target scenarios per country and the world,
+representing all possible combinations of uncertainty dimensions.
+About 574 scenarios (89% of all generated scenarios) are technically
+feasible pathways (Figure 3). The other scenarios are found to be infea-
+sible in the IMAGE model. Infeasibilities occur in the model due to a
+lack of timely mitigation options to meet the reduction targets and can
+be caused by several reasons, such as relatively high residual non-CO 2
+emissions, a lack of CDR mitigation options, or binding constraints on
+the diffusion of mitigation technologies. This is exhibited in the model
+by the carbon price exceeding a predefined maximum price threshold.
+We found that infeasible pathways occur in only about 46% of the
+accelerated pathways (74 runs out of a total of 162 runs). The infeasi-
+bilities occur mainly for EU27 and Canada (on average 15 years above
+the price threshold) and to a lesser extent for Turkey and Oceania (on
+average only 5 years), while the accelerated pathways are all feasible
+for China, India, and the United States.
+LULUCF sinks are important in achieving the net-zero targets in the
+target year (compare the left and right columns of Figure 3). GHG emis-
+sions show a wide range by 2030 mainly depending on the assumed
+profile of pathways of countries, varying from a linear, accelerated, or
+delayed path (NDC or current policies level) toward reaching the net-
+zero target. For the EU27 and the United States—which both have
+net-zero GHG targets for 2050—the projected GHG emissions path-
+ways including LULUCF converge toward a net-zero point in 2050.
+However, the emissions pathway excluding LULUCF result in a range of
+emissions by 2050 (see also Figure 4). For the United States, the GHG
+emissions excluding LULUCF in 2050 are mainly residual emissions
+that need to be compensated by land-use sinks. The land-use sinks
+s h o was m a l lr a n g ef r o m0 . 9t o0 . 9 5G t C O 2. For the EU27, about 80% of
+all scenarios are assumed to be technically feasible (i.e., to exceed the
+price threshold in less than 5 years), which is highly dependent on the
+low projected uptake of CDR technologies and the limited remaining
+non-CO 2mitigation potential in the EU27 in our modeling framework.
+The technically feasible emissions pathways (including LULUCF) reach
+net-zero (or close to net-zero) by 2050 (Figure 4).
+In contrast, China, India, Brazil, and Indonesia have net-zero tar-
+gets beyond 2050 for which the gas coverage is unclear. Consequently,
+the emissions pathways of these regions are highly dependent on the
+assumed time lag in achieving net-zero CO 2and net-zero GHG emis-
+sions, as well as the profile of the pathway. Therefore, we project a
+higher uncertainty range for these regions for 2050 GHG emissions
+including and excluding LULUCF. The assumed LULUCF sinks further
+widen these ranges. More specifically, China’s 2050 GHG emissions
+(incl. LULUCF) reach about 47% of 2015 emissions (median) (Figure 4),
+ANNALS OF THE NEW YORK ACADEMY OF SCIENCES 215
+FIGURE 3 Net-zero emissions corridors for the world and six major emitters (showing the full and technically feasible ranges). Abbreviation:
+GtCO 2eq, gigatons of CO 2equivalent.
+with a range of 35 −85% (25th to 75th percentile range: 40 −65%),
+while for India’s 2050 emissions reach about 75% of 2015 emissions
+levels (median, with a range of 50 −120%). The median 2050 emis-
+sions for China depend on LULUCF emissions (i.e., 5.6 GtCO 2eq) (incl.
+LULUCF) and 7.1 GtCO 2eq (excl. LULUCF), which is a difference of
+1.5 GtCO 2eq (for comparison, the difference for India is only 0.5
+GtCO 2eq). For Brazil, the impact of LULUCF emissions is even larger.
+The median emissions for Brazil in 2050 are almost zero (incl. LULUCF)
+and 0.9 GtCO 2eq (excl. LULUCF) (Figure S1), which are 100% and
+50% below 2015 levels, respectively. The projections also show a wide
+range, especially for emissions without LULUCF. For Indonesia, the
+impact of LULUCF emissions on the 2050 emission projections is much
+smaller (Figure S1).An important group are the countries without net-zero targets, for
+which current policy emission levels were assumed. The GHG emis-
+sions of this group of countries increase from about 8.3 GtCO 2eq
+in 2015 to 9.1–14.3 GtCO 2eq (full range, with a median estimate;
+13.1 GtCO 2eq) in 2050. This range is heavily influenced by the uncer-
+tainty in the land-use emissions and in the current policy projections
+from the socioeconomic baseline variation. Its share of global emis-
+sions increases from about 16% in 2015 to 42% (full range 36–39%)
+in 2050 for the net-zero target scenarios (Table S1).
+Figure 4shows the density plots for the projected emissions in 2050
+for the major emitting countries and the world. Uncertainties result
+in global GHG emission projections (including LULUCF) in 2050 rang-
+i n gf r o m2 3t o4 0G t C O 2eq (40–75% of 2015 emissions levels), with a
+216 ANNALS OF THE NEW YORK ACADEMY OF SCIENCES
+FIGURE 4 Frequency distribution of 2050 GHG emission projections (including LULUCF) (panel A) for the six major emitters and the world
+according to net-zero targets. The figures for the other regions are given in Figure S1. Panel B presents the boxplot diagrams of all GHG emissions
+relative to 2015 emissions. Abbreviations: GHG, greenhouse gas; GtCO 2eq, gigatons of CO 2equivalent; LULUCF, land-use, land-use change and
+forestry.
+median estimate of 31 GtCO 2eq (55% of 2015 levels). The 25th to 75th
+percentile range is 28 −34 GtCO 2eq.
+The resulting global mean temperature increase projections by
+2100 range from 1.8◦Ct o2 . 2◦C, with a median estimate of 2.0◦C. Note
+that this is the climate range under a median climate sensitivity; if we
+were to present the range under the climate sensitivity range, it would
+be much wider.
+There are notable differences between countries considering the
+factors contributing to the variability of projected emissions in 2050
+(Figure 5). For Brazil and the United States, the land-use category
+emerges as the most important contributor. For the EU27, the main
+source of uncertainty is the socioeconomic baseline used, which is
+largely responsible for the fact that not all pathways are technically
+feasible to reach the net-zero target. In contrast, for countries with net-
+zero targets beyond 2050, such as China and Indonesia, the net-zero
+gas coverage and, to a lesser extent, the pathway profile becomes the
+dominant category influencing the variability of projected emissions.
+For India, the pathway is the most important factor.
+On a global level, the net-zero coverage is the most important con-
+tributing factor (about 35%). This is followed by two equally important
+factors: pathway and baseline. In contrast, the uncertainty in non-CO 2
+mitigation potential has a minimal to negligible influence, as it only
+affects the CO 2/non-CO 2ratio and not the net reductions. However,
+a lower non-CO 2mitigation potential can result in infeasible emission
+pathways, especially for the EU27, which has a 2050 net-zero target
+and limited potential for negative emissions. This is indicated by thesmall contribution of non-CO 2uncertainty to the EU27 emissions in
+Figure 5.
+Contribution of the GHGs to total mitigation
+The distribution of the different GHG emission sources and sinks in
+2050 for the selected countries and the world is shown in Figure 6.
+Global emissions of different GHGs are reduced significantly by 2050
+(with land-use resulting in negative emissions), but residual emissions
+are still notable. CO 2emissions from transport, industry, and buildings
+are responsible for about 60–65% of residual emissions in 2050, and
+the remaining comes from non-CO 2emissions. Residual emissions are
+extensively discussed in the literature.4,6,8–10,52,53
+For the countries with net-zero targets by 2050 (EU27 and the
+United States), achieving net-zero means that the remaining emis-
+sions (methane and N 2O) are compensated by negative emissions.
+For the EU27 and the United States, land-use sinks are the largest
+contributors to negative emissions, with small variations, and the net-
+zero emissions are achieved for the 25th to 75th percentile range of
+projections (Figure 6). For the countries with a net-zero GHG year
+after 2050, but without a specified GHG coverage (China, India, and
+Brazil), the net GHG emissions by 2050 show a wide range. This vari-
+ation is mainly due to the variations in the projected CO 2emissions
+from transport, industry, and buildings and the land use sinks (notably
+Brazil), and to a lesser extent from variations in the methane and N 2O
+ANNALS OF THE NEW YORK ACADEMY OF SCIENCES 217
+FIGURE 5 Contribution of uncertainty factors in the 2050 GHG (incl. LULUCF) emission projections. Abbreviation: LULUCF, land-use,
+land-use change and forestry.
+FIGURE 6 Breakdown of emissions in 2050 of total greenhouse gas emissions based on median, average, and 25th and 75th percentile
+estimates. The white dots represent the net GHG emissions in 2050. Emissions of GHG, by greenhouse gas (colors) and country (panels). Positive
+numbers denote remaining emissions of CH 4,N2O, and F-gases, and of CO 2in industry, buildings, and transport and energy supply, whereas
+negative numbers denote negative emissions in land use. Negative emissions in this sector result from the use of biomass energy with carbon
+capture and storage. Abbreviations: GHG, greenhouse gas; GtCO 2eq, gigatons of CO 2equivalent.
+218 ANNALS OF THE NEW YORK ACADEMY OF SCIENCES
+FIGURE 7 Box plots of 2050 abatement costs projections for Brazil, China, EU27, India, Indonesia, the United States, and the world according
+to net-zero targets. Abbreviation: GDP, gross domestic product.
+emissions (Figure 6). For China, CO 2emissions from transport, indus-
+try, and buildings account for most of the residual emissions. For India,
+the transport, industry, and buildings sectors slightly dominate the non-
+CO2emissions in the residual emissions, while for Brazil, the methane
+emissions from agriculture are the most important source of residual
+emissions.
+Abatement costs
+The global abatement costs in 2050 range from −0.7% to −1.4% of
+GDP (median estimate of −1.1%). Figure 7illustrates the box plots of
+projected abatement costs as a percentage of GDP for the major emit-
+ting countries (Table S2gives the detailed data). For the United States,
+abatement costs amount to −0.8% to −1.2% of GDP (25th to 75th per-
+centile range), with a wide uncertainty range of the costs attributable
+to SSP scenarios. For the EU27, the abatement costs for the feasi-
+ble pathways amount to −0.8% to −1.1% of GDP, which are slightly
+lower compared to the United States, however, for the infeasible path-
+ways are higher. China has lower abatement costs ( −0.1% to −0.4%
+of GDP). India has a range of abatement costs ( −0.8% to −1.3% of
+GDP).
+Looking at the factors contributing to the variability of projected
+abatement costs in 2050, as calculated by the variance decomposi-
+tion method, we see that the baseline contributes the most to the
+uncertainty for all countries, except for Brazil with LULUCF as the
+dominant factor (Figure 8). The socioeconomic baseline and the pro-
+file of the pathway also dominate the uncertainty in global abatement
+costs.DISCUSSION AND CONCLUSIONS
+Significance of the study and key findings
+We used an integrated assessment model to analyze the impact of
+key uncertainties associated with countries’ recent net-zero targets on
+GHG emission projections for major emitting countries and the world.
+To the authors’ knowledge, there is no systematic uncertainty anal-
+ysis of how key uncertainties associated with net-zero targets affect
+projected global emissions.
+At the global level, these uncertainties lead to projections of GHG
+emissions (including LULUCF) in the range 23–40 GtCO 2eq in 2050
+(full range, with a median estimate of 31 GtCO 2eq). Our full range cor-
+responds to 40–70% of 2015 emission levels, which is much wider than
+the range of 30–45% reported in the multimodel study.15The main
+sources of uncertainty are, in order of global importance: uncertainty
+in the net-zero gas coverage to achieve net-zero CO 2and GHG emis-
+sions, uncertainty in the socioeconomic baseline, and uncertainty in the
+profile of the emission pathway to achieve net-zero targets.
+At the country level, for the countries with net-zero 2050 GHG
+targets (Canada, the EU27, and the United States), their GHG emis-
+sion projections to 2050 show a small range, and the main source of
+uncertainty is land use emissions for the United States and Canada and
+the socioeconomic baseline for the EU27. In contrast, countries with
+net-zero targets beyond 2050 and unclear coverage, such as China,
+India, and Indonesia, have a wide range of 2050 GHG emissions. China’s
+2050 emissions (including LULUCF) range from 35% to 85% (full range,
+median: 47%) of 2015 levels by 2050, with the net-zero gas coverage,
+to a lesser extent, the pathway, being the main sources of uncertainty.
+ANNALS OF THE NEW YORK ACADEMY OF SCIENCES 219
+FIGURE 8 Contribution of uncertainty factors in the 2050 abatement costs.
+India’s 2050 emissions range from 50% to 120% (median: 75%) of
+2015 levels, with the pathway and, to a lesser extent, the net-zero
+gas coverage now being the main sources of uncertainty. Emissions
+from countries without net-zero targets show an increasing trend from
+around 8.3 GtCO 2eq in 2015 to 13.1 GtCO 2eq (full range: 9.1–14.3
+GtCO 2eq) by 2050, and their share of global GHG emissions rises from
+16% in 2015 to 42% (full range 36–39%) in 2050. In these cases, the
+socioeconomic baseline strongly influences the uncertainty range.
+Comparison of the results with previous studies
+Several models have also calculated the climate and emissions projec-
+tions of net-zero scenarios based on their central assumptions for the
+countries’ net-zero targets and have not explored various uncertain-
+ties around net-zero targets based on the updated 2030 pledges and
+net-zero pledges as of May, September, and November 2021.12,16,17In
+addition, Meinshausen et al.12present the global GHG emission path-
+ways for some sensitivity cases for 2030 and long-term targets, leading
+to projected global 2050 emissions (excluding LULUCF) of 28–34.5
+GtCO 2eq. In the multimodel comparison study by Tagomori et al.15
+with six integrated assessment models,54global emissions and climate
+projections were presented and showed a range of global emissions in
+2050 of 17–29 GtCO 2eq, but part of the uncertainty range is caused
+by the range of 2015 emissions of 49–57 GtCO 2eq. Their range is
+about 30–45% of 2015 emissions levels based on multimodels, which
+is much lower than our range of 40–70% of 2015 emissions levels.
+Our larger range is due to the inclusion of three major uncertainty fac-
+tors (Figure 5): socioeconomic baseline variation, uncertainty in the gas
+coverage of net-zero targets (and its related time-lag between reaching
+net-zero CO 2and net-zero GHG emissions), and the profile of the path-
+way to net-zero. In contrast, Tagomori et al.15made specific choices
+regarding the baseline, gas coverage, and pathway profile. In summary,our study agrees with the existing literature that there is consider-
+able uncertainty about the projected emissions implied by net-zero
+targets. However, we find an even wider range due to a more explicit
+consideration of the underlying uncertainties.
+Methodological limitations of the study
+There are several research limitations and caveats to the results pre-
+sented. First, the importance of specific uncertainty factors in the over-
+all uncertainty projections depends strongly on the parameterization
+of each factor. For example, the impact of the net-zero gas coverage,
+modeled as time lag in reaching net-zero CO 2and GHG, depends on the
+scenarios in the IPCC Sixth Assessment Report’s scenarios database.
+Information from national net-zero scenarios from countries is lim-
+ited, especially from countries that have not fully specified the GHG
+coverage of their net-zero targets (such as China and India). In addi-
+tion, the impact of socioeconomic variation depends on the selected
+SSP scenarios (SSP1–3), but these ranges represent a probabilistic
+quantification of uncertainty. In addition, the research relies on spe-
+cific uncertainty factors identified in the study, such as socioeconomic
+baseline variation and emission reduction pathways. Other factors not
+included in the analysis could also affect net-zero projections, such as
+international offsets covering international shipping and aviation, and
+separate removal targets, but for many countries, national documents
+provide no or incomplete information.1,23,24
+Second, for countries without net-zero targets, current policy emis-
+sion levels have been assumed. As a result, their projected emissions
+to 2050 are heavily influenced by the uncertainty in the socioeconomic
+baseline changes. Although these countries account for almost 40% of
+global emissions, their range differs by only 1.8 GtCO 2eq, which is sig-
+nificantly smaller than the global range of 14.5 GtCO 2eq. This study
+does not fully explore the uncertainty ranges of the current policy
+220 ANNALS OF THE NEW YORK ACADEMY OF SCIENCES
+projections, as these depend heavily on the assumptions made beyond
+2030.
+Third, we have used one integrated assessment model in this anal-
+ysis. Some of the uncertainty factors, in particular the short-term
+emissions trends on the profile of the pathways (NDC and current
+policies projections), depend on model assumptions.2,20However,
+model comparison studies of the NDC and current policy projections
+have shown that the IMAGE model is well within the range of the
+other models,15,49,55,56and the range of emissions in 2050 is less
+dependent on uncertainty in the pathways. However, the technical
+feasibility of the net-zero scenarios presented depends on the tech-
+nology assumptions of the IMAGE model. Almost 90% of all scenarios
+are considered feasible under the default parameters. Other models
+or scenario assumptions can be used to identify pathways with higher
+or lower reliance on CDR and renewable energy technologies and
+energy demand in the demand sectors, which would affect the feasi-
+bility of the net-zero scenarios.57In the IMAGE results, most of the
+emission reductions are achieved through a large phase-out of tradi-
+tional fossil fuels and a parallel fuel shift to renewables.22However, the
+persistence of non-CO 2gases and some hard-to-abate CO 2sectors, as
+well as limitations on near-term emission reductions, may require CDR
+technologies,8and technological limitations in the availability of CDRs
+in IMAGE lead to infeasible scenarios.
+Policy implications and recommendations
+Our results also have implications for the Global Stocktake process as
+they indicate policy measures to reduce uncertainties in the next round
+of long-term targets. Net-zero targets are very promising because even
+considering the uncertainty, they result in global emissions by 2050 of
+40–70% of 2015 emission levels and the Paris climate goals come into
+reach (e.g., see Refs. 2, 12, 13 ,a n d 17). However, they still result in sub-
+stantial uncertainty globally. This means that there are substantial risks
+in discussing climate outcomes with certainty. Making some of these
+uncertainties explicit helps us identify strategies to minimize them and
+ensure that net-zero targets guide actual deep emissions reductions.
+Some of these uncertainties are outside the scope of national action,
+such as the baseline uncertainty. These relate more to how the world
+as a whole evolves. A world with more competition for resources–like
+the one we see forming now–would result in emissions at the higher
+end of the uncertainty range. Realizing emissions pathways in line with
+the lower end of our uncertainty requires SSP1 “Taking the green road”
+narrative.
+However, several others are within the scope of unilateral deci-
+sions, such as addressing scope uncertainty and the reduction pathway.
+Addressing the uncertainty in the scope of some of these targets,
+especially those for key emerging economies, is a clear way to reduce
+uncertainty at the global level. This should be the first step, as it
+does not require additional action and improves overall transparency
+to the international community. Accelerating emissions reductions is
+also fundamental to reducing uncertainty globally. This is an impor-
+tant uncertainty because it is linked with the actual implementation ofthe net-zero targets. Deep emissions reductions in the coming decade
+will not only reduce long-term uncertainty but also have a substantial
+impact on climate outcomes and is key to keep the climate goal of the
+Paris Agreement within reach.
+Finally, our research found that many scenarios are considered fea-
+sible. This shows that net-zero targets are already feasible with our
+current understanding of technology progress.
+AUTHOR CONTRIBUTIONS
+All authors contributed to parts of the research and analysis. M.G.J.d.E.,
+I.D., L.N., N.F., M.H., and T.K. conceived and designed the experi-
+ments. M.G.J.d.E., I.D., A.B., J.G., and M.H. performed the experiments.
+M.G.J.d.E., I.D., L.N., A.B., N.F., M.H., and E.H. analyzed the data.
+M.G.J.d.E., I.D., L.N., A.B., J.G., N.F., M.H., E.H., and Z.A.G. contributed
+materials/analysis tools. M.G.J.d.E. led the analysis, modeling, and writ-
+ing of the manuscript. M.G.J.d.E, I.D., L.N., N.F., M.H., and T.K. wrote the
+paper.
+ACKNOWLEDGMENTS
+This work was supported by the H2020 European Institute of Inno-
+vation and Technology (grant agreement 101056873 (ELEVATE)). We
+thank all colleagues involved, in particular, Maarten van den Berg and
+Niklas Höhne for their input and comments.
+COMPETING INTERESTS
+The authors declare no competing interests.
+DATA AVAILABILITY STATEMENT
+The data that support the findings of this study are available from the
+authors upon reasonable request.
+ORCID
+Michel G. J. den Elzen https://orcid.org/0000-0002-5128-8150
+Ioannis Dafnomilis https://orcid.org/0000-0001-5371-2341
+Peer review
+The peer review history for this article is available at: https://publons.
+com/publon/10.1111/nyas.15285
+REFERENCES
+1. ClimateWatch. (2024). Net-Zero Tracker . Washington, DC: World
+Resource Institute. https://www.climatewatchdata.org/net-zero-
+tracker
+2. Rogelj, J., Fransen, T., den Elzen, M. G. J., Lamboll, R. D., Schumer,
+C., Kuramochi, T., Hans, F., Mooldijk, S., & Portugal-Pereira, J. (2023).
+Credibility gap in net-zero climate targets leaves world at high risk.
+Science ,380, 1014–1016.
+3. Hale, T., Kuramochi, T., Lang, J., Mapes, B., Smith, S. M., Aiyer,
+R., Black, R., Boot, M., Chalkley, P., Hans, F., Hay, N., Hsu, A.,
+Höhne, N., Mooldijk, S., & Walsh, T. (2021). Net Zero Tracker .
+Energy and Climate Intelligence Unit, Data-Driven EnviroLab,
+NewClimate Institute, Oxford Net Zero. https://zerotracker.
+net/
+4. Smith, H. B., Vaughan, N. E., & Forster, J. (2022). Long-term national
+climate strategies bet on forests and soils to reach net-zero. Communi-
+cations Earth & Environment ,3, 305.
+ANNALS OF THE NEW YORK ACADEMY OF SCIENCES 221
+5. Smith, S. M., Geden, O., Gidden, M. J., Lamb, W. F., Minx, J. C., Buck,
+H., Cox, E., Edwards, M. R., Fuss, S., Johnstone, I., Müller-Hansen, F.,
+Pongratz, J., Probst, B. S., Roe, S., Schenuit, F., Schulte, I., & Vaughan,
+N. E. (2024). The state of carbon dioxide removal 2024 (2nd ed.).
+6. Buck, H. J., Carton, W., Lund, J. F., & Markusson, N. (2023). Why residual
+emissions matter right now. Nature Climate Change ,13, 351–358.
+7. Lamb, W. F., Gasser, T., Roman-Cuesta, R. M., Grassi, G., Gidden, M. J.,
+Powis, C. M., Geden, O., Nemet, G., Pratama, Y., Riahi, K., Smith, S. M.,
+Steinhauser, J., Vaughan, N. E., Smith, H. B., & Minx, J. C. (2024). The
+carbon dioxide removal gap. Nature Climate Change ,14, 644–651.
+8. Edelenbosch, O. Y., Hof, A. F., Van Den Berg, M., De Boer, H. S., Chen,
+H. H., Daioglou, V., Dekker, M. M., Doelman, J. C., Den Elzen, M. G.
+J., Harmsen, M., Mikropoulos, S., Van Sluisveld, M. A. E., Stehfest, E.,
+Tagomori, I. S., Van Zeist, W. J., & Van Vuuren, D. P. (2024). Reducing
+sectoral hard-to-abate emissions to limit reliance on carbon dioxide
+removal. Nature Climate Change ,14, 715–722.
+9. Luderer, G., Vrontisi, Z., Bertram, C., Edelenbosch, O. Y., Pietzcker, R. C.,
+Rogelj, J., De Boer, H. S., Drouet, L., Emmerling, J., Fricko, O., Fujimori,
+S., Havlík, P., Iyer, G., Keramidas, K., Kitous, A., Pehl, M., Krey, V., Riahi,
+K., Saveyn, B., ... Kriegler, E. (2018). Residual fossil CO2 emissions in
+1.5–2◦Cp a t h w a y s . Nature Climate Change ,8, 626–633.
+10. Lamb, W. F. (2024). The size and composition of residual emissions
+in integrated assessment scenarios at net-zero CO2. Environmental
+Research Letters ,19, 044029.
+11. Dafnomilis, I., den Elzen, M., & van Vuuren, D. P. (2023). Achieving
+net-zero emissions targets: An analysis of long-term scenarios using
+an integrated assessment model. Annals of the New York Academy of
+Sciences ,1522 , 98–108.
+12. Meinshausen, M., Lewis, J., Mcglade, C., Gütschow, J., Nicholls, Z.,
+Burdon, R., Cozzi, L., & Hackmann, B. (2022). Realization of Paris
+Agreement pledges may limit warming just below 2◦C.Nature ,604,
+304–309.
+13. Dafnomilis, I., den Elzen, M., & van Vuuren, D. (2024). Paris tar-
+gets within reach by aligning, broadening and strengthening net-zero
+pledges. Communications Earth & Environment ,5, 48.
+14. Garaffa, R., Weitzel, M., Vandyck, T., Keramidas, K., Dowling, P., Fosse,
+F., Tchung-Ming, S., Vázquez, A. D., Russ, P., Schade, B., Schmitz,
+A., Després, J., Ramirez, A. S., Rincon, A. D., Los Santos, L. R., &
+Wojtowicz, K. (2023). Stocktake of G20 countries’ climate pledges
+reveals limited macroeconomic costs and employment shifts. One
+Earth ,6, 1591–1604.
+15. Tagomori, I., Hooijschuur, E., & Muyasyaroh, A. (2023). Promis-
+ing climate progress. ENGAGE. http://www.engage-climate.org/wp-
+content/uploads/2023/10/PB34_Engage-policy-briefweb_0.pdf
+16. Ou, Y., Iyer, G., Clarke, L., Edmonds, J., Fawcett, A. A., Hultman, N.,
+Mcfarland, J. R., Binsted, M., Cui, R., Fyson, C., Geiges, A., Gonzales-
+Zuñiga, S., Gidden, M. J., Höhne, N., Jeffery, L., Kuramochi, T., Lewis,
+J., Meinshausen, M., Nicholls, Z., ... Mcjeon, H. (2021). Can updated
+climate pledges limit warming well below 2◦C?Science ,374, 693–695.
+17. Höhne, N., Gidden, M. J., Den Elzen, M., Hans, F., Fyson, C., Geiges, A.,
+Jeffery, M. L., Gonzales-Zuñiga, S., Mooldijk, S., Hare, W., & Rogelj, J.
+(2021). Wave of net zero emission targets opens window to meeting
+the Paris Agreement. Nature Climate Change ,11, 820–822.
+18. Iyer, G., Ou, Y., Edmonds, J., Fawcett, A. A., Hultman, N., Mcfarland, J.,
+Fuhrman, J., Waldhoff, S., & Mcjeon, H. (2022). Ratcheting of climate
+pledges needed to limit peak global warming. Nature Climate Change ,
+12, 1129–1135.
+19. Rogelj, J., Fricko, O., Meinshausen, M., Krey, V., Zilliacus, J. J. J., &
+Riahi, K. (2017). Understanding the origin of Paris Agreement emission
+uncertainties. Nature Communications ,8, 15748.
+20. den Elzen, M. G. J., Dafnomilis, I., Hof, A. F., Olsson, M., Beusen, A.,
+Botzen, W., Kuramochi, T., Nascimento, L., & Rogelj, J. (2023). The
+impact of policy and model uncertainties on emissions projections
+of the Paris Agreement pledges. Environmental Research Letters ,18,
+054026.21. Stehfest, E., van Vuuren, D. P., Kram, T., Bouwman, A. F., Alkemade, R.,
+Bakkenes, M., Biemans, H., Bouwman, A., den Elzen, M. G. J., Jansen, J.,
+Lucas, P., van Minnen, J., Müller, M., & Prins, A. (2014). Integrated assess-
+ment of global environmental change with IMAGE 3.0. Model description
+and policy applications . PBL Netherlands Environmental Assessment
+Agency.
+22. van Vuuren, D. P., Stehfest, E., Gernaat, D. E. H. J., van den Berg, M.,
+Bijl, D. L., de Boer, H. S., Daioglou, V., Doelman, J. C., Edelenbosch, O.
+Y., Harmsen, M. J., Hof, A. F., & van Sluisveld, M. (2018). Alternative
+pathways to the 1.5◦C target reduce the need for negative emission
+technologies. Nature Climate Change ,8, 391–397.
+23. Net Zero Tracker. (2024). Energy and Climate Intelligence Unit, Data-
+Driven EnviroLab, NewClimate Institute, Oxford Net Zero. https://
+zerotracker.net/
+24. Climate Action Tracker. (2024). CAT net zero target evaluations. Cli-
+mate Analytics, NewClimate Institute. https://climateactiontracker.
+org/global/cat-net-zero-target-evaluations/
+25. van Soest, H. L., den Elzen, M. G. J., & van Vuuren, D. P. (2021). Net-zero
+emission targets for major emitting countries consistent with the Paris
+Agreement. Nature Communications ,12, 2140.
+26. Hooijschuur, E., den Elzen, M., Dafnomilis, I., & van Vuuren, D. P. (2023).
+Analysis of cost-effective reduction pathways for major emitting countries
+to achieve the Paris Agreement climate goal . Hague: PBL Netherlands
+Environmental Assessment Agency.
+27. UNEP. (2021). The Emissions Gap Report 2021: The heat is on . United
+Nations Environment Programme (UNEP). https://www.unep.org/
+emissions-gap-report-2021
+28. den Elzen, M. G. J., Dafnomilis, I., Forsell, N., Fragkos, P., Fragkiadakis,
+K., Höhne, N., Kuramochi, T., Nascimento, L., Roelfsema, M., van Soest,
+H., & Sperling, F. (2022). Updated nationally determined contributions
+collectively raise ambition levels but need strengthening further to
+keep Paris goals within reach. Mitigation and Adaptation Strategies for
+Global Change ,27, 33.
+29. Harmsen, M., Tabak, C., Höglund-Isaksson, L., Humpenöder, F., Purohit,
+P., & Van Vuuren, D. (2023). Uncertainty in non-CO2 greenhouse gas
+mitigation contributes to ambiguity in global climate policy feasibility.
+Nature Communications ,14, 2949.
+30. Forsell, N., Araujo Gutiérrez, Z., & Chen, M. (2024). Historical and
+future development of greenhouse gas emission and removal from
+the land use sector from the view of countries. FORMATH , (In press).
+https://doi.org/10.15684/formath.23.003
+31. UNFCCC. (2024). NDC Registry. https://unfccc.int/NDCREG
+32. UNFCCC. (2024). Communication of long-term strategies. https://
+unfccc.int/process/the-paris-agreement/long-term-strategies
+33. Havlík, P., Valin, H., Herrero, M., Obersteiner, M., Schmid, E., Rufino,
+M. C., Mosnier, A., Thornton, P. K., Böttcher, H., Conant, R. T., Frank,
+S., Fritz, S., Fuss, S., Kraxner, F., & Notenbaert, A. (2014). Climate
+change mitigation through livestock system transitions. Proceedings of
+the National Academy of Sciences ,111, 3709–3714.
+34. Frank, S., Gusti, M., Havlík, P., Lauri, P., Difulvio, F., Forsell, N.,
+Hasegawa, T., Krisztin, T., Palazzo, A., & Valin, H. (2021). Land-based
+climate change mitigation potentials within the agenda for sustainable
+development. Environmental Research Letters ,16, 024006.
+35. Frank, S., Havlík, P., Stehfest, E., Van Meijl, H., Witzke, P., Pérez-
+Domínguez, I., Van Dijk, M., Doelman, J. C., Fellmann, T., Koopman, J. F.
+L., Tabeau, A., & Valin, H. (2019). Agricultural non-CO2emission reduc-
+tion potential in the context of the 1.5◦Ct a r g e t . Nature Climate Change ,
+9, 66–72.
+36. Forsell, N., Turkovska, O., Gusti, M., Obersteiner, M., Elzen, M. D., &
+Havlik, P. (2016). Assessing the INDCs’ land use, land use change, and
+forest emission projections. Carbon Balance and Management ,11, 26.
+37. Grassi, G., Conchedda, G., Federici, S., Abad Viñas, R., Korosuo, A.,
+Melo, J., Rossi, S., Sandker, M., Somogyi, Z., Vizzarri, M., & Tubiello,
+F. N. (2022). Carbon fluxes from land 2000–2020: Bringing clarity to
+countries’ reporting. Earth System Science Data ,14, 4643–4666.
+222 ANNALS OF THE NEW YORK ACADEMY OF SCIENCES
+38. Hof, A. F., Esmeijer, K., De Boer, H. S., Daioglou, V., Doelman, J. C., Elzen,
+M. G. J. D., Gernaat, D. E. H. J., & Van Vuuren, D. P. (2022). Regional
+energy diversity and sovereignty in different 2◦C and 1.5◦Cp a t h w a y s .
+Energy ,239, 122197.
+39. van Vuuren, D. P., Stehfest, E., Gernaat, D., Doelman, J. C., Berg, M. V.,
+Harmsen, M. J., Boer, H. S., Bouwman, L., Daioglou, V., Edelenbosch,
+O. Y., Girod, B., Kram, T., Lassaletta, L., Lucas, P. L., Meijl, H. V., Müller,
+C., Ruijven, B. J., Sluis, S. V., & Tabeau, A. (2017). Energy, land-use and
+greenhouse gas emissions trajectories under a green growth paradigm.
+Global Environmental Change ,42, 237–250.
+40. Meinshausen, M., Raper, S. C. B., & Wigley, T. M. L. (2011). Emu-
+lating coupled atmosphere-ocean and carbon cycle models with a
+simpler model, MAGICC6 - Part 1: Model description and calibration.
+Atmospheric Chemistry and Physics ,11, 1417–1456.
+41. den Elzen, M. G. J., Hof, A., van den Berg, M., et al. (2014). Climate pol-
+icy. In E. Stehfest, D. Van Vuuren, & T. Kram (Eds.) Integrated Assessment
+of Global Environmental Change with IMAGE 3.0 - Model description and
+policy applications (pp. 71–152). PBL.
+42. Hof, A. F., den Elzen, M. G. J., Admiraal, A., Roelfsema, M., Gernaat, D. E.
+H. J, & van Vuuren, D. P. (2017). Global and regional abatement costs of
+Nationally Determined Contributions (NDCs) and of enhanced action
+to levels well below 2◦C and 1.5◦C.Environmental Science & Policy ,71,
+30–40.
+43. Harmsen, J. H. M., van Vuuren, D. P., Nayak, D. R., Hof, A. F., Höglund-
+Isaksson, L., Lucas, P. L., Nielsen, J. B., Smith, P., & Stehfest, E. (2019).
+Long-term marginal abatement cost curves of non-CO2 greenhouse
+gases. Environmental Science & Policy ,99, 136–149.
+44. van Vuuren, D. P., den Elzen, M. G. J., Eickhout, B., Strengers, B. J.,
+Van Ruijven, B., Wonink, S., & Van Houdt, R. (2007). Stabilizing green-
+house gas concentrations at low levels: An assessment of reduction
+strategies and costs. Climatic Change ,81, 119–159.
+45. Nascimento, L., Kuramochi, T., Iacobuta, G., Den Elzen, M., Fekete, H.,
+Weishaupt, M., Van Soest, H. L., Roelfsema, M., Vivero-Serrano, G. D.,
+Lui, S., Hans, F., Jose De Villafranca Casas, M., & Höhne, N. (2022).
+Twenty years of climate policy: G20 coverage and gaps. Climate Policy ,
+22, 158–174.
+46. Nascimento, L., Kuramochi, T., Woollands, S., Moisio, M., Missirliu,
+A., Wong, J., de Villafranca Casas, M. J., Hans, F., de Vivero, G.,
+Fekete, H., Pelekh, N., Lui, S., Wong, J., Hohne, N., Dafnomilis, I.,
+Hooijschuur, E., den Elzen, M. G. J., Forsell, N., Araujo Gutiérrez, Z.,
+& Gusti, M. (2023). Greenhouse gas mitigation scenarios for major
+emitting countries. In Analysis of current climate policies and mitiga-
+tion commitments: 2023 Update . NewClimate Institute, PBL, IIASA.
+https://newclimate.org/resources/publications/emissions-scenarios-
+for-major-economies-2023-update
+47. Nascimento, L., den Elzen, M., Kuramochi, T., Woollands, S., Dafnomilis,
+I., Moisio, M., Roelfsema, M., Forsell, N., & Araujo Gutierrez, Z. (2024).
+Comparing the sequence of climate change mitigation targets and poli-
+cies in major emitting economies. Journal of Comparative Policy Analysis:
+Research and Practice ,26, 233–250.
+48. Roelfsema, M., Van Soest, H. L., Den Elzen, M., De Coninck, H.,
+Kuramochi, T., Harmsen, M., Dafnomilis, I., Höhne, N., & Van Vuuren, D.
+P. (2022). Developing scenarios in the context of the Paris Agreement
+and application in the integrated assessment model IMAGE: A frame-
+work for bridging the policy-modelling divide. Environmental Science
+and Policy ,135, 104–116.49. Roelfsema, M., Van Soest, H. L., Harmsen, M., Van Vuuren, D. P.,
+Bertram, C., Den Elzen, M., Höhne, N., Iacobuta, G., Krey, V., Kriegler,
+E., Luderer, G., Riahi, K., Ueckerdt, F., Després, J., Drouet, L., Emmerling,
+J., Frank, S., Fricko, O., Gidden, M., ... Vishwanathan, S. S. (2020). Tak-
+ing stock of national climate policies to evaluate implementation of the
+Paris Agreement. Nature Communications ,11, 2096.
+50. Riahi, K., Van Vuuren, D. P., Kriegler, E., Edmonds, J., O’neill, B. C.,
+Fujimori, S., Bauer, N., Calvin, K., Dellink, R., Fricko, O., Lutz, W.,
+Popp, A., Cuaresma, J. C., Kc, S., Leimbach, M., Jiang, L., Kram, T., Rao,
+S., Emmerling, J., ... Tavoni, M. (2017). The Shared Socioeconomic
+Pathways and their energy, land use, and greenhouse gas emissions
+implications: An overview. Global Environmental Change ,42, 153–168.
+51. van Soest, H. L., Aleluia Reis, L., Baptista, L. B., Bertram, C., Després,
+J., Drouet, L., den Elzen, M., Fragkos, P., Fricko, O., Fujimori, S., Grant,
+N . ,H a r m s e n ,M . ,I y e r ,G . ,K e r a m i d a s ,K . ,K ö b e r l e ,A .C . ,K r i e g l e r ,E . ,
+Malik, A., Mittal, S., Oshiro, K., & van Vuuren, D. P. (2021). Global roll-
+out of comprehensive policy measures may aid in bridging emissions
+gap. Nature Communications ,12, 6419.
+52. Lund, J. F., Markusson, N., Carton, W., & Buck, H. J. (2023). Net zero and
+the unexplored politics of residual emissions. Energy Research & Social
+Science ,98, 103035.
+53. Schenuit, F., Böttcher, M., & Geden, O. (2023). “Carbon Management”:
+Opportunities and risks for ambitious climate policy. Berlin: Stiftung
+Wissenschaft und Politik, German Institute for International and
+Security Affairs. https://www.swp-berlin.org/10.18449/2023C29/
+54. van Ruijven, B., Jager, J., & Riahi, K., Battersby, S., Bertram, C., Bosetti,
+V., Brutschin, E., Byers, E., Cherp, A., Drouet, L., Fujimori, S., Krey, V.,
+Schaeffer, R., Schmidt Tagomori, I., van Vuuren, D., & Vrontisi, Z. (2023).
+ENGAGE Summary for Policymakers . IIASA.
+55. den Elzen, M. G. J., Kuramochi, T., Höhne, N., Cantzler, J., Esmeijer,
+K., Fekete, H., Fransen, T., Keramidas, K., Roelfsema, M., Sha, F., van
+Soest, H., & Vandyck, T. (2019). Are the G20 economies making enough
+progress to meet their NDC targets? Energy Policy ,126, 238–250.
+56. UNEP. (2023). Emissions Gap Report 2023: Broken Record—Temperatures
+hit new highs, yet world fails to cut emissions (again) . United Nations Envi-
+ronment Programme (UNEP). https://www.unep.org/emissions-gap-
+report-2023
+57. Dekker, M. M., Hof, A. F., Van Den Berg, M., Daioglou, V., Van Heerden,
+R., Van Der Wijst, K. I., & Van Vuuren, D. P. (2023). Spread in climate
+policy scenarios unravelled. Nature ,624, 309–316.
+SUPPORTING INFORMATION
+Additional supporting information can be found online in the Support-
+ing Information section at the end of this article.
+How to cite this article: den Elzen, M. G. J., Dafnomilis, I.,
+Nascimento, L., Beusen, A., Forsell, N., Gubbels, J., Harmsen,
+M., Hooijschuur, E., Araujo Gutiérrez, Z., & Kuramochi, T.
+(2025). Uncertainties around net-zero climate targets have
+major impact on greenhouse gas emissions projections. Ann NY
+Acad Sci. ,1544 , 209–222. https://doi.org/10.1111/nyas.15285

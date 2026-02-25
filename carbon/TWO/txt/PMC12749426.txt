@@ -1,0 +1,907 @@
+Article https://doi.org/10.1038/s41467-025-66580-4
+Ambitious climate targets can make the
+phaseout of India ’sc o a l - ﬁred power plants
+cost-bene ﬁcial
+Xinyi Long1,B i nC h e n1,M i nD a i1, Hongyi Xie1,P e i p e iC h e n2,
+Jing Meng2&Y u t a oW a n g1,3,4,5
+Given the urgency of climate change and the need for an energy transition,
+global coal power generation is rapidly declining. However, coal transition
+strategies optimized for cost-bene ﬁt and aligned with climate targets remain
+underexplored. Here, we develop a Pl ant-level Mixed-Integer Nonlinear
+Dynamic Optimization Model to conduct a cost-bene ﬁt optimization analysis
+for India ’sc o a l - ﬁred power plants, through whic h the study proposes differ-
+entiated phaseout roadmaps aligned w ith the 1.5 °C and 2 °C climate targets.
+Ourﬁndings suggest that ambitious climate targets can yield more signi ﬁcant
+economic bene ﬁts, and more aggressive coal power retirement strategies are
+economically feasible. For example, Chhattisgarh and U ttar Pradesh could
+achieve the total net bene ﬁts of 171 and 110 billion US dollars in the 1.5 °C and
+2 °C scenarios. Furthermore, incorporating social bene ﬁts into the evaluation
+will enhance the feasibility of the coal phaseout and reinforce India ’sd e c -
+arbonization commitments.
+Economies worldwide are threatened by the losses and damages
+caused by climate change, making climate mitigation a global concern.India, the third-largest carbon-emitting country globally, derives morethan half of its carbon dioxide (CO
+2) emissions from coal power1–3.
+Therefore, coal power plays a pivotal role in achieving emission miti-gation goals. For the world to have a chance of meeting the Paris
+Agreement ’s temperature target, India needs to transition away from
+fossil fuels quickly
+4–6.
+The phaseout of coal power will result in both positive and
+negative effects. From one perspective, this transition may causecarbon-intensive assets to deprecia te or retire before their expected
+lifetimes, resulting in stranded assets
+7,8. Studies have also found that
+I n d i af a c e sah i g hr i s ko fs t r a n d e da s s e t s9,10. Additionally, the phaseout
+of power plants will interrupt their pro ﬁtability, leading to cumulative
+proﬁt losses over their expected lifespan. This interruption affects the
+ﬁnancial stability of the power plant, as the revenue streams expectedduring the remaining operational years are lost. Furthermore, with the
+acceleration of the energy transition, the coal mining industry andrelated sectors supporting coal-based power generation will losemarket share and employment opportunities, resulting in decreasedtax revenues in coal-dependent regions
+11. From another perspective,
+this transition will generate social bene ﬁts by avoiding carbon emis-
+sions and thereby mitigating current and future climate damages.
+These avoided damages include impacts on agricultural production,reduced labor productivity, property losses, increased frequency ofdisasters, and induced migration
+12,13. In addition, actions to reduce
+carbon emissions often decrease associated air pollutants, yielding co-bene ﬁts for air quality and public health
+14,15.R e c e n t ﬁndings suggest
+that the negative impacts of climate change are concentrated indeveloping economies, commonly referred to as low- and middle-income economies according to the World Bank ’s classi ﬁcation
+16.
+Among them, India bears the highest social cost of carbon (SCC)17,18.Received: 4 July 2024
+Accepted: 10 November 2025
+Check for updates
+1Department of Environmental Science and Engineering, Fudan Tyndall Center and Shanghai Key Laboratory of Atmospheric Particle Pollution and Preve ntion
+(LAP3), Fudan University, Shanghai, China.2The Bartlett School of Sustainable Construction, University College London, London, UK.3IRDR International
+Center of Excellence on Risk Interconnectivity and Governance on Weather/Climate Extremes Impact and Public Health, Fudan University, Shanghai, C hina.
+4Shanghai Institute for Energy and Carbon Neutrality Strategy, Fudan University, Shanghai, China.5Shanghai Institute of Eco-Chongming (SIEC),
+Shanghai, China. e-mail: jing.j.meng@ucl.ac.uk ;yutaowang@fudan.edu.cn
+Nature Communications |        (2025) 16:11594 11234567890():,;
+1234567890():,;
+Hence, these developing economies will implement higher carbon
+taxes for the nation ’sb e n e ﬁt18. Overall, these positive and negative
+effects, crucial for India ’s coal power transition, remain unclear. In
+future coal power planning, it is essential to fully consider both ben-
+eﬁts and losses to conduct a comprehensive assessment of decisions.
+The Indian government is actively accelerating the deployment of
+renewable energy to achieve the target outlined in its updatedNationally Determined Contributions (NDCs), aiming for 500 gigawatt(GW) of non-fossil fuel installed capacity by 2030
+19. As a result, India
+ranked fourth globally in renewable energy capacity in 202320.H o w -
+ever, despite these efforts, the country remains heavily reliant on coal.As of 2020, the total installed capacity of operational coal- ﬁred power
+plants was 233 GW, with an additional 53 GW of planned and under-construction units expected to come online by 2030. Moreover, with~20% of its coal consumption reliant on imports, rising global coal
+prices are likely to intensify future coal supply pressures, substantially
+driving up the cost of coal- ﬁred power generation and highlighting the
+urgent need to reduce India ’s overreliance on coal
+21,22.
+Global and regional studies have utilized unit-level data, con-
+sidering the heterogeneity of various factors and revealing the path-ways for fossil fuel phaseout
+23–27. However, most evaluations are based
+on the multi-criteria decision analysis method for energy planning andscenario comparisons
+28. These studies usually consider each criterion
+and assign relative weights for decision aggregation, where theweights are often subjective and preference-based. Moreover, inves-tigations on stranded assets due to coal power transition
+9,29–31also
+generally believe that ambitious climate policies will lead to more
+stranded assets, but largely ignore the economic bene ﬁts of carbon
+emission reduction. A few studies have considered the carbon bene ﬁts
+of eliminating coal power and conducting cost-effectiveness analysis32,
+but the optimal solution has yet to be provided. Although the cost-bene ﬁt analysis can provide a comprehensive evaluation by converting
+all impacts into monetary terms
+33, coal power transitions will always be
+challenging regarding cost and bene ﬁt in the future. If the costs and
+bene ﬁts are incorporated into comprehensive assessments of coal
+facilities ’retirement and new construction, it will help promote coal
+power transition policies in developing countries consistent with the
+Paris Agreement.
+Despite substantial progress in renewable energy capacity
+expansion and a clearly de ﬁned strategic intent to develop renewable
+energy over the next decade, the timeline and pathway for India ’s
+transition away from coal remain uncertain, particularly regarding thespeci ﬁc retirement schedule of individual coal- ﬁred power plants. To
+ﬁll this research gap, this study formulates a dynamic optimization
+problem to determine the optimal retirement schedule for India ’sc o a l -
+ﬁred power plants under the national carbon emission reduction
+pathway (CERP) established by the Intergovernmental Panel on Cli-mate Change (IPCC). In this context, this study develops the Plant-level
+Mixed-Integer Nonlinear Dynamic Optimization Model (MIND-Plant).
+The model incorporates the evolution of the power system under1.5 °C and 2 °C climate target scenarios, balancing environmentalbene ﬁts (carbon emission reductions and avoided health risks), eco-
+nomic costs (pro ﬁtability losses and stranded asset risks), and social
+risks (tax and employment impacts). The optimization is performediteratively using the Gurobi Optimizer version 10.0.3 to generate aprogressive power plant retirement schedule, designing a gradual coalphaseout pathway aligned with India ’s energy transition goals. Speci-
+ﬁcally, the model assigns a binary decision variable to each power unit,
+indicating whether it should retire in a given year. It then calculates thecumulative impacts across four dimensions from the retirement year
+until the end of its expected lifespan. The optimization process max-
+imizes overall bene ﬁts and minimizes total costs, balancing these
+impacts to determine the optimal retirement year for each unit, ulti-mately solving the global optimum of this nonlinear problem. Thisstudy applies the optimization framework to analyze India ’s coalpower transition, and the results revealed optimal coal phaseout
+pathways from 2020 to 2060 under different climate targets. Theﬁndings indicated that to achieve the 1.5 °C and 2 °C climate goals, the
+average operational lifespan of India ’sc o a l - ﬁred power plants will
+be reduced by 12 years and 5 years, respectively. The plant-level
+coal phaseout roadmap developed in this study could guide theorderly retirement of India ’s coal power plants and contribute to
+achieving India ’s carbon reduction commitment under the 2030 NDC,
+providing a scienti ﬁc basis for power transition pathways and policy
+formulation.
+Results
+Characteristics and retirement pathways of India ’sc o a l
+power units
+The spatial distribution of coal- ﬁred power plants in India is illustrated
+in Fig. 1a. Coal power units are located across 21 states, with a total
+installed capacity of 233 GW as of 2020, primarily concentrated in thewestern and eastern regions. The top three states in terms of capacityare Chhattisgarh, Maharashtra, and Uttar Pradesh, with installedcapacities of 27 GW, 25 GW, and 24 GW, respectively, accounting for33% of the national total. Figure 1b illustrates the age structure of
+operating units, with 57% commissioned between 2000 and 2020,indicating a relatively young ﬂeet. Additionally, ~53 GW of capacity is
+under construction or planned, and it is expected to come onlinewithin the next decade, with Uttar Pradesh leading with about 10 GW.
+The climate target pathways used in this study (Fig. 1c, d) show the
+projected trend in India ’s coal power capacity, which is expected to
+peak between 2020 and 2030. The median pathway suggests that tolimit warming to 1.5 °C, coal capacity will gradually phase out byaround 2045, while for a 2 °C target, it will phase out by around 2055.Under stricter climate goals, coal retirement will accelerate to achievehigher emissions reduction targets.
+Multidimensional effects of coal power phaseout based on cost-
+beneﬁt analysis
+We conducted a cost-bene ﬁt analysis using a dynamic optimization
+approach, incorporating environmental, economic, and social dimen-
+sions. Carbon and health bene ﬁts reﬂect the advantage dimension,
+while tax & employment and plant losses correspond to the costaspect. The model determined the optimal retirement year for eachunit and the optimal values for each objective. Figure 2a, b illustrates
+the trade-offs in cost-bene ﬁt for operating and pipeline coal units
+under the 1.5 °C and 2 °C climate targets. The blue solid lines representthe results for each dimension under the assumed lifetime of 40 years.The shaded areas indicate the uncertainty range results, accounting foran expanded assumed lifetime of 35 –45 years, as well as variations in
+other parameters (see the uncertainty analysis section in “Methods ”).
+Stricter climate targets result in higher plant losses and tax &
+employment losses, amounting to 516 billion US dollars (USD) (range:
+377–723) under the 1.5 °C scenario, and 253 billion USD (range:
+171–415) under the 2 °C scenario. However, these stricter targets also
+yield substantially higher carbon and health bene ﬁts, reaching 1879
+billion USD (range: 1218 –2946) for 1.5 °C, and 1055 billion USD (range:
+589 –1906) for 2 °C. This highlights the economic advantages of pur-
+suing ambitious temperature goals. Figure 2c, d presents the results
+for individual units across dimensions, with the black line representingthe value assumed for the 40-year lifetime. Signi ﬁcant variation exists
+between different units in all scenarios. Generally, large-capacity units,especially those exceeding 600 megawatts (MW), have a more sub-stantial impact on carbon bene ﬁts, consistent with their high emis-
+sions and energy consumption. This highlights the critical role of
+larger plants in impacting overall metrics and guiding decision-making. Additionally, health impacts are in ﬂuenced by the regional
+background characterization factors of local pollutants, as measuredper disability adjusted life years (DALYs) (Supplementary Fig. 5).Article https://doi.org/10.1038/s41467-025-66580-4
+Nature Communications |        (2025) 16:11594 2
+Phaseout roadmap for coal power units
+Based on the optimization, we developed an optimized retirement
+schedule for each unit and mapped it spatially. Panels a and b of Fig. 3
+show the spatial distribution of operating and pipeline units in dif-ferent states across four time periods (2020 –2030, 2030 –2040,
+2040 –2050, 2050 –2060) under the 1.5 °C and 2 °C scenarios. Grey or
+red dots represent operational units that continue operating or retirewithin each period. In contrast, green or yellow dots indicate newpipeline units that start operation or quit shortly after. The 1.5 °C targetrequires higher retirement rates, with 484 operation units (105 GW)and 36 pipeline units (24 GW) phased out between 2020 and 2030,
+even for larger plants, especially in the Eastern Coal Belt. This trend
+continues to increase between 2030 and 2040 (gradually increasingnumbers of red and yellow dots). New units are also expected to retirebefore 2050, thereby increasing the risk of stranded assets. In contrast,the 2 °C target allows for a more gradual retirement process, with moreearly retirements concentrated after 2030 (represented by more red
+dots). Moreover, the units have average lifetimes shortened to 28 and35 years (Fig. 3c). These results highlight that achieving the 1.5 °C tar-
+get demands faster emissions reductions and large-scale early retire-ments, while the 2 °C target allows more time for adjustment.
+From a state-level perspective (Fig. 3d, e), our retirement strategy
+reveals that Chhattisgarh could achieve the net bene ﬁts of 171 billion
+USD in the 1.5 °C scenario, retiring 83% of its installed capacity (25 GW)between 2030 and 2040. Similarly, Uttar Pradesh demonstrates thenet bene ﬁts of 110 billion USD in the 2 °C scenario, retiring 48% of its
+installed capacity (15 GW) between 2040 and 2050. In addition,
+Maharashtra yields the most signi ﬁcant bene ﬁts in both scenarios but
+also incurs the highest costs. Speci ﬁcally, under the 2 °C scenario,
+plant losses, and tax & employment losses are estimated at 83 and 31billion USD, respectively, increasing to 110 and 42 billion USD underthe 1.5 °C scenario (the results for each state are summarized in
+Operation capacity 
+          (MW)aLatitude ( °N)Pipeline
+Longitude ( °E)
+1.5°C 2°Cb
+c dCoal capacity (GW)
+Coal capacity (GW)Installed capacity (GW)Age
+5th-95th percentile
+25th-75th percentile
+Median pathway
+Year Year<30
+150-30030-150
+300-450
+450-600
+>600
+5th-95th percentile
+25th-75th percentile
+Median pathway
+Fig. 1 | Characteristics of India ’s coal power units and climate target pathways.
+aGeographic locations and the installed capacities of individual operating units in
+India. The map is based on factual evidence and displays the non-disputed areasunder actual control. bTotal installed capacity and age structure of operating units
+in each state (the baseline year is 2020), as well as the capacity of units under
+construction or planned (Pipeline). Capacity is expressed in megawatts (MW) at theunit level and in gigawatts (GW) at the state level. c,dIndia ’s coal power capacitypathways consistent with limiting warming to 1.5 °C and 2 °C. The dark lines indi-
+cate median pathways, with shaded areas representing the 5th –95th percentile
+range (light shading) and the 25th –75th percentile range (dark shading). The raw
+scenario data is sourced from the Sixth Assessment Report (AR6) Scenario
+Database
+68. The base map was obtained from Esri ArcGIS 10.8. Map images © Esri
+and its licensors. Used under license.Article https://doi.org/10.1038/s41467-025-66580-4
+Nature Communications |        (2025) 16:11594 3
+Supplementary Table 8 and Supplementary Fig. 6). These ﬁndings
+underscore the need for each region to adopt a ﬂexible and tailored
+transition plan to effectively manage the risks associated with thetransition to a low-carbon economy.
+National and state-level environmental bene ﬁts
+We developed unit-level retirement pathways based on climate target
+constraints and cost-bene ﬁt optimization. Annual avoided CO ₂emis-
+sions and health impacts were calculated for each coal unit under theretirement strategy, with results aggregated at the national and statelevel. On the national scale (Fig. 4a, b), the more ambitious 1.5 °C
+scenario achieves signi ﬁcantly higher cumulative avoided CO ₂emis-
+sions of 26 Gt (range: 20 –33) and health impacts of 1.3 million DALYs
+(range: 1.0 –1.6) compared to the 2 °C scenario, which achieves 15 Gt
+(range: 10 –21) and 0.71 million DALYs (range: 0.4 –1.0) by the latter half
+of the Century. Additionally, the 1.5 °C scenario achieves a fasteremission reduction rate, with the gap between the two scenarioswidening over time, highlighting the long-term bene ﬁts of more
+stringent climate goals. Peak annual avoided CO ₂emissions are pro-
+jected at 1.09 Gt (range: 1.02 –1.13) by 2043 (range: 2040 –2044) under
+the 1.5 °C scenario and 0.74 Gt (range: 0.57 –0.95) by 2048 (range:
+2045 –2054) under the 2 °C scenario. Beyond these peaks, scenarios
+assuming a 45-year operational lifetime yield more signi ﬁcant cumu-
+lative avoided CO ₂emissions and health impacts than those con-
+sidering a 35-year operational lifetime, due to the extended service
+time of coal units, leading to more substantial cumulative reductions.
+At the state level, the 14 states shown in the Fig. 4c, d account for
+95% of India ’s total installed capacity (Supplementary Fig. 4), with
+notable regional differences in bene ﬁts and losses. States with highercapacities, such as Uttar Pradesh, Madhya Pradesh, Chhattisgarh, and
+Maharashtra, show more signi ﬁcant reduction potential, with cumu-
+lative avoided CO ₂emissions projected to reach 4.6 –9.3 Gt (2 °C) and
+8.4–13.6 Gt (1.5 °C) by 2080. In contrast, northern states like Punjab,
+Haryana, and Rajasthan have lower capacities, resulting in smalleravoided emissions. Additionally, an estimated 53 GW of new capacityexpected by 2030 is likely to accelerate emissions reductions acrossmost states thereafter. Avoided health impacts vary with location,population density, and baseline pollution levels. West Bengal, forexample, has the highest regional particulate matter health impactfactors (Supplementary Fig. 5) and thus the most signi ﬁcant cumula-
+tive avoided health impacts, estimated at 182 (range: 116 –261) and 65
+(range: 36 –113) thousand DALYs under the 1.5 °C and 2 °C scenarios,
+respectively.
+Discussion
+The low-carbon transition of the power industry is crucial for miti-gating climate change. This study demonstrates that, under both the1.5 °C and 2 °C scenarios, the bene ﬁts of carbon emissions reduction
+and health improvements generally outweigh the losses in tax revenue,employment, and power units ’proﬁtability, with more ambitious cli-
+mate targets proving to be more cost-bene ﬁcial. Based on the MIND-
+Plant model, the study further proposed the unit-level optimizedretirement plan, revealing regional disparities under different climate
+targets: under the 1.5 °C scenario, more units need to be retired
+between 2020 and 2030, concentrated in the north, west, and east;under the 2 °C scenario, the retirement process is more gradual. Theseregional differences highlight the need for developing differentiatedregional policies that provide adequate support and forward-lookingCarbon benefit
+Plant lossHealth benefitTax & employment lossCarbon benefitHealth benefitTax & employment lossa
+b1.5°C 2°Cd
+Carbon benefitPlant loss
+(billion USD)(billion USD)Tax & employment loss Health benefitc
+1.5°C
+(MW)
+≤30
+30-300300-450450-600≥600Carbon benefitbillion
+USDPlant lossHealth benefit Tax & employment loss Plant lossbillion
+USD2°C
+(MW)
+≤30
+30-300300-450450-600≥600Carbon benefit
+Fig. 2 | Cost-bene ﬁt analysis of coal power units. a ,bTotal costs and bene ﬁts of
+all units under the 1.5 °C and 2 °C scenarios, showing the cumulative values fromearly retirement to the end of the assumed lifetime. The shaded areas represent therange of uncertainty. c,dThe cumulative values for each unit across four dimen-
+sions, with units sorted from left to right in increasing order. The bar colorsrepresent the installed capacity of each unit (in gigawatt, GW). The four dimensions
+include carbon bene ﬁts, health bene ﬁts, plant losses, and tax & employment losses,
+all measured in billion US dollars (USD). The results include both operational andpipeline units.Article https://doi.org/10.1038/s41467-025-66580-4
+Nature Communications |        (2025) 16:11594 4
+planning for the more affected regions during the transition process,
+thereby mitigating potential resistance.
+Although India ’s coal capacity pipeline, including announced, pre-
+licensed, and licensed projects, has declined by 85% since 2014 (from250 GW to 36 GW)
+22, some regions remain heavily reliant on coal for
+economic development, employment, and ﬁscal revenue, particularly
+in the Eastern Coal Belt11,34,35. These areas are therefore more vulner-
+able to the risk associated with the coal phaseout. For instance, underthe 1.5 °C and 2 °C scenarios, Maharashtra is projected to incur com-bined losses in power plant assets, tax revenues, and employmentamounting to 152 and 114 billion USD, respectively (Fig. 3d, e). To
+ensure a just and sustainable energy transition, the government shouldprioritize targeted ﬁnancial compensation, workforce retraining, and
+employment support for the regions most affected by the transition.
+Regional transition strategies are not only determined by spatial
+deployment, but also by the timing of interventions. Energy infra-structure, once established, tends to create long-term dependence on
+pathways. Hence, delayed decisions can reduce the ﬂexibility of the
+power system and constrain future transition options
+29.I n d i a ’sc u r r e n t
+operating coal power plants are relatively young, with an average ageof 17 years. To align with the 1.5 °C and 2 °C climate targets, the averageretirement age would be brought forward to 28 and 35 years,respectively. Our analysis outlined a structured coal transition pathway
+that includes the gradual phaseout of existing coal power plantsstarting in 2020 and the cessation of new coal power constructionafter 2030. Without such interventions, India ’s coal capacity is pro-
+jected to continue expanding. Emissions from these plants could
+undermine India ’s NDC target and impede effective long-term climate
+mitigation. If the power sector continues along its current trajectory,more costly measures, such as the deployment of carbon capture andstorage or large-scale carbon dioxide removal technologies, will berequired to offset rising emissions
+36. Moreover, the construction of
+proposed coal plants will result in resource lock-in and miss oppor-tunities for potential investment in renewable energy
+37. Hence, can-
+celling planned coal power projects should be prioritized to preventcarbon lock-in, while simultaneously pursuing a strategic and region-ally tailored phaseout of existing coal power plants. This strategy canalso promote future technological innovation and policy develop-ment, ultimately contributing to the achievement of global climate
+mitigation goals.
+Reducing the environmental risks associated with coal power
+expansion is essential for sustainable development. The continuedgrowth of coal power capacity poses serious threats to environmentalquality, including increasing greenhouse gas emissions, worsening air
+Longitude ( °E) Longitude ( °E) Longitude ( °E)70 75 80 85 90 95n=667
+n=342n=67n=43  101 GW
+    76 GW    26 GW    26 GW70 75 80 85 90 95n=0
+n=3n=1n=0       0 GW
+      64 MW      12 MW       0 GW
+70 75 80 85 90 95n=0
+n=161n=3n=22       0 GW
+     30 GW     43 MW       2 GW1.5°C 2°Ca
+b2020–2030 2030–2040 2040–2050 2050–2060
+c
+Average actual lifetime (year)State Stated e
+Cost-benefit (billion USD) Cost-benefit (billion USD)Latitude ( °N)
+n=161
+n=506n=25n=42  30 GW
+  71 GW    2 GW  24 GW
+70 75 80 85 90 95Longitude ( °E) Longitude ( °E) Longitude ( °E)n=49
+n=772n=1n=76    12 GW
+   116 GW     12 MW     30 GW
+70 75 80 85 90 95
+Longitude ( °E)n=821
+n=484n=77n=36  129 GW
+  105 GW    30 GW    24 GW
+101520253035
+70 75 80 85 90 95n=3
+n=46n=1n=0     64 MW
+     12 GW     12 MW       0 GW
+70 75 80 85 90 95
+n=1009  
+n=296n=110n=3    178 GW
+      55 GW      52 GW       2 GW
+70 75 80 85 90 95101520253035Latitude ( °N)2020–2030 2030–2040 2040–2050 2050–2060Capacity (MW)Operation retireOperation remain 
+Pipeline remainCategory
+Pipeline retire
+<30
+30-300
+300-450
+>600450-600
+Capacity (MW)Operation retireOperation remain 
+Pipeline remainCategory
+Pipeline retire
+<30
+30-300
+300-450
+>600450-600
+Longitude ( °E)
+2°C 1.5°C
+Benefit
+Plant loss
+Tax & employment lossBenefit
+Plant loss
+Tax & employment lossDensity
+01 0 2 0 3 0 4 0Average actual lifetime: 28
+Average actual lifetime: 351.5°C
+2°C
+0.000.050.100.15
+50 -100 0 100 200 -100 0 100 200
+Fig. 3 | Phaseout roadmap of coal power units and their actual lifetimes under
+climate goals scenarios across periods. a ,bThe retirement year of individual coal
+power units. Operating units refer to those still in operation in the baseline year
+2020, while pipeline represents units that are planned or currently under con-struction. The grey, red, green, and yellow dots represent operation units that have
+not yet been retired, operation units that have retired, commissioned pipeline units
+that have not yet been retired, and retired pipeline units, respectively. The size ofthe circles indicates the installed capacity (in megawatt, MW). The labels in theupper-right corner of each map indicate the number of retired units by type and
+their total capacity (in gigawatt, GW). The map is based on factual evidence and
+displays the non-disputed areas under actual control. cThe actual lifetime of each
+unit under the 1.5 °C and 2 °C scenarios. d,eCost-bene ﬁt outcomes for each state
+under two scenarios, ranked in descending order by net value from top to bottom.
+The bene ﬁts include carbon and health bene ﬁts, while the costs encompass plant
+loss and tax & employment loss. The base maps were obtained from Esri ArcGIS10.8. Map images © Esri and its licensors. Used under license.Article https://doi.org/10.1038/s41467-025-66580-4
+Nature Communications |        (2025) 16:11594 5
+pollution, and depletion of water resources. An early transition away
+from coal, in line with ambitious climate targets, can substantiallymitigate these risks. Increasing urban air pollution and public healthissues in India have become important drivers for reducing coalpower
+38,39. If the phaseout strategy in this study is implemented, an
+estimated 1.0 –1.6 million DALYs (1.5 °C) and 0.4 –1.0 million DALYs
+(2 °C) can be avoided. At the same time, cumulative carbon emissionsof 1.9 –2.3 Gt (1.5°C) and 0.9 –1 Gt (2 °C) can be reduced by 2030. This
+strategy will help India achieve its NDC target of reducing carbonemissions by 1 Gt by 2030. As India prepares to update its 2035 NDC,
+theﬁndings will also help mobilize international support for a more
+ambitious and actionable decarbonization roadmap, thereby avoidinga lock-in to a high-carbon development trajectory.
+India has introduced policies such as the Production Linked
+Incentive scheme to support the renewable energy goals
+40. In parallel,
+the country aims for non-fossil fuel sources to account for ~50% of totalpower generation, meeting half of its energy demand by 2030and reinforcing its commitment to net-zero emissions by 2070.Among them, wind and solar power exhibit high scalability, maturity,and commercial viability in India
+41, with solar power capacity
+reaching 92 GW in 202442. While these low-cost renewable energy
+sources are expected to meet future energy demand, the transition to
+renewable energy still faces challenges in technology, ﬁnance, and
+infrastructure.
+This study primarily focuses on the transition and retirement
+pathways of coal- ﬁred power units, along with their associated envir-
+onmental and socioeconomic impacts, while broader topics such asenergy security and renewable energy substitution are beyond thescope of this paper. It is essential to note that although the modeloutlines an framework for coal power retirement, the implementationin the real world is subject to multiple uncertainties, includingrenewable energy potential, grid ﬂexibility, social acceptance, and
+political will. In particular, regions with weak regulatory capacity or
+high ﬁscal dependence on coal may face stronger political resistance,
+which could potentially delay the transition process. These potentialbarriers and critical uncertainties suggest that, while this studyrepresents a exploration of power transition, the actual decarboniza-tion pathway is likely to be more complex than model projectionsindicate. Future research should adopt interdisciplinary approaches,
+integrate external variables such as electricity market ﬂuctuations and
+policy dynamics, and systematically assess the technological potentialand feasibility of renewable energy alternatives to provide morecomprehensive support for a fair and sustainable power transition.
+Methods
+Optimization framework
+To determine the optimal retirement schedule for coal- ﬁred power
+plants in India under the CERP set by the IPCC, this study develops the
+MIND-Plant model to conduct a cost-bene ﬁt analysis of both opera-
+tional and pipeline coal- ﬁred power plants. The Gurobi Optimizer
+version 10.0.3 is employed as the solver to achieve dynamic optimi-zation through iterative computation. Speci ﬁcally, the model assumes
+that a unit retires before the end of its assumed lifetime, and theavoided carbon emissions and PM
+2.5-related health impacts from the
+retirement year to the end of its assumed lifetime are consideredbene ﬁts. However, such early retirement also results in pro ﬁt loss,
+stranded assets, tax, and employment losses caused by the prematureclosure of the unit, which is de ﬁned as costs. These costs, together with
+the avoided carbon emissions and health impacts, constitute the
+optimization objectives of the model. We monetize the bene ﬁts of
+avoided carbon emissions and health impacts, compare them with thecost, and aggregate these objectives into a single objective function,allowing the model to optimize and solve for the ﬁnal result.
+Based on these objectives, the model incorporates capacity con-
+straints aligned with climate targets and balances the impacts acrossmultiple dimensions to maximize bene ﬁts and minimize costs for all
+units. During the optimization process, a binary decision variable isassigned to each power unit for each year, indicating whether it shouldretire. It then iteratively calculates cumulative impacts across the fourdimensions, spanning from the retirement year to the unit ’sa s s u m e d
+end of its lifetime. Through this process, the model aims to maximize
+the system ’sc o s t - b e n e ﬁt and identify the global optimum for this
+complex nonlinear problem. Ultimately, the model determines theoptimal retirement year for each unit, deriving the optimal value foreach dimension, and provides the optimal retirement schedule foreach power plant.2080 2050 2020 2080 2050 2020 2080 2050 2020 2080 2050 2020 2080 2050 2020 2080 2050 2020 2080 2050 2020DALYDALYMt CO 2Mt CO 2a
+bc
+d
+Year103 DALYGt CO 2National
+National2°C1.5°C
+2°C1.5°C
+2080 2050 202020202080 2050 20202020
+YearAvoided CO 2 emission Avoided health impactYear2080 2050 2020 2080 2050 2020 2080 2050 2020 2080 2050 2020 2080 2050 2020 2080 2050 2020 2080 2050 2020
+YearAvoided CO 2 emission Avoided health impact2°C1.5°C
+2°C1.5°C2080 2050 2020 2080 2050 2020 2080 2050 2020 2080 2050 2020 2080 2050 2020 2080 2050 2020 2080 2050 2020
+2080 2050 2020 2080 2050 2020 2080 2050 2020 2080 2050 2020 2080 2050 2020 2080 2050 2020 2080 2050 2020
+Fig. 4 | Annual avoided carbon emissions and health impacts. a ,bNational
+results. c,dResults for the top 14 states ranked by installed capacity. The solid lines
+show results under the 40-year lifetime assumption, while the shaded areas indicatethe range across lifetime scenarios (35 –45 years). CO 2emissions are expressed in
+gigatonnes (Gt) at the national level and in million tonnes (Mt) at the state level.
+Health impacts are measured by disability-adjusted life years (DALYs).Article https://doi.org/10.1038/s41467-025-66580-4
+Nature Communications |        (2025) 16:11594 6
+The objective functions are as follows:
+MaximizeX
+i2I,j2JXYi,j+lif etime
+t=tretireðCBi,j,t×ðxi,t+xj,tÞÞð1Þ
+MaximizeX
+i2I,j2JXYi,j+lifetime
+t=tretireðHBi,j,t×ðxi,t+xj,tÞÞð2Þ
+MinimizeX
+i2I,j2JXYi,j+lif etime
+t=tretireðTJi,j,t×ðxi,t+xj,tÞÞð3Þ
+MinimizeX
+i2I,j2JXYi,j+lif etime
+t=tretireðPLi,j,t×ðxi,t+xj,tÞÞð4Þ
+Where xi,tand xj,tare binary decision variables indicating whether
+the operational unit ior pipeline unit jretires in year t. The decision
+variables xi,t=1 or xj,t=1 if operation unit ior pipeline unit jbegins
+retire in year t, and it takes the value of 0 otherwise. CBi,j,t,HBi,j,t,
+TJi,j,t, and PLi,j,t, represent the cumulative carbon bene ﬁt, health
+bene ﬁt, tax & employment loss, and plant loss of unit iand j
+from retirement year ( tretire) to the end of the assumed lifetime
+year ( Yi,j+lif etime ), respectively. Yi,jdenotes the online year
+of the operation unit iand the commission of unit j, respectively.
+lif etime is the assumed lifespan of 40 years, and we conduct
+an uncertainty analysis by extending the assumed lifetime
+range to 35 –45 years. These bene ﬁts or losses occur after the unit
+retires. Iand Jrepresent the ﬂeets in operation and commission,
+respectively.
+Set up constraints
+For each year t, the total capacity of all non-retired units aligns with the
+capacity pathway for the 1.5 °C or 2°C targets. Each unit may be phasedout once during the planning period.
+ð5Þ
+XYi+lif etime
+Yixi,t≤18i2I ð6Þ
+XYj+lif etime
+Yjxj,t≤18j2J ð7Þ
+XYj+lif etime
+Yjcj,Yj≤18j2J ð8Þ
+Where CapiandCapjare capacity of unit iandj, respectively. cj,Yjis
+the binary decision variable indicating whether the pipeline unit jis
+commissioned in the year Yj.Ctis the capacity pathway under the
+climate targets.
+ is a non-negative slack variable introduced to
+allow a certain degree of exceedance. In addition to capacityconstraints, it is also necessary to meet assumed lifetime constraints(lif etime ), meaning units that have operated for their designated
+lifetime must be retired. Formulas ( 6) and ( 7) indicate that each unit
+in operation and pipeline can only be retired once during its lifetime,respectively. Formula ( 8) suggests that each pipeline unit can only
+come online once. Under the capacity constraints consistent withclimate targets, the model iteratively solves to determine the
+optimal retirement year for each unit that achieves the maximum
+cost-bene ﬁt. The cumulative impacts across all dimensions from the
+optimal retirement year to the end of the assumed lifetime can alsobe obtained.Carbon bene ﬁt
+In our study, we use the avoided CO 2emissions from coal units to
+estimate social bene ﬁts, which are calculated in terms of the SCC. The
+SCC represents the economic cost associated with climate damage
+caused by emitting an additional tonne of carbon dioxide43.S C Cp r o -
+vides a monetary estimate of the marginal damages of climate change.
+T h ec u m u l a t i v ec a r b o nb e n e ﬁts of coal power units are as follows:
+CBi,j,t=X
+i,jX
+txi,j,tðXYi,j+lif etime
+t=tretireðSCCt×Ei,j,tÞÞ ð9Þ
+SCCt=SCC ×ðð1+gÞ=ð1+dsccÞÞðt/C0t0Þð10Þ
+Where SCCtis the social cost of carbon in year t,a d j u s t e df o rg r o w t h
+rate and discount rate. Ei,j,tis CO 2emissions of unit iandjin year t,
+measured in tonnes. The base SCC in 2020 is ﬁxed at 86 USD tCO 2−1,
+with an annual growth-adjusted rate ( g)o f2 . 2 %17,18. The carbon bene ﬁt
+is discounted ( dscc)a tar a t eo f3 %17.t0represents the base year, 2020.
+The CO 2emissions from coal power units primarily depend on the
+capacity, capacity factor, and the type of coal used. Referring to thecalculation methods from ref. 44,t h ea n n u a lC O
+2emissions (tCO 2
+year−1) for each power unit are calculated as follows:
+Ei,j,t=Gi,j,t×HRi,j×EFi,j×c1 ð11Þ
+Among them, Gi,j,tis the electricity generation of unit iandjin
+year t, calculated by unit-level capacity (MW), capacity factor (%), and
+operating hours. We compiled the electricity generation data fromeach power plant in India using Central Electricity Authority (CEA)Monthly Generation Reports 2020
+45, including annual generation and
+capacity factor. We matched it with our power unit dataset and usedthe state average value from the CEA reports for power units thatlacked capacity factor data (Supplementary Table 2). HR
+i,jdenotes the
+heat rate in British thermal unit per kilowatt-hour (Btu kWh−1)46(Sup-
+plementary Table 3), and EFi,jrepresents the emission factor in kilo-
+gram CO 2per terajoule (kgCO 2TJ−1), dependent on coal type47
+(Supplementary Table 4). c1is a unit conversion constant, equal to
+9.2427 × 10−6.
+Health bene ﬁt
+As air pollution is a major global cause of premature death, its asso-
+ciated human health impacts have garnered extensive attention48,49.
+Air pollution from coal power generation contributes to ~80 –112
+thousand premature deaths annually in India, resulting in substantialeconomic losses
+15,50,51. Therefore, we further incorporate the avoided
+health impacts related to air pollution in our assessment, quantifying
+them as economic bene ﬁts.
+We spatially model the health burden and related economic
+impact caused by primary air pollutant emissions, including sulfurdioxide (SO
+2), nitrogen oxides (NOx), and ﬁne particulate matter
+(PM 2.5). Speci ﬁcally, we estimate the health burden from primary PM 2.5
+pollution at each facility location using the methods described by
+Oberschelp et al.52. We then characterize this burden in terms of
+DALYs, which measure both the years of life lost due to prematuremortality and the years lived in less than full health
+53.W et h e nr e f e rt o
+the methods from Rauner et al.54to monetize health effects using
+willingness-to-pay valuation, thereby converting the health impacts
+associated with air pollution into monetary terms.
+DALYi,j,t=Si,j,t×cfSO2,i,j,t+Ni,j,t×cfNOx ,i,j,t+Pi,j,t×cfPM2:5,i,j,tð12Þ
+HBi,j,t=X
+i,jX
+txi,j,tXYi,j+lif etime
+t=tretireDALYi:j,t×VDALY×α/C16/C17
+=1+dhb/C0/C1t/C0t0ðÞ/C16/C17
+ð13ÞArticle https://doi.org/10.1038/s41467-025-66580-4
+Nature Communications |        (2025) 16:11594 7
+Where HBi,j,tis the avoided economic loss in health bene ﬁts due to
+avoiding air pollutant emissions for unit iand unit jin year t.DALYi,j,t
+is the disability-adjusted life year caused by exposure to primary PM 2.5.
+Si,j,t,Ni,j,t,a n d Pi,j,trepresent the annual primary emissions of SO 2,
+NOx, and PM 2.5at the unit level, measured in kg. cfSO2,cfNOx,a n d
+cfPM2 :5are the regional characterization factors for each pollutant
+emission per DALY, derived from high-resolution global characteriza-tion factor maps (Supplementary Fig. 5) with a spatial resolution of0.25° × 0.25°. These maps are developed using atmospheric transportand chemical models for several major air pollutants
+52.VDALY reﬂects
+the amount willing to be paid to mitigate the risk of premature deathand non-optimal health for 1 year of life, valued at 118,421 USD perDALY
+54.αis the regional adjustment factor for India (Supplementary
+Table 5). Economic impacts due to health impacts are discounted at arate of 5% ( d
+hb)55.
+Si,j,t,Ni,j,t,Pi,j,t=Gi,j,t×HRi,j×efk×c2 ð14Þ
+Gi,j,tis the electricity generation of each power unit, measured in
+kWh; efkis the emission factors for pollutant class k, measured in
+grams per kWh (g kWh−1) (Supplementary Table 6). Regional emission
+factors come from the ECLIPSE_V6b_CLE_base emission scenariodataset developed by the GAINS model
+56.c2is the constant for con-
+verting energy units from Btu to TJ, equal to 1.055 × 10 ⁻⁹.
+Tax and employment loss
+Transition away from coal power is likely to have adverse impacts on
+government tax revenues and local employment. Therefore, tax ( Ti,j,t)
+and employment losses are incorporated into the optimization model.
+In this study, the taxes for coal- ﬁred power plants include direct
+taxes ( Tdirect ,i,j,t), indirect taxes ( TGST,i,j,t), and coal taxes
+(TGST Compensation Cess ,i,j,t). The direct taxes primarily consist of income
+tax, corporate tax, capital gains tax, and securities transaction tax,accounting for 30% of net income. If revenue exceeds Indian Rupee(INR) 10 million, an additional surcharge of 2% is also levied
+57.T h e
+indirect taxes consist of Goods and Service Tax (GST), which hasreplaced the previous State Value- Added Tax, Central Sales Tax, and
+Service Tax on Transportation
+57. The coal tax is an implicit carbon tax
+levied on mined coal, also known as the Clean Energy Cess or CleanEnvironment Cess. Since the introduction of the coal tax, the price ofcoal has increased from INR 50 per tonne in 2010 to INR 400 per tonnein 2016
+58. With the introduction of GST in India in July 2017, the
+Taxation Laws Amendment Act 2017 abolished the Clean Energy Cess.In its place, the GST Compensation Cess was introduced at a rate of400 INR per tonne
+59.
+The formulas for calculating tax revenue are as follows:
+Ti,j,t=X
+i,jX
+txi,j,tXYi,j+lif etime
+t=tretireðTdirect ,i,j,t+TGST,i,j,t+TGST Compensation Cess ,i,j,tÞ
+ð1+dtaxÞðt/C0t0Þ
+ð15Þ
+Tdirect ,i,j,t=NPi,j,t×rdirect ð16Þ
+TGST,t=Gi,j,t×HR=LHV ×Ccoal,cost×5 % ð17Þ
+TGST CompensationCess, t=Gi,j,t×HR=LHV ×rcess ð18Þ
+Where, Ti,j,tis total tax. rdirect represents the income tax rate (the value
+is 32% if NPi,j,t> = INR 10 million, else 30%, assuming 1 USD = 74 INR in
+2020). NPi,j,tis the net pro ﬁto ft h eu n i t . rcessrepresents the GST
+Compensation Cess rate, which is INR 400 per tonne. LHV is the lower
+heat value, measured in kilocalories per kg (kcal kg−1)46.T h et a xr e v -
+enue is discounted at a rate of 10% ( dtax)60.To assess the losses incurred by India from the gradual phaseout
+of coal power, the impacts on unemployment are calculated byapplying the corresponding employment factors to the installedcapacity and electricity generation. The total number of jobs is esti-
+mated by multiplying the installed coal capacity by the employment
+multiplier for the operation and maintenance sector, expressed in jobsper MW
+61. We use the average real wages in the Indian power sector, as
+reported by the International Labour Organization, to represent thewages of coal power plant workers
+62. Employment losses are then
+monetized and discounted at a rate of 3%17.T h i ss e c t i o nm a i n l yf o c u s e s
+on the direct employment losses resulting from the shutdown of coalpower plants, speci ﬁcally the unemployment of operation and main-
+tenance workers. It excludes jobs in construction, installation, manu-facturing, coal mining, and transportation
+63. Although the retirement
+of power plants may generate new employment opportunities, this
+aspect is not considered in this study.
+Power plant loss
+To meet climate targets, coal- ﬁred power plants are expected to retire
+early, resulting in plant losses that include foregone pro ﬁto p p o r t u -
+nities ( PLi,j,t) and stranded assets ( SAi,j,t). We ﬁrst assess the pro ﬁt-
+ability of each unit. Annual pro ﬁt is estimated as the difference
+between annual revenues and costs. Revenues are calculated based onelectricity prices and the electricity generation of units.
+PL
+i,j,t=X
+i,jX
+txi,j,tðXYi,j+lifetime
+t=tretireNPi,j,t=ð1+dnpÞðt/C0t0ÞÞ ð19Þ
+NPi,j,t=EP×Gi,j,t/C0Ci,j,t ð20Þ
+In this context, NPi,j,tis the annual net pro ﬁto fu n i t iand unit jin
+year t, which is calculated by revenue minus cost ( Ci,j,t). Revenue is
+measured by electricity prices ( EP) and electricity generation ( Gi,j,t),
+and the value of EPin each state as referenced in the reports published
+by each State Electricity Regulatory Commission64.Ci,j,tinclude fuel
+delivery costs ( Ccoal, USD per tonne), variable operating and main-
+tenance costs ( COM,variable ,U S Dk W h−1),ﬁx e do p e r a t i n ga n dm a i n -
+tenance costs ( COM,fi xe d,U S Dk W−1). The units ’proﬁt is depreciated at a
+discount rate dnp, which is 10%46,60.
+Ci,j,t=Ccoal,i,j,t+COM,fi xe d ,i,j,t+COM,variable ,i,j,t ð21Þ
+Ccoal,i,j,t=Ccoal,cost×Gi,j,t×HRi,j=LHV ð22Þ
+Where the coal cost is measured by the delivered coal price Ccoal,cost,
+which includes purchase and transportation costs. COM,fi xe d ,unitary and
+COM,variable ,unitary are referenced from the research of Mallah et al.65.
+COM,fi xe d=COM,fi xe d ,unitary ×Capi,j ð23Þ
+COM,variable =COM,variable ,unitary ×Gi,j,t ð24Þ
+Second, we explore the risk of stranded assets for units under
+climate scenarios and consider this as a loss. Unrecovered capital costsare used as a measure of stranded assets. The abandonment value ofpower plants retired prematurely is calculated as the total capital ofthe assets multiplied by the portion of the expected lifespan that isabandoned due to early retirement
+7.S t r a n d e dA s s e t sa r ec a l c u l a t e d
+using the following formula10:
+SAi,j,t=ðOCC × Capi,j×ðL/C0RLi,jÞ=LÞ=ð1+dsdÞðt/C0t0Þð25ÞArticle https://doi.org/10.1038/s41467-025-66580-4
+Nature Communications |        (2025) 16:11594 8
+In the formula, SAi,j,tis stranded assets for unit iand unit jin year
+t;Capi,jrepresents capacity; Ldenotes the assumed lifetime; RLi,j
+stands for retirement age; and OCC represents the overnight capital
+cost for each power unit (measured in USD per kW), which is estimated
+based on the research conducted by Dulong et al.9. And the stranded
+assets are discounted by 5% to the base year ( dsd)9,66. The retirement of
+units that have operated beyond their ﬁxed lifespan will not result in
+any stranded assets, as the initial capital cost has been fully paid67.
+Therefore, we only consider units with L≥RLi,j, otherwise, the stran-
+ded assets are zero.
+Scenario description
+We conducted a bottom-up assessment of environmental emissionsand economic characteristics for each coal power unit, while retire-ment decisions were guided by top-down climate target trajectories.
+Phaseout strategies consistent with 1.5 °C and 2 °C pathways were
+designed to evaluate the cost-bene ﬁt of coal power units.
+We compared the future pathways of coal power capacity under
+the 1.5 °C and 2 °C targets with the actual operational capacity for eachyear. This process identi ﬁes the surplus capacity exceeding the climate
+target, which is then sequentially deducted from the actual operationalcapacity based on cost-bene ﬁt maximization decisions. This step is
+repeated iteratively to ensure that the operational capacity aligns withclimate-compatible targets for speci ﬁcy e a r s .T h er a wd a t ai nc l i m a t e
+scenarios were obtained from the IPCC Sixth Assessment Report (AR6)Working Group III (WGIII) Scenario Database, hosted by the Interna-
+tional Institute for Applied Systems Analysis
+68,w h i c hp r o v i d e dc o a l
+power capacity pathways under 1.5 °C and 2 °C scenarios. We usecategories C1 (no or limited overshoot) and C2 (high overshoot) for1.5 °C consistent pathways, and Categories C3 (likely below 2 °C) andC4 (below 2 °C) for 2 °C pathways (see Supplementary Table 1 fordescriptions). Power scenarios from seven major integrated assess-ment models (GCAM, AIM/CGE, MESSAGE-GLOBIOM, IMAGE,REMIND, WITCH, and POLES) were employed to analyze coal powerpathways across 379 recent scenarios, encompassing trajectoriesaimed at limiting average global warming to 1.5 °C and 2 °C by the endof the Century. Since each model generates parameter outputs at 5- or
+10-year intervals, we employed second-order polynomial interpolation
+to derive annual data. The median and range of the results are pre-sented in Fig. 1c, d. We assumed the current operational and pipeline
+coalﬂeet would not transition to units equipped with Carbon Capture,
+Utilization, and Storage, biomass energy, or natural gas.
+Additionally, India ’s coal power units are relatively new, with an
+average operational lifetime of about 17 years. We adopt a typical coalpower plant assumed lifetime of 40 years
+1,69,70, and conduct an
+uncertainty analysis by extending the assumed lifetime range to 35 –45
+years. The analysis encompassed the operational capacity in thebaseline year of 2020 and the pipeline capacity for the years after that.
+Characteristics of coal plants
+We utilized unit-level data from the World Electric Power Plants (WEPP)database by S&P Global Platts
+71, which was cross-validated with the
+Global Energy Monitor database72, to analyze currently operational
+coal-ﬁred power plants in India. The unit-level information includes the
+vintage year, installed capacity, coal type, and location. For unitswithout online years, we estimate the median value of all ﬂeets. Since
+the WEPP database does not include latitude and longitude informa-tion for power plants, we used Google Earth to map each unit ’s location
+based on the physical addresses provided in the WEPP database(Supplementary Fig. 2). And for a few small units that were not visible
+on satellite imagery, we approximated their location using the geo-
+graphical coordinates of the respective administrative district.Besides, our unit-level inventory includes 1305 operations (operatingin the baseline year of 2020) and 113 pipelines (planned or underconstruction before 2030) in India, with a combined installed capacity
+of 233 GW and 53 GW, respectively (Supplementary Fig. 3).
+Uncertainty analysis
+Since the model includes multiple key parameters, we conducted aquantitative uncertainty analysis of them and their impacts on multi-dimensional outcomes, including assumed lifetime, SCC, capacityfactor, and discount rate. The assumed lifetime range was extended to35–45 years, and the capacity factor was conducted with a ±5% varia-
+tion. Discount rates were applied to convert future bene ﬁts and costs
+into present values, enabling comparability of cost-bene ﬁt outcomes
+over time. In our model, the discount rate applies to multiple dimen-sions, including carbon bene ﬁts, health bene ﬁts, taxes, employment,
+plant pro ﬁts, and stranded assets. By de ﬁning parameter ranges and
+performing iterative simulations, we explored the extent to which
+variations in assumptions in ﬂuence the results. The speci ﬁcr a n g e sf o r
+each parameter are provided in Supplementary Table 9. Additionally,we performed a comprehensive assessment based on the assumedlifetime range of 35 –45 years, incorporating the uncertainty of various
+parameters. The results of the uncertainty analysis are presented inSupplementary Figs. 9 –12.
+Data availability
+The unit-level data are collected from the World Electric Power Plants
+database ( https://www.spglobal.com/marketintelligence/en/ )71and the
+Global Energy Monitor database ( https://globalenergymonitor.org/zh-
+CN/projects/global-coal-plant-tracker/ )72. Raw data for climate sce-
+narios are from the IPCC AR6 WGIII Scenarios Database68.T h eb a s e
+maps used in this study were generated using Esri-standardized data-sets within ArcGIS 10.8. All geospatial processing and visualizationwere performed by the authors. Map images © Esri and its licensors.Used under license. The data that support the other ﬁndings within this
+article can be obtained from the author upon request. Source data areprovided with this paper.
+Code availability
+The code used to process all modeling results and create all related
+images is publicly available on Zenodo: https://doi.org/10.5281/
+zenodo.1422951073.T h em o d e lw a sw r i t t e ni nP y t h o n( v e r s i o n3 . 1 1 . 7 ) ,
+and optimization modeling was performed using the Gurobi solver(Version 10.0.3): https://www.gurobi.com/ . Spatial data analysis was
+carried out using the Geopandas package (Version 0.14.3): https://
+geopandas.org/en/v0.14.3/ .
+References
+1. Yang, J. & Urpelainen, J. The future of India ’sc o a l - ﬁred power
+generation capacity. J. Clean. Prod. 226,9 0 4 –912 (2019).
+2 . C r i p p a ,M .e ta l . Fossil CO 2Emissions of All World Countries-2020
+Report .1–244 (Luxembourg: European Commission, 2020).
+3. Chakravarty, S. & Somanathan, E. There is no economic case for
+new coal plants in India. World Dev. Perspect. 24,1 0 0 3 7 3( 2 0 2 1 ) .
+4. Climate Action Tracker. Country Summary India. https://
+climateactiontracker.org/countries/india/ (2024).
+5. Cui, R. Y. et al. Quantifying operational lifetimes for coal power
+plants under the Paris goals. Nat. Commun. 10,4 7 5 9( 2 0 1 9 ) .
+6. Ordonez, J. A. et al. India ’s just energy transition: Political economy
+challenges across states and regions. Energy Policy 179,
+113621 (2023).
+7. Binsted, M. et al. Stranded asset i mplications of the Paris agreement
+in Latin America and the Caribbean. Environ. Res. Lett. 15,
+044026 (2020).
+8. Pfeiffer, A. et al. Committed emissions from existing and planned
+power plants and asset stranding required to meet the ParisAgreement. Environ. Res. Lett. 13,0 5 4 0 1 9( 2 0 1 8 ) .Article https://doi.org/10.1038/s41467-025-66580-4
+Nature Communications |        (2025) 16:11594 9
+9. von Dulong, A. Concentration of asset owners exposed to power
+sector stranded assets may trigger climate policy resistance. Nat.
+Commun. 14, 6442 (2023).
+10. Edwards, M. R. et al. Quantifying the regional stranded asset risks
+from new coal plants under 1.5. C. Environ. Res. Lett. 17,
+024029 (2022).
+11. Montrone, L., Ohlendorf, N. & Cha ndra, R. The political economy of
+coal in India –evidence from expert interviews. Energy Sustain. Dev.
+61,2 3 0 –240 (2021).
+12. Aldy, J. E. et al. Keep climate policy focused on the social cost of
+carbon. Science 373,8 5 0 –852 (2021).
+13. Wang et al. Estimates of the social cost of carbon: a review based on
+meta-analysis. J. Clean. Prod. 209, 1494 –1507 (2019).
+14. West, J. J. et al. Co-bene ﬁts of global greenhouse gas mitigation for
+future air quality and human health. Nat. Clim. Change 3,
+885–889 (2013).
+15. Cropper, M. et al. The mortality impacts of current and planned
+coal-ﬁred power plants in India. Proc. Natl. Acad. Sci. USA 118,
+e2017936118 (2021).
+16. The World Bank. World Bank Country and Lending Groups. https://
+datahelpdesk.worldbank.org/knowledgebase/articles/906519 (2025).
+17. Ricke, K. et al. Country-level social cost of carbon. Nat. Clim.
+Change 8,8 9 5 –900 (2018).
+18. Richard, S. J. T. Social cost of carbon estimates have increased over
+time. Nat. Clim. Change 13,5 3 2 –536 (2023).
+19. Government of India, Ministry of Power. 500 GW Nonfossil Fuel
+Target. https://powermin.gov.in/en/content/500gw-nonfossil-
+fuel-target (2023).
+20. Renewable Energy Policy Network for the 21
+stCentury. Renewables
+2024 Global Status Report India .https://www.ren21.net/gsr-
+2024/ (2024).
+21. Ministry of Coal, Government of India. Production and Annual
+Consumption of Coal in the Country .https://pib.gov.in/pib.gov.in/
+Pressreleaseshare.aspx?PRID=1908840 (2023).
+22. Global Energy Monitor. India Enters an Unnecessary Coal Plant
+Permitting Spree in 2023 .https://globalenergymonitor.org/wp-
+content/uploads/2023/08/India- New-Coal-Permits-August-2023.
+pdf(2023).
+23. Vinichenko, V. et al. Phasing out coal for 2 °C target requires
+worldwide replication of most ambitious national plans despitesecurity and fairness concerns. Environ. Res. Lett. 18,0 1 4 0 3 1( 2 0 2 3 ) .
+2 4 . M a a m o u n ,N .e ta l .I d e n t i f y i n gc o a l - ﬁred power plants for early
+retirement. Renew. Sust. Energy Rev. 126,1 0 9 8 3 3( 2 0 2 0 ) .
+25. Fofrich, R. et al. Early retirement of power plants in climate miti-
+gation scenarios. Environ. Res. Lett. 15, 094064 (2020).
+26. Cui, R. Y. et al. A plant-by-plant strategy for high-ambition coal
+power phaseout in China. Nat. Commun. 12, 1468 (2021).
+27. Muttitt, G. et al. Socio-political feasibility of coal power phase-out
+and its role in mitigation pathways. Nat. Clim. Change 13,
+140–147 (2023).
+28. Figueira, J., Greco, S. & Ehrogott, M. Multiple Criteria Decision
+Analysis: State of the Art Surveys (Springer, New York, 2005).
+29. Malik, A. et al. Reducing stranded assets through early action in the
+Indian power sector. Environ. Res. Lett. 15, 094091 (2020).
+30. Kefford, B. M. et al. The early retirement challenge for fossil fuel
+power plants in deep decarbonization scenarios. Energy Policy 119,
+294–306 (2018).
+31. Lu, Y. et al. Plant conversions and abatement technologies cannot
+prevent stranding of power plant assets in 2 °C scenarios. Nat.
+Commun. 13, 806 (2022).
+32. Yan, X. et al. Cost-effectiveness uncertainty may bias the decision of
+coal power transitions in China. Nat. Commun. 15, 2272 (2024).
+33. Diakoulaki, D. & Karangelis, F. Multi-criteria decision analysis and
+cost-bene ﬁt analysis of alternative scenarios for the powergeneration sector in Greece. Renew. Sust. Energy Rev. 11,
+716–727 (2007).
+3 4 . S t e c k e l ,J .C . ,E d e n h o f e r ,O .&J a k o b ,M .D r i v e r sf o rt h er e n a i s s a n c e
+of coal. P r o c .N a t l .A c a d .S c i .U S A 112,E 3 7 7 5 –E3781 (2015).
+35. Steckel, J. C. & Jakob, M. To end coal, adapt to regional realities.
+Nature 607,2 9–31 (2022).
+36. Luderer, G. et al. Residual fossil CO 2emissions in 1.5 –2°C pathways.
+Nat. Clim. Change 7,6 2 6 –633 (2018).
+37. Zhang, W. et al. Quantifying stranded assets of the coal- ﬁred power
+in China under the Paris Agreement target. Clim. Policy 23,
+11–24 (2023).
+38. Gao, M. et al. The impact of power generation emissions on ambient
+PM2.5pollution and human health in China and India. Environ. Int.
+121,2 5 0 –259 (2018).
+39. Venkataraman, C. et al. Source in ﬂuence on emission pathways and
+ambient PM 2.5pollution over India (2015 –2050). Atmos. Chem.
+Phys. 18,8 0 1 7 –8039 (2018).
+40. Ministry of New and Renewable Energy, Government of India. Pro-
+duction Linked Incentive (PLI) Scheme: National Programme on HighEfﬁciency Solar PV Modules .https://mnre.gov.in/en/production-
+linked-incentive-pli/ (2024).
+41. Umamaheswaran, S. & Rajiv, S. Financing large scale wind and solar
+projects —A review of emerging experiences in the Indian context.
+Renew. Sust. Energy Rev. 48,1 6 6 –177 (2015).
+42. Ministry of New and Renewable Energy, Government of India.
+Physical Achievements India .https://mnre.gov.in/physical-
+progress/ (2025).
+43. Pizer, W. et al. Using and improving the social cost of carbon. Sci-
+ence 346, 1189 –1190 (2014).
+44. Global Energy Monitor. Estimating Carbon Dioxide Emissions from
+Coal Plants .https://www.gem.wiki/Estimating_carbon_dioxide_
+emissions_from_coal_plants (2023).
+45. Central Electricity Authority, Government of India. Monthly Reports
+Archive .https://cea.nic.in/monthl y-reports-archive/?lang=
+en(2024).
+46. Central Electricity Authority, Government of India. CDM-CO
+2
+Baseline Database .https://cea.nic.in/cdm-co2-baseline-database/?
+lang=en (2024).
+47. Intergovernmental Panel on Climate Change. 2006 IPCC Guide-
+lines for National Greenhouse Gas Inventories. https://www.ipcc-
+nggip.iges.or.jp/public/2006gl/ (2006).
+48. Southerland, V. A. et al. Global urban temporal trends in ﬁne
+particulate matter (PM 2.5) and attributable health burdens: esti-
+mates from global datasets. Lancet Planet. Health 6, e139 –e146
+(2022).
+49. Burnett, R. et al. Global estimates of mortality associated with long-
+term exposure to outdoor ﬁne particulate matter. Proc. Natl. Acad.
+Sci. USA 115,9 5 9 2 –9597 (2018).
+50. Deshmukh, R. & Chatterjee, S. T oward a low-carbon transition in
+India. Science 378,5 9 5 –596 (2022).
+51. Diaz, D. & Moore, F. Quantifying the economic risks of climate
+change. Nat. Clim. Change 7,7 7 4 –782 (2017).
+52. Oberschelp, C., P ﬁster, S. & Hellweg, S. Globally regionalized
+monthly life cycle impact assessment of particulate matter. Environ.
+Sci. Technol. 54,1 6 0 2 8 –16038 (2020).
+53. Anand, S. & Hanson, K. Disability-adjusted life years: a critical
+review. J. Health Econ. 16,6 8 5 –702 (1997).
+54. Rauner, S. et al. Coal-exit health and environmental damage
+reductions outweigh economic impacts. Nat. Clim. Change 10,
+308–312 (2020).
+55. Haacker, M., Hallett, T. B. & Atun, R. On discount rates for economic
+evaluations in global health. Health Policy Plan. 35,1 0 7 –114 (2020).
+56. International Institute for Applied Systems Analysis. GAINS South
+Asia Online .https://gains.iiasa.ac.at/gains/docu.INN/index.menu?
+open=none (2024).Article https://doi.org/10.1038/s41467-025-66580-4
+Nature Communications |        (2025) 16:11594 10
+57. International Institute for Sustainable Development. India ’sE n e r g y
+Transition: Mapping Subsidies t o Fossil Fuels and Clean Energy in
+India .https://www.iisd.org/system/ ﬁles/publications/india-energy-
+transition.pdf (2017).
+58. International Institute for Sustainable Development. The Evolution
+of the Clean Energy Cess on Coal Production in India .https://www.
+iisd.org/system/ ﬁles/publications/stories-g20-india-en.pdf (2018).
+59. Ministry of Finance, Government of India. Climate Watch India
+Country Platform .https://indiaclimateexplorer.org/climate-
+policies/CEC/overview (2024).
+60. Prakash, V., Ghosh, S. & Kanjilal, K. Costs of avoided carbon emis-
+sion from thermal and renewable sources of power in India andpolicy implications. Energy 200, 117522 (2020).
+61. Pai, S. et al. Meeting well-belo w 2°C target would increase energy
+sector jobs globally. One Earth 4,1 0 2 6 –1036 (2021).
+62. International Labour Organization. Towards an India Wage Report
+2017.https://ilo.primo.exlibrisgroup.com (2017).
+63. Sasse, J. P. & Trutnevyte, E. A low-carbon electricity sector in Eur-
+ope risks sustaining regional inequalities in bene ﬁts and vulner-
+abilities. Nat. Commun. 14, 2205 (2023).
+64. Central Electricity Authority, Government of India. Domestic Elec-
+tricity LT Tariff Slabs and Rates for all States in India in 2016 .https://
+www.bijlibachao.com/news/domesti c-electricity-lt-tariff-slabs-
+and-rates-for-all-states-in-india-in.html (2017).
+65. Mallah, S. & Bansal, N. K. Allocation of energy resources for power
+generation in India: Business as usual and energy ef ﬁciency. Energy
+Policy 38,1 0 5 9 –1066 (2010).
+66. Johnson, N. et al. Stranded on a low-carbon planet: Implications of
+climate policy for the phase-out of coal-based power plants.Technol. Forecast. Soc. Change 90,8 9–102 (2015).
+67. Tong, D. et al. Committed emissions from existing energy infra-
+structure jeopardize 1.5°C climate target. Nature 572,
+373–377 (2019).
+6 8 . B y e r s ,E .e ta l .A R 6s c e n a r i o sd a t a b a s e .Z e n o d o : https://doi.org/10.
+5281/zenodo.5886912 (2022).
+69. Shearer, C., Fofrich, R. & Davis, S. J. Future CO
+2emissions and
+electricity generation from proposed coal- ﬁred power plants in
+India. Earth ’sF u t u r e 5,4 0 8 –416 (2017).
+70. Shrimali, G. Managing power system ﬂexibility in India via coal
+plants. Energy Policy 150, 112061 (2021).
+71. S&P Global. World Electric Power Plant Database .https://www.
+spglobal.com/commodity-insig hts/en/commodity/electric-
+power (2020).
+72. Global Energy Monitor. Global Coal Plant Tracker .https://
+globalenergymonitor.org/projects/global-coal-plant-tracker/ (2025).
+73. Long, X. et al. Codes for “Ambitious climate targets can make the
+phaseout of India ’sc o a l - ﬁred power plants cost-bene ﬁcial”.
+Zenodo. https://doi.org/10.5281/zenodo.14229510 (2025).
+Acknowledgements
+This research was supported by the National Natural Science Foundation
+o fC h i n a( n o .7 2 0 6 1 1 4 7 0 0 3 ,Y .W . ;n o .5 2 0 2 2 0 2 3 ,Y .W . ;n o .5 2 1 0 0 2 1 0 ,B .C.) and Shanghai Municipal Education Commission (no. 24KXZNA15, Y.
+W.). J. M. also acknowledges support from the European Union under thegrant agreement no. 101137905 (PANTHEON).
+Author contributions
+Y.W., J.M., B.C., X.L., and P.C. developed the research idea and frame-work. X.L., B.C., H.X., and J.M. developed models, provided guidance onmethods, and managed the estimation process. X.L. did coding, ana-lyzing, and visualization. X.L., Y.W., J.M., B.C., M.D., and P. C. reviewedthe results and manuscript. X.L., B.C., M.D., H.X., P.C., J.M., and Y.W.contributed to the development of the manuscript and had ﬁnal
+responsibility for the decision to submit for publication.
+Competing interests
+The authors declare no competing interests.
+Additional information
+Supplementary information The online version contains
+supplementary material available athttps://doi.org/10.103 8/s41467-025-66580-4 .
+Correspondence and requests for materials should be addressed to
+Jing Meng or Yutao Wang.
+Peer review information Nature Communications thanks the anon-
+ymous, reviewer(s) for their contribution to the peer review of this work.
+Ap e e rr e v i e w ﬁle is available.
+Reprints and permissions information is available at
+http://www.nature.com/reprints
+Publisher ’s note Springer Nature remains neutral with regard to jur-
+isdictional claims in published maps and institutional af ﬁliations.
+Open Access This article is licensed under a Creative Commons
+Attribution-NonCommercial-NoDeri vatives 4.0 International License,
+which permits any non-commercial use, sharing, distribution and
+reproduction in any medium or format, as long as you give appropriate
+credit to the original author(s) and the source, provide a link to theCreative Commons licence, and indicate if you modi ﬁed the licensed
+material. You do not have permission under this licence to share adaptedmaterial derived from this article or parts of it. The images or other thirdparty material in this article are included in the article ’s Creative
+Commons licence, unless indicated otherwise in a credit line to the
+material. If material is not included in the article ’s Creative Commons
+licence and your intended use is not permitted by statutory regulation orexceeds the permitted use, you will need to obtain permission directlyfrom the copyright holder. To view a copy of this licence, visit http://
+creativecommons.org/licenses/by-nc-nd/4.0/ .
+© The Author(s) 2025Article https://doi.org/10.1038/s41467-025-66580-4
+Nature Communications |        (2025) 16:11594 11
