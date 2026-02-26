@@ -1,39 +1,25 @@
-2 FEB 2026
+# **Urban systems and other settlements** - [github ](https://github.com/semanticClimate/internship_sC/tree/pushpa/wg3_ch8_analysis)
 
-- Selected topic **"India's zero carbon emission by 2070"**
-- Used pyget papers to get scientific literature of my topic 
-- Got **26** papers 
+### 2ND WEEK OF JAN 2026
 
-3 FEB 2026
-
-- Out of 26 downloaded 10 papers using pygetpapers.
+- Got chapter from IPCC AR6 Working group 3 chapter 8 - **" Urban systems and other settlements"** 
+- [chapter link](https://www.ipcc.ch/report/ar6/wg3/chapter/chapter-8/)
+- Downloaded pdf file of my chapter.
 - performed **txt2phrases** to convert pdf to txt
+- [raw csv file](https://github.com/semanticClimate/internship_sC/blob/pushpa/wg3_ch8_analysis/WGIII_Chapter08_keywords_raw.csv)
 
-
-6 FEB 2026
+### 3RD WEEK OF JAN 2026
 
 - Extracted key phrases using txt2phrases
-- Got keyphrases for all 10 papers
-- Merged all CSV's into one single file using **stand lone code (pandas)**.
+- Removed duplicates and disambgious
+- Got clean key phrases list.
+- Converted CSV into txt file .
+- [Clean keywords file](https://github.com/semanticClimate/internship_sC/blob/pushpa/wg3_ch8_analysis/cleaned.txt)
 
-8 FEB 2026
 
-- Removed duplicates and disambgious  words using pandas stand lone code.
-- Converted CSV into txt file using pandas.
+### 4TH WEEK OF JAN 2026
 
-10 FEB 2026
-
-- Created encyclopedia for my topic "India's zero carbon emission by 2070" using **amilib 1.1.2**.
+- Created encyclopedia for my chapter **" Urban systems and other settlements"** using **amilib 1.1.2**.
+- [encyclopedia of wg3 ch8](https://github.com/semanticClimate/internship_sC/blob/pushpa/wg3_ch8_analysis/wg3_ch8_urabanisation.html)
 - Generated knowledge graph using **networkx.**
-
-11 FEB 2026
-
-- Created workflow for my topic using **graphviz**
-- Got the **workflow** flowchart with links.
-
-12 - 17 FEB 2026
-
-- Tested the new versions of  
-     - pygetpapers **1.2.5a24**
-     - txt2phrases upto  **merging the CSV files**  step
-     - Encyclopedia 
+- [knowledge graph](https://github.com/semanticClimate/internship_sC/blob/pushpa/wg3_ch8_analysis/wg3_ch8_kg.html)
