@@ -23,3 +23,8 @@
 - [encyclopedia of wg3 ch8](https://github.com/semanticClimate/internship_sC/blob/pushpa/wg3_ch8_analysis/wg3_ch8_urabanisation.html)
 - Generated knowledge graph using **networkx.**
 - [knowledge graph](https://github.com/semanticClimate/internship_sC/blob/pushpa/wg3_ch8_analysis/wg3_ch8_kg.html)
+
+### 26 FEB 2026
+
+- commited Semantic Climate encyclopedia presentation (PPT) in github
+- [Semantic Climate Encyclopedia Presentation](https://github.com/semanticClimate/internship_sC/blob/pushpa/encyclopedia_sc.pptx)
