@@ -32,8 +32,10 @@ output-https://github.com/semanticClimate/internship_sC/blob/taiba-shamim/Climat
 
 #Making a Knowledge Graph from Encyclopedia
 
+script utilized-https://github.com/semanticClimate/encyclopedia/blob/pmr202601/Examples/create_knowledge_graph.py
+
 command-
 !python Examples/create_knowledge_graph.py --input /content/encyclopedia_ClimateAcademy.html --output /content/results/knowledge_graph_climateAcademy.graphml --format graphml --include-wikipedia --include-wikidata --verbose
 
 input-https://github.com/semanticClimate/internship_sC/blob/taiba-shamim/Climate%20Academy/encyclopedia_ClimateAcademy.html
-output-
+output-https://github.com/semanticClimate/internship_sC/blob/taiba-shamim/Climate%20Academy/Knowledge_graph_ClimateAcademy.graphml
