@@ -1,7 +1,9 @@
 ## extracting keyphrases from the climate_academy pdf
+
 pip install txt2phrases.
 
 **(vir) C:\Users\saksh\OneDrive\Desktop\semantic_nipgr\txt2phrases>txt2phrases auto -i C:\Users\saksh\OneDrive\Desktop\semantic_nipgr\txt2phrases\climate_academy\ -o results/**
+
 Standard folder detected.
 Found PDF: C:\Users\saksh\OneDrive\Desktop\semantic_nipgr\txt2phrases\climate_academy\ClimateAcademy_Book.pdf
 Found 1 PDFs.
@@ -18,3 +20,26 @@ Extracting climate_academy.txt: 100%|██████████████�
 Saved: results\climate_academy_keywords.csv
 
 Auto-pipeline complete!
+
+
+## for creating encyclopedia of output csv file
+
+-used the script https://github.com/semanticClimate/encyclopedia/blob/pmr202601/Examples/create_encyclopedia_from_phraselist.py
+-on the terminal i gave the command-
+**python Examples/create_encyclopedia_from_phraselist.py  --input c:\Users\saksh\OneDrive\Desktop\semantic_nipgr\txt2phrases\results\climate_academy_keywords.csv  --output encyclopedia.html --add-wikipedia --add-images --batch-size 10**
+
+here i=input folder
+o=output folder
+
+## creating knowledge graph for the encyclopedia of climate academy book
+-used the script https://github.com/semanticClimate/encyclopedia/blob/pmr202601/Examples/create_knowledge_graph.py
+- i used the command
+**python Examples/create_knowledge_graph.py  --input c:\Users\saksh\OneDrive\Desktop\semantic_nipgr\encyclopedia\encyclopedia.html  --output knowled
+ge_graph.graphml  --format graphml  --include-wikipedia  --include-wikidata --verbose**
+- the output of this is encyclopedia.graphml
+
+
+
+
+
+
