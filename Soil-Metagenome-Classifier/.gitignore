@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Data files (large, shouldn't be in git)
+*.fasta
+*.fa
+*.fna
+*.libsvm
+*.bin
+*.pkl
+*.joblib
+
+# Project-specific ignores
+data/raw/*
+data/processed/*
+!data/**/.gitkeep
+!data/**/README.md
+results/models/*
+!results/models/.gitkeep
+dataset/

@@ -1,0 +1,76 @@
+{
+  "dataset": "CAMI-simulated metagenome",
+  "fragment_length_bp": 150,
+  "total_fragments": 43000,
+  "num_species_simulated": 10,
+  "accuracy": 0.8691162790697674,
+  "precision_macro": 0.8679195471320922,
+  "recall_macro": 0.8657929761904761,
+  "specificity_macro": 0.9851050773100962,
+  "f1_macro": 0.8645352452157411,
+  "simulation_time_sec": 2.692089557647705,
+  "encoding_time_sec": 9.11258840560913,
+  "prediction_time_sec": 0.28379392623901367,
+  "per_species": {
+    "Ehrlichia ruminantium": {
+      "accuracy": 0.8075,
+      "precision": 0.7340909090909091,
+      "recall": 0.8075,
+      "f1": 0.7690476190476191
+    },
+    "Methanobrevibacter smithii": {
+      "accuracy": 0.765125,
+      "precision": 0.9412578809780101,
+      "recall": 0.765125,
+      "f1": 0.844101220437151
+    },
+    "Campylobacter curvus": {
+      "accuracy": 0.96625,
+      "precision": 0.9789766970618035,
+      "recall": 0.96625,
+      "f1": 0.9725717161550076
+    },
+    "Ca. Nitrosotenuis uzonensis": {
+      "accuracy": 0.7673333333333333,
+      "precision": 0.8936335403726708,
+      "recall": 0.7673333333333333,
+      "f1": 0.8256814921090387
+    },
+    "Riemerella anatipestifer": {
+      "accuracy": 0.8503333333333334,
+      "precision": 0.7763237979306147,
+      "recall": 0.8503333333333334,
+      "f1": 0.8116449252306713
+    },
+    "Listeria innocua": {
+      "accuracy": 0.8786666666666667,
+      "precision": 0.8440601985270573,
+      "recall": 0.8786666666666667,
+      "f1": 0.8610158419075616
+    },
+    "Clostridium perfringens": {
+      "accuracy": 0.9275714285714286,
+      "precision": 0.7943479324688035,
+      "recall": 0.9275714285714286,
+      "f1": 0.855805983919863
+    },
+    "Methylibium petroleiphilum": {
+      "accuracy": 0.9352,
+      "precision": 0.9165033320266562,
+      "recall": 0.9352,
+      "f1": 0.9257572757869729
+    },
+    "Chromobacterium violaceum": {
+      "accuracy": 0.9262,
+      "precision": 0.9406865732277067,
+      "recall": 0.9262,
+      "f1": 0.9333870805200041
+    },
+    "Xenorhabdus nematophila": {
+      "accuracy": 0.83375,
+      "precision": 0.8593146096366916,
+      "recall": 0.83375,
+      "f1": 0.8463392970435224
+    }
+  }
+}
