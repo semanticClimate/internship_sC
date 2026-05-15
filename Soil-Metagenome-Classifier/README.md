@@ -1,8 +1,7 @@
 # AI-Based Taxonomic Classification of Soil Metagenome
 
-An alignment-free, machine learning pipeline for species-level taxonomic 
-classification of soil bacterial metagenomic fragments using canonical 
-k-mer frequency profiles and gradient boosting.
+An alignment-free, machine learning framework for species-level taxonomic 
+classification of soil metagenomes usin XGBoost.
 
 ---
 
