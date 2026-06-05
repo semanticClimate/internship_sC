@@ -1,5 +1,17 @@
 # internship_sC
 
+## Interns 2026
+- Ali Mehdi Naqvi
+- Aleena Harold Peter
+- Bui Doan Khanh Linh
+- Samyukta Nair
+- Saarthak Patwal
+- Shreya S. Bhat
+- Akalya S
+- Misha Ali 
+- Uddhav Mishra
+
+
 This contains the work progress by the interns and discussion for different tasks.
 
 ### IPCC reports selected by the interns for their work
