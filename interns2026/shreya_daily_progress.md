@@ -1,5 +1,25 @@
 # shreya-daily-progress
 
+## 09.06.2026
+
+## Tasks completed
+
+* Learned where to retrieve the URL for the chatbot
+* Discussed the issues on the current version of the chatbot.
+* The issues mentioned were regarding the citation chips,sample questions and the climate academy book.
+* Learned how to draft an issue on GitHub.
+* Discussed the various institutions under BRIC and their annual reports for OT-ViRARe.
+* Preparation for the presentation of the chatbot.
+
+## 08.06.2026
+
+## Tasks completed
+
+* Discussion on the another project named OT-ViRARe.
+* Understood the ways to interpret the annual report of institutional organisations of India
+* Introduction of new interns at OT-ViRARe.
+* Learned how data is retrieved through LLM
+
 ## Weekly learning outcome 
 
 * Understood the agenda behind SemanticClimate and the purpose of introduction of the ClimateAcademy chatbot.
