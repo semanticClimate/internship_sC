@@ -1,5 +1,15 @@
 # shreya-daily-progress
 
+## 10.06.2026
+
+## Tasks completed
+
+* Tested the chatbot by asking several questions.
+* Created a csv file of the questions asked and answered by the chatbot.
+* Identified and discussed the issues occuring in the bot.
+* Learned the method to merge a personal branch with the main on GitHub.
+* Learned how to the read the timeline graph on insights of GitHub.
+
 ## 09.06.2026
 
 ## Tasks completed
