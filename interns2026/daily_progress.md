@@ -7,5 +7,5 @@
 ## Daily Progress Report
 ## wednesday (2026-07-09)
 -- not attended the meeting by personal family issues 
--- doing ppt wotk by myself for sematic climate project
+-- doing ppt work by myself for semantic climate project..
 
