@@ -1,3 +1,14 @@
+# 10-06-2026
+
+## Activities Completed
+
+* Analyzed the Table of Contents (TOC) of annual reports from six agricultural research institutions.
+* Studied and compared the structural organization and content categories across different annual reports.
+* Identified recurring research themes such as Research Achievements, Crop Improvement, Crop Protection, Disease Management, Climate Resilience, and Publications.
+* Mapped similar section headings used by different institutions into standardized categories for comparative analysis.
+* Developed an initial taxonomy of common agricultural research themes and report structures.
+* Prepared documentation summarizing the common content categories to support future NLP-based information extraction and semantic analysis within the OT-ViRARe (ORAT) project.
+  
 # 09-06-2026
 
 ## Activities Completed
