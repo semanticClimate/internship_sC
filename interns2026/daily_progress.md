@@ -1,1 +1,0 @@
-## Daily Progress Report
