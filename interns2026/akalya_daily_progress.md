@@ -9,7 +9,9 @@
 * Learned the basics of Cytoscape, including graph import, layout application, node styling, edge styling, and graph visualization techniques.
 * Reviewed different graph layouts (Force-Directed, Hierarchical, Circular, Organic) and their use in visualizing knowledge graph structures.
 * Examined node and edge attributes such as labels, node types, mention counts, and relationship types used in the ORAT knowledge graph.
-* Prepared for GraphML testing and visualization tasks by understanding the workflow required to generate graph screenshots and compare layouts# 10-06-2026
+* Prepared for GraphML testing and visualization tasks by understanding the workflow required to generate graph screenshots and compare layouts
+
+# 10-06-2026
 
 ## Activities Completed
 
