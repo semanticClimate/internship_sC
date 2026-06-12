@@ -1,5 +1,13 @@
 # shreya-daily-progress
 
+## 11.06.2026
+
+## Tasks completed
+
+* Discussed the next steps towards ipcc and chatbot
+* Learned the method to create pictures from cytoscape
+* Studied the guide to graphml and cytoscape operations on ORAT document 
+
 ## 10.06.2026
 
 ## Tasks completed
