@@ -1,3 +1,17 @@
+### 12-06-2026
+
+##**Activities Completed**
+
+* Studied the ORAT Knowledge Graph (KG) workflow and GraphML visualization documentation.
+* Analyzed the structure of the ORAT knowledge graph, including Institution, Report, and AGROVOC term nodes and their relationships.
+* Located and explored the generated `orat_institutions.graphml` file from the ORAT repository.
+* Installed and learned the basics of Cytoscape for network visualization and analysis.
+* Imported the ORAT GraphML file into Cytoscape and explored the generated knowledge graph.
+* Applied and tested different graph layouts, including Force-Directed, Hierarchical, Circular, and Organic layouts.
+* Customized graph visualizations using node labels, colors, shapes, sizes, and edge styling for improved readability.
+* Generated and exported knowledge graph visualizations for documentation and project review purposes.
+* Reviewed graph structure and connectivity to better understand the relationships between institutions, annual reports, and agricultural research concepts.
+* 
 ## 11-06-2026
 
 ## Activities Completed
