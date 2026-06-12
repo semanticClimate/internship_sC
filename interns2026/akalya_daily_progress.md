@@ -11,7 +11,7 @@
 * Customized graph visualizations using node labels, colors, shapes, sizes, and edge styling for improved readability.
 * Generated and exported knowledge graph visualizations for documentation and project review purposes.
 * Reviewed graph structure and connectivity to better understand the relationships between institutions, annual reports, and agricultural research concepts.
-* 
+  
 ## 11-06-2026
 
 ## Activities Completed
