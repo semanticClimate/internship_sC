@@ -1,6 +1,6 @@
 ### 12-06-2026
 
-##**Activities Completed**
+**Activities Completed**
 
 * Studied the ORAT Knowledge Graph (KG) workflow and GraphML visualization documentation.
 * Analyzed the structure of the ORAT knowledge graph, including Institution, Report, and AGROVOC term nodes and their relationships.
