@@ -1,4 +1,7 @@
 ## Daily Progress Report
+## MONDAY (15-06-2026)
+- Created documentation outlining the core project idea and its objectives.
+- Developed a structured draft to capture the concept clearly
 ## FRIDAY (12-06-2026)
 - Worked in Cytoscape to explore its features and applications
 - Focused on analyzing the annual reports using the annual reports GraphML file.
