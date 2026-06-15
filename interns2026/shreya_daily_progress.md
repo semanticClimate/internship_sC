@@ -1,6 +1,25 @@
 # shreya-daily-progress
 
-## 11.06.2026
+## 2026.06.15
+
+## Tasks completed
+
+* Revised the prototype of ORAT
+* Created a document on the project that is to be undertaken
+* Discussed the presentation during the meet regarding the chatbot
+* Studied the workflow of my project 'Image analysis' of annual reports from agricultural institutions.
+  
+## 2026.06.12
+
+## Tasks completed
+
+* Joined for a new project hereby called ORAT
+* Discussed the workflow of the ORAT project
+* Analysed the draft prototype of the ORAT project
+* Discussed the institutions that are listed under ICAR across India
+* A team discussion on the project on what roles each of the intern can work on.
+  
+## 2026.06.11
 
 ## Tasks completed
 
@@ -8,7 +27,7 @@
 * Learned the method to create pictures from cytoscape
 * Studied the guide to graphml and cytoscape operations on ORAT document 
 
-## 10.06.2026
+## 2026.06.10
 
 ## Tasks completed
 
@@ -18,7 +37,7 @@
 * Learned the method to merge a personal branch with the main on GitHub.
 * Learned how to the read the timeline graph on insights of GitHub.
 
-## 09.06.2026
+## 2026.06.09
 
 ## Tasks completed
 
@@ -29,7 +48,7 @@
 * Discussed the various institutions under BRIC and their annual reports for OT-ViRARe.
 * Preparation for the presentation of the chatbot.
 
-## 08.06.2026
+## 2026.06.08
 
 ## Tasks completed
 
@@ -45,7 +64,7 @@
 * Understood the tips for an effiecient presentation
 * Familiarised to Markdown languauge.
   
-## 05.06.2026
+## 2026.06.05
 
 ## Tasks completed
 
@@ -54,7 +73,7 @@
 * Understood the basic GitHub processes like repositories,branches and pr.
 * Documented the everyday tasks in markdown format
 
-## 04.06.2026
+## 2026.06.04
 
 ## Tasks completed
 
@@ -64,7 +83,7 @@
 * Preparation and discussion for the bot presentation
 * Rectified the mistakes while presentations
 
-## 03.06.2026
+## 2026.06.03
 
 ## Tasks completed
 
@@ -74,7 +93,7 @@
 * Explored the chatbot window
 * Discussed the need for changes and the problems in the chatbot.
 
-## 02.06.2026
+## 2026.06.02
 
 ## Tasks completed
 
@@ -85,7 +104,7 @@
 * Created a markdown list about tasks to be prioritised.
 * Learned the order of problem solving within the bot.
 
-## 01.06.2026
+## 2026.06.01
 
 ## Tasks completed
 
