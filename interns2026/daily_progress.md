@@ -1,4 +1,7 @@
 ## Daily Progress Report
+## FRIDAY (12-06-2026)
+- Worked in Cytoscape to explore its features and applications
+- Focused on analyzing the annual reports using the annual reports GraphML file.
 ## THURSDAY (11-06-2026)
 - Reviewed annual report files to understand the structure and content.
 ## WEDNESDAY (10-06-2026)
