@@ -1,5 +1,14 @@
 # shreya-daily-progress
 
+## 2026.06.16
+
+## Tasks completed
+* Discussed the next steps on  project ORAT
+* Had a brief description of AGROVOC dictionary, image analysis and graph analysis from the institutional annual reports
+* Presented my project proposal on image analysis for ORAT
+* Learnt the introduction to various tools that can be used in image analysis
+* Created a timeline for my internship for two months 
+
 ## 2026.06.15
 
 ## Tasks completed
