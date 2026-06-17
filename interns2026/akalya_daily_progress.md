@@ -1,22 +1,3 @@
-# 15-06-2026
-
-##  Activities Completed
-
- * Explored the ORAT project structure and documentation.
- * Understood the objectives of research assessment and knowledge graph construction within ORAT.
- * Studied annual reports from agricultural research institutions.
- * Identified variations in report organization and section naming across institutes.
- * Discussed potential internship project ideas and finalized the concept of annual report standardization and AGROVOC mapping.
-   
-# 16-06-2026
-
-##  Activities Completed
-
- * Analyzed annual reports from multiple agricultural institutions.
- * Extracted and compared major sections from report table of contents.
- * Identified equivalent research activities represented using different section names.
- * Began designing a standardized taxonomy framework for research categories.
- * Investigated the role of AGROVOC concepts in supporting structured knowledge representation.
 
 # 17-06-2026
 
@@ -30,6 +11,26 @@
  * Prepared and presented a 2-month project proposal on Standardization of Agricultural Annual Report Sections and AGROVOC Mapping.
  * Defined project objectives, methodology, deliverables, timeline, and expected contribution to ORAT.
 
+# 16-06-2026
+
+##  Activities Completed
+
+ * Analyzed annual reports from multiple agricultural institutions.
+ * Extracted and compared major sections from report table of contents.
+ * Identified equivalent research activities represented using different section names.
+ * Began designing a standardized taxonomy framework for research categories.
+ * Investigated the role of AGROVOC concepts in supporting structured knowledge representation.
+
+# 15-06-2026
+
+##  Activities Completed
+
+ * Explored the ORAT project structure and documentation.
+ * Understood the objectives of research assessment and knowledge graph construction within ORAT.
+ * Studied annual reports from agricultural research institutions.
+ * Identified variations in report organization and section naming across institutes.
+ * Discussed potential internship project ideas and finalized the concept of annual report standardization and AGROVOC mapping.
+   
  # 12-06-2026
 
 ## Activities Completed
@@ -44,7 +45,7 @@
 * Generated and exported knowledge graph visualizations for documentation and project review purposes.
 * Reviewed graph structure and connectivity to better understand the relationships between institutions, annual reports, and agricultural research concepts.
   
-## 11-06-2026
+# 11-06-2026
 
 ## Activities Completed
 
