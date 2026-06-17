@@ -1,6 +1,38 @@
-### 12-06-2026
+# 15-06-2026
 
-**Activities Completed**
+##  Activities Completed
+
+ * Explored the ORAT project structure and documentation.
+ * Understood the objectives of research assessment and knowledge graph construction within ORAT.
+ * Studied annual reports from agricultural research institutions.
+ * Identified variations in report organization and section naming across institutes.
+ * Discussed potential internship project ideas and finalized the concept of annual report standardization and AGROVOC mapping.
+   
+# 16-06-2026
+
+##  Activities Completed
+
+ * Analyzed annual reports from multiple agricultural institutions.
+ * Extracted and compared major sections from report table of contents.
+ * Identified equivalent research activities represented using different section names.
+ * Began designing a standardized taxonomy framework for research categories.
+ * Investigated the role of AGROVOC concepts in supporting structured knowledge representation.
+
+# 17-06-2026
+
+## Activities Completed
+
+ * Explored the ORAT Knowledge Graph visualization workflow.
+ * Downloaded and imported orat_institutions.graphml into Cytoscape.
+ * Applied multiple graph layouts and customized node/edge styling for improved visualization.
+ * Analyzed relationships between institutions, reports, and AGROVOC concepts within the knowledge graph.
+ * Documented observations and graph inferences.
+ * Prepared and presented a 2-month project proposal on Standardization of Agricultural Annual Report Sections and AGROVOC Mapping.
+ * Defined project objectives, methodology, deliverables, timeline, and expected contribution to ORAT.
+
+ # 12-06-2026
+
+## Activities Completed
 
 * Studied the ORAT Knowledge Graph (KG) workflow and GraphML visualization documentation.
 * Analyzed the structure of the ORAT knowledge graph, including Institution, Report, and AGROVOC term nodes and their relationships.
