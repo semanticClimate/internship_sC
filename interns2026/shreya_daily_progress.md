@@ -1,9 +1,22 @@
 # shreya-daily-progress
 
+## 2026.06.18
+* Collected images from five more institutes
+* Created metadata for the same
+* Created a csv file for all the extracted images and verified it with Peter.
+
+## 2026.06.17
+
+## Tasks completed
+* Examined the different steps used to extract images.
+* Learned some functions which come under python and its operation
+* Collected and tried extracting images from IARI institute
+* Worked with VS Code
+
 ## 2026.06.16
 
 ## Tasks completed
-* Discussed the next steps on  project ORAT
+* Discussed the next steps on project ORAT
 * Had a brief description of AGROVOC dictionary, image analysis and graph analysis from the institutional annual reports
 * Presented my project proposal on image analysis for ORAT
 * Learnt the introduction to various tools that can be used in image analysis
