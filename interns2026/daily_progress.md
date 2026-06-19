@@ -1,4 +1,15 @@
 ## Daily Progress Report
+## FRIDAY (19-20-2026)
+-
+## THURSDAY (18-06-2026)
+- seperating chart and non chart images
+- updated the project documentation in orat in markdown file
+## WEDNESDAY (17-06-2026)
+- Extracted images from all 6 reports
+- seperated charts and non chart images  
+## TUESDAY (16-06-2026)
+- Finalized the first 6-7 reports to work on with the team.
+- Downloaded the pdfs and made a seperate directory.
 ## MONDAY (15-06-2026)
 - Created documentation outlining the core project idea and its objectives.
 - Developed a structured draft to capture the concept clearly
