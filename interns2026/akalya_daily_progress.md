@@ -1,3 +1,25 @@
+# 19-06-2026
+
+## Activities Completed
+
+ * Analyzed annual report TOCs of CRIJAF, CPCRI, IISR-Spices, IIOPR, CTRCRI, NIRCA, IISR-Sugarcane, and SBI.
+ * Mapped research, extension, training, commercialization, and institutional sections to standardized taxonomy categories.
+ * Added new concepts including Artificial Intelligence & ICT, Phenotyping & Genotyping, Bioactive Compounds, and Technology Management.
+ * Extended AGROVOC alignment for newly identified sections and concepts.
+ * Updated taxonomy validation matrix and category frequency analysis for the new institute batch.
+ * Expanded the ORAT Standardized Vocabulary Dataset and validated taxonomy scalability across additional institutes.
+
+# 18-06-2026  
+
+## Activities Completed
+
+ * Analyzed annual report TOCs of NBPGR, IIHR, IIOR, IIGR, NSRI, and CICR.
+ * Extracted and standardized institute-specific sections into the ORAT taxonomy framework.
+ * Identified and incorporated new concepts such as Germplasm Conservation, Plant Quarantine, Genomics, and Biological Control.
+ * Extended AGROVOC mappings for newly identified concepts and categories.
+ * Updated category frequency analysis and taxonomy validation matrix.
+ * Expanded the ORAT Standardized Vocabulary Dataset with mappings from six additional institutes.
+
 
 # 17-06-2026
 
