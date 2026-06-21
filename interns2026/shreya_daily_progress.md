@@ -1,6 +1,15 @@
 # shreya-daily-progress
 
+## 2026.06.19
+
+* Attended the meeting and reported the updates of the project
+* Explained the agenda of the project.
+* Tasked to collect more reports and continue the analysis
+*  Created a file for 11 other annual reports and extracted the images.
+*  Learnt about the AGROVOC mapping
+  
 ## 2026.06.18
+
 * Collected images from five more institutes
 * Created metadata for the same
 * Created a csv file for all the extracted images and verified it with Peter.
