@@ -1,6 +1,10 @@
 ## Daily Progress Report
+## MONDAY (23-06-2026)
+- worked on extraction of images from ccri, cicr, ctcri, dcr, dfr, nrcb, nrcg, nrcp, nsri, nirca
+- worked on making well defined dataset csv file for these institutes
 ## FRIDAY (19-20-2026)
--
+- worked on extraction of images from iari, icar, iimr, iirr, iiwbr, nrri
+- worked on making dataset and pipeline till Sunday
 ## THURSDAY (18-06-2026)
 - seperating chart and non chart images
 - updated the project documentation in orat in markdown file
