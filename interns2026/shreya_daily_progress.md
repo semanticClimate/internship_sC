@@ -1,15 +1,29 @@
 # shreya-daily-progress
 
+## 2026.06.20
+
+## Tasks completed
+
+* Discussed the progress of data extraction
+* Presented my work and updates to the group
+* Analysed the agrovoc IDs for the extracted images
+* Decided the workflow of image analysis for further days.
+* Understood the concept of extraction of texts and graphical representation of other group members.
+* Discussed the requirements of the monthly report to be submitted to the IAS in the group discussion.
+
 ## 2026.06.19
+
+## Tasks completed
 
 * Attended the meeting and reported the updates of the project
 * Explained the agenda of the project.
 * Tasked to collect more reports and continue the analysis
-*  Created a file for 11 other annual reports and extracted the images.
-*  Learnt about the AGROVOC mapping
+* Created a file for 11 other annual reports and extracted the images.
+* Learnt about the AGROVOC mapping
   
 ## 2026.06.18
 
+## Tasks completed
 * Collected images from five more institutes
 * Created metadata for the same
 * Created a csv file for all the extracted images and verified it with Peter.
@@ -17,6 +31,7 @@
 ## 2026.06.17
 
 ## Tasks completed
+
 * Examined the different steps used to extract images.
 * Learned some functions which come under python and its operation
 * Collected and tried extracting images from IARI institute
