@@ -1,8 +1,11 @@
 ## Daily Progress Report
-## MONDAY (23-06-2026)
+## TUESDAY (23-06-2026)
+- collected more annual reports
+- worked on extraction of images for next set of agricultural institutions
+## MONDAY (22-06-2026)
 - worked on extraction of images from ccri, cicr, ctcri, dcr, dfr, nrcb, nrcg, nrcp, nsri, nirca
 - worked on making well defined dataset csv file for these institutes
-## FRIDAY (19-20-2026)
+## FRIDAY (19-06-2026)
 - worked on extraction of images from iari, icar, iimr, iirr, iiwbr, nrri
 - worked on making dataset and pipeline till Sunday
 ## THURSDAY (18-06-2026)
