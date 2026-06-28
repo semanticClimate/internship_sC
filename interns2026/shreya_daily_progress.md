@@ -1,6 +1,27 @@
 # shreya-daily-progress
 
-## 2026.06.20
+## 2026.06.25
+
+## Tasks completed 
+
+* Decided the future tasks for another month
+*  Revised the 4-week internship report
+  
+## 2026.06.24
+
+## Tasks completed
+
+* Discussed the roles and work to be completed under ORAT
+* Drafted the report to be submitted to IAS
+  
+## 2026.06.23
+
+## Tasks completed
+
+* Discussed and revised the ORAT project.
+* Discussed the future prospects of ORAT
+  
+## 2026.06.22
 
 ## Tasks completed
 
