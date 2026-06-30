@@ -1,4 +1,14 @@
 ## Daily Progress Report
+## TUESDAY (30-06-2026)
+- working on extracting charts and graphs from AAU, CRIJAF, CIAH, CISTH, CPRI, DWR, NISST, NIBSM, BCKV, BHU, BRIC
+## MONDAY (29-06-2026)
+- finalized annual reports
+## FRIDAY (26-06-2026)
+- studied about AGROVOC and sparql
+## THURSDAY (25-06-2026)
+- studied about sparql
+## WEDNESDAY (24-06-2026)
+- worked on collecting and removing duplicate annual reports
 ## TUESDAY (23-06-2026)
 - collected more annual reports
 - worked on extraction of images for next set of agricultural institutions
