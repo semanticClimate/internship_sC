@@ -1,4 +1,6 @@
 ## Daily Progress Report
+## WEDNESDAY (01-07-2026)
+- went through docling and tried working on the annual report pdfs to html conversion through docling
 ## TUESDAY (30-06-2026)
 - working on extracting charts and graphs from AAU, CRIJAF, CIAH, CISTH, CPRI, DWR, NISST, NIBSM, BCKV, BHU, BRIC
 ## MONDAY (29-06-2026)
