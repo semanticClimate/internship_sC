@@ -1,4 +1,10 @@
 ## Daily Progress Report
+## FRIDAY (03-07-2026)
+- used pygetpapers in colab and put up a query about aqi and downloaded enough papers
+- reviewed the papers manually according to score
+- kept the files which are more relevant and discarded the one which aren't required
+## THURSDAY (02-07-2026)
+- learned about pygetpapers, and used to download different reports, pdfs, xml files
 ## WEDNESDAY (01-07-2026)
 - went through docling and tried working on the annual report pdfs to html conversion through docling
 ## TUESDAY (30-06-2026)
