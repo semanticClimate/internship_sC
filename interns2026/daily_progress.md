@@ -1,4 +1,28 @@
 ## Daily Progress Report
+## FRIDAY (17-07-2026)
+## THURSDAY (16-07-2026)
+- tried working on review table in html format
+## WEDNESDAY (15-07-2026)
+- made a prisma flow diagram for the workflow done
+- worked for review table in html
+## TUESDAY(14-07-2026)
+- finalized the four week report 
+## MONDAY (13-07-2026)
+- making the four week report for the work done
+## FRIDAY (10-07-2026)
+- made a bagit corpus of the papers which is to be included
+- the files converted into json files with relevant data
+## THURSDAY (09-07-2026)
+- finalized the papers to include
+## WEDNESDAY (08-07-2026)
+- worked on reading the papers and including and excluding the papers
+## TUESDAY (07-07-2026)
+- made a csv file having the details of the papers and score and having column whether to include or exclude the papers
+## MONDAY (06-07-2026)
+- I again worked in colab for getting the papers and remade the query "("ambient air pollution" OR AQI) AND 
+(India) AND (PM2.5 OR PM10) AND 
+(climate OR environment OR seasonal OR 
+meteorology) " and downloaded around 50 papers
 ## FRIDAY (03-07-2026)
 - used pygetpapers in colab and put up a query about aqi and downloaded enough papers
 - reviewed the papers manually according to score
