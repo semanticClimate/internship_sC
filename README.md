@@ -1,6 +1,7 @@
 # internship_sC
 
 ## Interns 2026
+- Vrinda Sharma
 - Ali Mehdi Naqvi
 - Aleena Harold Peter
 - Bui Doan Khanh Linh
@@ -10,9 +11,19 @@
 - Akalya S
 - Misha Ali 
 - Uddhav Mishra
-
+- Ilakkya S
+- Subhangi Panigrahi
 
 This contains the work progress by the interns and discussion for different tasks.
+
+### Internship Report | 2026
+
+| Intern  | Report  |
+|-----------|-----------|
+| Aleena Harold Peter     | Project    |
+
+
+
 
 ### IPCC reports selected by the interns for their work
 
