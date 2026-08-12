@@ -18,18 +18,18 @@ This contains the work progress by the interns and discussion for different task
 
 ### Internship Report | 2026
 
-| Intern  | Final Internship Report  |
+| Name  | Internship Report  |
 |-----------|-----------|
 | Aleena Harold Peter     | [Project Report](https://github.com/semanticClimate/internship_sC/blob/main/project_report/Aleena_Internship_Report.pdf)    |
 | Saarthak Patwal     | [Project Report](https://github.com/semanticClimate/internship_sC/blob/main/project_report/Internship_report_saarthak.pdf)    |
 | Parth Kadam     | [Project Report](https://github.com/semanticClimate/internship_sC/blob/main/project_report/Internship_Report_Parth.pdf)    |
 | Shreya S. Bhat     | [Project Report](https://github.com/semanticClimate/internship_sC/blob/main/project_report/Shreya-final-report.pdf)    |
 | Akalya S     | [Project Report](https://github.com/semanticClimate/internship_sC/blob/main/project_report/Akalya_final-report.pdf)    |
-| Ali Mehdi Naqvi     | [Project Report]()    |
+| Ali Mehdi Naqvi     | [Project Report](https://github.com/semanticClimate/internship_sC/blob/main/project_report/Internship_Report_Ali.pdf)    |
 
 ### IPCC reports selected by the interns for their work
 
-| Intern  | IPCC Report  |
+| Name  | Internship Report  |
 |-----------|-----------|
 | Anudev     | wg2/Cross-ChapterPaper06_Polar regions, [wordlist](https://github.com/semanticClimate/internship_sC/blob/main/ipcc/wordlist/wordlist_polar.txt), [dictionary](https://github.com/semanticClimate/internship_sC/blob/main/ipcc/dictionary/polar_dict.html)    |
 | Shabnam     | wg1/Chapter10_Linking Global to Regional Climate Change, [wordlist](https://github.com/semanticClimate/internship_sC/blob/main/ipcc/wordlist/wg1ch10.txt), [dictionary](https://github.com/semanticClimate/internship_sC/blob/main/ipcc/dictionary/wg1chap10_dictionary.html)    |
