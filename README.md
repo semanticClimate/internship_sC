@@ -18,12 +18,14 @@ This contains the work progress by the interns and discussion for different task
 
 ### Internship Report | 2026
 
-| Intern  | Report  |
+| Intern  | Final Internship Report  |
 |-----------|-----------|
-| Aleena Harold Peter     | Project    |
-
-
-
+| Aleena Harold Peter     | [Project Report](https://github.com/semanticClimate/internship_sC/blob/main/project_report/Aleena_Internship_Report.pdf)    |
+| Saarthak Patwal     | [Project Report](https://github.com/semanticClimate/internship_sC/blob/main/project_report/Internship_report_saarthak.pdf)    |
+| Parth Kadam     | [Project Report](https://github.com/semanticClimate/internship_sC/blob/main/project_report/Internship_Report_Parth.pdf)    |
+| Shreya S. Bhat     | [Project Report](https://github.com/semanticClimate/internship_sC/blob/main/project_report/Shreya-final-report.pdf)    |
+| Akalya S     | [Project Report](https://github.com/semanticClimate/internship_sC/blob/main/project_report/Akalya_final-report.pdf)    |
+| Ali Mehdi Naqvi     | [Project Report]()    |
 
 ### IPCC reports selected by the interns for their work
 
